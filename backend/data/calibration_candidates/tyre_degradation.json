@@ -1,0 +1,16 @@
+{
+  "variable": "tyre_degradation",
+  "sample_size": 1129,
+  "years": "2024",
+  "circuits": 1,
+  "drivers": 20,
+  "observations": 1129,
+  "confounders": [
+    "compound unknown for Jolpica laps",
+    "fuel proxy",
+    "traffic",
+    "weather"
+  ],
+  "candidate_model": "lap_time ~ tyre_age_proxy + fuel_proxy + driver + circuit",
+  "evidence_tier": "LIMITED"
+}

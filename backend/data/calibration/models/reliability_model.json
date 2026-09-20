@@ -1,0 +1,72 @@
+{
+  "1950-1960": {
+    "dnf_rate": 0.7735849056603774,
+    "sample_size": 2020,
+    "posterior_alpha": 1640,
+    "posterior_beta": 480,
+    "distribution": "Beta"
+  },
+  "1961-1970": {
+    "dnf_rate": 0.7859116022099447,
+    "sample_size": 2072,
+    "posterior_alpha": 1707,
+    "posterior_beta": 465,
+    "distribution": "Beta"
+  },
+  "1971-1982": {
+    "dnf_rate": 0.8561250287290278,
+    "sample_size": 4251,
+    "posterior_alpha": 3725,
+    "posterior_beta": 626,
+    "distribution": "Beta"
+  },
+  "1983-1987": {
+    "dnf_rate": 0.9568965517241379,
+    "sample_size": 2104,
+    "posterior_alpha": 2109,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "1988-1993": {
+    "dnf_rate": 0.9702287684111564,
+    "sample_size": 3091,
+    "posterior_alpha": 3096,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "1994-1997": {
+    "dnf_rate": 0.9433849821215733,
+    "sample_size": 1578,
+    "posterior_alpha": 1583,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "1998-2008": {
+    "dnf_rate": 0.9768856447688564,
+    "sample_size": 4010,
+    "posterior_alpha": 4015,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "2009-2013": {
+    "dnf_rate": 0.9577402135231317,
+    "sample_size": 2148,
+    "posterior_alpha": 2153,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "2014-2021": {
+    "dnf_rate": 0.9718017215791036,
+    "sample_size": 3269,
+    "posterior_alpha": 3274,
+    "posterior_beta": 95,
+    "distribution": "Beta"
+  },
+  "2022-2026": {
+    "dnf_rate": 0.7103641456582633,
+    "sample_size": 1685,
+    "posterior_alpha": 1268,
+    "posterior_beta": 517,
+    "distribution": "Beta"
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "by_circuit": {
+    "albert_park": {
+      "formation": 32,
+      "invalid": 1,
+      "pit-lap": 117,
+      "red-flag/frozen": 5,
+      "safety-car/neutralised": 77,
+      "valid": 2555
+    },
+    "americas": {
+      "formation": 35,
+      "pit-lap": 59,
+      "safety-car/neutralised": 56,
+      "valid": 1917
+    },
+    "austin": {
+      "formation": 20,
+      "pit-lap": 21,
+      "safety-car/neutralised": 57,
+      "valid": 968
+    },
+    "bahrain": {
+      "formation": 60,
+      "pit-lap": 135,
+      "safety-car/neutralised": 50,
+      "valid": 3067
+    },
+    "baku": {
+      "formation": 55,
+      "pit-lap": 66,
+      "safety-car/neutralised": 117,
+      "valid": 2657
+    },
+    "catalunya": {
+      "formation": 78,
+      "pit-lap": 187,
+      "safety-car/neutralised": 42,
+      "valid": 4747
+    },
+    "hungaroring": {
+      "formation": 81,
+      "pit-lap": 150,
+      "safety-car/neutralised": 75,
+      "valid": 5080
+    },
+    "imola": {
+      "formation": 39,
+      "pit-lap": 64,
+      "safety-car/neutralised": 36,
+      "valid": 2303
+    },
+    "interlagos": {
+      "formation": 36,
+      "pit-lap": 87,
+      "safety-car/neutralised": 18,
+      "valid": 2197
+    },
+    "jeddah": {
+      "formation": 59,
+      "pit-lap": 62,
+      "safety-car/neutralised": 50,
+      "valid": 2568
+    },
+    "las-vegas": {
+      "formation": 19,
+      "pit-lap": 24,
+      "valid": 842
+    },
+    "losail": {
+      "formation": 35,
+      "pit-lap": 114,
+      "safety-car/neutralised": 48,
+      "valid": 1746
+    },
+    "lusail": {
+      "formation": 20,
+      "pit-lap": 41,
+      "safety-car/neutralised": 19,
+      "valid": 986
+    },
+    "madring": {
+      "formation": 22,
+      "pit-lap": 25,
+      "safety-car/neutralised": 50,
+      "valid": 1008
+    },
+    "marina-bay": {
+      "formation": 20,
+      "pit-lap": 23,
+      "safety-car/neutralised": 19,
+      "valid": 1167
+    },
+    "marina_bay": {
+      "formation": 37,
+      "pit-lap": 48,
+      "safety-car/neutralised": 117,
+      "valid": 2058
+    },
+    "melbourne": {
+      "pit-lap": 18,
+      "safety-car/neutralised": 14,
+      "valid": 193
+    },
+    "mexico-city": {
+      "formation": 20,
+      "pit-lap": 27,
+      "safety-car/neutralised": 54,
+      "valid": 1161
+    },
+    "miami": {
+      "formation": 81,
+      "outlier": 1,
+      "pit-lap": 96,
+      "safety-car/neutralised": 101,
+      "valid": 3563
+    },
+    "monaco": {
+      "formation": 58,
+      "outlier": 201,
+      "pit-lap": 249,
+      "safety-car/neutralised": 77,
+      "valid": 4514
+    },
+    "montreal": {
+      "formation": 20,
+      "pit-lap": 128,
+      "safety-car/neutralised": 36,
+      "valid": 1162
+    },
+    "monza": {
+      "formation": 80,
+      "pit-lap": 83,
+      "safety-car/neutralised": 74,
+      "valid": 3724
+    },
+    "red_bull_ring": {
+      "formation": 59,
+      "pit-lap": 149,
+      "safety-car/neutralised": 94,
+      "valid": 3791
+    },
+    "rodriguez": {
+      "formation": 36,
+      "pit-lap": 41,
+      "red-flag/frozen": 15,
+      "safety-car/neutralised": 78,
+      "valid": 2303
+    },
+    "shanghai": {
+      "formation": 57,
+      "pit-lap": 84,
+      "safety-car/neutralised": 65,
+      "valid": 2807
+    },
+    "silverstone": {
+      "formation": 65,
+      "pit-lap": 114,
+      "safety-car/neutralised": 118,
+      "valid": 2725
+    },
+    "spa": {
+      "formation": 59,
+      "pit-lap": 99,
+      "safety-car/neutralised": 89,
+      "valid": 2279
+    },
+    "spa-francorchamps": {
+      "pit-lap": 46,
+      "valid": 813
+    },
+    "spielberg": {
+      "formation": 17,
+      "pit-lap": 32,
+      "safety-car/neutralised": 21,
+      "valid": 1054
+    },
+    "suzuka": {
+      "formation": 79,
+      "pit-lap": 129,
+      "safety-car/neutralised": 51,
+      "valid": 3671
+    },
+    "unknown": {
+      "formation": 19,
+      "pit-lap": 39,
+      "safety-car/neutralised": 16,
+      "valid": 863
+    },
+    "vegas": {
+      "formation": 20,
+      "pit-lap": 31,
+      "safety-car/neutralised": 108,
+      "valid": 784
+    },
+    "villeneuve": {
+      "formation": 34,
+      "outlier": 7,
+      "pit-lap": 124,
+      "safety-car/neutralised": 231,
+      "valid": 2504
+    },
+    "yas-marina": {
+      "formation": 20,
+      "pit-lap": 27,
+      "valid": 1109
+    },
+    "yas_marina": {
+      "formation": 39,
+      "pit-lap": 65,
+      "safety-car/neutralised": 45,
+      "valid": 2041
+    },
+    "zandvoort": {
+      "formation": 79,
+      "pit-lap": 146,
+      "safety-car/neutralised": 148,
+      "valid": 4769
+    }
+  },
+  "by_driver": {
+    "1": {
+      "formation": 74,
+      "pit-lap": 141,
+      "red-flag/frozen": 2,
+      "safety-car/neutralised": 122,
+      "valid": 4168
+    },
+    "10": {
+      "formation": 74,
+      "outlier": 16,
+      "pit-lap": 136,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 118,
+      "valid": 3980
+    },
+    "11": {
+      "formation": 50,
+      "pit-lap": 116,
+      "safety-car/neutralised": 79,
+      "valid": 2688
+    },
+    "12": {
+      "formation": 33,
+      "outlier": 7,
+      "pit-lap": 72,
+      "safety-car/neutralised": 61,
+      "valid": 1893
+    },
+    "14": {
+      "formation": 75,
+      "outlier": 16,
+      "pit-lap": 148,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 111,
+      "valid": 3978
+    },
+    "16": {
+      "formation": 75,
+      "outlier": 17,
+      "pit-lap": 135,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 115,
+      "valid": 4087
+    },
+    "18": {
+      "formation": 72,
+      "pit-lap": 143,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 97,
+      "valid": 3762
+    },
+    "2": {
+      "formation": 30,
+      "pit-lap": 65,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 40,
+      "valid": 1700
+    },
+    "20": {
+      "formation": 37,
+      "pit-lap": 74,
+      "safety-car/neutralised": 54,
+      "valid": 2139
+    },
+    "21": {
+      "formation": 9,
+      "invalid": 1,
+      "pit-lap": 16,
+      "safety-car/neutralised": 11,
+      "valid": 493
+    },
+    "22": {
+      "formation": 63,
+      "outlier": 35,
+      "pit-lap": 123,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 80,
+      "valid": 3422
+    },
+    "23": {
+      "formation": 72,
+      "outlier": 16,
+      "pit-lap": 147,
+      "safety-car/neutralised": 100,
+      "valid": 3737
+    },
+    "24": {
+      "formation": 38,
+      "outlier": 8,
+      "pit-lap": 85,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 59,
+      "valid": 2210
+    },
+    "27": {
+      "formation": 71,
+      "pit-lap": 149,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 102,
+      "valid": 3947
+    },
+    "3": {
+      "formation": 33,
+      "outlier": 16,
+      "pit-lap": 57,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 57,
+      "valid": 1875
+    },
+    "30": {
+      "formation": 39,
+      "pit-lap": 75,
+      "safety-car/neutralised": 62,
+      "valid": 2113
+    },
+    "31": {
+      "formation": 71,
+      "pit-lap": 139,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 104,
+      "valid": 3939
+    },
+    "38": {
+      "formation": 1,
+      "pit-lap": 1,
+      "safety-car/neutralised": 1,
+      "valid": 47
+    },
+    "4": {
+      "formation": 64,
+      "outlier": 17,
+      "pit-lap": 122,
+      "safety-car/neutralised": 78,
+      "valid": 3561
+    },
+    "40": {
+      "formation": 5,
+      "pit-lap": 11,
+      "safety-car/neutralised": 11,
+      "valid": 243
+    },
+    "41": {
+      "formation": 12,
+      "pit-lap": 21,
+      "safety-car/neutralised": 30,
+      "valid": 710
+    },
+    "43": {
+      "formation": 35,
+      "pit-lap": 73,
+      "safety-car/neutralised": 65,
+      "valid": 2081
+    },
+    "44": {
+      "formation": 75,
+      "pit-lap": 148,
+      "red-flag/frozen": 4,
+      "safety-car/neutralised": 121,
+      "valid": 4134
+    },
+    "5": {
+      "formation": 32,
+      "pit-lap": 72,
+      "safety-car/neutralised": 49,
+      "valid": 1829
+    },
+    "50": {
+      "formation": 1,
+      "pit-lap": 1,
+      "safety-car/neutralised": 3,
+      "valid": 46
+    },
+    "55": {
+      "formation": 73,
+      "outlier": 18,
+      "pit-lap": 146,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 107,
+      "valid": 4042
+    },
+    "6": {
+      "formation": 32,
+      "pit-lap": 69,
+      "safety-car/neutralised": 44,
+      "valid": 1733
+    },
+    "61": {
+      "formation": 1,
+      "pit-lap": 1,
+      "safety-car/neutralised": 2,
+      "valid": 53
+    },
+    "63": {
+      "formation": 76,
+      "outlier": 23,
+      "pit-lap": 147,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 123,
+      "valid": 4229
+    },
+    "7": {
+      "formation": 4,
+      "pit-lap": 6,
+      "valid": 205
+    },
+    "77": {
+      "formation": 54,
+      "outlier": 2,
+      "pit-lap": 104,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 78,
+      "valid": 2715
+    },
+    "81": {
+      "formation": 74,
+      "outlier": 18,
+      "pit-lap": 146,
+      "red-flag/frozen": 1,
+      "safety-car/neutralised": 118,
+      "valid": 4098
+    },
+    "87": {
+      "formation": 35,
+      "pit-lap": 61,
+      "safety-car/neutralised": 49,
+      "valid": 1839
+    }
+  },
+  "by_race": {
+    "": {
+      "formation": 19,
+      "pit-lap": 39,
+      "safety-car/neutralised": 16,
+      "valid": 863
+    },
+    "2023-albert-park": {
+      "formation": 14,
+      "invalid": 1,
+      "pit-lap": 49,
+      "red-flag/frozen": 5,
+      "safety-car/neutralised": 30,
+      "valid": 834
+    },
+    "2023-americas": {
+      "formation": 16,
+      "pit-lap": 36,
+      "valid": 958
+    },
+    "2023-bahrain": {
+      "formation": 20,
+      "pit-lap": 50,
+      "safety-car/neutralised": 32,
+      "valid": 953
+    },
+    "2023-baku": {
+      "formation": 18,
+      "pit-lap": 23,
+      "safety-car/neutralised": 54,
+      "valid": 864
+    },
+    "2023-catalunya": {
+      "formation": 18,
+      "pit-lap": 43,
+      "valid": 1249
+    },
+    "2023-hungaroring": {
+      "formation": 20,
+      "pit-lap": 36,
+      "valid": 1196
+    },
+    "2023-interlagos": {
+      "formation": 17,
+      "pit-lap": 50,
+      "valid": 1022
+    },
+    "2023-jeddah": {
+      "formation": 20,
+      "pit-lap": 24,
+      "safety-car/neutralised": 32,
+      "valid": 866
+    },
+    "2023-losail": {
+      "formation": 17,
+      "pit-lap": 54,
+      "safety-car/neutralised": 33,
+      "valid": 900
+    },
+    "2023-marina-bay": {
+      "formation": 17,
+      "pit-lap": 25,
+      "safety-car/neutralised": 117,
+      "valid": 924
+    },
+    "2023-miami": {
+      "formation": 20,
+      "pit-lap": 20,
+      "valid": 1098
+    },
+    "2023-monaco": {
+      "formation": 17,
+      "pit-lap": 13,
+      "safety-car/neutralised": 21,
+      "valid": 986
+    },
+    "2023-monza": {
+      "formation": 19,
+      "pit-lap": 25,
+      "valid": 904
+    },
+    "2023-red-bull-ring": {
+      "formation": 18,
+      "pit-lap": 63,
+      "safety-car/neutralised": 37,
+      "valid": 1233
+    },
+    "2023-rodriguez": {
+      "formation": 19,
+      "pit-lap": 20,
+      "red-flag/frozen": 15,
+      "safety-car/neutralised": 70,
+      "valid": 1137
+    },
+    "2023-silverstone": {
+      "formation": 20,
+      "pit-lap": 24,
+      "safety-car/neutralised": 12,
+      "valid": 914
+    },
+    "2023-spa": {
+      "formation": 18,
+      "pit-lap": 37,
+      "safety-car/neutralised": 37,
+      "valid": 722
+    },
+    "2023-suzuka": {
+      "formation": 19,
+      "pit-lap": 42,
+      "safety-car/neutralised": 18,
+      "valid": 799
+    },
+    "2023-vegas": {
+      "formation": 20,
+      "pit-lap": 31,
+      "safety-car/neutralised": 108,
+      "valid": 784
+    },
+    "2023-villeneuve": {
+      "formation": 19,
+      "outlier": 7,
+      "pit-lap": 34,
+      "safety-car/neutralised": 76,
+      "valid": 1147
+    },
+    "2023-yas-marina": {
+      "formation": 20,
+      "pit-lap": 37,
+      "valid": 1100
+    },
+    "2023-zandvoort": {
+      "formation": 19,
+      "pit-lap": 37,
+      "safety-car/neutralised": 18,
+      "valid": 939
+    },
+    "2024-albert-park": {
+      "formation": 18,
+      "pit-lap": 36,
+      "safety-car/neutralised": 21,
+      "valid": 883
+    },
+    "2024-americas": {
+      "formation": 19,
+      "pit-lap": 23,
+      "safety-car/neutralised": 56,
+      "valid": 959
+    },
+    "2024-bahrain": {
+      "formation": 20,
+      "pit-lap": 43,
+      "safety-car/neutralised": 18,
+      "valid": 1048
+    },
+    "2024-baku": {
+      "formation": 18,
+      "pit-lap": 22,
+      "safety-car/neutralised": 45,
+      "valid": 884
+    },
+    "2024-catalunya": {
+      "formation": 19,
+      "pit-lap": 42,
+      "valid": 1248
+    },
+    "2024-hungaroring": {
+      "formation": 19,
+      "pit-lap": 40,
+      "safety-car/neutralised": 19,
+      "valid": 1276
+    },
+    "2024-imola": {
+      "formation": 19,
+      "pit-lap": 27,
+      "valid": 1191
+    },
+    "2024-jeddah": {
+      "formation": 20,
+      "pit-lap": 19,
+      "safety-car/neutralised": 18,
+      "valid": 843
+    },
+    "2024-losail": {
+      "formation": 18,
+      "pit-lap": 60,
+      "safety-car/neutralised": 15,
+      "valid": 846
+    },
+    "2024-marina-bay": {
+      "formation": 20,
+      "pit-lap": 23,
+      "valid": 1134
+    },
+    "2024-miami": {
+      "formation": 20,
+      "pit-lap": 28,
+      "safety-car/neutralised": 17,
+      "valid": 1045
+    },
+    "2024-monaco": {
+      "outlier": 177,
+      "pit-lap": 23,
+      "valid": 1010
+    },
+    "2024-monza": {
+      "formation": 20,
+      "pit-lap": 30,
+      "valid": 958
+    },
+    "2024-red-bull-ring": {
+      "formation": 19,
+      "pit-lap": 45,
+      "safety-car/neutralised": 20,
+      "valid": 1320
+    },
+    "2024-rodriguez": {
+      "formation": 17,
+      "pit-lap": 21,
+      "safety-car/neutralised": 8,
+      "valid": 1166
+    },
+    "2024-shanghai": {
+      "formation": 19,
+      "pit-lap": 40,
+      "safety-car/neutralised": 36,
+      "valid": 934
+    },
+    "2024-silverstone": {
+      "formation": 18,
+      "pit-lap": 22,
+      "valid": 685
+    },
+    "2024-spa": {
+      "formation": 20,
+      "pit-lap": 34,
+      "safety-car/neutralised": 19,
+      "valid": 768
+    },
+    "2024-suzuka": {
+      "formation": 18,
+      "pit-lap": 37,
+      "safety-car/neutralised": 16,
+      "valid": 816
+    },
+    "2024-villeneuve": {
+      "pit-lap": 23,
+      "safety-car/neutralised": 75,
+      "valid": 320
+    },
+    "2024-yas-marina": {
+      "formation": 19,
+      "pit-lap": 28,
+      "safety-car/neutralised": 45,
+      "valid": 941
+    },
+    "2024-zandvoort": {
+      "formation": 19,
+      "pit-lap": 26,
+      "valid": 1380
+    },
+    "2025-abu-dhabi": {
+      "formation": 20,
+      "pit-lap": 27,
+      "valid": 1109
+    },
+    "2025-australia": {
+      "pit-lap": 18,
+      "safety-car/neutralised": 14,
+      "valid": 193
+    },
+    "2025-austria": {
+      "formation": 17,
+      "pit-lap": 32,
+      "safety-car/neutralised": 21,
+      "valid": 1054
+    },
+    "2025-azerbaijan": {
+      "formation": 19,
+      "pit-lap": 21,
+      "safety-car/neutralised": 18,
+      "valid": 909
+    },
+    "2025-bahrain": {
+      "formation": 20,
+      "pit-lap": 42,
+      "valid": 1066
+    },
+    "2025-belgium": {
+      "pit-lap": 46,
+      "valid": 813
+    },
+    "2025-canada": {
+      "formation": 20,
+      "pit-lap": 128,
+      "safety-car/neutralised": 36,
+      "valid": 1162
+    },
+    "2025-china": {
+      "formation": 20,
+      "pit-lap": 25,
+      "valid": 1020
+    },
+    "2025-emilia-romagna": {
+      "formation": 20,
+      "pit-lap": 37,
+      "safety-car/neutralised": 36,
+      "valid": 1112
+    },
+    "2025-great-britain": {
+      "formation": 5,
+      "pit-lap": 17,
+      "safety-car/neutralised": 34,
+      "valid": 160
+    },
+    "2025-hungary": {
+      "formation": 20,
+      "pit-lap": 29,
+      "valid": 1319
+    },
+    "2025-italy": {
+      "formation": 19,
+      "pit-lap": 19,
+      "safety-car/neutralised": 18,
+      "valid": 918
+    },
+    "2025-japan": {
+      "formation": 20,
+      "pit-lap": 21,
+      "valid": 1018
+    },
+    "2025-las-vegas": {
+      "formation": 19,
+      "pit-lap": 24,
+      "valid": 842
+    },
+    "2025-mexico": {
+      "formation": 20,
+      "pit-lap": 27,
+      "safety-car/neutralised": 54,
+      "valid": 1161
+    },
+    "2025-miami": {
+      "formation": 19,
+      "outlier": 1,
+      "pit-lap": 26,
+      "valid": 510
+    },
+    "2025-monaco": {
+      "formation": 20,
+      "outlier": 24,
+      "pit-lap": 75,
+      "safety-car/neutralised": 18,
+      "valid": 1286
+    },
+    "2025-netherlands": {
+      "formation": 20,
+      "pit-lap": 39,
+      "safety-car/neutralised": 49,
+      "valid": 1254
+    },
+    "2025-qatar": {
+      "formation": 20,
+      "pit-lap": 41,
+      "safety-car/neutralised": 19,
+      "valid": 986
+    },
+    "2025-sao-paulo": {
+      "formation": 19,
+      "pit-lap": 37,
+      "safety-car/neutralised": 18,
+      "valid": 1175
+    },
+    "2025-saudi-arabia": {
+      "formation": 19,
+      "pit-lap": 19,
+      "valid": 859
+    },
+    "2025-singapore": {
+      "formation": 20,
+      "pit-lap": 23,
+      "safety-car/neutralised": 19,
+      "valid": 1167
+    },
+    "2025-spain": {
+      "formation": 19,
+      "pit-lap": 54,
+      "safety-car/neutralised": 13,
+      "valid": 1116
+    },
+    "2025-united-states": {
+      "formation": 20,
+      "pit-lap": 21,
+      "safety-car/neutralised": 57,
+      "valid": 968
+    },
+    "2026-albert-park": {
+      "pit-lap": 32,
+      "safety-car/neutralised": 26,
+      "valid": 838
+    },
+    "2026-catalunya": {
+      "formation": 22,
+      "pit-lap": 48,
+      "safety-car/neutralised": 29,
+      "valid": 1134
+    },
+    "2026-hungaroring": {
+      "formation": 22,
+      "pit-lap": 45,
+      "safety-car/neutralised": 56,
+      "valid": 1289
+    },
+    "2026-madring": {
+      "formation": 22,
+      "pit-lap": 25,
+      "safety-car/neutralised": 50,
+      "valid": 1008
+    },
+    "2026-miami": {
+      "formation": 22,
+      "pit-lap": 22,
+      "safety-car/neutralised": 84,
+      "valid": 910
+    },
+    "2026-monaco": {
+      "formation": 21,
+      "pit-lap": 138,
+      "safety-car/neutralised": 38,
+      "valid": 1232
+    },
+    "2026-monza": {
+      "formation": 22,
+      "pit-lap": 9,
+      "safety-car/neutralised": 56,
+      "valid": 944
+    },
+    "2026-red-bull-ring": {
+      "formation": 22,
+      "pit-lap": 41,
+      "safety-car/neutralised": 37,
+      "valid": 1238
+    },
+    "2026-shanghai": {
+      "formation": 18,
+      "pit-lap": 19,
+      "safety-car/neutralised": 29,
+      "valid": 853
+    },
+    "2026-silverstone": {
+      "formation": 22,
+      "pit-lap": 51,
+      "safety-car/neutralised": 72,
+      "valid": 966
+    },
+    "2026-spa": {
+      "formation": 21,
+      "pit-lap": 28,
+      "safety-car/neutralised": 33,
+      "valid": 789
+    },
+    "2026-suzuka": {
+      "formation": 22,
+      "pit-lap": 29,
+      "safety-car/neutralised": 17,
+      "valid": 1038
+    },
+    "2026-villeneuve": {
+      "formation": 15,
+      "pit-lap": 67,
+      "safety-car/neutralised": 80,
+      "valid": 1037
+    },
+    "2026-zandvoort": {
+      "formation": 21,
+      "pit-lap": 44,
+      "safety-car/neutralised": 81,
+      "valid": 1196
+    }
+  },
+  "by_season": {
+    "2023": {
+      "formation": 405,
+      "invalid": 1,
+      "outlier": 7,
+      "pit-lap": 773,
+      "red-flag/frozen": 20,
+      "safety-car/neutralised": 695,
+      "valid": 21529
+    },
+    "2024": {
+      "formation": 398,
+      "outlier": 177,
+      "pit-lap": 731,
+      "safety-car/neutralised": 444,
+      "valid": 22518
+    },
+    "2025": {
+      "formation": 415,
+      "outlier": 25,
+      "pit-lap": 848,
+      "safety-car/neutralised": 424,
+      "valid": 23177
+    },
+    "2026": {
+      "formation": 272,
+      "pit-lap": 598,
+      "safety-car/neutralised": 688,
+      "valid": 14472
+    }
+  },
+  "counts": {
+    "formation": 1490,
+    "invalid": 1,
+    "outlier": 209,
+    "pit-lap": 2950,
+    "red-flag/frozen": 20,
+    "safety-car/neutralised": 2251,
+    "valid": 81696
+  },
+  "exclusion_reasons": {
+    "formation": 1490,
+    "invalid": 1,
+    "outlier": 209,
+    "pit-lap": 2950,
+    "red-flag/frozen": 20,
+    "safety-car/neutralised": 2251,
+    "valid": 81696
+  },
+  "total": 88617
+}

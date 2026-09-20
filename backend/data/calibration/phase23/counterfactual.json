@@ -1,0 +1,27 @@
+{
+  "pace_worse": {
+    "expected": "worse finish",
+    "observed": "worse",
+    "passed": true
+  },
+  "pit_loss_increased": {
+    "expected": "worse finishing prob",
+    "observed": "worse",
+    "passed": true
+  },
+  "remove_pit": {
+    "expected": "no pit loss",
+    "observed": "no loss",
+    "passed": true
+  },
+  "stronger_tyre": {
+    "expected": "faster",
+    "observed": "faster",
+    "passed": true
+  },
+  "tyre_increased_degradation": {
+    "expected": "slower pace",
+    "observed": "slower",
+    "passed": true
+  }
+}

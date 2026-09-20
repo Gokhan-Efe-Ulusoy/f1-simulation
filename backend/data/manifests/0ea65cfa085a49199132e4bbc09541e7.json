@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-09-09T13:07:16+00:00",
+  "coverage": "2024/round 1",
+  "parser_version": "0.1.0",
+  "payload_hash": "be2ab35faef936e9445c58f4f4c5f5633008b1101b410d3229090a559a0bd152",
+  "records_accepted": 2,
+  "records_fetched": 2,
+  "records_rejected": 0,
+  "run_id": "0ea65cfa085a49199132e4bbc09541e7",
+  "schema_version": "0.1.0",
+  "source": "csv",
+  "started_at": "2026-09-09T13:07:16+00:00",
+  "warnings": []
+}

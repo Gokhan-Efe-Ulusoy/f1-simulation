@@ -1,0 +1,6 @@
+{
+  "violations": 0,
+  "adversarial_tests": 6,
+  "passed": 6,
+  "policy": "observation_date < target_race_date, as_of = target_race_date -1 day"
+}

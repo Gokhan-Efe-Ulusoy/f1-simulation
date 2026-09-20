@@ -1,0 +1,234 @@
+{
+  "compared_pairs": 1129,
+  "conflicts": [
+    {
+      "entity": "laps|2024|1|max_verstappen|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 97.28399999999999,
+      "source_b": "openf1-timing",
+      "value_b": 97.759,
+      "abs_diff": 0.4750000000000085,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|leclerc|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 98.271,
+      "source_b": "openf1-timing",
+      "value_b": 98.679,
+      "abs_diff": 0.40800000000000125,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|russell|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 99.22800000000001,
+      "source_b": "openf1-timing",
+      "value_b": 99.682,
+      "abs_diff": 0.4539999999999935,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|hamilton|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 103.122,
+      "source_b": "openf1-timing",
+      "value_b": 103.452,
+      "abs_diff": 0.3299999999999983,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|sainz|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 100.62,
+      "source_b": "openf1-timing",
+      "value_b": 101.034,
+      "abs_diff": 0.4140000000000015,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|perez|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 100.053,
+      "source_b": "openf1-timing",
+      "value_b": 100.537,
+      "abs_diff": 0.48400000000000887,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|hulkenberg|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 113.555,
+      "source_b": "openf1-timing",
+      "value_b": 113.929,
+      "abs_diff": 0.3739999999999952,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|albon|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 103.888,
+      "source_b": "openf1-timing",
+      "value_b": 104.246,
+      "abs_diff": 0.3579999999999899,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|alonso|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 101.679,
+      "source_b": "openf1-timing",
+      "value_b": 102.058,
+      "abs_diff": 0.3790000000000049,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|bottas|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 108.536,
+      "source_b": "openf1-timing",
+      "value_b": 108.853,
+      "abs_diff": 0.31699999999999307,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|norris|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 102.168,
+      "source_b": "openf1-timing",
+      "value_b": 102.596,
+      "abs_diff": 0.42799999999999727,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|piastri|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 102.523,
+      "source_b": "openf1-timing",
+      "value_b": 102.96,
+      "abs_diff": 0.4369999999999976,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|sargeant|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 105.92099999999999,
+      "source_b": "openf1-timing",
+      "value_b": 106.397,
+      "abs_diff": 0.4760000000000133,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|gasly|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 107.24000000000001,
+      "source_b": "openf1-timing",
+      "value_b": 107.68,
+      "abs_diff": 0.4399999999999977,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|tsunoda|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 103.485,
+      "source_b": "openf1-timing",
+      "value_b": 103.848,
+      "abs_diff": 0.36299999999999955,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|stroll|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 110.214,
+      "source_b": "openf1-timing",
+      "value_b": 110.537,
+      "abs_diff": 0.3230000000000075,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|ricciardo|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 105.668,
+      "source_b": "openf1-timing",
+      "value_b": 106.178,
+      "abs_diff": 0.5099999999999909,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|kevin_magnussen|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 104.34899999999999,
+      "source_b": "openf1-timing",
+      "value_b": 104.851,
+      "abs_diff": 0.5020000000000095,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|zhou|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 104.801,
+      "source_b": "openf1-timing",
+      "value_b": 105.213,
+      "abs_diff": 0.41199999999999193,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    },
+    {
+      "entity": "laps|2024|1|ocon|1",
+      "variable": "lap_time_seconds",
+      "source_a": "jolpica-laps",
+      "value_a": 106.657,
+      "source_b": "openf1-timing",
+      "value_b": 107.083,
+      "abs_diff": 0.42600000000000193,
+      "classification": "genuine_conflict",
+      "note": "sources disagree beyond rounding tolerance"
+    }
+  ],
+  "pattern": {
+    "pattern": "systematic_single_lap_offset",
+    "lap": "1",
+    "direction": "B_slower",
+    "n": 20,
+    "interpretation": "all disagreements on one lap with one sign: start/lap-1 timing definition differs between sources"
+  },
+  "rounding_tol": 0.002,
+  "generated_at": "2026-09-19T09:39:52+00:00"
+}

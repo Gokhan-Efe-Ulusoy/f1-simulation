@@ -1,0 +1,32 @@
+{
+  "failures": [
+    {
+      "error": "['HTTP Error 404: Not Found']",
+      "season": 2018
+    },
+    {
+      "error": "['HTTP Error 404: Not Found']",
+      "season": 2019
+    },
+    {
+      "error": "['HTTP Error 404: Not Found']",
+      "season": 2020
+    },
+    {
+      "error": "['HTTP Error 404: Not Found']",
+      "season": 2021
+    },
+    {
+      "error": "['HTTP Error 404: Not Found']",
+      "season": 2022
+    }
+  ],
+  "laps_acquired": 0,
+  "pit_acquired": 0,
+  "seasons_acquired": 0,
+  "seasons_requested": 16,
+  "sessions_acquired": 4,
+  "skipped_unsupported": 7,
+  "telemetry_acquired": 0,
+  "weather_acquired": 0
+}

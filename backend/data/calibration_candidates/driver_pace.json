@@ -1,0 +1,14 @@
+{
+  "variable": "driver_pace",
+  "sample_size": 1129,
+  "years": "2024",
+  "circuits": 1,
+  "drivers": 20,
+  "observations": 1129,
+  "confounders": [
+    "single circuit",
+    "fuel/tyre confounded"
+  ],
+  "candidate_model": "driver random effects on lap time",
+  "evidence_tier": "LIMITED"
+}

@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "field": "tyre_stints",
+      "available": false,
+      "reason": "Historical tyre data unavailable pre-2011, f1db has pit stops but not stints",
+      "available_seasons": []
+    },
+    {
+      "field": "telemetry",
+      "available": false,
+      "reason": "FastF1 only for 2018+ and not all sessions, 1950-2017 unavailable",
+      "available_seasons": [
+        2024
+      ]
+    },
+    {
+      "field": "weather",
+      "available": false,
+      "reason": "Only OpenF1 2023-2024, historical weather unavailable"
+    },
+    {
+      "field": "race_control",
+      "available": false,
+      "reason": "Only OpenF1 2023-2024"
+    }
+  ],
+  "future_scheduled": [
+    {
+      "season": 2026,
+      "future_races": "2026 remaining 1 race scheduled but not completed, correctly null"
+    }
+  ]
+}

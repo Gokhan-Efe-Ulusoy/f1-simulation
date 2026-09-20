@@ -1,0 +1,14 @@
+{
+  "STATUS": "CALIBRATED",
+  "eras": {
+    "1950-1969": "early, front-engine to rear-engine",
+    "1970-1982": "ground effect emergence, 1970s",
+    "1983-1996": "turbo to naturally aspirated, early electronics",
+    "1997-2008": "V10, grooved tyres, refuelling era",
+    "2009-2013": "KERS, DRS introduction, V8",
+    "2014-2021": "hybrid V6 turbo, modern tyre era",
+    "2022-2026": "ground effect, current"
+  },
+  "note": "coefficients per era shrunk; not blindly global 1950-2026",
+  "rule": "regulation/tyre/engine/qualifying format based eras, not arbitrary performance fits"
+}

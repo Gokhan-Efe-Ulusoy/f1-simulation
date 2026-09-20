@@ -1,0 +1,13 @@
+{
+  "variable": "qualifying_pace",
+  "sample_size": 0,
+  "years": "",
+  "circuits": 0,
+  "drivers": 0,
+  "observations": 0,
+  "confounders": [
+    "no new qualifying sessions acquired"
+  ],
+  "candidate_model": "none",
+  "evidence_tier": "PRIOR_ONLY"
+}

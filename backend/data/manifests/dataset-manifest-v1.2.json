@@ -1,0 +1,66 @@
+{
+  "calibration_changed": false,
+  "coverage": {
+    "circuits": 99,
+    "constructors": 236,
+    "drivers": 1457,
+    "era5_races": 558,
+    "laps_jolpica_races": 99,
+    "laps_jolpica_seasons": "1996-2001",
+    "new_families": [
+      "drivers_openf1",
+      "intervals_openf1",
+      "laps_jolpica",
+      "laps_openf1",
+      "overtakes_openf1",
+      "pitstops_jolpica",
+      "pitstops_openf1",
+      "positions_openf1",
+      "race_control_openf1",
+      "reanalysis_era5",
+      "results_openf1",
+      "stints_openf1",
+      "teamradio_openf1",
+      "weather_openf1"
+    ],
+    "new_rows": 631124,
+    "openf1_race_sessions": 84,
+    "pitstops_jolpica_races": 333,
+    "qualifying": 26998,
+    "races": 1172,
+    "results": 26228
+  },
+  "creation_timestamp": "2026-09-19T13:52:50+00:00",
+  "dataset_id": "f1-dataset-v1.2",
+  "hashes": {
+    "backbone": "UNCHANGED_FROM_V1.1",
+    "races": "2cce529c",
+    "results": "112c8475"
+  },
+  "known_limitations": [
+    "laps_jolpica covers 1996-2001 only (99/550 races); resume to extend",
+    "intervals_openf1 parquet partial (12/84); raw complete",
+    "pit durations are totals; lane/stationary split NON_IDENTIFIABLE",
+    "ERA5 rows are REANALYSIS, not sensors",
+    "telemetry bulk not acquired",
+    "setup/strategy/fuel NON_IDENTIFIABLE"
+  ],
+  "parent_dataset": "f1-dataset-v1.1",
+  "quality_score": 0.9,
+  "record_counts": {
+    "new_canonical_rows": 631124,
+    "races": 1172,
+    "results": 26228
+  },
+  "schema_version": "0.1.0",
+  "simulation_behavior_changed": false,
+  "source_provenance": [
+    "jolpica-laps",
+    "jolpica-pitstops",
+    "openf1",
+    "openmeteo-era5",
+    "f1db-local",
+    "fastf1-probe"
+  ],
+  "status": "PROMOTED_STAGED_EVIDENCE"
+}

@@ -1,0 +1,22 @@
+{
+  "driver_race_pace": {
+    "distribution": "Normal",
+    "mean": 0,
+    "std": 3
+  },
+  "constructor_race_pace": {
+    "distribution": "Normal",
+    "mean": 10.5,
+    "std": 4
+  },
+  "reliability": {
+    "distribution": "Beta",
+    "alpha": 5,
+    "beta": 95
+  },
+  "overtaking": {
+    "distribution": "Normal",
+    "mean": 0,
+    "std": 2
+  }
+}

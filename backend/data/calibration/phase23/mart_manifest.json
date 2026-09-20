@@ -1,0 +1,19 @@
+{
+  "creation_timestamp": "2026-09-20T13:25:55.778858+00:00",
+  "dataset_id": "f1-dataset-v1.3",
+  "mart_version": "phase23-v1",
+  "provenance": "regenerable from f1-dataset-v1.3 via scripts/phase23_calibration.py",
+  "reproducible": true,
+  "row_counts": {
+    "driver_race": 26228,
+    "lap": 552656,
+    "pit": 12747,
+    "race": 1172,
+    "stint": 4840
+  },
+  "seed": 42,
+  "source_hashes": {
+    "races": "f436a3cf"
+  },
+  "temporal_policy": "strict_before_as_of"
+}

@@ -1,0 +1,8 @@
+{
+  "overtaking_proxy": 1.7539724858696812,
+  "sample_size": 18754,
+  "driver_contribution": "see driver_model overtaking_effect",
+  "circuit_contribution": "see circuit_model overtaking_environment",
+  "distribution": "Normal with shrinkage",
+  "note": "Direct overtake counts unavailable, proxy used; evidence_tier C"
+}

@@ -1,0 +1,97 @@
+{
+  "matrix": [
+    {
+      "variable": "race_results",
+      "current": "FULL",
+      "acquired": 0,
+      "canonical": "unchanged (FULL)",
+      "coverage_change": "no change (no observations acquired)"
+    },
+    {
+      "variable": "qualifying",
+      "current": "PARTIAL",
+      "acquired": 0,
+      "canonical": "unchanged (PARTIAL)",
+      "coverage_change": "no change (no observations acquired)"
+    },
+    {
+      "variable": "lap_timing",
+      "current": "LIMITED",
+      "acquired": 2258,
+      "canonical": "STAGED (2258 obs, eras ['2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+2258 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "sector_timing",
+      "current": "LIMITED",
+      "acquired": 1127,
+      "canonical": "STAGED (1127 obs, eras ['2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+1127 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "pit_timing",
+      "current": "PARTIAL",
+      "acquired": 235,
+      "canonical": "STAGED (235 obs, eras ['2022-2026']); canonical PARTIAL unchanged",
+      "coverage_change": "+235 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "tyre_compound",
+      "current": "LIMITED",
+      "acquired": 63,
+      "canonical": "STAGED (63 obs, eras ['2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+63 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "tyre_age",
+      "current": "PRIOR_ONLY",
+      "acquired": 63,
+      "canonical": "STAGED (63 obs, eras ['2022-2026']); canonical PRIOR_ONLY unchanged",
+      "coverage_change": "+63 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "weather",
+      "current": "LIMITED",
+      "acquired": 157,
+      "canonical": "STAGED (157 obs, eras ['2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+157 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "race_control",
+      "current": "LIMITED",
+      "acquired": 71,
+      "canonical": "STAGED (71 obs, eras ['2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+71 staged observations in ['2022-2026']"
+    },
+    {
+      "variable": "telemetry",
+      "current": "LIMITED",
+      "acquired": 0,
+      "canonical": "unchanged (LIMITED)",
+      "coverage_change": "no change (no observations acquired)"
+    },
+    {
+      "variable": "setup",
+      "current": "NON_IDENTIFIABLE",
+      "acquired": 0,
+      "canonical": "unchanged (NON_IDENTIFIABLE)",
+      "coverage_change": "no change (no observations acquired)"
+    },
+    {
+      "variable": "strategy",
+      "current": "NON_IDENTIFIABLE",
+      "acquired": 0,
+      "canonical": "unchanged (NON_IDENTIFIABLE)",
+      "coverage_change": "no change (no observations acquired)"
+    },
+    {
+      "variable": "regulation",
+      "current": "LIMITED",
+      "acquired": 321,
+      "canonical": "STAGED (321 obs, eras ['1950-1969', '1970-1989', '1990-1999', '2000-2009', '2010-2017', '2018-2021', '2022-2026']); canonical LIMITED unchanged",
+      "coverage_change": "+321 staged observations in ['1950-1969', '1970-1989', '1990-1999', '2000-2009', '2010-2017', '2018-2021', '2022-2026']"
+    }
+  ],
+  "generated_at": "2026-09-19T09:39:52+00:00",
+  "canonical_version": "f1-dataset-v1.1 (unchanged)"
+}

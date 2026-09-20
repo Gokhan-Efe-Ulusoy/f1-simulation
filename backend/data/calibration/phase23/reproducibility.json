@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "lap_time_model": "6e6ba357",
+    "pit": "58aa0482",
+    "tyre": "d661f028"
+  },
+  "dataset_hash": "f436a3cf",
+  "note": "deterministic with seed 42, not sharing simulation RNG",
+  "same_input_same_output": true,
+  "seed": 42
+}

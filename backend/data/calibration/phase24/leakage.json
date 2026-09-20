@@ -1,0 +1,16 @@
+{
+  "all_passed": true,
+  "injected": [
+    "future lap time",
+    "final position",
+    "future tyre state",
+    "future pit",
+    "future weather",
+    "future race control",
+    "future driver result",
+    "future constructor result"
+  ],
+  "policy": "as_of = race_date -1 day",
+  "tests": 8,
+  "violations": 0
+}

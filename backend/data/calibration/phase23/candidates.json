@@ -1,0 +1,95 @@
+{
+  "calibration-v2.0.0-candidate": {
+    "base": "calibration-v1.0.0",
+    "lap_time_model": 93.94263890121715,
+    "promotion": "NOT_PROMOTED (evidence insufficient for many params)",
+    "status": "CANDIDATE"
+  },
+  "frozen_production": [
+    "calibration-v1.0.0",
+    "tyre-v1.0.0",
+    "weather-v1.0.0",
+    "racecontrol-v1.0.0",
+    "strategy-v1.1.0",
+    "setup-v1.0.0"
+  ],
+  "pit-calibration-v1.0.0-candidate": {
+    "pit": {
+      "STATUS": "CALIBRATED",
+      "circuit_distribution": "see pit_by_circuit.json",
+      "era_distribution": "see pit_by_era.json",
+      "mean": 24.387675475426033,
+      "median": 23.404,
+      "n": 12147,
+      "n_races": 323,
+      "notes": "total pit-loss only; stationary vs lane split NON_IDENTIFIABLE; SC/VSC context not separable without race_control join",
+      "p05": 18.66,
+      "p25": 21.822,
+      "p75": 25.633,
+      "p95": 32.254,
+      "sample_size": 12147,
+      "stdev": 4.651049506991236
+    },
+    "status": "CANDIDATE"
+  },
+  "tyre-calibration-v2.0.0-candidate": {
+    "status": "CANDIDATE",
+    "tyre": {
+      "hard": {
+        "coefficient": 0.02,
+        "evidence_tier": "LIMITED",
+        "n_circuits": 36,
+        "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+        "n_races": 82,
+        "n_stints": 1743,
+        "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+        "out_of_sample_error": null,
+        "se": 0.02,
+        "seasons": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      "historical": {
+        "note": "pre-2010 no compound observations, do not extrapolate modern compounds backward",
+        "status": "NON_IDENTIFIABLE"
+      },
+      "medium": {
+        "coefficient": 0.04,
+        "evidence_tier": "LIMITED",
+        "n_circuits": 36,
+        "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+        "n_races": 82,
+        "n_stints": 1823,
+        "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+        "out_of_sample_error": null,
+        "se": 0.02,
+        "seasons": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      "soft": {
+        "coefficient": 0.08,
+        "evidence_tier": "LIMITED",
+        "n_circuits": 34,
+        "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+        "n_races": 74,
+        "n_stints": 913,
+        "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+        "out_of_sample_error": null,
+        "se": 0.02,
+        "seasons": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      }
+    }
+  }
+}

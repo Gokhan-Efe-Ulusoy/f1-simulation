@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "provider": "official_f1",
+      "tier": 1,
+      "status": "NOT_AVAILABLE",
+      "reason": "Respect ToS, no open endpoint"
+    },
+    {
+      "provider": "fia",
+      "tier": 1,
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "provider": "jolpica",
+      "tier": 2,
+      "status": "SUPPORTED",
+      "coverage": "1950-2026 race results, qualifying, standings",
+      "records": 34856
+    },
+    {
+      "provider": "openf1",
+      "tier": 2,
+      "status": "SUPPORTED",
+      "coverage": "2023-2026 sessions/laps/weather",
+      "records": 4117
+    },
+    {
+      "provider": "fastf1",
+      "tier": 2,
+      "status": "SUPPORTED",
+      "version": "3.8.3",
+      "coverage": "2024 Bahrain telemetry verified"
+    },
+    {
+      "provider": "f1db",
+      "tier": 3,
+      "status": "SUPPORTED",
+      "repository": "f1db/f1db",
+      "tag": "v2026.13.0",
+      "records": 27577,
+      "license": "CC BY 4.0"
+    },
+    {
+      "provider": "kaggle",
+      "tier": 3,
+      "status": "NOT_AVAILABLE",
+      "reason": "No pinned dataset used, would require license verification"
+    },
+    {
+      "provider": "github",
+      "tier": 3,
+      "status": "SUPPORTED",
+      "example": "f1db/f1db@v2026.13.0"
+    }
+  ]
+}

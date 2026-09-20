@@ -1,0 +1,63 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+data_backup_*/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large data files (reproducibility via manifests)
+backend/data/canonical/
+backend/data/raw/
+backend/data/calibration/*.parquet
+backend/data/calibration/*.json
+backend/data/simulation/benchmarks/
+backend/data/simulation/experiments/
+backend/data/external_staging/
+
+# Keep manifests and schemas
+!backend/data/manifests/
+!backend/data/derived/
+!backend/data/validation/
+!backend/data/regulations/
+!backend/data/licensing.json
+!backend/data/README.md
+!backend/data/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS generated
+*.swp
+*.swo
+*~

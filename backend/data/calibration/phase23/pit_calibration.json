@@ -1,0 +1,16 @@
+{
+  "STATUS": "CALIBRATED",
+  "circuit_distribution": "see pit_by_circuit.json",
+  "era_distribution": "see pit_by_era.json",
+  "mean": 24.387675475426033,
+  "median": 23.404,
+  "n": 12147,
+  "n_races": 323,
+  "notes": "total pit-loss only; stationary vs lane split NON_IDENTIFIABLE; SC/VSC context not separable without race_control join",
+  "p05": 18.66,
+  "p25": 21.822,
+  "p75": 25.633,
+  "p95": 32.254,
+  "sample_size": 12147,
+  "stdev": 4.651049506991236
+}

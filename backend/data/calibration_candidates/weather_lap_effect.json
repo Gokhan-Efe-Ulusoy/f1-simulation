@@ -1,0 +1,14 @@
+{
+  "variable": "weather_lap_effect",
+  "sample_size": 301,
+  "years": "2024",
+  "circuits": 6,
+  "drivers": 0,
+  "observations": 301,
+  "confounders": [
+    "reanalysis != track sensor",
+    "track temp absent pre-2023"
+  ],
+  "candidate_model": "lap_time ~ air_temp + rainfall + wind (session-aligned)",
+  "evidence_tier": "LIMITED"
+}

@@ -1,0 +1,14 @@
+{
+  "channels_available": [
+    "speed",
+    "throttle",
+    "brake",
+    "gear",
+    "rpm",
+    "drs"
+  ],
+  "sample_size": 20,
+  "available": true,
+  "note": "Only 2024 Bahrain telemetry loaded, 1950-2023 null; model falls back to Tier C",
+  "evidence_tier": "A where available else D"
+}

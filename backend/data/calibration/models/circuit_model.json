@@ -1,0 +1,922 @@
+{
+  "silverstone": {
+    "circuit_id": "silverstone",
+    "baseline": 10.1840888066605,
+    "field_spread": 6.335260403273986,
+    "overtaking_environment": 1.6136576239476146,
+    "qualifying_spread": null,
+    "sample_size": 1444,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "monaco": {
+    "circuit_id": "monaco",
+    "baseline": 8.77642656688494,
+    "field_spread": 5.473939446259522,
+    "overtaking_environment": 1.7286673058485138,
+    "qualifying_spread": null,
+    "sample_size": 1563,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "indianapolis": {
+    "circuit_id": "indianapolis",
+    "baseline": 12.63356973995272,
+    "field_spread": 8.134270622113215,
+    "overtaking_environment": 2.5995260663507107,
+    "qualifying_spread": null,
+    "sample_size": 496,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "bremgarten": {
+    "circuit_id": "bremgarten",
+    "baseline": 10.103092783505154,
+    "field_spread": 5.729100671284998,
+    "overtaking_environment": 0.10416666666666667,
+    "qualifying_spread": null,
+    "sample_size": 97,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "spa": {
+    "circuit_id": "spa",
+    "baseline": 10.224867724867725,
+    "field_spread": 6.064176289269427,
+    "overtaking_environment": 0.2050561797752809,
+    "qualifying_spread": null,
+    "sample_size": 378,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "reims": {
+    "circuit_id": "reims",
+    "baseline": 11.620408163265306,
+    "field_spread": 6.933435845207282,
+    "overtaking_environment": 0.4017094017094017,
+    "qualifying_spread": null,
+    "sample_size": 245,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "monza": {
+    "circuit_id": "monza",
+    "baseline": 10.144368858654573,
+    "field_spread": 6.395052074439541,
+    "overtaking_environment": 1.5959907478797224,
+    "qualifying_spread": null,
+    "sample_size": 1754,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "nurburgring": {
+    "circuit_id": "nurburgring",
+    "baseline": 10.92766497461929,
+    "field_spread": 6.8687899668044015,
+    "overtaking_environment": 1.2923673997412677,
+    "qualifying_spread": null,
+    "sample_size": 947,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "pedralbes": {
+    "circuit_id": "pedralbes",
+    "baseline": 11.023255813953488,
+    "field_spread": 6.096401640050517,
+    "overtaking_environment": 0.23809523809523808,
+    "qualifying_spread": null,
+    "sample_size": 43,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "essarts": {
+    "circuit_id": "essarts",
+    "baseline": 9.673913043478262,
+    "field_spread": 5.477443647855484,
+    "overtaking_environment": 0.21839080459770116,
+    "qualifying_spread": null,
+    "sample_size": 92,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "zandvoort": {
+    "circuit_id": "zandvoort",
+    "baseline": 10.033925686591276,
+    "field_spread": 5.981942563199687,
+    "overtaking_environment": 0.9518272425249169,
+    "qualifying_spread": null,
+    "sample_size": 743,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "galvez": {
+    "circuit_id": "galvez",
+    "baseline": 10.460992907801419,
+    "field_spread": 6.513077706970137,
+    "overtaking_environment": 0.5338078291814946,
+    "qualifying_spread": null,
+    "sample_size": 282,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "aintree": {
+    "circuit_id": "aintree",
+    "baseline": 12.609756097560975,
+    "field_spread": 7.494953653485313,
+    "overtaking_environment": 0.6050420168067226,
+    "qualifying_spread": null,
+    "sample_size": 123,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "pescara": {
+    "circuit_id": "pescara",
+    "baseline": 8.5,
+    "field_spread": 4.760952285695233,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 16,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "boavista": {
+    "circuit_id": "boavista",
+    "baseline": 8.0,
+    "field_spread": 4.394353744020411,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 30,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "ain-diab": {
+    "circuit_id": "ain-diab",
+    "baseline": 13.0,
+    "field_spread": 7.359800721939872,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 25,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "avus": {
+    "circuit_id": "avus",
+    "baseline": 8.0,
+    "field_spread": 4.47213595499958,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 15,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "monsanto": {
+    "circuit_id": "monsanto",
+    "baseline": 8.5,
+    "field_spread": 4.760952285695233,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 16,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "sebring": {
+    "circuit_id": "sebring",
+    "baseline": 10.0,
+    "field_spread": 5.627314338711377,
+    "overtaking_environment": 0.2777777777777778,
+    "qualifying_spread": null,
+    "sample_size": 19,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "riverside": {
+    "circuit_id": "riverside",
+    "baseline": 12.0,
+    "field_spread": 6.782329983125268,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 23,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "watkins_glen": {
+    "circuit_id": "watkins_glen",
+    "baseline": 12.21188630490956,
+    "field_spread": 7.157485541890862,
+    "overtaking_environment": 0.04221635883905013,
+    "qualifying_spread": null,
+    "sample_size": 387,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "george": {
+    "circuit_id": "george",
+    "baseline": 12.044776119402986,
+    "field_spread": 7.268514157321196,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 67,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "rodriguez": {
+    "circuit_id": "rodriguez",
+    "baseline": 10.403409090909092,
+    "field_spread": 5.889631545373594,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 176,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "brands_hatch": {
+    "circuit_id": "brands_hatch",
+    "baseline": 12.179012345679013,
+    "field_spread": 6.875019431694869,
+    "overtaking_environment": -0.08024691358024691,
+    "qualifying_spread": null,
+    "sample_size": 162,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "zeltweg": {
+    "circuit_id": "zeltweg",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "charade": {
+    "circuit_id": "charade",
+    "baseline": 10.18918918918919,
+    "field_spread": 6.071888234383142,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 74,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "kyalami": {
+    "circuit_id": "kyalami",
+    "baseline": 11.27061855670103,
+    "field_spread": 6.969217116240402,
+    "overtaking_environment": 1.33419689119171,
+    "qualifying_spread": null,
+    "sample_size": 497,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "lemans": {
+    "circuit_id": "lemans",
+    "baseline": 8.0,
+    "field_spread": 4.47213595499958,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 15,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "mosport": {
+    "circuit_id": "mosport",
+    "baseline": 11.635294117647058,
+    "field_spread": 6.874783798771191,
+    "overtaking_environment": 0.591715976331361,
+    "qualifying_spread": null,
+    "sample_size": 192,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "jarama": {
+    "circuit_id": "jarama",
+    "baseline": 10.405405405405405,
+    "field_spread": 6.418338774452783,
+    "overtaking_environment": 1.3673469387755102,
+    "qualifying_spread": null,
+    "sample_size": 196,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "tremblant": {
+    "circuit_id": "tremblant",
+    "baseline": 10.75609756097561,
+    "field_spread": 5.9949165457280476,
+    "overtaking_environment": 0.25,
+    "qualifying_spread": null,
+    "sample_size": 41,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "montjuic": {
+    "circuit_id": "montjuic",
+    "baseline": 11.452380952380953,
+    "field_spread": 6.75635312248978,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 84,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "hockenheimring": {
+    "circuit_id": "hockenheimring",
+    "baseline": 8.425818882466281,
+    "field_spread": 5.2971351671178,
+    "overtaking_environment": 2.7790697674418605,
+    "qualifying_spread": null,
+    "sample_size": 902,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "red_bull_ring": {
+    "circuit_id": "red_bull_ring",
+    "baseline": 12.438818565400844,
+    "field_spread": 7.00434576639725,
+    "overtaking_environment": -0.004219409282700422,
+    "qualifying_spread": null,
+    "sample_size": 237,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "ricard": {
+    "circuit_id": "ricard",
+    "baseline": 12.775510204081632,
+    "field_spread": 7.14724460244025,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 98,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "nivelles": {
+    "circuit_id": "nivelles",
+    "baseline": 14.363636363636363,
+    "field_spread": 8.201995322647244,
+    "overtaking_environment": 0.38181818181818183,
+    "qualifying_spread": null,
+    "sample_size": 55,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "interlagos": {
+    "circuit_id": "interlagos",
+    "baseline": 9.07656967840735,
+    "field_spread": 5.537680672741159,
+    "overtaking_environment": 1.884914463452566,
+    "qualifying_spread": null,
+    "sample_size": 932,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "zolder": {
+    "circuit_id": "zolder",
+    "baseline": 10.130718954248366,
+    "field_spread": 6.526961099181646,
+    "overtaking_environment": 2.522875816993464,
+    "qualifying_spread": null,
+    "sample_size": 246,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "anderstorp": {
+    "circuit_id": "anderstorp",
+    "baseline": 11.616822429906541,
+    "field_spread": 6.85654192478137,
+    "overtaking_environment": 0.897196261682243,
+    "qualifying_spread": null,
+    "sample_size": 131,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "dijon": {
+    "circuit_id": "dijon",
+    "baseline": 9.89622641509434,
+    "field_spread": 6.061477495954453,
+    "overtaking_environment": 1.3714285714285714,
+    "qualifying_spread": null,
+    "sample_size": 162,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "long-beach": {
+    "circuit_id": "long-beach",
+    "baseline": 5.686274509803922,
+    "field_spread": 3.101549264986332,
+    "overtaking_environment": 5.686274509803922,
+    "qualifying_spread": null,
+    "sample_size": 137,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "paul-ricard": {
+    "circuit_id": "paul-ricard",
+    "baseline": 8.552238805970148,
+    "field_spread": 4.951616651426741,
+    "overtaking_environment": 2.825,
+    "qualifying_spread": null,
+    "sample_size": 352,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "brands-hatch": {
+    "circuit_id": "brands-hatch",
+    "baseline": 6.2835820895522385,
+    "field_spread": 3.587883524634129,
+    "overtaking_environment": 5.492537313432836,
+    "qualifying_spread": null,
+    "sample_size": 170,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "spielberg": {
+    "circuit_id": "spielberg",
+    "baseline": 8.044776119402986,
+    "field_spread": 4.759344144198817,
+    "overtaking_environment": 3.1933842239185752,
+    "qualifying_spread": null,
+    "sample_size": 644,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "watkins-glen": {
+    "circuit_id": "watkins-glen",
+    "baseline": 8.93939393939394,
+    "field_spread": 5.147447146033859,
+    "overtaking_environment": 4.393939393939394,
+    "qualifying_spread": null,
+    "sample_size": 54,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "fuji": {
+    "circuit_id": "fuji",
+    "baseline": 7.245283018867925,
+    "field_spread": 4.052091864216833,
+    "overtaking_environment": 3.8076923076923075,
+    "qualifying_spread": null,
+    "sample_size": 92,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "buenos-aires": {
+    "circuit_id": "buenos-aires",
+    "baseline": 6.15625,
+    "field_spread": 3.6262655152789884,
+    "overtaking_environment": 4.453125,
+    "qualifying_spread": null,
+    "sample_size": 142,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "jacarepagua": {
+    "circuit_id": "jacarepagua",
+    "baseline": 7.669291338582677,
+    "field_spread": 5.061612639237251,
+    "overtaking_environment": 4.771653543307087,
+    "qualifying_spread": null,
+    "sample_size": 283,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "long_beach": {
+    "circuit_id": "long_beach",
+    "baseline": 13.02,
+    "field_spread": 7.319222664201662,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 50,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "villeneuve": {
+    "circuit_id": "villeneuve",
+    "baseline": 12.010989010989011,
+    "field_spread": 6.861315885284373,
+    "overtaking_environment": -0.022222222222222223,
+    "qualifying_spread": null,
+    "sample_size": 91,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "imola": {
+    "circuit_id": "imola",
+    "baseline": 7.7331786542923435,
+    "field_spread": 4.709790778260237,
+    "overtaking_environment": 3.0771028037383177,
+    "qualifying_spread": null,
+    "sample_size": 790,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "montreal": {
+    "circuit_id": "montreal",
+    "baseline": 7.870609981515711,
+    "field_spread": 4.687047301341357,
+    "overtaking_environment": 3.0845864661654137,
+    "qualifying_spread": null,
+    "sample_size": 947,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "caesars-palace": {
+    "circuit_id": "caesars-palace",
+    "baseline": 7.0,
+    "field_spread": 3.8157568056677826,
+    "overtaking_environment": 4.769230769230769,
+    "qualifying_spread": null,
+    "sample_size": 60,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "detroit": {
+    "circuit_id": "detroit",
+    "baseline": 5.845070422535211,
+    "field_spread": 3.2848043530516335,
+    "overtaking_environment": 6.394366197183099,
+    "qualifying_spread": null,
+    "sample_size": 191,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "spa-francorchamps": {
+    "circuit_id": "spa-francorchamps",
+    "baseline": 8.498293515358363,
+    "field_spread": 4.885089522929421,
+    "overtaking_environment": 2.9304347826086956,
+    "qualifying_spread": null,
+    "sample_size": 899,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "dallas": {
+    "circuit_id": "dallas",
+    "baseline": 4.5,
+    "field_spread": 2.449489742783178,
+    "overtaking_environment": 5.375,
+    "qualifying_spread": null,
+    "sample_size": 27,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "estoril": {
+    "circuit_id": "estoril",
+    "baseline": 7.978947368421053,
+    "field_spread": 4.47563408618329,
+    "overtaking_environment": 4.089473684210526,
+    "qualifying_spread": null,
+    "sample_size": 368,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "adelaide": {
+    "circuit_id": "adelaide",
+    "baseline": 6.803149606299213,
+    "field_spread": 4.279963228737495,
+    "overtaking_environment": 5.31496062992126,
+    "qualifying_spread": null,
+    "sample_size": 312,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "jerez": {
+    "circuit_id": "jerez",
+    "baseline": 7.88421052631579,
+    "field_spread": 4.833093273826302,
+    "overtaking_environment": 3.1894736842105265,
+    "qualifying_spread": null,
+    "sample_size": 205,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "hungaroring": {
+    "circuit_id": "hungaroring",
+    "baseline": 8.81875,
+    "field_spread": 5.127631581325126,
+    "overtaking_environment": 2.1012658227848102,
+    "qualifying_spread": null,
+    "sample_size": 934,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "mexico-city": {
+    "circuit_id": "mexico-city",
+    "baseline": 8.813278008298756,
+    "field_spread": 5.063183085756366,
+    "overtaking_environment": 2.654166666666667,
+    "qualifying_spread": null,
+    "sample_size": 384,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "suzuka": {
+    "circuit_id": "suzuka",
+    "baseline": 8.962897526501767,
+    "field_spread": 5.26303200881049,
+    "overtaking_environment": 2.1357142857142857,
+    "qualifying_spread": null,
+    "sample_size": 813,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "phoenix": {
+    "circuit_id": "phoenix",
+    "baseline": 6.514285714285714,
+    "field_spread": 3.6971485719436825,
+    "overtaking_environment": 7.142857142857143,
+    "qualifying_spread": null,
+    "sample_size": 108,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "magny-cours": {
+    "circuit_id": "magny-cours",
+    "baseline": 8.022900763358779,
+    "field_spread": 4.593791660658108,
+    "overtaking_environment": 2.310344827586207,
+    "qualifying_spread": null,
+    "sample_size": 420,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "catalunya": {
+    "circuit_id": "catalunya",
+    "baseline": 8.778378378378378,
+    "field_spread": 5.091534089766786,
+    "overtaking_environment": 1.925858951175407,
+    "qualifying_spread": null,
+    "sample_size": 782,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "donington": {
+    "circuit_id": "donington",
+    "baseline": 6.0,
+    "field_spread": 3.3166247903554,
+    "overtaking_environment": 5.818181818181818,
+    "qualifying_spread": null,
+    "sample_size": 26,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "aida": {
+    "circuit_id": "aida",
+    "baseline": 7.821428571428571,
+    "field_spread": 4.627242770957199,
+    "overtaking_environment": 4.285714285714286,
+    "qualifying_spread": null,
+    "sample_size": 52,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "melbourne": {
+    "circuit_id": "melbourne",
+    "baseline": 7.468023255813954,
+    "field_spread": 4.341691658800633,
+    "overtaking_environment": 2.4970238095238093,
+    "qualifying_spread": null,
+    "sample_size": 558,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "sepang": {
+    "circuit_id": "sepang",
+    "baseline": 8.550335570469798,
+    "field_spread": 4.883747859278423,
+    "overtaking_environment": 2.2905405405405403,
+    "qualifying_spread": null,
+    "sample_size": 412,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "bahrain": {
+    "circuit_id": "bahrain",
+    "baseline": 9.493297587131368,
+    "field_spread": 5.3131084709018905,
+    "overtaking_environment": 0.959349593495935,
+    "qualifying_spread": null,
+    "sample_size": 440,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "shanghai": {
+    "circuit_id": "shanghai",
+    "baseline": 9.882857142857143,
+    "field_spread": 5.621845729515126,
+    "overtaking_environment": 0.9738372093023255,
+    "qualifying_spread": null,
+    "sample_size": 404,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "istanbul": {
+    "circuit_id": "istanbul",
+    "baseline": 9.824242424242424,
+    "field_spread": 5.565520503731659,
+    "overtaking_environment": 0.6728395061728395,
+    "qualifying_spread": null,
+    "sample_size": 192,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "valencia": {
+    "circuit_id": "valencia",
+    "baseline": 10.555555555555555,
+    "field_spread": 6.013967114435756,
+    "overtaking_environment": 1.3571428571428572,
+    "qualifying_spread": null,
+    "sample_size": 112,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "marina-bay": {
+    "circuit_id": "marina-bay",
+    "baseline": 9.164556962025317,
+    "field_spread": 5.2159234189362556,
+    "overtaking_environment": 1.6120689655172413,
+    "qualifying_spread": null,
+    "sample_size": 298,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "yas-marina": {
+    "circuit_id": "yas-marina",
+    "baseline": 9.756363636363636,
+    "field_spread": 5.443363455318968,
+    "overtaking_environment": 0.8851851851851852,
+    "qualifying_spread": null,
+    "sample_size": 316,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "yeongam": {
+    "circuit_id": "yeongam",
+    "baseline": 10.144736842105264,
+    "field_spread": 5.738069239429865,
+    "overtaking_environment": 1.9210526315789473,
+    "qualifying_spread": null,
+    "sample_size": 94,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "buddh": {
+    "circuit_id": "buddh",
+    "baseline": 10.55,
+    "field_spread": 5.904393652762294,
+    "overtaking_environment": 1.3,
+    "qualifying_spread": null,
+    "sample_size": 70,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "austin": {
+    "circuit_id": "austin",
+    "baseline": 9.317460317460318,
+    "field_spread": 5.338017193514587,
+    "overtaking_environment": 1.553763440860215,
+    "qualifying_spread": null,
+    "sample_size": 226,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "sochi": {
+    "circuit_id": "sochi",
+    "baseline": 9.195652173913043,
+    "field_spread": 5.107399377734365,
+    "overtaking_environment": 1.0218978102189782,
+    "qualifying_spread": null,
+    "sample_size": 163,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "baku": {
+    "circuit_id": "baku",
+    "baseline": 9.066666666666666,
+    "field_spread": 5.097848536538972,
+    "overtaking_environment": 1.3333333333333333,
+    "qualifying_spread": null,
+    "sample_size": 162,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "mugello": {
+    "circuit_id": "mugello",
+    "baseline": 6.5,
+    "field_spread": 3.605551275463989,
+    "overtaking_environment": 2.6666666666666665,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "portimao": {
+    "circuit_id": "portimao",
+    "baseline": 10.0,
+    "field_spread": 5.5507486711984,
+    "overtaking_environment": 0.34210526315789475,
+    "qualifying_spread": null,
+    "sample_size": 40,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "lusail": {
+    "circuit_id": "lusail",
+    "baseline": 9.5,
+    "field_spread": 5.261721608534063,
+    "overtaking_environment": 0.7142857142857143,
+    "qualifying_spread": null,
+    "sample_size": 40,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "jeddah": {
+    "circuit_id": "jeddah",
+    "baseline": 9.044776119402986,
+    "field_spread": 5.153500827830668,
+    "overtaking_environment": 0.835820895522388,
+    "qualifying_spread": null,
+    "sample_size": 80,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "miami": {
+    "circuit_id": "miami",
+    "baseline": 10.026666666666667,
+    "field_spread": 5.701999017256386,
+    "overtaking_environment": 0.4861111111111111,
+    "qualifying_spread": null,
+    "sample_size": 82,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "albert_park": {
+    "circuit_id": "albert_park",
+    "baseline": 10.804878048780488,
+    "field_spread": 6.079553898910355,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 41,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "marina_bay": {
+    "circuit_id": "marina_bay",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "americas": {
+    "circuit_id": "americas",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "vegas": {
+    "circuit_id": "vegas",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "losail": {
+    "circuit_id": "losail",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "yas_marina": {
+    "circuit_id": "yas_marina",
+    "baseline": 10.5,
+    "field_spread": 5.916079783099616,
+    "overtaking_environment": 0.0,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  },
+  "las-vegas": {
+    "circuit_id": "las-vegas",
+    "baseline": 8.0,
+    "field_spread": 4.47213595499958,
+    "overtaking_environment": 2.142857142857143,
+    "qualifying_spread": null,
+    "sample_size": 20,
+    "method": "empirical_circuit_stats",
+    "evidence_tier": "C"
+  }
+}

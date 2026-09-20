@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-19T16:29:35+00:00",
+  "pipeline": "phase22_7_probe",
+  "rate_seconds": 4.0,
+  "results": [
+    {
+      "bytes": 896,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2002,
+      "total": 562,
+      "url": "https://api.jolpi.ca/ergast/f1/2002/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 909,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2005,
+      "total": 1056,
+      "url": "https://api.jolpi.ca/ergast/f1/2005/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 894,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2010,
+      "total": 912,
+      "url": "https://api.jolpi.ca/ergast/f1/2010/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 900,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2015,
+      "total": 703,
+      "url": "https://api.jolpi.ca/ergast/f1/2015/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 881,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2020,
+      "total": 1140,
+      "url": "https://api.jolpi.ca/ergast/f1/2020/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 902,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2023,
+      "total": 1055,
+      "url": "https://api.jolpi.ca/ergast/f1/2023/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 901,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2024,
+      "total": 1129,
+      "url": "https://api.jolpi.ca/ergast/f1/2024/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 910,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2025,
+      "total": 921,
+      "url": "https://api.jolpi.ca/ergast/f1/2025/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    },
+    {
+      "bytes": 912,
+      "http_status": 200,
+      "n_laps": 1,
+      "round": 1,
+      "schema": "MRData.RaceTable.Races[].Laps[].Timings[]",
+      "season": 2026,
+      "total": 1003,
+      "url": "https://api.jolpi.ca/ergast/f1/2026/1/laps.json?limit=5&offset=0",
+      "verdict": "AVAILABLE"
+    }
+  ]
+}

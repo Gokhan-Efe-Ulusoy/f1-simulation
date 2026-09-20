@@ -1,0 +1,22 @@
+{
+  "driver_alias_registry": {
+    "entities": 1457,
+    "aliases": 1457
+  },
+  "constructor_alias_registry": {
+    "entities": 236
+  },
+  "circuit_alias_registry": {
+    "entities": 99
+  },
+  "race_alias_registry": {
+    "races": 1172
+  },
+  "canonical_ids_sample": {
+    "driver": "abate",
+    "constructor": "adams",
+    "circuit": "adelaide",
+    "race": "1950-silverstone"
+  },
+  "note": "Separate registries per entity type, deterministic IDs, never merge ambiguous"
+}

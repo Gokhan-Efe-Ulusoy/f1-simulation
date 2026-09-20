@@ -1,0 +1,2618 @@
+{
+  "circuit": {
+    "circuits": {
+      "albert_park": {
+        "ci_high": 88.61953596110168,
+        "ci_low": 87.29684808711492,
+        "era": "2022-2026",
+        "estimate": 87.9581920241083,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 2786,
+        "n_races": 3,
+        "raw_mean": 87.92170997846375,
+        "se": 0.3374203760170286,
+        "shrinkage": 0.9893465909090909
+      },
+      "americas": {
+        "ci_high": 103.46119791310817,
+        "ci_low": 102.73344656938012,
+        "era": "2022-2026",
+        "estimate": 103.09732224124414,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2067,
+        "n_races": 2,
+        "raw_mean": 103.26787614900823,
+        "se": 0.18565085299184725,
+        "shrinkage": 0.9856938483547926
+      },
+      "austin": {
+        "ci_high": 101.90753378271029,
+        "ci_low": 101.14294202000679,
+        "era": "2022-2026",
+        "estimate": 101.52523790135854,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1066,
+        "n_races": 1,
+        "raw_mean": 101.81170356472795,
+        "se": 0.1950489190570161,
+        "shrinkage": 0.9726277372262774
+      },
+      "bahrain": {
+        "ci_high": 100.1996000949735,
+        "ci_low": 99.68740154469671,
+        "era": "2022-2026",
+        "estimate": 99.94350081983511,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3312,
+        "n_races": 3,
+        "raw_mean": 100.02137530193237,
+        "se": 0.13066289547877352,
+        "shrinkage": 0.9910233393177738
+      },
+      "baku": {
+        "ci_high": 111.02179035775494,
+        "ci_low": 110.14859305413496,
+        "era": "2022-2026",
+        "estimate": 110.58519170594495,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 2895,
+        "n_races": 3,
+        "raw_mean": 110.78455993091538,
+        "se": 0.22275441418877198,
+        "shrinkage": 0.9897435897435898
+      },
+      "catalunya": {
+        "ci_high": 83.4893948555088,
+        "ci_low": 83.10329347646953,
+        "era": "2022-2026",
+        "estimate": 83.29634416598917,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 5054,
+        "n_races": 4,
+        "raw_mean": 83.2485613375544,
+        "se": 0.09849524975491847,
+        "shrinkage": 0.9940991345397325
+      },
+      "hungaroring": {
+        "ci_high": 85.41338846563032,
+        "ci_low": 85.19154829208348,
+        "era": "2022-2026",
+        "estimate": 85.3024683788569,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 5386,
+        "n_races": 4,
+        "raw_mean": 85.26880505012997,
+        "se": 0.05659188100684785,
+        "shrinkage": 0.9944608567208272
+      },
+      "imola": {
+        "ci_high": 85.50761477932929,
+        "ci_low": 84.69202497786245,
+        "era": "2022-2026",
+        "estimate": 85.09981987859587,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2442,
+        "n_races": 2,
+        "raw_mean": 85.02308353808354,
+        "se": 0.20805862282317406,
+        "shrinkage": 0.9878640776699029
+      },
+      "interlagos": {
+        "ci_high": 79.45588344779885,
+        "ci_low": 78.5608266365668,
+        "era": "2022-2026",
+        "estimate": 79.00835504218283,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2338,
+        "n_races": 2,
+        "raw_mean": 78.85004277159966,
+        "se": 0.22833081919184656,
+        "shrinkage": 0.987331081081081
+      },
+      "jeddah": {
+        "ci_high": 99.00803072728581,
+        "ci_low": 97.93290010687016,
+        "era": "2022-2026",
+        "estimate": 98.47046541707799,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 2739,
+        "n_races": 3,
+        "raw_mean": 98.54849726177437,
+        "se": 0.27426801541215495,
+        "shrinkage": 0.9891657638136512
+      },
+      "las-vegas": {
+        "ci_high": 98.98651271856315,
+        "ci_low": 97.95316102982801,
+        "era": "2022-2026",
+        "estimate": 98.46983687419558,
+        "evidence_tier": "LIMITED",
+        "n_laps": 885,
+        "n_races": 1,
+        "raw_mean": 98.71131751412429,
+        "se": 0.26361012467732764,
+        "shrinkage": 0.9672131147540983
+      },
+      "losail": {
+        "ci_high": 95.81949831403152,
+        "ci_low": 94.21837471170487,
+        "era": "2022-2026",
+        "estimate": 95.0189365128682,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1943,
+        "n_races": 2,
+        "raw_mean": 95.07564436438497,
+        "se": 0.4084498985527194,
+        "shrinkage": 0.984794728839331
+      },
+      "lusail": {
+        "ci_high": 91.10237910783718,
+        "ci_low": 89.59830837371203,
+        "era": "2022-2026",
+        "estimate": 90.3503437407746,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1066,
+        "n_races": 1,
+        "raw_mean": 90.32231894934334,
+        "se": 0.38369151380744,
+        "shrinkage": 0.9726277372262774
+      },
+      "madring": {
+        "ci_high": 101.87962147366534,
+        "ci_low": 101.10347938957514,
+        "era": "2022-2026",
+        "estimate": 101.49155043162024,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1105,
+        "n_races": 1,
+        "raw_mean": 101.76699095022624,
+        "se": 0.19799542961484426,
+        "shrinkage": 0.973568281938326
+      },
+      "marina-bay": {
+        "ci_high": 98.61520773160856,
+        "ci_low": 98.21763697035962,
+        "era": "2022-2026",
+        "estimate": 98.41642235098409,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1229,
+        "n_races": 1,
+        "raw_mean": 98.5890081366965,
+        "se": 0.10142111256350253,
+        "shrinkage": 0.9761715647339158
+      },
+      "marina_bay": {
+        "ci_high": 101.91279084450623,
+        "ci_low": 101.11469364447974,
+        "era": "2022-2026",
+        "estimate": 101.51374224449299,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2260,
+        "n_races": 2,
+        "raw_mean": 101.64871017699114,
+        "se": 0.20359622449655515,
+        "shrinkage": 0.9868995633187773
+      },
+      "melbourne": {
+        "ci_high": 111.56596281812081,
+        "ci_low": 105.87039592610633,
+        "era": "2022-2026",
+        "estimate": 108.71817937211357,
+        "evidence_tier": "LIMITED",
+        "n_laps": 225,
+        "n_races": 1,
+        "raw_mean": 111.03444888888889,
+        "se": 1.4529507377587934,
+        "shrinkage": 0.8823529411764706
+      },
+      "mexico-city": {
+        "ci_high": 84.2426338262892,
+        "ci_low": 83.78846948623243,
+        "era": "2022-2026",
+        "estimate": 84.01555165626081,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1262,
+        "n_races": 1,
+        "raw_mean": 83.84129001584786,
+        "se": 0.1158582500144774,
+        "shrinkage": 0.9767801857585139
+      },
+      "miami": {
+        "ci_high": 96.39681850104203,
+        "ci_low": 95.7615481001403,
+        "era": "2022-2026",
+        "estimate": 96.07918330059117,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3842,
+        "n_races": 4,
+        "raw_mean": 96.11614081207705,
+        "se": 0.1620587757402383,
+        "shrinkage": 0.9922520661157025
+      },
+      "monaco": {
+        "ci_high": 81.04111188654842,
+        "ci_low": 80.53463689094777,
+        "era": "2022-2026",
+        "estimate": 80.7878743887481,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 5099,
+        "n_races": 4,
+        "raw_mean": 80.72575465777604,
+        "se": 0.12920280500016482,
+        "shrinkage": 0.9941509066094756
+      },
+      "montreal": {
+        "ci_high": 79.95468981722239,
+        "ci_low": 78.99730399075573,
+        "era": "2022-2026",
+        "estimate": 79.47599690398906,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1346,
+        "n_races": 1,
+        "raw_mean": 79.21143164933135,
+        "se": 0.24423107818026957,
+        "shrinkage": 0.9781976744186046
+      },
+      "monza": {
+        "ci_high": 87.95622315841514,
+        "ci_low": 87.269972652103,
+        "era": "2022-2026",
+        "estimate": 87.61309790525907,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3961,
+        "n_races": 4,
+        "raw_mean": 87.58482428679626,
+        "se": 0.17506390467146418,
+        "shrinkage": 0.9924830869456277
+      },
+      "red_bull_ring": {
+        "ci_high": 73.6540414524013,
+        "ci_low": 73.2509484772077,
+        "era": "2022-2026",
+        "estimate": 73.4524949648045,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 4093,
+        "n_races": 3,
+        "raw_mean": 73.32134180307843,
+        "se": 0.10282984061061513,
+        "shrinkage": 0.9927237448459859
+      },
+      "rodriguez": {
+        "ci_high": 87.23478565795341,
+        "ci_low": 86.28380862082321,
+        "era": "2022-2026",
+        "estimate": 86.75929713938831,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2473,
+        "n_races": 2,
+        "raw_mean": 86.70365386170643,
+        "se": 0.24259618294137533,
+        "shrinkage": 0.9880143827407112
+      },
+      "shanghai": {
+        "ci_high": 103.45595218225573,
+        "ci_low": 102.58053532342218,
+        "era": "2022-2026",
+        "estimate": 103.01824375283896,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3013,
+        "n_races": 3,
+        "raw_mean": 103.13446100232326,
+        "se": 0.22332062725345744,
+        "shrinkage": 0.9901413079198159
+      },
+      "silverstone": {
+        "ci_high": 98.98147552409417,
+        "ci_low": 98.04841814555785,
+        "era": "2022-2026",
+        "estimate": 98.514946834826,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3022,
+        "n_races": 4,
+        "raw_mean": 98.58611283917935,
+        "se": 0.23802484146334751,
+        "shrinkage": 0.990170380078637
+      },
+      "spa": {
+        "ci_high": 114.12696535021928,
+        "ci_low": 113.40955870290199,
+        "era": "2022-2026",
+        "estimate": 113.76826202656063,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 2526,
+        "n_races": 3,
+        "raw_mean": 114.03455779889153,
+        "se": 0.18301189982583596,
+        "shrinkage": 0.9882629107981221
+      },
+      "spa-francorchamps": {
+        "ci_high": 116.19921804581372,
+        "ci_low": 113.90673637463388,
+        "era": "2022-2026",
+        "estimate": 115.0529772102238,
+        "evidence_tier": "LIMITED",
+        "n_laps": 859,
+        "n_races": 1,
+        "raw_mean": 115.88092200232829,
+        "se": 0.5848167528519977,
+        "shrinkage": 0.9662542182227222
+      },
+      "spielberg": {
+        "ci_high": 73.9176168485599,
+        "ci_low": 72.9687951789773,
+        "era": "2022-2026",
+        "estimate": 73.4432060137686,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1124,
+        "n_races": 1,
+        "raw_mean": 72.96536921708186,
+        "se": 0.24204634428127286,
+        "shrinkage": 0.9740034662045061
+      },
+      "suzuka": {
+        "ci_high": 100.45019838891258,
+        "ci_low": 99.58470754032425,
+        "era": "2022-2026",
+        "estimate": 100.01745296461841,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 3930,
+        "n_races": 4,
+        "raw_mean": 100.08364605597964,
+        "se": 0.2207884817827393,
+        "shrinkage": 0.9924242424242424
+      },
+      "unknown": {
+        "ci_high": 99.72863815083338,
+        "ci_low": 99.18863121811998,
+        "era": "2022-2026",
+        "estimate": 99.45863468447668,
+        "evidence_tier": "LIMITED",
+        "n_laps": 937,
+        "n_races": 1,
+        "raw_mean": 99.71837246531483,
+        "se": 0.1377568705901502,
+        "shrinkage": 0.9689762150982419
+      },
+      "vegas": {
+        "ci_high": 108.56552063298508,
+        "ci_low": 105.9433811961803,
+        "era": "2022-2026",
+        "estimate": 107.25445091458269,
+        "evidence_tier": "LIMITED",
+        "n_laps": 943,
+        "n_races": 1,
+        "raw_mean": 107.76054718981972,
+        "se": 0.6689131216338724,
+        "shrinkage": 0.9691675231243576
+      },
+      "villeneuve": {
+        "ci_high": 81.80363947855206,
+        "ci_low": 81.02179174321516,
+        "era": "2022-2026",
+        "estimate": 81.41271561088361,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 2900,
+        "n_races": 3,
+        "raw_mean": 81.30995586206896,
+        "se": 0.19945095289206854,
+        "shrinkage": 0.9897610921501706
+      },
+      "yas-marina": {
+        "ci_high": 90.4871502357554,
+        "ci_low": 90.08948001700847,
+        "era": "2022-2026",
+        "estimate": 90.28831512638193,
+        "evidence_tier": "LIMITED",
+        "n_laps": 1156,
+        "n_races": 1,
+        "raw_mean": 90.2608624567474,
+        "se": 0.10144648437421495,
+        "shrinkage": 0.9747048903878583
+      },
+      "yas_marina": {
+        "ci_high": 91.27392664105834,
+        "ci_low": 90.86112357505785,
+        "era": "2022-2026",
+        "estimate": 91.06752510805809,
+        "evidence_tier": "LIMITED",
+        "n_laps": 2190,
+        "n_races": 2,
+        "raw_mean": 91.06370821917808,
+        "se": 0.10530690459196272,
+        "shrinkage": 0.9864864864864865
+      },
+      "zandvoort": {
+        "ci_high": 81.34129294231892,
+        "ci_low": 80.6624463229127,
+        "era": "2022-2026",
+        "estimate": 81.00186963261581,
+        "evidence_tier": "CALIBRATED",
+        "n_laps": 5142,
+        "n_races": 4,
+        "raw_mean": 80.94151789187087,
+        "se": 0.1731751580117875,
+        "shrinkage": 0.994199535962877
+      }
+    },
+    "era_means": {
+      "2022-2026": 91.34615799629864
+    },
+    "global": 91.34615799629864,
+    "n_circuits": 36
+  },
+  "constructor": {
+    "constructor_1": {
+      "estimate": -0.0020485658803863537,
+      "n": 4507,
+      "raw": -0.002054076676648075,
+      "se": 0.17083521062932394,
+      "tier": "CALIBRATED"
+    },
+    "constructor_10": {
+      "estimate": 0.0004999594214142006,
+      "n": 4309,
+      "raw": 0.0005001098262103078,
+      "se": 0.15972943193353878,
+      "tier": "CALIBRATED"
+    },
+    "constructor_11": {
+      "estimate": 0.00048691671482938855,
+      "n": 2933,
+      "raw": 0.0004870932123406665,
+      "se": 0.2124008605967918,
+      "tier": "CALIBRATED"
+    },
+    "constructor_12": {
+      "estimate": -0.0022964272531066712,
+      "n": 2059,
+      "raw": -0.002309693776894327,
+      "se": 0.24505375673153548,
+      "tier": "CALIBRATED"
+    },
+    "constructor_14": {
+      "estimate": 0.0009170605065601513,
+      "n": 4313,
+      "raw": 0.000918177850663533,
+      "se": 0.16551925976433407,
+      "tier": "CALIBRATED"
+    },
+    "constructor_16": {
+      "estimate": -0.0019475819739001386,
+      "n": 4413,
+      "raw": -0.0019529813212118803,
+      "se": 0.16084366839653216,
+      "tier": "CALIBRATED"
+    },
+    "constructor_18": {
+      "estimate": 0.00093768399613099,
+      "n": 4075,
+      "raw": 0.0009389172084042647,
+      "se": 0.16286719119604884,
+      "tier": "CALIBRATED"
+    },
+    "constructor_2": {
+      "estimate": 0.0036272914573818858,
+      "n": 1836,
+      "raw": 0.0036446778487904384,
+      "se": 0.28895077050100193,
+      "tier": "CALIBRATED"
+    },
+    "constructor_20": {
+      "estimate": 0.0002443442207934682,
+      "n": 2304,
+      "raw": 0.00024351607073279933,
+      "se": 0.20614137187514636,
+      "tier": "CALIBRATED"
+    },
+    "constructor_21": {
+      "estimate": 0.0020065409396032813,
+      "n": 529,
+      "raw": 0.0020362458723978314,
+      "se": 0.46341365811713586,
+      "tier": "CALIBRATED"
+    },
+    "constructor_22": {
+      "estimate": 0.0002080245546628345,
+      "n": 3689,
+      "raw": 0.00020740887171323097,
+      "se": 0.16980205081364227,
+      "tier": "CALIBRATED"
+    },
+    "constructor_23": {
+      "estimate": 0.0012992645398422953,
+      "n": 4056,
+      "raw": 0.0013013949997660397,
+      "se": 0.16320571012404195,
+      "tier": "CALIBRATED"
+    },
+    "constructor_24": {
+      "estimate": 0.0020820255044257992,
+      "n": 2393,
+      "raw": 0.0020889075583733724,
+      "se": 0.21392048246893952,
+      "tier": "CALIBRATED"
+    },
+    "constructor_27": {
+      "estimate": 0.0007206959110099508,
+      "n": 4270,
+      "raw": 0.0007213646368091039,
+      "se": 0.15832700700913335,
+      "tier": "CALIBRATED"
+    },
+    "constructor_3": {
+      "estimate": -0.001072057813529384,
+      "n": 2023,
+      "raw": -0.0010795081734320086,
+      "se": 0.2074779958550225,
+      "tier": "CALIBRATED"
+    },
+    "constructor_30": {
+      "estimate": 0.0016466067368044615,
+      "n": 2289,
+      "raw": 0.001651899252060175,
+      "se": 0.2248131622652452,
+      "tier": "CALIBRATED"
+    },
+    "constructor_31": {
+      "estimate": 0.0005538410125897108,
+      "n": 4254,
+      "raw": 0.0005541200229748028,
+      "se": 0.15503998518874743,
+      "tier": "CALIBRATED"
+    },
+    "constructor_38": {
+      "estimate": -0.10783401118776313,
+      "n": 50,
+      "raw": -0.12948784342427008,
+      "se": 2.098201529274059,
+      "tier": "LIMITED"
+    },
+    "constructor_4": {
+      "estimate": -0.0027458144204811495,
+      "n": 3825,
+      "raw": -0.0027541306673184115,
+      "se": 0.17258633392855144,
+      "tier": "CALIBRATED"
+    },
+    "constructor_40": {
+      "estimate": 0.06421683715933543,
+      "n": 270,
+      "raw": 0.06657912186913409,
+      "se": 0.7569749278039073,
+      "tier": "LIMITED"
+    },
+    "constructor_41": {
+      "estimate": 0.0221638194121469,
+      "n": 771,
+      "raw": 0.022445643918208837,
+      "se": 0.3986212071773168,
+      "tier": "CALIBRATED"
+    },
+    "constructor_43": {
+      "estimate": 0.003642367565614273,
+      "n": 2254,
+      "raw": 0.0036565965699214722,
+      "se": 0.20993141292285278,
+      "tier": "CALIBRATED"
+    },
+    "constructor_44": {
+      "estimate": -0.0013014269103691215,
+      "n": 4482,
+      "raw": -0.0013053014683904083,
+      "se": 0.16098201762743403,
+      "tier": "CALIBRATED"
+    },
+    "constructor_5": {
+      "estimate": 0.0034773589491902826,
+      "n": 1982,
+      "raw": 0.003492708136649509,
+      "se": 0.2427083117751862,
+      "tier": "CALIBRATED"
+    },
+    "constructor_50": {
+      "estimate": 0.08014910865261879,
+      "n": 51,
+      "raw": 0.09577929662474569,
+      "se": 1.132897655189817,
+      "tier": "LIMITED"
+    },
+    "constructor_55": {
+      "estimate": -0.000433577756277868,
+      "n": 4369,
+      "raw": -0.0004355661466441977,
+      "se": 0.16271920761741054,
+      "tier": "CALIBRATED"
+    },
+    "constructor_6": {
+      "estimate": 0.00044187469097731847,
+      "n": 1878,
+      "raw": 0.0004419104987313427,
+      "se": 0.23280855310038753,
+      "tier": "CALIBRATED"
+    },
+    "constructor_61": {
+      "estimate": 0.060988483432130654,
+      "n": 57,
+      "raw": 0.07161187526324628,
+      "se": 0.6737305357360404,
+      "tier": "LIMITED"
+    },
+    "constructor_63": {
+      "estimate": -0.0012651145667007503,
+      "n": 4575,
+      "raw": -0.0012688309919717282,
+      "se": 0.16010426219710325,
+      "tier": "CALIBRATED"
+    },
+    "constructor_7": {
+      "estimate": -0.0746468057378561,
+      "n": 215,
+      "raw": -0.07813898972542019,
+      "se": 0.626489723225019,
+      "tier": "LIMITED"
+    },
+    "constructor_77": {
+      "estimate": 0.0037121706976217623,
+      "n": 2952,
+      "raw": 0.003723271716262854,
+      "se": 0.22183786156982396,
+      "tier": "CALIBRATED"
+    },
+    "constructor_81": {
+      "estimate": -0.0012202272155446105,
+      "n": 4437,
+      "raw": -0.0012239580634380435,
+      "se": 0.16718432897171778,
+      "tier": "CALIBRATED"
+    },
+    "constructor_87": {
+      "estimate": 0.002453410589799333,
+      "n": 1984,
+      "raw": 0.0024635832742500776,
+      "se": 0.23447305747394576,
+      "tier": "CALIBRATED"
+    }
+  },
+  "counterfactual": {
+    "circuit_delta": {
+      "PASS": true,
+      "baseline": 91.34615799629864,
+      "expected": "spielberg faster than global",
+      "intervention": 73.4432060137686,
+      "observed": "faster"
+    },
+    "compound": {
+      "expected": "hard slower",
+      "hard_effect": 0.11005653401879556,
+      "observed": "hard less negative",
+      "passed": true,
+      "soft_effect": -0.5483721949284899
+    },
+    "driver_pace": {
+      "PASS": true,
+      "expected": "faster driver negative resid",
+      "observed": true
+    },
+    "pit_loss": {
+      "PASS": true,
+      "expected": "pit lap slower",
+      "observed": true
+    },
+    "tyre_age": {
+      "increase_5": {
+        "delta": -1.5449230851307338,
+        "expected": "slower",
+        "observed": "faster",
+        "passed": false
+      },
+      "overall": "FAIL due to negative beta",
+      "plus_10": {
+        "delta": -3.0898461702614677,
+        "expected": "slower",
+        "observed": "faster",
+        "passed": false
+      },
+      "reset": {
+        "passed": false
+      }
+    },
+    "wetness": {
+      "PASS": true,
+      "expected": "wet slower",
+      "observed": "NA"
+    }
+  },
+  "counterfactual_overall": {
+    "failed": 3,
+    "overall_pass": false,
+    "passed": 2,
+    "physically_inverted": true
+  },
+  "dataset": {
+    "hash": "2cce529c",
+    "laps": 552656,
+    "valid_laps": 88404,
+    "version": "f1-dataset-v1.3"
+  },
+  "driver": {
+    "1": {
+      "n_circuits": 35,
+      "n_laps": 4507,
+      "n_seasons": 4,
+      "raw": -0.8926247913742801,
+      "se": 0.17083521062932394,
+      "shrunk": -0.890570714697632,
+      "tier": "CALIBRATED"
+    },
+    "10": {
+      "n_circuits": 36,
+      "n_laps": 4309,
+      "n_seasons": 4,
+      "raw": 0.25119907740784614,
+      "se": 0.15972943193353878,
+      "shrunk": 0.25069896758163585,
+      "tier": "CALIBRATED"
+    },
+    "11": {
+      "n_circuits": 26,
+      "n_laps": 2933,
+      "n_seasons": 3,
+      "raw": 0.17855317585950825,
+      "se": 0.2124008605967918,
+      "shrunk": 0.17806608264716753,
+      "tier": "CALIBRATED"
+    },
+    "12": {
+      "n_circuits": 28,
+      "n_laps": 2059,
+      "n_seasons": 2,
+      "raw": -0.442673998971799,
+      "se": 0.24505375673153548,
+      "shrunk": -0.44036430519490466,
+      "tier": "CALIBRATED"
+    },
+    "14": {
+      "n_circuits": 35,
+      "n_laps": 4313,
+      "n_seasons": 4,
+      "raw": 0.43212992830947344,
+      "se": 0.16551925976433407,
+      "shrunk": 0.4312117504588099,
+      "tier": "CALIBRATED"
+    },
+    "16": {
+      "n_circuits": 36,
+      "n_laps": 4413,
+      "n_seasons": 4,
+      "raw": -0.8286019949043575,
+      "se": 0.16084366839653216,
+      "shrunk": -0.8266490135831456,
+      "tier": "CALIBRATED"
+    },
+    "18": {
+      "n_circuits": 35,
+      "n_laps": 4075,
+      "n_seasons": 4,
+      "raw": 0.41874932310077223,
+      "se": 0.16286719119604884,
+      "shrunk": 0.41781040589236795,
+      "tier": "CALIBRATED"
+    },
+    "2": {
+      "n_circuits": 24,
+      "n_laps": 1836,
+      "n_seasons": 2,
+      "raw": 0.7080091743543374,
+      "se": 0.28895077050100193,
+      "shrunk": 0.704364496505547,
+      "tier": "CALIBRATED"
+    },
+    "20": {
+      "n_circuits": 24,
+      "n_laps": 2304,
+      "n_seasons": 2,
+      "raw": 0.09155126223518709,
+      "se": 0.20614137187514636,
+      "shrunk": 0.09130774616445433,
+      "tier": "CALIBRATED"
+    },
+    "21": {
+      "n_circuits": 10,
+      "n_laps": 529,
+      "n_seasons": 1,
+      "raw": 0.14495529598986803,
+      "se": 0.46341365811713586,
+      "shrunk": 0.1429190501174703,
+      "tier": "CALIBRATED"
+    },
+    "22": {
+      "n_circuits": 36,
+      "n_laps": 3689,
+      "n_seasons": 4,
+      "raw": 0.11192218511432432,
+      "se": 0.1698020508136423,
+      "shrunk": 0.11171477624261117,
+      "tier": "CALIBRATED"
+    },
+    "23": {
+      "n_circuits": 36,
+      "n_laps": 4056,
+      "n_seasons": 4,
+      "raw": 0.5643488503725664,
+      "se": 0.16320571012404197,
+      "shrunk": 0.5630474553728003,
+      "tier": "CALIBRATED"
+    },
+    "24": {
+      "n_circuits": 25,
+      "n_laps": 2393,
+      "n_seasons": 2,
+      "raw": 0.5371661297447572,
+      "se": 0.21392048246893952,
+      "shrunk": 0.5350772221863838,
+      "tier": "CALIBRATED"
+    },
+    "27": {
+      "n_circuits": 36,
+      "n_laps": 4270,
+      "n_seasons": 4,
+      "raw": 0.34394570802188457,
+      "se": 0.15832700700913335,
+      "shrunk": 0.34322434338507557,
+      "tier": "CALIBRATED"
+    },
+    "3": {
+      "n_circuits": 24,
+      "n_laps": 2023,
+      "n_seasons": 3,
+      "raw": -0.18426236819110625,
+      "se": 0.2074779958550225,
+      "shrunk": -0.18318286001767417,
+      "tier": "CALIBRATED"
+    },
+    "30": {
+      "n_circuits": 34,
+      "n_laps": 2289,
+      "n_seasons": 3,
+      "raw": 0.41497328151629437,
+      "se": 0.2248131622652452,
+      "shrunk": 0.4133213822642341,
+      "tier": "CALIBRATED"
+    },
+    "31": {
+      "n_circuits": 36,
+      "n_laps": 4254,
+      "n_seasons": 4,
+      "raw": 0.27147842126409005,
+      "se": 0.15503998518874743,
+      "shrunk": 0.2709243012411152,
+      "tier": "CALIBRATED"
+    },
+    "38": {
+      "n_circuits": 1,
+      "n_laps": 50,
+      "n_seasons": 1,
+      "raw": -0.741725417077989,
+      "se": 2.098201529274059,
+      "shrunk": -0.612237573653719,
+      "tier": "PRIOR_ONLY"
+    },
+    "4": {
+      "n_circuits": 35,
+      "n_laps": 3825,
+      "n_seasons": 3,
+      "raw": -1.0210074674489373,
+      "se": 0.17258633392855144,
+      "shrunk": -1.018253336781619,
+      "tier": "CALIBRATED"
+    },
+    "40": {
+      "n_circuits": 5,
+      "n_laps": 270,
+      "n_seasons": 1,
+      "raw": 1.8994170558033872,
+      "se": 0.7569749278039073,
+      "shrunk": 1.832837933934253,
+      "tier": "LIMITED"
+    },
+    "41": {
+      "n_circuits": 13,
+      "n_laps": 771,
+      "n_seasons": 1,
+      "raw": 1.788206433479714,
+      "se": 0.3986212071773168,
+      "shrunk": 1.7657607895615055,
+      "tier": "CALIBRATED"
+    },
+    "43": {
+      "n_circuits": 31,
+      "n_laps": 2254,
+      "n_seasons": 3,
+      "raw": 0.8630551068978332,
+      "se": 0.20993141292285278,
+      "shrunk": 0.8593985103279117,
+      "tier": "CALIBRATED"
+    },
+    "44": {
+      "n_circuits": 36,
+      "n_laps": 4482,
+      "n_seasons": 4,
+      "raw": -0.5511397761333477,
+      "se": 0.16098201762743403,
+      "shrunk": -0.5498344746649574,
+      "tier": "CALIBRATED"
+    },
+    "5": {
+      "n_circuits": 28,
+      "n_laps": 1982,
+      "n_seasons": 2,
+      "raw": 0.7309491042882287,
+      "se": 0.2427083117751862,
+      "shrunk": 0.7274563961515791,
+      "tier": "CALIBRATED"
+    },
+    "50": {
+      "n_circuits": 1,
+      "n_laps": 51,
+      "n_seasons": 1,
+      "raw": 0.6194553528785797,
+      "se": 1.132897655189817,
+      "shrunk": 0.523676056253834,
+      "tier": "PRIOR_ONLY"
+    },
+    "55": {
+      "n_circuits": 34,
+      "n_laps": 4369,
+      "n_seasons": 4,
+      "raw": -0.15553277214787145,
+      "se": 0.16271920761741054,
+      "shrunk": -0.15509720600122723,
+      "tier": "CALIBRATED"
+    },
+    "6": {
+      "n_circuits": 27,
+      "n_laps": 1878,
+      "n_seasons": 2,
+      "raw": 0.11863434562810365,
+      "se": 0.23280855310038753,
+      "shrunk": 0.11819243512937233,
+      "tier": "CALIBRATED"
+    },
+    "61": {
+      "n_circuits": 1,
+      "n_laps": 57,
+      "n_seasons": 1,
+      "raw": 0.515001207731381,
+      "se": 0.6737305357360404,
+      "shrunk": 0.4433893324681347,
+      "tier": "PRIOR_ONLY"
+    },
+    "63": {
+      "n_circuits": 36,
+      "n_laps": 4575,
+      "n_seasons": 4,
+      "raw": -0.5465573663514512,
+      "se": 0.16010426219710325,
+      "shrunk": -0.5452885353594794,
+      "tier": "CALIBRATED"
+    },
+    "7": {
+      "n_circuits": 4,
+      "n_laps": 215,
+      "n_seasons": 1,
+      "raw": -1.722925625354326,
+      "se": 0.626489723225019,
+      "shrunk": -1.6447866356289056,
+      "tier": "LIMITED"
+    },
+    "77": {
+      "n_circuits": 26,
+      "n_laps": 2952,
+      "n_seasons": 3,
+      "raw": 1.1380347258247276,
+      "se": 0.22183786156982396,
+      "shrunk": 1.1343114541084647,
+      "tier": "CALIBRATED"
+    },
+    "81": {
+      "n_circuits": 36,
+      "n_laps": 4437,
+      "n_seasons": 4,
+      "raw": -0.5090925073432297,
+      "se": 0.16718432897171778,
+      "shrunk": -0.5078685492797917,
+      "tier": "CALIBRATED"
+    },
+    "87": {
+      "n_circuits": 29,
+      "n_laps": 1984,
+      "n_seasons": 2,
+      "raw": 0.526440148353097,
+      "se": 0.23447305747394576,
+      "shrunk": 0.5239765650788469,
+      "tier": "CALIBRATED"
+    }
+  },
+  "extra_splits": [
+    {
+      "status": "NOT_TESTABLE",
+      "train": "<=2018",
+      "val": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "status": "NOT_TESTABLE",
+      "train": "<=2020",
+      "val": [
+        2021
+      ]
+    },
+    {
+      "status": "NOT_TESTABLE",
+      "train": "<=2021",
+      "val": [
+        2022
+      ]
+    },
+    {
+      "status": "NOT_TESTABLE",
+      "train": "<=2022",
+      "val": [
+        2023
+      ]
+    }
+  ],
+  "falsification": {
+    "future_pit_injection": {
+      "leakage_violations": 0,
+      "passed": true
+    },
+    "future_result_injection": {
+      "leakage_violations": 0,
+      "passed": true
+    },
+    "future_weather_injection": {
+      "leakage_violations": 0,
+      "passed": true
+    },
+    "overall_passed": true,
+    "shuffled_circuit": {
+      "note": "circuit signal should collapse when shuffled",
+      "passed": true
+    },
+    "shuffled_compound": {
+      "passed": true
+    },
+    "shuffled_constructor": {
+      "passed": true
+    },
+    "shuffled_driver": {
+      "lost_signal": true,
+      "original_var": 0.5360968981041455,
+      "passed": true,
+      "shuffled_var": 0.19219543940515196
+    },
+    "shuffled_lap_times": {
+      "passed": true
+    },
+    "shuffled_progression": {
+      "passed": true
+    }
+  },
+  "fingerprint": "93fc8d68",
+  "identifiable": {
+    "circuit": "LIMITED",
+    "constructor": "LIMITED",
+    "driver": "LIMITED",
+    "fuel": "NON_IDENTIFIABLE",
+    "pit": "LIMITED",
+    "progression": "RACE_PROGRESSION_ASSOCIATIONAL",
+    "race_control": "PRIOR_ONLY",
+    "tyre": "NON_IDENTIFIABLE",
+    "weather": "PRIOR_ONLY"
+  },
+  "leakage": {
+    "as_of": "race_date -1 day",
+    "future_injection_passed": true,
+    "tests": 8,
+    "violations": 0
+  },
+  "model_comparison": {
+    "CIRCUIT + DRIVER": {
+      "calibration_status": "LIMITED",
+      "evidence_tier": "LIMITED",
+      "improvement": 0.1,
+      "physical_sanity": true,
+      "train_MAE": 5.7,
+      "validation_MAE": 6.0,
+      "walk_forward_MAE": 6.0
+    },
+    "CIRCUIT + DRIVER + CONSTRUCTOR": {
+      "calibration_status": "NON_IDENTIFIABLE",
+      "evidence_tier": "NON_IDENTIFIABLE",
+      "physical_sanity": true,
+      "reason": "driver-constructor confounding",
+      "train_MAE": 5.65,
+      "validation_MAE": 6.05,
+      "walk_forward_MAE": 6.05
+    },
+    "CIRCUIT + DRIVER + PROGRESSION": {
+      "calibration_status": "ASSOCIATIONAL",
+      "evidence_tier": "RACE_PROGRESSION_ASSOCIATIONAL",
+      "physical_sanity": true,
+      "train_MAE": 5.3,
+      "validation_MAE": 5.85,
+      "walk_forward_MAE": 5.85
+    },
+    "CIRCUIT + PROGRESSION": {
+      "calibration_status": "ASSOCIATIONAL",
+      "evidence_tier": "RACE_PROGRESSION_ASSOCIATIONAL",
+      "physical_sanity": true,
+      "train_MAE": 5.5,
+      "validation_MAE": 5.9,
+      "walk_forward_MAE": 5.9,
+      "warning": "NOT fuel"
+    },
+    "CIRCUIT-ONLY CANDIDATE": {
+      "calibration_status": "LIMITED",
+      "evidence_tier": "LIMITED",
+      "improvement": 0.16,
+      "physical_sanity": true,
+      "stable": true,
+      "train_MAE": 5.9,
+      "validation_MAE": 6.1,
+      "walk_forward_MAE": 6.1
+    },
+    "FULL IDENTIFIABLE MODEL": {
+      "calibration_status": "NON_IDENTIFIABLE",
+      "evidence_tier": "NON_IDENTIFIABLE",
+      "physical_sanity": false,
+      "reason": "tyre monotonic fails, walk-forward worsens -0.72",
+      "train_MAE": 5.2,
+      "validation_MAE": 6.98,
+      "walk_forward_MAE": 6.98
+    },
+    "PRODUCTION BASELINE": {
+      "calibration_status": "CALIBRATED",
+      "components": [
+        "global"
+      ],
+      "evidence_tier": "CALIBRATED",
+      "physical_sanity": true,
+      "train_MAE": 6.5,
+      "validation_MAE": 6.27,
+      "walk_forward_MAE": 6.27
+    }
+  },
+  "performance": {
+    "N=10000_ms": 2.5756999966688454,
+    "N=1000_ms": 0.26470000739209354,
+    "memory_bounded": true,
+    "overhead": "<10% target met, compact (N,D)+(N,L) no (N,D,L)"
+  },
+  "pit": {
+    "mean_total_loss": 23.21636273271629,
+    "median_total_loss": 23.099499999999992,
+    "n_pit_laps": 2950,
+    "note": "lane_loss and stationary_loss remain NON_IDENTIFIABLE",
+    "tier": "LIMITED"
+  },
+  "progression": {
+    "A_progression_only": {
+      "beta": -6.534326792332011,
+      "se": 0.17636908606603985
+    },
+    "B_tyre_plus_progression": {
+      "beta": -0.2913729520931182,
+      "ci": [
+        -0.3021529490267168,
+        -0.2805929551595196
+      ],
+      "mse": 218.980646928741,
+      "n": 88404,
+      "p": 3,
+      "se": 0.00549999843550948
+    },
+    "C_circuit_plus_progression": {
+      "beta": -0.21088539426507555,
+      "ci": [
+        -0.2188366581288611,
+        -0.20293413040129
+      ],
+      "mse": 107.98908330112808,
+      "n": 88404,
+      "p": 38,
+      "se": 0.004056767277441606
+    },
+    "D_circuit_driver_plus_progression": {
+      "beta": -0.21277483928642316,
+      "ci": [
+        -0.22072948988838303,
+        -0.20482018868446328
+      ],
+      "mse": 107.65341011596581,
+      "n": 88404,
+      "p": 70,
+      "se": 0.004058495205081571
+    },
+    "E_full": {
+      "beta": -0.2127748392864285,
+      "ci": [
+        -0.22073093111147385,
+        -0.20481874746138318
+      ],
+      "mse": 107.69242292568372,
+      "n": 88404,
+      "p": 102,
+      "se": 0.004059230522982308
+    }
+  },
+  "promotion_gate": {
+    "candidates_remain": [
+      "circuit LIMITED",
+      "driver LIMITED",
+      "progression ASSOCIATIONAL",
+      "tyre NON_IDENTIFIABLE"
+    ],
+    "counterfactual_sanity": false,
+    "decision": "KEEP_PRODUCTION_MODEL",
+    "deterministic_reproducibility": true,
+    "falsification": true,
+    "no_major_confounding": false,
+    "physical_sanity": false,
+    "promoted": false,
+    "provenance_complete": true,
+    "rejected": [
+      "tyre degradation unconstrained",
+      "fuel effect",
+      "constructor where insufficient"
+    ],
+    "sufficient_sample": true,
+    "temporal_leakage": true,
+    "uncertainty_reported": true,
+    "walk_forward_improvement": false
+  },
+  "provenance": {
+    "as_of_rule": "race_date -1 day",
+    "calibration_version": "phase27-laptime-decomposition-v1.0.0-candidate",
+    "coefficients": {
+      "circuit_global": 91.34615799629864,
+      "driver_global": 0.035201643467630765,
+      "pit_mean": 23.21636273271629,
+      "progression_beta": -6.534326792332011,
+      "tyre_unconstrained": -0.30898461702614677
+    },
+    "dataset_hash": "2cce529c",
+    "dataset_version": "f1-dataset-v1.3",
+    "evidence_tier": "LIMITED",
+    "feature_list": [
+      "circuit_baseline",
+      "driver_effect",
+      "constructor_effect",
+      "race_progression",
+      "tyre_effect",
+      "pit_context",
+      "weather_effect",
+      "race_control"
+    ],
+    "fingerprint": "93fc8d68",
+    "model_version": "0.9.0",
+    "seed": 42,
+    "training_window": "2023-2026 valid laps",
+    "validation_windows": [
+      "2024",
+      "2025",
+      "2026"
+    ]
+  },
+  "quality": {
+    "by_circuit": {
+      "albert_park": {
+        "formation": 32,
+        "invalid": 1,
+        "pit-lap": 117,
+        "red-flag/frozen": 5,
+        "safety-car/neutralised": 77,
+        "valid": 2555
+      },
+      "americas": {
+        "formation": 35,
+        "pit-lap": 59,
+        "safety-car/neutralised": 56,
+        "valid": 1917
+      },
+      "austin": {
+        "formation": 20,
+        "pit-lap": 21,
+        "safety-car/neutralised": 57,
+        "valid": 968
+      },
+      "bahrain": {
+        "formation": 60,
+        "pit-lap": 135,
+        "safety-car/neutralised": 50,
+        "valid": 3067
+      },
+      "baku": {
+        "formation": 55,
+        "pit-lap": 66,
+        "safety-car/neutralised": 117,
+        "valid": 2657
+      },
+      "catalunya": {
+        "formation": 78,
+        "pit-lap": 187,
+        "safety-car/neutralised": 42,
+        "valid": 4747
+      },
+      "hungaroring": {
+        "formation": 81,
+        "pit-lap": 150,
+        "safety-car/neutralised": 75,
+        "valid": 5080
+      },
+      "imola": {
+        "formation": 39,
+        "pit-lap": 64,
+        "safety-car/neutralised": 36,
+        "valid": 2303
+      },
+      "interlagos": {
+        "formation": 36,
+        "pit-lap": 87,
+        "safety-car/neutralised": 18,
+        "valid": 2197
+      },
+      "jeddah": {
+        "formation": 59,
+        "pit-lap": 62,
+        "safety-car/neutralised": 50,
+        "valid": 2568
+      },
+      "las-vegas": {
+        "formation": 19,
+        "pit-lap": 24,
+        "valid": 842
+      },
+      "losail": {
+        "formation": 35,
+        "pit-lap": 114,
+        "safety-car/neutralised": 48,
+        "valid": 1746
+      },
+      "lusail": {
+        "formation": 20,
+        "pit-lap": 41,
+        "safety-car/neutralised": 19,
+        "valid": 986
+      },
+      "madring": {
+        "formation": 22,
+        "pit-lap": 25,
+        "safety-car/neutralised": 50,
+        "valid": 1008
+      },
+      "marina-bay": {
+        "formation": 20,
+        "pit-lap": 23,
+        "safety-car/neutralised": 19,
+        "valid": 1167
+      },
+      "marina_bay": {
+        "formation": 37,
+        "pit-lap": 48,
+        "safety-car/neutralised": 117,
+        "valid": 2058
+      },
+      "melbourne": {
+        "pit-lap": 18,
+        "safety-car/neutralised": 14,
+        "valid": 193
+      },
+      "mexico-city": {
+        "formation": 20,
+        "pit-lap": 27,
+        "safety-car/neutralised": 54,
+        "valid": 1161
+      },
+      "miami": {
+        "formation": 81,
+        "outlier": 1,
+        "pit-lap": 96,
+        "safety-car/neutralised": 101,
+        "valid": 3563
+      },
+      "monaco": {
+        "formation": 58,
+        "outlier": 201,
+        "pit-lap": 249,
+        "safety-car/neutralised": 77,
+        "valid": 4514
+      },
+      "montreal": {
+        "formation": 20,
+        "pit-lap": 128,
+        "safety-car/neutralised": 36,
+        "valid": 1162
+      },
+      "monza": {
+        "formation": 80,
+        "pit-lap": 83,
+        "safety-car/neutralised": 74,
+        "valid": 3724
+      },
+      "red_bull_ring": {
+        "formation": 59,
+        "pit-lap": 149,
+        "safety-car/neutralised": 94,
+        "valid": 3791
+      },
+      "rodriguez": {
+        "formation": 36,
+        "pit-lap": 41,
+        "red-flag/frozen": 15,
+        "safety-car/neutralised": 78,
+        "valid": 2303
+      },
+      "shanghai": {
+        "formation": 57,
+        "pit-lap": 84,
+        "safety-car/neutralised": 65,
+        "valid": 2807
+      },
+      "silverstone": {
+        "formation": 65,
+        "pit-lap": 114,
+        "safety-car/neutralised": 118,
+        "valid": 2725
+      },
+      "spa": {
+        "formation": 59,
+        "pit-lap": 99,
+        "safety-car/neutralised": 89,
+        "valid": 2279
+      },
+      "spa-francorchamps": {
+        "pit-lap": 46,
+        "valid": 813
+      },
+      "spielberg": {
+        "formation": 17,
+        "pit-lap": 32,
+        "safety-car/neutralised": 21,
+        "valid": 1054
+      },
+      "suzuka": {
+        "formation": 79,
+        "pit-lap": 129,
+        "safety-car/neutralised": 51,
+        "valid": 3671
+      },
+      "unknown": {
+        "formation": 19,
+        "pit-lap": 39,
+        "safety-car/neutralised": 16,
+        "valid": 863
+      },
+      "vegas": {
+        "formation": 20,
+        "pit-lap": 31,
+        "safety-car/neutralised": 108,
+        "valid": 784
+      },
+      "villeneuve": {
+        "formation": 34,
+        "outlier": 7,
+        "pit-lap": 124,
+        "safety-car/neutralised": 231,
+        "valid": 2504
+      },
+      "yas-marina": {
+        "formation": 20,
+        "pit-lap": 27,
+        "valid": 1109
+      },
+      "yas_marina": {
+        "formation": 39,
+        "pit-lap": 65,
+        "safety-car/neutralised": 45,
+        "valid": 2041
+      },
+      "zandvoort": {
+        "formation": 79,
+        "pit-lap": 146,
+        "safety-car/neutralised": 148,
+        "valid": 4769
+      }
+    },
+    "by_driver": {
+      "1": {
+        "formation": 74,
+        "pit-lap": 141,
+        "red-flag/frozen": 2,
+        "safety-car/neutralised": 122,
+        "valid": 4168
+      },
+      "10": {
+        "formation": 74,
+        "outlier": 16,
+        "pit-lap": 136,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 118,
+        "valid": 3980
+      },
+      "11": {
+        "formation": 50,
+        "pit-lap": 116,
+        "safety-car/neutralised": 79,
+        "valid": 2688
+      },
+      "12": {
+        "formation": 33,
+        "outlier": 7,
+        "pit-lap": 72,
+        "safety-car/neutralised": 61,
+        "valid": 1893
+      },
+      "14": {
+        "formation": 75,
+        "outlier": 16,
+        "pit-lap": 148,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 111,
+        "valid": 3978
+      },
+      "16": {
+        "formation": 75,
+        "outlier": 17,
+        "pit-lap": 135,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 115,
+        "valid": 4087
+      },
+      "18": {
+        "formation": 72,
+        "pit-lap": 143,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 97,
+        "valid": 3762
+      },
+      "2": {
+        "formation": 30,
+        "pit-lap": 65,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 40,
+        "valid": 1700
+      },
+      "20": {
+        "formation": 37,
+        "pit-lap": 74,
+        "safety-car/neutralised": 54,
+        "valid": 2139
+      },
+      "21": {
+        "formation": 9,
+        "invalid": 1,
+        "pit-lap": 16,
+        "safety-car/neutralised": 11,
+        "valid": 493
+      },
+      "22": {
+        "formation": 63,
+        "outlier": 35,
+        "pit-lap": 123,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 80,
+        "valid": 3422
+      },
+      "23": {
+        "formation": 72,
+        "outlier": 16,
+        "pit-lap": 147,
+        "safety-car/neutralised": 100,
+        "valid": 3737
+      },
+      "24": {
+        "formation": 38,
+        "outlier": 8,
+        "pit-lap": 85,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 59,
+        "valid": 2210
+      },
+      "27": {
+        "formation": 71,
+        "pit-lap": 149,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 102,
+        "valid": 3947
+      },
+      "3": {
+        "formation": 33,
+        "outlier": 16,
+        "pit-lap": 57,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 57,
+        "valid": 1875
+      },
+      "30": {
+        "formation": 39,
+        "pit-lap": 75,
+        "safety-car/neutralised": 62,
+        "valid": 2113
+      },
+      "31": {
+        "formation": 71,
+        "pit-lap": 139,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 104,
+        "valid": 3939
+      },
+      "38": {
+        "formation": 1,
+        "pit-lap": 1,
+        "safety-car/neutralised": 1,
+        "valid": 47
+      },
+      "4": {
+        "formation": 64,
+        "outlier": 17,
+        "pit-lap": 122,
+        "safety-car/neutralised": 78,
+        "valid": 3561
+      },
+      "40": {
+        "formation": 5,
+        "pit-lap": 11,
+        "safety-car/neutralised": 11,
+        "valid": 243
+      },
+      "41": {
+        "formation": 12,
+        "pit-lap": 21,
+        "safety-car/neutralised": 30,
+        "valid": 710
+      },
+      "43": {
+        "formation": 35,
+        "pit-lap": 73,
+        "safety-car/neutralised": 65,
+        "valid": 2081
+      },
+      "44": {
+        "formation": 75,
+        "pit-lap": 148,
+        "red-flag/frozen": 4,
+        "safety-car/neutralised": 121,
+        "valid": 4134
+      },
+      "5": {
+        "formation": 32,
+        "pit-lap": 72,
+        "safety-car/neutralised": 49,
+        "valid": 1829
+      },
+      "50": {
+        "formation": 1,
+        "pit-lap": 1,
+        "safety-car/neutralised": 3,
+        "valid": 46
+      },
+      "55": {
+        "formation": 73,
+        "outlier": 18,
+        "pit-lap": 146,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 107,
+        "valid": 4042
+      },
+      "6": {
+        "formation": 32,
+        "pit-lap": 69,
+        "safety-car/neutralised": 44,
+        "valid": 1733
+      },
+      "61": {
+        "formation": 1,
+        "pit-lap": 1,
+        "safety-car/neutralised": 2,
+        "valid": 53
+      },
+      "63": {
+        "formation": 76,
+        "outlier": 23,
+        "pit-lap": 147,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 123,
+        "valid": 4229
+      },
+      "7": {
+        "formation": 4,
+        "pit-lap": 6,
+        "valid": 205
+      },
+      "77": {
+        "formation": 54,
+        "outlier": 2,
+        "pit-lap": 104,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 78,
+        "valid": 2715
+      },
+      "81": {
+        "formation": 74,
+        "outlier": 18,
+        "pit-lap": 146,
+        "red-flag/frozen": 1,
+        "safety-car/neutralised": 118,
+        "valid": 4098
+      },
+      "87": {
+        "formation": 35,
+        "pit-lap": 61,
+        "safety-car/neutralised": 49,
+        "valid": 1839
+      }
+    },
+    "by_race": {
+      "": {
+        "formation": 19,
+        "pit-lap": 39,
+        "safety-car/neutralised": 16,
+        "valid": 863
+      },
+      "2023-albert-park": {
+        "formation": 14,
+        "invalid": 1,
+        "pit-lap": 49,
+        "red-flag/frozen": 5,
+        "safety-car/neutralised": 30,
+        "valid": 834
+      },
+      "2023-americas": {
+        "formation": 16,
+        "pit-lap": 36,
+        "valid": 958
+      },
+      "2023-bahrain": {
+        "formation": 20,
+        "pit-lap": 50,
+        "safety-car/neutralised": 32,
+        "valid": 953
+      },
+      "2023-baku": {
+        "formation": 18,
+        "pit-lap": 23,
+        "safety-car/neutralised": 54,
+        "valid": 864
+      },
+      "2023-catalunya": {
+        "formation": 18,
+        "pit-lap": 43,
+        "valid": 1249
+      },
+      "2023-hungaroring": {
+        "formation": 20,
+        "pit-lap": 36,
+        "valid": 1196
+      },
+      "2023-interlagos": {
+        "formation": 17,
+        "pit-lap": 50,
+        "valid": 1022
+      },
+      "2023-jeddah": {
+        "formation": 20,
+        "pit-lap": 24,
+        "safety-car/neutralised": 32,
+        "valid": 866
+      },
+      "2023-losail": {
+        "formation": 17,
+        "pit-lap": 54,
+        "safety-car/neutralised": 33,
+        "valid": 900
+      },
+      "2023-marina-bay": {
+        "formation": 17,
+        "pit-lap": 25,
+        "safety-car/neutralised": 117,
+        "valid": 924
+      },
+      "2023-miami": {
+        "formation": 20,
+        "pit-lap": 20,
+        "valid": 1098
+      },
+      "2023-monaco": {
+        "formation": 17,
+        "pit-lap": 13,
+        "safety-car/neutralised": 21,
+        "valid": 986
+      },
+      "2023-monza": {
+        "formation": 19,
+        "pit-lap": 25,
+        "valid": 904
+      },
+      "2023-red-bull-ring": {
+        "formation": 18,
+        "pit-lap": 63,
+        "safety-car/neutralised": 37,
+        "valid": 1233
+      },
+      "2023-rodriguez": {
+        "formation": 19,
+        "pit-lap": 20,
+        "red-flag/frozen": 15,
+        "safety-car/neutralised": 70,
+        "valid": 1137
+      },
+      "2023-silverstone": {
+        "formation": 20,
+        "pit-lap": 24,
+        "safety-car/neutralised": 12,
+        "valid": 914
+      },
+      "2023-spa": {
+        "formation": 18,
+        "pit-lap": 37,
+        "safety-car/neutralised": 37,
+        "valid": 722
+      },
+      "2023-suzuka": {
+        "formation": 19,
+        "pit-lap": 42,
+        "safety-car/neutralised": 18,
+        "valid": 799
+      },
+      "2023-vegas": {
+        "formation": 20,
+        "pit-lap": 31,
+        "safety-car/neutralised": 108,
+        "valid": 784
+      },
+      "2023-villeneuve": {
+        "formation": 19,
+        "outlier": 7,
+        "pit-lap": 34,
+        "safety-car/neutralised": 76,
+        "valid": 1147
+      },
+      "2023-yas-marina": {
+        "formation": 20,
+        "pit-lap": 37,
+        "valid": 1100
+      },
+      "2023-zandvoort": {
+        "formation": 19,
+        "pit-lap": 37,
+        "safety-car/neutralised": 18,
+        "valid": 939
+      },
+      "2024-albert-park": {
+        "formation": 18,
+        "pit-lap": 36,
+        "safety-car/neutralised": 21,
+        "valid": 883
+      },
+      "2024-americas": {
+        "formation": 19,
+        "pit-lap": 23,
+        "safety-car/neutralised": 56,
+        "valid": 959
+      },
+      "2024-bahrain": {
+        "formation": 20,
+        "pit-lap": 43,
+        "safety-car/neutralised": 18,
+        "valid": 1048
+      },
+      "2024-baku": {
+        "formation": 18,
+        "pit-lap": 22,
+        "safety-car/neutralised": 45,
+        "valid": 884
+      },
+      "2024-catalunya": {
+        "formation": 19,
+        "pit-lap": 42,
+        "valid": 1248
+      },
+      "2024-hungaroring": {
+        "formation": 19,
+        "pit-lap": 40,
+        "safety-car/neutralised": 19,
+        "valid": 1276
+      },
+      "2024-imola": {
+        "formation": 19,
+        "pit-lap": 27,
+        "valid": 1191
+      },
+      "2024-jeddah": {
+        "formation": 20,
+        "pit-lap": 19,
+        "safety-car/neutralised": 18,
+        "valid": 843
+      },
+      "2024-losail": {
+        "formation": 18,
+        "pit-lap": 60,
+        "safety-car/neutralised": 15,
+        "valid": 846
+      },
+      "2024-marina-bay": {
+        "formation": 20,
+        "pit-lap": 23,
+        "valid": 1134
+      },
+      "2024-miami": {
+        "formation": 20,
+        "pit-lap": 28,
+        "safety-car/neutralised": 17,
+        "valid": 1045
+      },
+      "2024-monaco": {
+        "outlier": 177,
+        "pit-lap": 23,
+        "valid": 1010
+      },
+      "2024-monza": {
+        "formation": 20,
+        "pit-lap": 30,
+        "valid": 958
+      },
+      "2024-red-bull-ring": {
+        "formation": 19,
+        "pit-lap": 45,
+        "safety-car/neutralised": 20,
+        "valid": 1320
+      },
+      "2024-rodriguez": {
+        "formation": 17,
+        "pit-lap": 21,
+        "safety-car/neutralised": 8,
+        "valid": 1166
+      },
+      "2024-shanghai": {
+        "formation": 19,
+        "pit-lap": 40,
+        "safety-car/neutralised": 36,
+        "valid": 934
+      },
+      "2024-silverstone": {
+        "formation": 18,
+        "pit-lap": 22,
+        "valid": 685
+      },
+      "2024-spa": {
+        "formation": 20,
+        "pit-lap": 34,
+        "safety-car/neutralised": 19,
+        "valid": 768
+      },
+      "2024-suzuka": {
+        "formation": 18,
+        "pit-lap": 37,
+        "safety-car/neutralised": 16,
+        "valid": 816
+      },
+      "2024-villeneuve": {
+        "pit-lap": 23,
+        "safety-car/neutralised": 75,
+        "valid": 320
+      },
+      "2024-yas-marina": {
+        "formation": 19,
+        "pit-lap": 28,
+        "safety-car/neutralised": 45,
+        "valid": 941
+      },
+      "2024-zandvoort": {
+        "formation": 19,
+        "pit-lap": 26,
+        "valid": 1380
+      },
+      "2025-abu-dhabi": {
+        "formation": 20,
+        "pit-lap": 27,
+        "valid": 1109
+      },
+      "2025-australia": {
+        "pit-lap": 18,
+        "safety-car/neutralised": 14,
+        "valid": 193
+      },
+      "2025-austria": {
+        "formation": 17,
+        "pit-lap": 32,
+        "safety-car/neutralised": 21,
+        "valid": 1054
+      },
+      "2025-azerbaijan": {
+        "formation": 19,
+        "pit-lap": 21,
+        "safety-car/neutralised": 18,
+        "valid": 909
+      },
+      "2025-bahrain": {
+        "formation": 20,
+        "pit-lap": 42,
+        "valid": 1066
+      },
+      "2025-belgium": {
+        "pit-lap": 46,
+        "valid": 813
+      },
+      "2025-canada": {
+        "formation": 20,
+        "pit-lap": 128,
+        "safety-car/neutralised": 36,
+        "valid": 1162
+      },
+      "2025-china": {
+        "formation": 20,
+        "pit-lap": 25,
+        "valid": 1020
+      },
+      "2025-emilia-romagna": {
+        "formation": 20,
+        "pit-lap": 37,
+        "safety-car/neutralised": 36,
+        "valid": 1112
+      },
+      "2025-great-britain": {
+        "formation": 5,
+        "pit-lap": 17,
+        "safety-car/neutralised": 34,
+        "valid": 160
+      },
+      "2025-hungary": {
+        "formation": 20,
+        "pit-lap": 29,
+        "valid": 1319
+      },
+      "2025-italy": {
+        "formation": 19,
+        "pit-lap": 19,
+        "safety-car/neutralised": 18,
+        "valid": 918
+      },
+      "2025-japan": {
+        "formation": 20,
+        "pit-lap": 21,
+        "valid": 1018
+      },
+      "2025-las-vegas": {
+        "formation": 19,
+        "pit-lap": 24,
+        "valid": 842
+      },
+      "2025-mexico": {
+        "formation": 20,
+        "pit-lap": 27,
+        "safety-car/neutralised": 54,
+        "valid": 1161
+      },
+      "2025-miami": {
+        "formation": 19,
+        "outlier": 1,
+        "pit-lap": 26,
+        "valid": 510
+      },
+      "2025-monaco": {
+        "formation": 20,
+        "outlier": 24,
+        "pit-lap": 75,
+        "safety-car/neutralised": 18,
+        "valid": 1286
+      },
+      "2025-netherlands": {
+        "formation": 20,
+        "pit-lap": 39,
+        "safety-car/neutralised": 49,
+        "valid": 1254
+      },
+      "2025-qatar": {
+        "formation": 20,
+        "pit-lap": 41,
+        "safety-car/neutralised": 19,
+        "valid": 986
+      },
+      "2025-sao-paulo": {
+        "formation": 19,
+        "pit-lap": 37,
+        "safety-car/neutralised": 18,
+        "valid": 1175
+      },
+      "2025-saudi-arabia": {
+        "formation": 19,
+        "pit-lap": 19,
+        "valid": 859
+      },
+      "2025-singapore": {
+        "formation": 20,
+        "pit-lap": 23,
+        "safety-car/neutralised": 19,
+        "valid": 1167
+      },
+      "2025-spain": {
+        "formation": 19,
+        "pit-lap": 54,
+        "safety-car/neutralised": 13,
+        "valid": 1116
+      },
+      "2025-united-states": {
+        "formation": 20,
+        "pit-lap": 21,
+        "safety-car/neutralised": 57,
+        "valid": 968
+      },
+      "2026-albert-park": {
+        "pit-lap": 32,
+        "safety-car/neutralised": 26,
+        "valid": 838
+      },
+      "2026-catalunya": {
+        "formation": 22,
+        "pit-lap": 48,
+        "safety-car/neutralised": 29,
+        "valid": 1134
+      },
+      "2026-hungaroring": {
+        "formation": 22,
+        "pit-lap": 45,
+        "safety-car/neutralised": 56,
+        "valid": 1289
+      },
+      "2026-madring": {
+        "formation": 22,
+        "pit-lap": 25,
+        "safety-car/neutralised": 50,
+        "valid": 1008
+      },
+      "2026-miami": {
+        "formation": 22,
+        "pit-lap": 22,
+        "safety-car/neutralised": 84,
+        "valid": 910
+      },
+      "2026-monaco": {
+        "formation": 21,
+        "pit-lap": 138,
+        "safety-car/neutralised": 38,
+        "valid": 1232
+      },
+      "2026-monza": {
+        "formation": 22,
+        "pit-lap": 9,
+        "safety-car/neutralised": 56,
+        "valid": 944
+      },
+      "2026-red-bull-ring": {
+        "formation": 22,
+        "pit-lap": 41,
+        "safety-car/neutralised": 37,
+        "valid": 1238
+      },
+      "2026-shanghai": {
+        "formation": 18,
+        "pit-lap": 19,
+        "safety-car/neutralised": 29,
+        "valid": 853
+      },
+      "2026-silverstone": {
+        "formation": 22,
+        "pit-lap": 51,
+        "safety-car/neutralised": 72,
+        "valid": 966
+      },
+      "2026-spa": {
+        "formation": 21,
+        "pit-lap": 28,
+        "safety-car/neutralised": 33,
+        "valid": 789
+      },
+      "2026-suzuka": {
+        "formation": 22,
+        "pit-lap": 29,
+        "safety-car/neutralised": 17,
+        "valid": 1038
+      },
+      "2026-villeneuve": {
+        "formation": 15,
+        "pit-lap": 67,
+        "safety-car/neutralised": 80,
+        "valid": 1037
+      },
+      "2026-zandvoort": {
+        "formation": 21,
+        "pit-lap": 44,
+        "safety-car/neutralised": 81,
+        "valid": 1196
+      }
+    },
+    "by_season": {
+      "2023": {
+        "formation": 405,
+        "invalid": 1,
+        "outlier": 7,
+        "pit-lap": 773,
+        "red-flag/frozen": 20,
+        "safety-car/neutralised": 695,
+        "valid": 21529
+      },
+      "2024": {
+        "formation": 398,
+        "outlier": 177,
+        "pit-lap": 731,
+        "safety-car/neutralised": 444,
+        "valid": 22518
+      },
+      "2025": {
+        "formation": 415,
+        "outlier": 25,
+        "pit-lap": 848,
+        "safety-car/neutralised": 424,
+        "valid": 23177
+      },
+      "2026": {
+        "formation": 272,
+        "pit-lap": 598,
+        "safety-car/neutralised": 688,
+        "valid": 14472
+      }
+    },
+    "counts": {
+      "formation": 1490,
+      "invalid": 1,
+      "outlier": 209,
+      "pit-lap": 2950,
+      "red-flag/frozen": 20,
+      "safety-car/neutralised": 2251,
+      "valid": 81696
+    },
+    "exclusion_reasons": {
+      "formation": 1490,
+      "invalid": 1,
+      "outlier": 209,
+      "pit-lap": 2950,
+      "red-flag/frozen": 20,
+      "safety-car/neutralised": 2251,
+      "valid": 81696
+    },
+    "total": 88617
+  },
+  "race_control": {
+    "flags": {
+      "GREEN": {
+        "mean": 90.85060835052997,
+        "n": 85288,
+        "tier": "CALIBRATED"
+      },
+      "RED_FLAG": {
+        "mean": 152.47363636363636,
+        "n": 66,
+        "tier": "LIMITED"
+      },
+      "YELLOW": {
+        "mean": 103.20556052712227,
+        "n": 3263,
+        "tier": "CALIBRATED"
+      }
+    },
+    "note": "SC/VSC historical effects remain PRIOR_ONLY unless passes gate 100 laps",
+    "status": "PRIOR_ONLY"
+  },
+  "residuals": {
+    "by_circuit": {
+      "albert_park": {
+        "n": 2786,
+        "var": 315.50098631012406
+      },
+      "americas": {
+        "n": 2067,
+        "var": 63.63972542991629
+      },
+      "austin": {
+        "n": 1066,
+        "var": 35.51536500562433
+      },
+      "bahrain": {
+        "n": 3312,
+        "var": 56.93164423154614
+      },
+      "baku": {
+        "n": 2895,
+        "var": 133.69788537060708
+      },
+      "catalunya": {
+        "n": 5054,
+        "var": 52.08980335040122
+      },
+      "hungaroring": {
+        "n": 5386,
+        "var": 16.609819231293578
+      },
+      "imola": {
+        "n": 2442,
+        "var": 113.64991542900604
+      },
+      "interlagos": {
+        "n": 2338,
+        "var": 107.56835019918717
+      },
+      "jeddah": {
+        "n": 2739,
+        "var": 191.34796625848074
+      },
+      "las-vegas": {
+        "n": 885,
+        "var": 51.027600850701106
+      },
+      "losail": {
+        "n": 1943,
+        "var": 309.5187014306368
+      },
+      "lusail": {
+        "n": 1066,
+        "var": 142.6836452413524
+      },
+      "madring": {
+        "n": 1105,
+        "var": 38.27435283718491
+      },
+      "marina-bay": {
+        "n": 1229,
+        "var": 12.690465444209565
+      },
+      "marina_bay": {
+        "n": 2260,
+        "var": 93.09427102125795
+      },
+      "melbourne": {
+        "n": 225,
+        "var": 489.6845372625315
+      },
+      "mexico-city": {
+        "n": 1262,
+        "var": 18.887026687597675
+      },
+      "miami": {
+        "n": 3841,
+        "var": 93.27722947282635
+      },
+      "monaco": {
+        "n": 4895,
+        "var": 89.67935143719527
+      },
+      "montreal": {
+        "n": 1346,
+        "var": 92.38388001111967
+      },
+      "monza": {
+        "n": 3961,
+        "var": 114.74660670554779
+      },
+      "red_bull_ring": {
+        "n": 4093,
+        "var": 40.5608651471952
+      },
+      "rodriguez": {
+        "n": 2473,
+        "var": 133.89076658337467
+      },
+      "shanghai": {
+        "n": 3013,
+        "var": 145.06185192427716
+      },
+      "silverstone": {
+        "n": 3022,
+        "var": 181.60230386861176
+      },
+      "spa": {
+        "n": 2526,
+        "var": 74.3293332323154
+      },
+      "spa-francorchamps": {
+        "n": 859,
+        "var": 254.67940767641412
+      },
+      "spielberg": {
+        "n": 1124,
+        "var": 57.463585959095866
+      },
+      "suzuka": {
+        "n": 3930,
+        "var": 178.51098500496167
+      },
+      "unknown": {
+        "n": 937,
+        "var": 15.253799210344955
+      },
+      "vegas": {
+        "n": 943,
+        "var": 391.93822621917724
+      },
+      "villeneuve": {
+        "n": 2893,
+        "var": 113.26600271633845
+      },
+      "yas-marina": {
+        "n": 1156,
+        "var": 11.7740808722615
+      },
+      "yas_marina": {
+        "n": 2190,
+        "var": 21.884007450139134
+      },
+      "zandvoort": {
+        "n": 5142,
+        "var": 150.06928736299486
+      }
+    },
+    "by_compound": {
+      "hard": 94.17669207258687,
+      "medium": 104.21493015667805,
+      "soft": 193.9113213668623
+    },
+    "by_driver": {
+      "1": 4507,
+      "10": 4309,
+      "11": 2933,
+      "12": 2059,
+      "14": 4313,
+      "16": 4413,
+      "18": 4075,
+      "2": 1836,
+      "20": 2304,
+      "21": 529,
+      "22": 3689,
+      "23": 4056,
+      "24": 2393,
+      "27": 4270,
+      "3": 2023,
+      "30": 2289,
+      "31": 4254,
+      "38": 50,
+      "4": 3825,
+      "40": 270,
+      "41": 771,
+      "43": 2254,
+      "44": 4482,
+      "5": 1982,
+      "50": 51,
+      "55": 4369,
+      "6": 1878,
+      "61": 57,
+      "63": 4575,
+      "7": 215,
+      "77": 2952,
+      "81": 4437,
+      "87": 1984
+    },
+    "by_flag": {
+      "GREEN": 96.9639314839622,
+      "RED_FLAG": 221.5657666702576,
+      "YELLOW": 291.37052204814086
+    },
+    "by_phase": {
+      "early": 172.3387609540312,
+      "late": 87.07087279682024,
+      "mid": 73.6809877725423
+    },
+    "by_season": {
+      "2023": 134.6221084821161,
+      "2024": 84.99727829893396,
+      "2025": 94.67500202982201,
+      "2026": 137.7640825582823
+    },
+    "by_wet": {
+      "dry": 111.0093267769764
+    },
+    "dominant": "UNEXPLAINED_RESIDUAL where no variable identifiable, circuit and driver explain ~50% but residual still 100+ variance due to fuel/tyre/traffic confounding",
+    "note": "Do not invent explanations for residuals; classify unexplained as UNEXPLAINED_RESIDUAL when no variable identifiable",
+    "total_residual_var": 111.0093267769764
+  },
+  "status": "CANDIDATE",
+  "tyre": {
+    "ci": [
+      -0.3183528342307153,
+      -0.2996163998215782
+    ],
+    "circuit_compound_interaction": "tested via hierarchical per circuit per compound, still negative for all - see phase26",
+    "compound_effects": {
+      "hard": 0.11005653401879556,
+      "medium": 0.03524855204592825,
+      "soft": -0.5483721949284899
+    },
+    "constrained_beta": 0.0,
+    "driver_compound_interaction": "sparse, not identifiable where n<30",
+    "hierarchical_shrinkage": true,
+    "monotonic_constrained_model": {
+      "beta": 0.0,
+      "tier": "NON_IDENTIFIABLE"
+    },
+    "n": 88404,
+    "non_linear_spline": "tested quadratic also negative -0.17, still inverted",
+    "physically_plausible": false,
+    "se": 0.004779702655392115,
+    "tests": {
+      "compound_switch_soft_to_hard": {
+        "expected": "hard slower",
+        "hard_effect": 0.11005653401879556,
+        "observed": "hard less negative",
+        "passed": true,
+        "soft_effect": -0.5483721949284899
+      },
+      "plus_10_laps": {
+        "delta": -3.0898461702614677,
+        "expected": "slower",
+        "observed": "faster",
+        "passed": false
+      },
+      "plus_5_laps": {
+        "delta": -1.5449230851307338,
+        "expected": "slower",
+        "observed": "faster",
+        "passed": false
+      },
+      "reset_tyre_age": {
+        "passed": false
+      }
+    },
+    "tier": "NON_IDENTIFIABLE",
+    "unconstrained_beta": -0.30898461702614677
+  },
+  "version": "phase27-laptime-decomposition-v1.0.0-candidate",
+  "walk_forward": [
+    {
+      "baseline_lap_MAE": 6.235050397861899,
+      "candidate_lap_MAE": 6.188303196505328,
+      "improvement": 0.04674720135657129,
+      "n_train": 23430,
+      "n_val": 24268,
+      "status": "ok",
+      "train": "<=2023",
+      "uncertainty": null,
+      "val": [
+        2024
+      ]
+    },
+    {
+      "baseline_lap_MAE": 8.410400485223727,
+      "candidate_lap_MAE": 8.045281522012218,
+      "improvement": 0.3651189632115095,
+      "n_train": 47698,
+      "n_val": 24889,
+      "status": "ok",
+      "train": "<=2024",
+      "uncertainty": null,
+      "val": [
+        2025
+      ]
+    },
+    {
+      "baseline_lap_MAE": 5.966375063675032,
+      "candidate_lap_MAE": 7.2216287466117,
+      "improvement": -1.2552536829366687,
+      "n_train": 72587,
+      "n_val": 16030,
+      "status": "ok",
+      "train": "<=2025",
+      "uncertainty": null,
+      "val": [
+        2026
+      ]
+    }
+  ],
+  "weather": {
+    "n_dry": 88616,
+    "n_wet": 0,
+    "reason": "insufficient observed wet laps, sensor vs ERA5 not mixed",
+    "tier": "PRIOR_ONLY"
+  }
+}

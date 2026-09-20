@@ -1,0 +1,12 @@
+{
+  "wet_performance_effect": {
+    "value": null,
+    "available": false,
+    "sample_size": 644,
+    "reason": "Need >30 wet races for stable estimate, only 2-3 wet in modern"
+  },
+  "temperature_effect": {
+    "value": null,
+    "available": false
+  }
+}

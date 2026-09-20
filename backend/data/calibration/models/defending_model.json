@@ -1,0 +1,6 @@
+{
+  "position_retention": null,
+  "available": false,
+  "reason": "Direct defense events unavailable, proxy via top5 retention would require more qualifying data",
+  "proxy": "top5_retention available where sample >=5"
+}

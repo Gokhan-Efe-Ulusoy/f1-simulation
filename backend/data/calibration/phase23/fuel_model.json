@@ -1,0 +1,23 @@
+{
+  "IDENTIFIABILITY": "NON_IDENTIFIABLE",
+  "STATUS": "NON_IDENTIFIABLE",
+  "evidence_tier": "NON_IDENTIFIABLE",
+  "models": {
+    "A_progression_only": {
+      "coef": -0.2579796305966327,
+      "note": "progression only"
+    },
+    "B_tyre_plus_progression": {
+      "coef": null,
+      "note": "cannot separate, fuel confounded"
+    },
+    "C_plus_circuit": {
+      "coef": null
+    },
+    "D_plus_driver_constructor": {
+      "coef": null
+    }
+  },
+  "notes": "Exact fuel load unavailable; progression proxy confounded with tyre_age; nested comparison shows progression effect 0.02s/lap but not separable from tyre; keep generic progression, do not rename as fuel",
+  "progression_slope": -0.2579796305966327
+}

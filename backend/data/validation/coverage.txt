@@ -1,0 +1,12 @@
+season | race_resul | qualifying | lap_timing |  telemetry |    sectors | tyre_stint |  pit_stops |    weather
+1950 |          x |          x |          x |          x |          x |          x |          x |          x
+1960 |          x |          x |          x |          x |          x |          x |          x |          x
+1970 |          x |          x |          x |          x |          x |          x |          x |          x
+1980 |          x |          x |          x |          x |          x |          x |          x |          x
+1990 |          x |          x |          x |          x |          x |          x |          x |          x
+2000 |          x |          x |          x |          x |          x |          x |          x |          x
+2010 |          x |          x |          x |          x |          x |          x |          x |          x
+2015 |          x |          x |          x |          x |          x |          x |          x |          x
+2020 |          x |          x |          x |          x |          x |          x |          x |          x
+2024 |          x |          x |          x |          x |          x |          x |          x |          x
+2026 |          x |          x |          x |          x |          x |          x |          x |          x

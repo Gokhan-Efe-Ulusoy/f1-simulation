@@ -1,0 +1,12 @@
+{
+  "total_seasons_requested": 77,
+  "seasons_acquired": 77,
+  "races": 1172,
+  "results": 34856,
+  "acquisition_status": "COMPLETE HISTORICAL BACKBONE",
+  "telemetry_status": "PARTIAL (2024 verified, 2025 pending)",
+  "execution_timestamp": "2026-09-09T17:28:44+00:00",
+  "wall_time": "master 130s + f1db 0.015s + finalize 6s",
+  "rate_limiting": "0.5 req/s with Retry-After + jitter, checkpoint resumable",
+  "provenance": "100% records with source_provider, retrieval_date, raw_hash, transformation_chain"
+}

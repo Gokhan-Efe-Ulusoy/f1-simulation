@@ -1,0 +1,24 @@
+{
+  "cache_hits": 1,
+  "failures": [
+    {
+      "error": "HTTP Error 429: Too Many Requests",
+      "season": 1977
+    },
+    {
+      "error": "HTTP Error 429: Too Many Requests",
+      "season": 1976
+    }
+  ],
+  "pitstops_acquired": 0,
+  "qualifying_acquired": 0,
+  "races_acquired": 0,
+  "results_acquired": 0,
+  "seasons_acquired": 0,
+  "seasons_requested": 3,
+  "seasons_skipped_cache": 1,
+  "skipped": [],
+  "standings_acquired": 0,
+  "total_race_records": 16,
+  "total_result_records": 74
+}

@@ -1,0 +1,15 @@
+{
+  "definition": "normalized_lap, lap_number, stint_lap, race_progress, remaining_laps, race_phase",
+  "evidence_tier": "PROXY_ONLY",
+  "is_fuel_load": false,
+  "status": "FUEL_PROGRESSION_PROXY",
+  "variables": [
+    "normalized_lap",
+    "lap_number",
+    "stint_lap",
+    "race_progress",
+    "remaining_laps",
+    "race_phase"
+  ],
+  "warning": "This is NOT fuel load, do not claim lap 1 = X kg or Y kg/lap without evidence"
+}

@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "dataset": "ergast-compatible",
+      "license": "CC-BY / API terms",
+      "retrieval_date": "2026-09-10T17:53:53+00:00",
+      "source": "jolpica",
+      "terms_url": "https://api.jolpi.ca",
+      "version": "api.jolpi.ca"
+    },
+    {
+      "dataset": "openf1.org",
+      "license": "OpenF1 terms",
+      "retrieval_date": "2026-09-10T17:53:53+00:00",
+      "source": "openf1",
+      "terms_url": "https://openf1.org",
+      "version": "v1"
+    },
+    {
+      "dataset": "fastf1",
+      "license": "FastF1 MIT",
+      "retrieval_date": "2026-09-10T17:53:53+00:00",
+      "source": "fastf1",
+      "terms_url": "https://github.com/theOehrly/Fast-F1",
+      "version": "optional"
+    }
+  ]
+}

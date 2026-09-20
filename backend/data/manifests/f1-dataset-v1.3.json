@@ -1,0 +1,105 @@
+{
+  "calibration_changed": false,
+  "conflict_counts": {
+    "duplicate_identical": 0,
+    "material_conflicts": 0
+  },
+  "coverage": {
+    "acquisition_completed": 303,
+    "acquisition_failed": 0,
+    "acquisition_quarantined": 9,
+    "canonicalization_version": "22.7.0",
+    "circuits": 99,
+    "conflict_counts": 0,
+    "constructors": 236,
+    "coverage_matrix": "see docs/phase22_7_coverage_matrix.md",
+    "drivers": 1457,
+    "duplicate_identical": 0,
+    "era5_races": 558,
+    "laps_jolpica_partitions": 582,
+    "laps_jolpica_partitions_2002_plus": 483,
+    "laps_jolpica_races": 582,
+    "laps_jolpica_rows": 552656,
+    "laps_jolpica_rows_2002_plus": 453706,
+    "laps_jolpica_seasons": "1996-2026",
+    "new_families": [
+      "drivers_openf1",
+      "intervals_openf1",
+      "laps_jolpica",
+      "laps_openf1",
+      "overtakes_openf1",
+      "pitstops_jolpica",
+      "pitstops_openf1",
+      "positions_openf1",
+      "race_control_openf1",
+      "reanalysis_era5",
+      "results_openf1",
+      "stints_openf1",
+      "teamradio_openf1",
+      "weather_openf1"
+    ],
+    "new_rows": 1084830,
+    "openf1_race_sessions": 84,
+    "pending": 0,
+    "pitstops_jolpica_races": 333,
+    "qualifying": 26998,
+    "races": 1172,
+    "results": 26228
+  },
+  "creation_timestamp": "2026-09-20T11:54:22.499280+00:00",
+  "dataset_frozen": true,
+  "dataset_id": "f1-dataset-v1.3",
+  "frozen": true,
+  "hashes": {
+    "backbone": "UNCHANGED_FROM_V1.1",
+    "laps_jolpica": "ac13fa1f",
+    "races": "2cce529c",
+    "results": "112c8475"
+  },
+  "known_limitations": [
+    "2026 season future races 15-23 NOT_AVAILABLE (season in progress)",
+    "intervals_openf1 parquet partial (12/84); raw complete",
+    "pit durations are totals; lane/stationary split NON_IDENTIFIABLE",
+    "ERA5 rows are REANALYSIS, not sensors",
+    "telemetry bulk not acquired",
+    "setup/strategy/fuel NON_IDENTIFIABLE",
+    "OpenF1 overlap classified, not blindly merged; future calibration will select strongest evidence",
+    "lap-1 systematic offset documented between Jolpica and OpenF1 lap numbering"
+  ],
+  "parent_dataset": "f1-dataset-v1.2",
+  "provenance": {
+    "acquisition_manifest": "phase22_7_laps_acquisition_manifest.json",
+    "canonical_manifest": "phase22_7_canonical_manifest.json",
+    "canonicalization_version": "22.7.0",
+    "evidence_tier": "PARTIAL",
+    "parent_version": "f1-dataset-v1.2",
+    "retrieved_at": "2026-09-20T11:54:22.499280+00:00"
+  },
+  "quality_metrics": {
+    "driver_unmatched": 0,
+    "duplicate_pks": 0,
+    "leakage_violations": 0,
+    "orphan_drivers": 0,
+    "orphan_races": 0
+  },
+  "quality_score": 0.92,
+  "record_counts": {
+    "laps_jolpica": 552656,
+    "new_canonical_rows": 552656,
+    "pitstops_jolpica": 12747,
+    "races": 1172,
+    "results": 26228
+  },
+  "schema_version": "0.1.0",
+  "simulation_behavior_changed": false,
+  "source_provenance": [
+    "jolpica-laps",
+    "jolpica-pitstops",
+    "openf1",
+    "openmeteo-era5",
+    "f1db-local",
+    "fastf1-probe"
+  ],
+  "status": "PROMOTED_STAGED_EVIDENCE",
+  "version": "f1-dataset-v1.3"
+}

@@ -1,0 +1,7 @@
+{
+  "driver": 0.6,
+  "constructor": 0.3,
+  "circuit": 0.1,
+  "note": "Predictive importance, not causal; driver dominates qualifying, constructor dominates race pace in modern",
+  "method": "hierarchical weights"
+}

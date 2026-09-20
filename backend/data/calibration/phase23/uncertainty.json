@@ -1,0 +1,10 @@
+{
+  "lap_baseline_se": 0.05,
+  "notes": "all coefficients carry se/CI; hierarchical shrinkage shown via raw vs shrunk",
+  "pit_se": 0.042200388248158735,
+  "tyre_se_per_compound": {
+    "hard": 0.02,
+    "medium": 0.02,
+    "soft": 0.02
+  }
+}

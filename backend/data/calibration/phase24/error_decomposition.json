@@ -1,0 +1,387 @@
+{
+  "by_circuit": {
+    "albert_park": {
+      "base_MAE": 9.836213874071463,
+      "candidate_MAE": 1.787780476769932,
+      "improvement": 8.048433397301531,
+      "n": 367
+    },
+    "americas": {
+      "base_MAE": 11.66369944963023,
+      "candidate_MAE": 6.610697023409752,
+      "improvement": 5.053002426220477,
+      "n": 250
+    },
+    "austin": {
+      "base_MAE": 10.982796450971312,
+      "candidate_MAE": 4.170322658958408,
+      "improvement": 6.812473792012904,
+      "n": 4474
+    },
+    "bahrain": {
+      "base_MAE": 8.316938074450562,
+      "candidate_MAE": 7.505353780012215,
+      "improvement": 0.8115842944383465,
+      "n": 12993
+    },
+    "baku": {
+      "base_MAE": 17.996281567131003,
+      "candidate_MAE": 6.531414434069991,
+      "improvement": 11.464867133061013,
+      "n": 3217
+    },
+    "buddh": {
+      "base_MAE": 2.3912138906232805,
+      "candidate_MAE": 1.6405831413836094,
+      "improvement": 0.7506307492396711,
+      "n": 1769
+    },
+    "buenos-aires": {
+      "base_MAE": 5.050932641336932,
+      "candidate_MAE": 5.5961443628967835,
+      "improvement": -0.5452117215598511,
+      "n": 3395
+    },
+    "catalunya": {
+      "base_MAE": 9.634167275979792,
+      "candidate_MAE": 5.493826428611628,
+      "improvement": 4.140340847368163,
+      "n": 22479
+    },
+    "estoril": {
+      "base_MAE": 7.076240802616684,
+      "candidate_MAE": 2.8989412114052273,
+      "improvement": 4.177299591211456,
+      "n": 1264
+    },
+    "fuji": {
+      "base_MAE": 15.38170604035965,
+      "candidate_MAE": 16.50064064304671,
+      "improvement": -1.1189346026870624,
+      "n": 2318
+    },
+    "hockenheimring": {
+      "base_MAE": 15.00043513656664,
+      "candidate_MAE": 13.282587921375542,
+      "improvement": 1.7178472151910977,
+      "n": 14532
+    },
+    "hungaroring": {
+      "base_MAE": 10.090205383382925,
+      "candidate_MAE": 4.037664440553069,
+      "improvement": 6.0525409428298556,
+      "n": 26742
+    },
+    "imola": {
+      "base_MAE": 7.271536021305252,
+      "candidate_MAE": 4.384912838294223,
+      "improvement": 2.8866231830110287,
+      "n": 13303
+    },
+    "indianapolis": {
+      "base_MAE": 18.031470866770103,
+      "candidate_MAE": 5.464241562898054,
+      "improvement": 12.56722930387205,
+      "n": 8222
+    },
+    "interlagos": {
+      "base_MAE": 15.915087352620478,
+      "candidate_MAE": 7.20478059639078,
+      "improvement": 8.710306756229699,
+      "n": 24288
+    },
+    "istanbul": {
+      "base_MAE": 4.901338400642634,
+      "candidate_MAE": 4.4202430240637325,
+      "improvement": 0.4810953765789012,
+      "n": 8058
+    },
+    "jeddah": {
+      "base_MAE": 7.2206271301695635,
+      "candidate_MAE": 9.871613647114328,
+      "improvement": -2.650986516944765,
+      "n": 1540
+    },
+    "jerez": {
+      "base_MAE": 7.885921429029424,
+      "candidate_MAE": 1.6701864414909098,
+      "improvement": 6.215734987538514,
+      "n": 1323
+    },
+    "las-vegas": {
+      "base_MAE": 3.2093154496302283,
+      "candidate_MAE": 1.7873421524057782,
+      "improvement": 1.42197329722445,
+      "n": 80
+    },
+    "losail": {
+      "base_MAE": 13.896015532936186,
+      "candidate_MAE": 16.155921130574022,
+      "improvement": -2.259905597637836,
+      "n": 168
+    },
+    "lusail": {
+      "base_MAE": 5.816555617395747,
+      "candidate_MAE": 2.3377275551244483,
+      "improvement": 3.478828062271299,
+      "n": 701
+    },
+    "madring": {
+      "base_MAE": 6.702335154063727,
+      "candidate_MAE": 2.131671998057507,
+      "improvement": 4.570663156006219,
+      "n": 203
+    },
+    "magny-cours": {
+      "base_MAE": 13.96606697127235,
+      "candidate_MAE": 4.206435682062345,
+      "improvement": 9.759631289210004,
+      "n": 15744
+    },
+    "marina-bay": {
+      "base_MAE": 22.998503448690823,
+      "candidate_MAE": 8.806853149168047,
+      "improvement": 14.191650299522776,
+      "n": 8516
+    },
+    "marina_bay": {
+      "base_MAE": 5.656974763355719,
+      "candidate_MAE": 1.3117030018089608,
+      "improvement": 4.345271761546758,
+      "n": 408
+    },
+    "melbourne": {
+      "base_MAE": 6.835311385006999,
+      "candidate_MAE": 7.525619937368622,
+      "improvement": -0.690308552361623,
+      "n": 17911
+    },
+    "mexico-city": {
+      "base_MAE": 11.155992277125463,
+      "candidate_MAE": 2.4166011185097345,
+      "improvement": 8.739391158615728,
+      "n": 4919
+    },
+    "miami": {
+      "base_MAE": 4.340809336917003,
+      "candidate_MAE": 5.613249406511392,
+      "improvement": -1.2724400695943894,
+      "n": 1086
+    },
+    "monaco": {
+      "base_MAE": 13.5597209375806,
+      "candidate_MAE": 7.141639218376749,
+      "improvement": 6.418081719203851,
+      "n": 27733
+    },
+    "montreal": {
+      "base_MAE": 14.625397512930578,
+      "candidate_MAE": 6.803025788369128,
+      "improvement": 7.8223717245614495,
+      "n": 21982
+    },
+    "monza": {
+      "base_MAE": 7.646858933098559,
+      "candidate_MAE": 4.082777128180619,
+      "improvement": 3.56408180491794,
+      "n": 19651
+    },
+    "mugello": {
+      "base_MAE": 14.816061120749232,
+      "candidate_MAE": 12.391237273248208,
+      "improvement": 2.424823847501024,
+      "n": 498
+    },
+    "nurburgring": {
+      "base_MAE": 6.876576234369776,
+      "candidate_MAE": 6.924452933366097,
+      "improvement": -0.047876698996320854,
+      "n": 14848
+    },
+    "paul-ricard": {
+      "base_MAE": 6.2522051499250395,
+      "candidate_MAE": 3.2588065728675946,
+      "improvement": 2.993398577057445,
+      "n": 2402
+    },
+    "portimao": {
+      "base_MAE": 11.446259840875902,
+      "candidate_MAE": 2.7203162900476703,
+      "improvement": 8.725943550828232,
+      "n": 1288
+    },
+    "red_bull_ring": {
+      "base_MAE": 22.343342304380467,
+      "candidate_MAE": 1.639948142140582,
+      "improvement": 20.703394162239885,
+      "n": 561
+    },
+    "rodriguez": {
+      "base_MAE": 16.69861906027989,
+      "candidate_MAE": 16.735412914139584,
+      "improvement": -0.03679385385969525,
+      "n": 386
+    },
+    "sepang": {
+      "base_MAE": 9.88004770459736,
+      "candidate_MAE": 6.057885578611614,
+      "improvement": 3.822162125985745,
+      "n": 13539
+    },
+    "shanghai": {
+      "base_MAE": 12.945142254104704,
+      "candidate_MAE": 9.005947495430766,
+      "improvement": 3.9391947586739384,
+      "n": 11242
+    },
+    "silverstone": {
+      "base_MAE": 8.479132590608158,
+      "candidate_MAE": 8.564749247806484,
+      "improvement": -0.0856166571983259,
+      "n": 21918
+    },
+    "sochi": {
+      "base_MAE": 9.600487048675575,
+      "candidate_MAE": 4.116170541269455,
+      "improvement": 5.4843165074061195,
+      "n": 4190
+    },
+    "spa": {
+      "base_MAE": 21.59879977018772,
+      "candidate_MAE": 5.467628387463576,
+      "improvement": 16.131171382724144,
+      "n": 287
+    },
+    "spa-francorchamps": {
+      "base_MAE": 25.307163265203336,
+      "candidate_MAE": 9.154334581360867,
+      "improvement": 16.15282868384247,
+      "n": 12406
+    },
+    "spielberg": {
+      "base_MAE": 21.441768221575714,
+      "candidate_MAE": 3.802543504446301,
+      "improvement": 17.639224717129412,
+      "n": 16223
+    },
+    "suzuka": {
+      "base_MAE": 8.139770786616355,
+      "candidate_MAE": 6.2998644950763,
+      "improvement": 1.8399062915400544,
+      "n": 15734
+    },
+    "valencia": {
+      "base_MAE": 10.808461699336318,
+      "candidate_MAE": 4.724738342468588,
+      "improvement": 6.08372335686773,
+      "n": 4253
+    },
+    "vegas": {
+      "base_MAE": 23.44536306867785,
+      "candidate_MAE": 23.72724103927336,
+      "improvement": -0.28187797059550945,
+      "n": 147
+    },
+    "villeneuve": {
+      "base_MAE": 15.011931496728693,
+      "candidate_MAE": 10.773357620823262,
+      "improvement": 4.2385738759054306,
+      "n": 505
+    },
+    "yas-marina": {
+      "base_MAE": 12.105876694927332,
+      "candidate_MAE": 5.2753717626361185,
+      "improvement": 6.8305049322912135,
+      "n": 7899
+    },
+    "yas_marina": {
+      "base_MAE": 5.230228674348387,
+      "candidate_MAE": 3.2654844530372267,
+      "improvement": 1.9647442213111606,
+      "n": 283
+    },
+    "yeongam": {
+      "base_MAE": 25.939362723743837,
+      "candidate_MAE": 17.400677106825356,
+      "improvement": 8.538685616918482,
+      "n": 2623
+    },
+    "zandvoort": {
+      "base_MAE": 18.433862769860617,
+      "candidate_MAE": 6.152379927048537,
+      "improvement": 12.28148284281208,
+      "n": 1331
+    }
+  },
+  "by_era": {
+    "1950-1969": {
+      "base_MAE": 0
+    },
+    "1970-1982": {
+      "base_MAE": 0
+    },
+    "1983-1996": {
+      "base_MAE": 0.8098804081673308
+    },
+    "1997-2008": {
+      "base_MAE": 4.033112507082933
+    },
+    "2009-2013": {
+      "base_MAE": 4.252770107718632
+    },
+    "2014-2021": {
+      "base_MAE": 2.259943113156126
+    },
+    "2022-2026": {
+      "base_MAE": 2.0030309089064673
+    }
+  },
+  "by_race_control": "limited 2023+",
+  "by_tyre": "limited due to stint-only",
+  "by_weather": "PRIOR_ONLY limited modern",
+  "dominant_error_sources": [
+    {
+      "yeongam": {
+        "base_MAE": 25.939362723743837,
+        "candidate_MAE": 17.400677106825356,
+        "improvement": 8.538685616918482,
+        "n": 2623
+      }
+    },
+    {
+      "spa-francorchamps": {
+        "base_MAE": 25.307163265203336,
+        "candidate_MAE": 9.154334581360867,
+        "improvement": 16.15282868384247,
+        "n": 12406
+      }
+    },
+    {
+      "vegas": {
+        "base_MAE": 23.44536306867785,
+        "candidate_MAE": 23.72724103927336,
+        "improvement": -0.28187797059550945,
+        "n": 147
+      }
+    },
+    {
+      "marina-bay": {
+        "base_MAE": 22.998503448690823,
+        "candidate_MAE": 8.806853149168047,
+        "improvement": 14.191650299522776,
+        "n": 8516
+      }
+    },
+    {
+      "red_bull_ring": {
+        "base_MAE": 22.343342304380467,
+        "candidate_MAE": 1.639948142140582,
+        "improvement": 20.703394162239885,
+        "n": 561
+      }
+    }
+  ],
+  "notes": "Large cross-circuit error (~10-23s range) dominates Phase23 12.96s; circuit-aware reduces to ~1.8s within-circuit",
+  "overall_baseline_MAE": 12.050788353008098,
+  "overall_candidate_MAE": 6.473671576858206
+}

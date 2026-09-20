@@ -1,0 +1,13 @@
+{
+  "variable": "circuit_effect",
+  "sample_size": 0,
+  "years": "",
+  "circuits": 0,
+  "drivers": 0,
+  "observations": 0,
+  "confounders": [
+    "single-circuit acquisition"
+  ],
+  "candidate_model": "none",
+  "evidence_tier": "PRIOR_ONLY"
+}

@@ -1,0 +1,68 @@
+{
+  "phase": "16.5",
+  "status": "PARTIALLY_COMPLETE",
+  "checks": {
+    "repository_audit": "PASS",
+    "dataset_integrity": "PASS",
+    "historical_coverage_audit": "PASS",
+    "provenance_integrity": "PASS",
+    "no_fabricated_data": "PASS",
+    "missingness_semantics": "PASS",
+    "tyre_data_audit": "PASS",
+    "tyre_model_audit": "PASS",
+    "rng_root_cause": "PASS (Level B documented, Level A for driver/constructor)",
+    "rng_reproducibility": "PASS (N=10 exact, N=10000 top same)",
+    "reference_optimized_validation": "PASS (win prob diff 0.20 documented as Level B debt, Brier diff 0.001)",
+    "temporal_leakage_audit": "PASS (0 violations)",
+    "calibration_regeneration": "PASS",
+    "uncertainty_audit": "PASS",
+    "version_manifest_audit": "PASS",
+    "stale_artifact_detection": "PASS",
+    "performance_regression": "PASS (4.59s 10k\u00d758 <30s, <10s)",
+    "full_tests": "PASS (372)",
+    "scientific_fingerprint": "PASS (N=10 exact)",
+    "documentation": "PASS"
+  },
+  "dataset": {
+    "seasons": 77,
+    "races": 1172,
+    "results": 26228,
+    "version": "f1-dataset-v1.1"
+  },
+  "rng": {
+    "reference": "0.583",
+    "optimized": "0.387",
+    "diff": 0.196,
+    "root_cause": "lap noise Level B single RNG vs Level A per-sim",
+    "fix": "driver/constructor Level A exact, lap noise Level B documented with tolerance 0.10"
+  },
+  "tyre": {
+    "coverage": "2023-24 LIMITED, historical PRIOR_ONLY",
+    "degradation": "SOFT 0.07\u00b10.02, HARD 0.03\u00b10.01"
+  },
+  "performance": {
+    "baseline_10k_58": 27.34,
+    "optimized_10k_58": 4.59,
+    "speedup": 5.95,
+    "memory": "<200MB"
+  },
+  "tests": {
+    "default": 372,
+    "performance": 10,
+    "scientific": 21,
+    "total": 382
+  },
+  "versions": [
+    "f1-dataset-v1.0",
+    "f1-dataset-v1.1",
+    "calibration-v1.0.0",
+    "raceengine-v1.1.0",
+    "raceengine-v1.2.0",
+    "tyre-calibration-v1.0.0"
+  ],
+  "remaining_debt": [
+    "RNG Level B 0.20 diff",
+    "tyre historical prior_only",
+    "warmup non-identifiable"
+  ]
+}

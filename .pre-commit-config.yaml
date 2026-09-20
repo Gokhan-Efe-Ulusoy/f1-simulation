@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: backend-pre-commit
+        name: Backend pre-commit
+        entry: pre-commit run --config .pre-commit-config.yaml
+        language: system
+        working_directory: backend
+        pass_filenames: false
+        always_run: true
+
+      - id: frontend-pre-commit
+        name: Frontend pre-commit
+        entry: pre-commit run --config .pre-commit-config.yaml
+        language: system
+        working_directory: frontend
+        pass_filenames: false
+        always_run: true

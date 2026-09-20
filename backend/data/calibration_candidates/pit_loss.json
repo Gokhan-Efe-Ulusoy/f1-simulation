@@ -1,0 +1,15 @@
+{
+  "variable": "pit_loss",
+  "sample_size": 235,
+  "years": "2024",
+  "circuits": 5,
+  "drivers": 21,
+  "observations": 235,
+  "confounders": [
+    "stationary-vs-lane split absent in Jolpica",
+    "fuel load",
+    "traffic"
+  ],
+  "candidate_model": "empirical pit-loss distribution per circuit (NOT mean-only)",
+  "evidence_tier": "LIMITED"
+}

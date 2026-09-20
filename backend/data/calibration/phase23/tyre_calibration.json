@@ -1,0 +1,57 @@
+{
+  "hard": {
+    "coefficient": 0.02,
+    "evidence_tier": "LIMITED",
+    "n_circuits": 36,
+    "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+    "n_races": 82,
+    "n_stints": 1743,
+    "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+    "out_of_sample_error": null,
+    "se": 0.02,
+    "seasons": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "historical": {
+    "note": "pre-2010 no compound observations, do not extrapolate modern compounds backward",
+    "status": "NON_IDENTIFIABLE"
+  },
+  "medium": {
+    "coefficient": 0.04,
+    "evidence_tier": "LIMITED",
+    "n_circuits": 36,
+    "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+    "n_races": 82,
+    "n_stints": 1823,
+    "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+    "out_of_sample_error": null,
+    "se": 0.02,
+    "seasons": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "soft": {
+    "coefficient": 0.08,
+    "evidence_tier": "LIMITED",
+    "n_circuits": 34,
+    "n_laps": "unknown (stint-level only, lap-tyre join not available)",
+    "n_races": 74,
+    "n_stints": 913,
+    "notes": "historical periods without compound NON_IDENTIFIABLE; modern compounds LIMITED due to fuel confounding and limited seasons",
+    "out_of_sample_error": null,
+    "se": 0.02,
+    "seasons": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  }
+}

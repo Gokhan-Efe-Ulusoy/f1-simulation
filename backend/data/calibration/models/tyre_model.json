@@ -1,0 +1,53 @@
+{
+  "SOFT": {
+    "beta": -0.22290358649166972,
+    "raw_beta": -0.23100161576441955,
+    "intercept": 100.33047122270574,
+    "std_err": 0.038894954257700044,
+    "shrunk_std": 0.03833041118431259,
+    "ci95": [
+      -0.2980311924129224,
+      -0.14777598057041705
+    ],
+    "mse": 11.352119423164753,
+    "sample_size": 337,
+    "evidence_tier": "CALIBRATED",
+    "available": true,
+    "as_of": "2024-03-10",
+    "source": "fastf1",
+    "tyre_era": "TYRE_ERA_PIRELLI"
+  },
+  "HARD": {
+    "beta": -0.20185149039843397,
+    "raw_beta": -0.20503948394778126,
+    "intercept": 100.24364235678566,
+    "std_err": 0.02479948937145261,
+    "shrunk_std": 0.024644005146713287,
+    "ci95": [
+      -0.25015374048599204,
+      -0.15354924031087594
+    ],
+    "mse": 21.597496743704532,
+    "sample_size": 790,
+    "evidence_tier": "CALIBRATED",
+    "available": true,
+    "as_of": "2024-03-10",
+    "source": "fastf1",
+    "tyre_era": "TYRE_ERA_PIRELLI"
+  },
+  "GLOBAL": {
+    "beta": -0.20738438137868936,
+    "sample_size": 1127,
+    "evidence_tier": "LIMITED",
+    "available": true
+  },
+  "tyre_degradation_rate": {
+    "value": -0.20738438137868936,
+    "available": true,
+    "reason": "from GLOBAL"
+  },
+  "compound_effect": {
+    "value": null,
+    "available": false
+  }
+}

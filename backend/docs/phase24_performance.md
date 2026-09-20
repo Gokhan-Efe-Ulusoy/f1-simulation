@@ -1,0 +1,12 @@
+# Performance
+
+{
+  "baseline_N1000": "8.1s",
+  "baseline_N10000": "41s",
+  "candidate_N1000": "8.4s",
+  "candidate_N10000": "43s",
+  "memory": "circuit table 99*4 bytes D, no NDL tensors",
+  "notes": "compact circuit parameter tables, no regression >10%",
+  "overhead": "3.7% (circuit lookup)"
+}
+No NDL tensors, compact circuit tables D, overhead 3.7% 

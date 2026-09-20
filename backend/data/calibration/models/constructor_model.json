@@ -1,0 +1,5114 @@
+{
+  "maserati": {
+    "entity_id": "constructor:maserati",
+    "constructor_id": "maserati",
+    "race_pace_effect": {
+      "value": 11.084367245657567,
+      "sample_size": 393,
+      "shrinkage": 0.02481389578163772
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7383367139959433,
+      "sample_size": 393
+    },
+    "development_rate": {
+      "value": -1.0844815083393762,
+      "sample_size": 393
+    },
+    "sample_size": 393,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lago": {
+    "entity_id": "constructor:lago",
+    "constructor_id": "lago",
+    "race_pace_effect": {
+      "value": 10.923076923076923,
+      "sample_size": 81,
+      "shrinkage": 0.10989010989010989
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4696132596685083,
+      "sample_size": 81
+    },
+    "development_rate": {
+      "value": 1.0871951219512184,
+      "sample_size": 81
+    },
+    "sample_size": 81,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "alta": {
+    "entity_id": "constructor:alta",
+    "constructor_id": "alta",
+    "race_pace_effect": {
+      "value": 11.625,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10377358490566038,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": 1.6666666666666679,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "alfa": {
+    "entity_id": "constructor:alfa",
+    "constructor_id": "alfa",
+    "race_pace_effect": {
+      "value": 10.467391304347826,
+      "sample_size": 82,
+      "shrinkage": 0.10869565217391304
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3516483516483517,
+      "sample_size": 82
+    },
+    "development_rate": {
+      "value": 8.390243902439025,
+      "sample_size": 82
+    },
+    "sample_size": 82,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "era": {
+    "entity_id": "constructor:era",
+    "constructor_id": "era",
+    "race_pace_effect": {
+      "value": 12.521739130434783,
+      "sample_size": 13,
+      "shrinkage": 0.43478260869565216
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1592920353982301,
+      "sample_size": 13
+    },
+    "development_rate": {
+      "value": 1.3809523809523796,
+      "sample_size": 13
+    },
+    "sample_size": 13,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ferrari": {
+    "entity_id": "constructor:ferrari",
+    "constructor_id": "ferrari",
+    "race_pace_effect": {
+      "value": 6.112855740922473,
+      "sample_size": 2028,
+      "shrinkage": 0.004906771344455349
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8312101910828026,
+      "sample_size": 2412
+    },
+    "development_rate": {
+      "value": -2.780078895463511,
+      "sample_size": 2028
+    },
+    "sample_size": 2412,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "simca": {
+    "entity_id": "constructor:simca",
+    "constructor_id": "simca",
+    "race_pace_effect": {
+      "value": 13.078947368421053,
+      "sample_size": 28,
+      "shrinkage": 0.2631578947368421
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2578125,
+      "sample_size": 28
+    },
+    "development_rate": {
+      "value": -1.2857142857142847,
+      "sample_size": 28
+    },
+    "sample_size": 28,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper": {
+    "entity_id": "constructor:cooper",
+    "constructor_id": "cooper",
+    "race_pace_effect": {
+      "value": 11.878504672897197,
+      "sample_size": 97,
+      "shrinkage": 0.09345794392523364
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4720812182741117,
+      "sample_size": 97
+    },
+    "development_rate": {
+      "value": -0.9489795918367339,
+      "sample_size": 97
+    },
+    "sample_size": 97,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "rae": {
+    "entity_id": "constructor:rae",
+    "constructor_id": "rae",
+    "race_pace_effect": {
+      "value": 11.545454545454545,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "kurtis-kraft": {
+    "entity_id": "constructor:kurtis-kraft",
+    "constructor_id": "kurtis-kraft",
+    "race_pace_effect": {
+      "value": 14.244897959183673,
+      "sample_size": 186,
+      "shrinkage": 0.05102040816326531
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4125874125874126,
+      "sample_size": 186
+    },
+    "development_rate": {
+      "value": 4.29032258064516,
+      "sample_size": 186
+    },
+    "sample_size": 186,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "adams": {
+    "entity_id": "constructor:adams",
+    "constructor_id": "adams",
+    "race_pace_effect": {
+      "value": 13.25,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "stevens": {
+    "entity_id": "constructor:stevens",
+    "constructor_id": "stevens",
+    "race_pace_effect": {
+      "value": 11.470588235294118,
+      "sample_size": 7,
+      "shrinkage": 0.5882352941176471
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08411214953271028,
+      "sample_size": 7
+    },
+    "development_rate": {
+      "value": 2.666666666666666,
+      "sample_size": 7
+    },
+    "sample_size": 7,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ewing": {
+    "entity_id": "constructor:ewing",
+    "constructor_id": "ewing",
+    "race_pace_effect": {
+      "value": 11.916666666666666,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "marchese": {
+    "entity_id": "constructor:marchese",
+    "constructor_id": "marchese",
+    "race_pace_effect": {
+      "value": 11.333333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lesovsky": {
+    "entity_id": "constructor:lesovsky",
+    "constructor_id": "lesovsky",
+    "race_pace_effect": {
+      "value": 12.409090909090908,
+      "sample_size": 12,
+      "shrinkage": 0.45454545454545453
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10714285714285714,
+      "sample_size": 12
+    },
+    "development_rate": {
+      "value": 3.0,
+      "sample_size": 12
+    },
+    "sample_size": 12,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "langley": {
+    "entity_id": "constructor:langley",
+    "constructor_id": "langley",
+    "race_pace_effect": {
+      "value": 11.0,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "deidt": {
+    "entity_id": "constructor:deidt",
+    "constructor_id": "deidt",
+    "race_pace_effect": {
+      "value": 10.3125,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10377358490566038,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": 10.666666666666668,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "olson": {
+    "entity_id": "constructor:olson",
+    "constructor_id": "olson",
+    "race_pace_effect": {
+      "value": 11.636363636363637,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "nichels": {
+    "entity_id": "constructor:nichels",
+    "constructor_id": "nichels",
+    "race_pace_effect": {
+      "value": 10.363636363636363,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "wetteroth": {
+    "entity_id": "constructor:wetteroth",
+    "constructor_id": "wetteroth",
+    "race_pace_effect": {
+      "value": 11.727272727272727,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "snowberger": {
+    "entity_id": "constructor:snowberger",
+    "constructor_id": "snowberger",
+    "race_pace_effect": {
+      "value": 11.909090909090908,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "moore": {
+    "entity_id": "constructor:moore",
+    "constructor_id": "moore",
+    "race_pace_effect": {
+      "value": 9.923076923076923,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.05825242718446602,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "milano": {
+    "entity_id": "constructor:milano",
+    "constructor_id": "milano",
+    "race_pace_effect": {
+      "value": 12.0,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "hwm": {
+    "entity_id": "constructor:hwm",
+    "constructor_id": "hwm",
+    "race_pace_effect": {
+      "value": 14.25,
+      "sample_size": 42,
+      "shrinkage": 0.19230769230769232
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.33098591549295775,
+      "sample_size": 42
+    },
+    "development_rate": {
+      "value": 0.5714285714285712,
+      "sample_size": 42
+    },
+    "sample_size": 42,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "veritas": {
+    "entity_id": "constructor:veritas",
+    "constructor_id": "veritas",
+    "race_pace_effect": {
+      "value": 14.653846153846153,
+      "sample_size": 16,
+      "shrinkage": 0.38461538461538464
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1810344827586207,
+      "sample_size": 16
+    },
+    "development_rate": {
+      "value": -5.25,
+      "sample_size": 16
+    },
+    "sample_size": 16,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "schroeder": {
+    "entity_id": "constructor:schroeder",
+    "constructor_id": "schroeder",
+    "race_pace_effect": {
+      "value": 12.0,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07692307692307693,
+      "sample_size": 4
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 4,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "pawl": {
+    "entity_id": "constructor:pawl",
+    "constructor_id": "pawl",
+    "race_pace_effect": {
+      "value": 11.916666666666666,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "kuzma": {
+    "entity_id": "constructor:kuzma",
+    "constructor_id": "kuzma",
+    "race_pace_effect": {
+      "value": 12.590909090909092,
+      "sample_size": 34,
+      "shrinkage": 0.22727272727272727
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.21641791044776118,
+      "sample_size": 34
+    },
+    "development_rate": {
+      "value": 1.9411764705882355,
+      "sample_size": 34
+    },
+    "sample_size": 34,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "sherman": {
+    "entity_id": "constructor:sherman",
+    "constructor_id": "sherman",
+    "race_pace_effect": {
+      "value": 10.333333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.058823529411764705,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "hall": {
+    "entity_id": "constructor:hall",
+    "constructor_id": "hall",
+    "race_pace_effect": {
+      "value": 11.272727272727273,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "trevis": {
+    "entity_id": "constructor:trevis",
+    "constructor_id": "trevis",
+    "race_pace_effect": {
+      "value": 12.25,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08490566037735849,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": -8.333333333333332,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bromme": {
+    "entity_id": "constructor:bromme",
+    "constructor_id": "bromme",
+    "race_pace_effect": {
+      "value": 12.833333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brm": {
+    "entity_id": "constructor:brm",
+    "constructor_id": "brm",
+    "race_pace_effect": {
+      "value": 12.027322404371585,
+      "sample_size": 539,
+      "shrinkage": 0.018214936247723135
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7180277349768875,
+      "sample_size": 549
+    },
+    "development_rate": {
+      "value": 3.072160264353572,
+      "sample_size": 539
+    },
+    "sample_size": 549,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "osca": {
+    "entity_id": "constructor:osca",
+    "constructor_id": "osca",
+    "race_pace_effect": {
+      "value": 13.0625,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10377358490566038,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": 0.0,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "gordini": {
+    "entity_id": "constructor:gordini",
+    "constructor_id": "gordini",
+    "race_pace_effect": {
+      "value": 12.963636363636363,
+      "sample_size": 100,
+      "shrinkage": 0.09090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.52,
+      "sample_size": 100
+    },
+    "development_rate": {
+      "value": 0.4599999999999991,
+      "sample_size": 100
+    },
+    "sample_size": 100,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "afm": {
+    "entity_id": "constructor:afm",
+    "constructor_id": "afm",
+    "race_pace_effect": {
+      "value": 12.466666666666667,
+      "sample_size": 5,
+      "shrinkage": 0.6666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.09523809523809523,
+      "sample_size": 5
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 5
+    },
+    "sample_size": 5,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "frazer-nash": {
+    "entity_id": "constructor:frazer-nash",
+    "constructor_id": "frazer-nash",
+    "race_pace_effect": {
+      "value": 11.357142857142858,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08653846153846154,
+      "sample_size": 4
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 4,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "watson": {
+    "entity_id": "constructor:watson",
+    "constructor_id": "watson",
+    "race_pace_effect": {
+      "value": 12.11111111111111,
+      "sample_size": 17,
+      "shrinkage": 0.37037037037037035
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1111111111111111,
+      "sample_size": 17
+    },
+    "development_rate": {
+      "value": -3.9027777777777786,
+      "sample_size": 17
+    },
+    "sample_size": 17,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "butterworth": {
+    "entity_id": "constructor:butterworth",
+    "constructor_id": "butterworth",
+    "race_pace_effect": {
+      "value": 11.916666666666666,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "connaught": {
+    "entity_id": "constructor:connaught",
+    "constructor_id": "connaught",
+    "race_pace_effect": {
+      "value": 14.85,
+      "sample_size": 50,
+      "shrinkage": 0.16666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.36666666666666664,
+      "sample_size": 50
+    },
+    "development_rate": {
+      "value": 0.40000000000000036,
+      "sample_size": 50
+    },
+    "sample_size": 50,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bmw": {
+    "entity_id": "constructor:bmw",
+    "constructor_id": "bmw",
+    "race_pace_effect": {
+      "value": 12.5625,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10377358490566038,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": 0.6666666666666661,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "emw": {
+    "entity_id": "constructor:emw",
+    "constructor_id": "emw",
+    "race_pace_effect": {
+      "value": 11.363636363636363,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "phillips": {
+    "entity_id": "constructor:phillips",
+    "constructor_id": "phillips",
+    "race_pace_effect": {
+      "value": 10.235294117647058,
+      "sample_size": 7,
+      "shrinkage": 0.5882352941176471
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06542056074766354,
+      "sample_size": 7
+    },
+    "development_rate": {
+      "value": 2.666666666666666,
+      "sample_size": 7
+    },
+    "sample_size": 7,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "pankratz": {
+    "entity_id": "constructor:pankratz",
+    "constructor_id": "pankratz",
+    "race_pace_effect": {
+      "value": 11.090909090909092,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mercedes": {
+    "entity_id": "constructor:mercedes",
+    "constructor_id": "mercedes",
+    "race_pace_effect": {
+      "value": 4.835423197492163,
+      "sample_size": 628,
+      "shrinkage": 0.01567398119122257
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.772785622593068,
+      "sample_size": 679
+    },
+    "development_rate": {
+      "value": -0.4267515923566876,
+      "sample_size": 628
+    },
+    "sample_size": 679,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "vanwall": {
+    "entity_id": "constructor:vanwall",
+    "constructor_id": "vanwall",
+    "race_pace_effect": {
+      "value": 11.118421052631579,
+      "sample_size": 66,
+      "shrinkage": 0.13157894736842105
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3373493975903614,
+      "sample_size": 66
+    },
+    "development_rate": {
+      "value": -2.9090909090909083,
+      "sample_size": 66
+    },
+    "sample_size": 66,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "klenk": {
+    "entity_id": "constructor:klenk",
+    "constructor_id": "klenk",
+    "race_pace_effect": {
+      "value": 10.818181818181818,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lancia": {
+    "entity_id": "constructor:lancia",
+    "constructor_id": "lancia",
+    "race_pace_effect": {
+      "value": 10.9,
+      "sample_size": 10,
+      "shrinkage": 0.5
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.12727272727272726,
+      "sample_size": 10
+    },
+    "development_rate": {
+      "value": -8.6,
+      "sample_size": 10
+    },
+    "sample_size": 10,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "epperly": {
+    "entity_id": "constructor:epperly",
+    "constructor_id": "epperly",
+    "race_pace_effect": {
+      "value": 10.076923076923077,
+      "sample_size": 16,
+      "shrinkage": 0.38461538461538464
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08620689655172414,
+      "sample_size": 16
+    },
+    "development_rate": {
+      "value": 11.375,
+      "sample_size": 16
+    },
+    "sample_size": 16,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "arzani-volpini": {
+    "entity_id": "constructor:arzani-volpini",
+    "constructor_id": "arzani-volpini",
+    "race_pace_effect": {
+      "value": 11.636363636363637,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bugatti": {
+    "entity_id": "constructor:bugatti",
+    "constructor_id": "bugatti",
+    "race_pace_effect": {
+      "value": 11.090909090909092,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "emeryson": {
+    "entity_id": "constructor:emeryson",
+    "constructor_id": "emeryson",
+    "race_pace_effect": {
+      "value": 14.588235294117647,
+      "sample_size": 7,
+      "shrinkage": 0.5882352941176471
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.11214953271028037,
+      "sample_size": 7
+    },
+    "development_rate": {
+      "value": -4.5,
+      "sample_size": 7
+    },
+    "sample_size": 7,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "dunn": {
+    "entity_id": "constructor:dunn",
+    "constructor_id": "dunn",
+    "race_pace_effect": {
+      "value": 12.538461538461538,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06796116504854369,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "porsche": {
+    "entity_id": "constructor:porsche",
+    "constructor_id": "porsche",
+    "race_pace_effect": {
+      "value": 11.877777777777778,
+      "sample_size": 80,
+      "shrinkage": 0.1111111111111111
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.39444444444444443,
+      "sample_size": 80
+    },
+    "development_rate": {
+      "value": 2.299999999999999,
+      "sample_size": 80
+    },
+    "sample_size": 80,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "team-lotus": {
+    "entity_id": "constructor:team-lotus",
+    "constructor_id": "team-lotus",
+    "race_pace_effect": {
+      "value": 11.94392523364486,
+      "sample_size": 311,
+      "shrinkage": 0.03115264797507788
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5888077858880778,
+      "sample_size": 311
+    },
+    "development_rate": {
+      "value": 1.4727460711331677,
+      "sample_size": 311
+    },
+    "sample_size": 311,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-climax": {
+    "entity_id": "constructor:cooper-climax",
+    "constructor_id": "cooper-climax",
+    "race_pace_effect": {
+      "value": 10.342412451361868,
+      "sample_size": 247,
+      "shrinkage": 0.038910505836575876
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5677233429394812,
+      "sample_size": 247
+    },
+    "development_rate": {
+      "value": 0.7503278258589035,
+      "sample_size": 247
+    },
+    "sample_size": 247,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-maserati": {
+    "entity_id": "constructor:cooper-maserati",
+    "constructor_id": "cooper-maserati",
+    "race_pace_effect": {
+      "value": 11.194244604316546,
+      "sample_size": 129,
+      "shrinkage": 0.07194244604316546
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5458515283842795,
+      "sample_size": 129
+    },
+    "development_rate": {
+      "value": -2.3605769230769234,
+      "sample_size": 129
+    },
+    "sample_size": 129,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "sutton": {
+    "entity_id": "constructor:sutton",
+    "constructor_id": "sutton",
+    "race_pace_effect": {
+      "value": 12.272727272727273,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "elder": {
+    "entity_id": "constructor:elder",
+    "constructor_id": "elder",
+    "race_pace_effect": {
+      "value": 11.636363636363637,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "vhristensen": {
+    "entity_id": "constructor:vhristensen",
+    "constructor_id": "vhristensen",
+    "race_pace_effect": {
+      "value": 12.5,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "aston-martin": {
+    "entity_id": "constructor:aston-martin",
+    "constructor_id": "aston-martin",
+    "race_pace_effect": {
+      "value": 12.242990654205608,
+      "sample_size": 204,
+      "shrinkage": 0.04672897196261682
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6199376947040498,
+      "sample_size": 221
+    },
+    "development_rate": {
+      "value": 2.2058823529411775,
+      "sample_size": 204
+    },
+    "sample_size": 221,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-borgward": {
+    "entity_id": "constructor:cooper-borgward",
+    "constructor_id": "cooper-borgward",
+    "race_pace_effect": {
+      "value": 11.076923076923077,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "jbw": {
+    "entity_id": "constructor:jbw",
+    "constructor_id": "jbw",
+    "race_pace_effect": {
+      "value": 12.428571428571429,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08653846153846154,
+      "sample_size": 4
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 4,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "tec-mec": {
+    "entity_id": "constructor:tec-mec",
+    "constructor_id": "tec-mec",
+    "race_pace_effect": {
+      "value": 10.727272727272727,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-osca": {
+    "entity_id": "constructor:cooper-osca",
+    "constructor_id": "cooper-osca",
+    "race_pace_effect": {
+      "value": 10.545454545454545,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "behra-porsche": {
+    "entity_id": "constructor:behra-porsche",
+    "constructor_id": "behra-porsche",
+    "race_pace_effect": {
+      "value": 10.583333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "meskowski": {
+    "entity_id": "constructor:meskowski",
+    "constructor_id": "meskowski",
+    "race_pace_effect": {
+      "value": 10.75,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.058823529411764705,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "scarab": {
+    "entity_id": "constructor:scarab",
+    "constructor_id": "scarab",
+    "race_pace_effect": {
+      "value": 13.470588235294118,
+      "sample_size": 7,
+      "shrinkage": 0.5882352941176471
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.11214953271028037,
+      "sample_size": 7
+    },
+    "development_rate": {
+      "value": 0.08333333333333215,
+      "sample_size": 7
+    },
+    "sample_size": 7,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-castellotti": {
+    "entity_id": "constructor:cooper-castellotti",
+    "constructor_id": "cooper-castellotti",
+    "race_pace_effect": {
+      "value": 10.933333333333334,
+      "sample_size": 5,
+      "shrinkage": 0.6666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.09523809523809523,
+      "sample_size": 5
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 5
+    },
+    "sample_size": 5,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-climax": {
+    "entity_id": "constructor:lotus-climax",
+    "constructor_id": "lotus-climax",
+    "race_pace_effect": {
+      "value": 12.031674208144796,
+      "sample_size": 211,
+      "shrinkage": 0.04524886877828054
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5755627009646302,
+      "sample_size": 211
+    },
+    "development_rate": {
+      "value": -5.062713387241688,
+      "sample_size": 211
+    },
+    "sample_size": 211,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "de-tomaso-osca": {
+    "entity_id": "constructor:de-tomaso-osca",
+    "constructor_id": "de-tomaso-osca",
+    "race_pace_effect": {
+      "value": 11.454545454545455,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ferguson": {
+    "entity_id": "constructor:ferguson",
+    "constructor_id": "ferguson",
+    "race_pace_effect": {
+      "value": 11.916666666666666,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "gilby": {
+    "entity_id": "constructor:gilby",
+    "constructor_id": "gilby",
+    "race_pace_effect": {
+      "value": 12.076923076923077,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mbm": {
+    "entity_id": "constructor:mbm",
+    "constructor_id": "mbm",
+    "race_pace_effect": {
+      "value": 12.272727272727273,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "de-tomaso-alfa-romeo": {
+    "entity_id": "constructor:de-tomaso-alfa-romeo",
+    "constructor_id": "de-tomaso-alfa-romeo",
+    "race_pace_effect": {
+      "value": 13.538461538461538,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-maserati": {
+    "entity_id": "constructor:lotus-maserati",
+    "constructor_id": "lotus-maserati",
+    "race_pace_effect": {
+      "value": 12.75,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lola": {
+    "entity_id": "constructor:lola",
+    "constructor_id": "lola",
+    "race_pace_effect": {
+      "value": 11.476510067114093,
+      "sample_size": 139,
+      "shrinkage": 0.06711409395973154
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7408376963350786,
+      "sample_size": 282
+    },
+    "development_rate": {
+      "value": -3.5476190476190474,
+      "sample_size": 139
+    },
+    "sample_size": 282,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-brm": {
+    "entity_id": "constructor:lotus-brm",
+    "constructor_id": "lotus-brm",
+    "race_pace_effect": {
+      "value": 13.16260162601626,
+      "sample_size": 113,
+      "shrinkage": 0.08130081300813008
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5492957746478874,
+      "sample_size": 113
+    },
+    "development_rate": {
+      "value": -2.1842105263157894,
+      "sample_size": 113
+    },
+    "sample_size": 113,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "enb": {
+    "entity_id": "constructor:enb",
+    "constructor_id": "enb",
+    "race_pace_effect": {
+      "value": 11.0,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham": {
+    "entity_id": "constructor:brabham",
+    "constructor_id": "brabham",
+    "race_pace_effect": {
+      "value": 10.095693779904305,
+      "sample_size": 408,
+      "shrinkage": 0.023923444976076555
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7945383615084526,
+      "sample_size": 669
+    },
+    "development_rate": {
+      "value": -3.965686274509803,
+      "sample_size": 408
+    },
+    "sample_size": 669,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-borgward": {
+    "entity_id": "constructor:lotus-borgward",
+    "constructor_id": "lotus-borgward",
+    "race_pace_effect": {
+      "value": 12.363636363636363,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-alfa-romeo": {
+    "entity_id": "constructor:cooper-alfa-romeo",
+    "constructor_id": "cooper-alfa-romeo",
+    "race_pace_effect": {
+      "value": 10.909090909090908,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lds": {
+    "entity_id": "constructor:lds",
+    "constructor_id": "lds",
+    "race_pace_effect": {
+      "value": 11.714285714285714,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08653846153846154,
+      "sample_size": 4
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 4,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ats": {
+    "entity_id": "constructor:ats",
+    "constructor_id": "ats",
+    "race_pace_effect": {
+      "value": 15.4,
+      "sample_size": 50,
+      "shrinkage": 0.16666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.35333333333333333,
+      "sample_size": 50
+    },
+    "development_rate": {
+      "value": -3.3999999999999986,
+      "sample_size": 50
+    },
+    "sample_size": 50,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "scirocco": {
+    "entity_id": "constructor:scirocco",
+    "constructor_id": "scirocco",
+    "race_pace_effect": {
+      "value": 15.96,
+      "sample_size": 15,
+      "shrinkage": 0.4
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.17391304347826086,
+      "sample_size": 15
+    },
+    "development_rate": {
+      "value": -0.48214285714285765,
+      "sample_size": 15
+    },
+    "sample_size": 15,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "tomaso": {
+    "entity_id": "constructor:tomaso",
+    "constructor_id": "tomaso",
+    "race_pace_effect": {
+      "value": 14.363636363636363,
+      "sample_size": 12,
+      "shrinkage": 0.45454545454545453
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.15178571428571427,
+      "sample_size": 12
+    },
+    "development_rate": {
+      "value": -3.833333333333334,
+      "sample_size": 12
+    },
+    "sample_size": 12,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brp": {
+    "entity_id": "constructor:brp",
+    "constructor_id": "brp",
+    "race_pace_effect": {
+      "value": 11.178571428571429,
+      "sample_size": 18,
+      "shrinkage": 0.35714285714285715
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.19491525423728814,
+      "sample_size": 18
+    },
+    "development_rate": {
+      "value": 0.8888888888888893,
+      "sample_size": 18
+    },
+    "sample_size": 18,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "stebro": {
+    "entity_id": "constructor:stebro",
+    "constructor_id": "stebro",
+    "race_pace_effect": {
+      "value": 11.333333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-ford": {
+    "entity_id": "constructor:lotus-ford",
+    "constructor_id": "lotus-ford",
+    "race_pace_effect": {
+      "value": 9.705882352941176,
+      "sample_size": 126,
+      "shrinkage": 0.07352941176470588
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4336283185840708,
+      "sample_size": 126
+    },
+    "development_rate": {
+      "value": 0.36507936507936556,
+      "sample_size": 126
+    },
+    "sample_size": 126,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham-climax": {
+    "entity_id": "constructor:brabham-climax",
+    "constructor_id": "brabham-climax",
+    "race_pace_effect": {
+      "value": 10.376237623762377,
+      "sample_size": 91,
+      "shrinkage": 0.09900990099009901
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.43455497382198954,
+      "sample_size": 91
+    },
+    "development_rate": {
+      "value": -0.11787439613526551,
+      "sample_size": 91
+    },
+    "sample_size": 91,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham-brm": {
+    "entity_id": "constructor:brabham-brm",
+    "constructor_id": "brabham-brm",
+    "race_pace_effect": {
+      "value": 11.270833333333334,
+      "sample_size": 38,
+      "shrinkage": 0.20833333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2971014492753623,
+      "sample_size": 38
+    },
+    "development_rate": {
+      "value": -0.6315789473684212,
+      "sample_size": 38
+    },
+    "sample_size": 38,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham-ford": {
+    "entity_id": "constructor:brabham-ford",
+    "constructor_id": "brabham-ford",
+    "race_pace_effect": {
+      "value": 9.636363636363637,
+      "sample_size": 45,
+      "shrinkage": 0.18181818181818182
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2620689655172414,
+      "sample_size": 45
+    },
+    "development_rate": {
+      "value": -0.553359683794465,
+      "sample_size": 45
+    },
+    "sample_size": 45,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "honda": {
+    "entity_id": "constructor:honda",
+    "constructor_id": "honda",
+    "race_pace_effect": {
+      "value": 10.152173913043478,
+      "sample_size": 128,
+      "shrinkage": 0.07246376811594203
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6071428571428571,
+      "sample_size": 152
+    },
+    "development_rate": {
+      "value": 1.3125,
+      "sample_size": 128
+    },
+    "sample_size": 152,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "derrington": {
+    "entity_id": "constructor:derrington",
+    "constructor_id": "derrington",
+    "race_pace_effect": {
+      "value": 11.0,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "re": {
+    "entity_id": "constructor:re",
+    "constructor_id": "re",
+    "race_pace_effect": {
+      "value": 12.181818181818182,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lds-alfa-romeo": {
+    "entity_id": "constructor:lds-alfa-romeo",
+    "constructor_id": "lds-alfa-romeo",
+    "race_pace_effect": {
+      "value": 10.727272727272727,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham-repco": {
+    "entity_id": "constructor:brabham-repco",
+    "constructor_id": "brabham-repco",
+    "race_pace_effect": {
+      "value": 8.847058823529412,
+      "sample_size": 75,
+      "shrinkage": 0.11764705882352941
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.32571428571428573,
+      "sample_size": 75
+    },
+    "development_rate": {
+      "value": 5.024182076813656,
+      "sample_size": 75
+    },
+    "sample_size": 75,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mclaren-ford": {
+    "entity_id": "constructor:mclaren-ford",
+    "constructor_id": "mclaren-ford",
+    "race_pace_effect": {
+      "value": 8.9375,
+      "sample_size": 86,
+      "shrinkage": 0.10416666666666667
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3870967741935484,
+      "sample_size": 86
+    },
+    "development_rate": {
+      "value": 2.0232558139534875,
+      "sample_size": 86
+    },
+    "sample_size": 86,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "eagle-climax": {
+    "entity_id": "constructor:eagle-climax",
+    "constructor_id": "eagle-climax",
+    "race_pace_effect": {
+      "value": 11.428571428571429,
+      "sample_size": 11,
+      "shrinkage": 0.47619047619047616
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.14414414414414414,
+      "sample_size": 11
+    },
+    "development_rate": {
+      "value": 3.0666666666666664,
+      "sample_size": 11
+    },
+    "sample_size": 11,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mclaren-seren": {
+    "entity_id": "constructor:mclaren-seren",
+    "constructor_id": "mclaren-seren",
+    "race_pace_effect": {
+      "value": 10.583333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-ferrari": {
+    "entity_id": "constructor:cooper-ferrari",
+    "constructor_id": "cooper-ferrari",
+    "race_pace_effect": {
+      "value": 10.583333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "shannon": {
+    "entity_id": "constructor:shannon",
+    "constructor_id": "shannon",
+    "race_pace_effect": {
+      "value": 11.363636363636363,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "eagle-weslake": {
+    "entity_id": "constructor:eagle-weslake",
+    "constructor_id": "eagle-weslake",
+    "race_pace_effect": {
+      "value": 12.580645161290322,
+      "sample_size": 21,
+      "shrinkage": 0.3225806451612903
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.19834710743801653,
+      "sample_size": 21
+    },
+    "development_rate": {
+      "value": 0.5181818181818176,
+      "sample_size": 21
+    },
+    "sample_size": 21,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lds-climax": {
+    "entity_id": "constructor:lds-climax",
+    "constructor_id": "lds-climax",
+    "race_pace_effect": {
+      "value": 10.363636363636363,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "matra": {
+    "entity_id": "constructor:matra",
+    "constructor_id": "matra",
+    "race_pace_effect": {
+      "value": 10.375,
+      "sample_size": 70,
+      "shrinkage": 0.125
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.36470588235294116,
+      "sample_size": 70
+    },
+    "development_rate": {
+      "value": -0.08571428571428541,
+      "sample_size": 70
+    },
+    "sample_size": 70,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mclaren-brm": {
+    "entity_id": "constructor:mclaren-brm",
+    "constructor_id": "mclaren-brm",
+    "race_pace_effect": {
+      "value": 11.478260869565217,
+      "sample_size": 13,
+      "shrinkage": 0.43478260869565216
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1592920353982301,
+      "sample_size": 13
+    },
+    "development_rate": {
+      "value": 1.3571428571428577,
+      "sample_size": 13
+    },
+    "sample_size": 13,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-ats": {
+    "entity_id": "constructor:cooper-ats",
+    "constructor_id": "cooper-ats",
+    "race_pace_effect": {
+      "value": 10.909090909090908,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "protos": {
+    "entity_id": "constructor:protos",
+    "constructor_id": "protos",
+    "race_pace_effect": {
+      "value": 11.666666666666666,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "matra-ford": {
+    "entity_id": "constructor:matra-ford",
+    "constructor_id": "matra-ford",
+    "race_pace_effect": {
+      "value": 6.62,
+      "sample_size": 40,
+      "shrinkage": 0.2
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.21428571428571427,
+      "sample_size": 40
+    },
+    "development_rate": {
+      "value": 0.2999999999999998,
+      "sample_size": 40
+    },
+    "sample_size": 40,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cooper-brm": {
+    "entity_id": "constructor:cooper-brm",
+    "constructor_id": "cooper-brm",
+    "race_pace_effect": {
+      "value": 11.096774193548388,
+      "sample_size": 21,
+      "shrinkage": 0.3225806451612903
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.21487603305785125,
+      "sample_size": 21
+    },
+    "development_rate": {
+      "value": 3.5909090909090917,
+      "sample_size": 21
+    },
+    "sample_size": 21,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "constructor:mclaren": {
+    "entity_id": "constructor:constructor:mclaren",
+    "constructor_id": "constructor:mclaren",
+    "race_pace_effect": {
+      "value": 9.464516129032258,
+      "sample_size": 300,
+      "shrinkage": 0.03225806451612903
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4125,
+      "sample_size": 300
+    },
+    "development_rate": {
+      "value": -0.6066666666666656,
+      "sample_size": 300
+    },
+    "sample_size": 300,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brm-ford": {
+    "entity_id": "constructor:brm-ford",
+    "constructor_id": "brm-ford",
+    "race_pace_effect": {
+      "value": 10.272727272727273,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "march": {
+    "entity_id": "constructor:march",
+    "constructor_id": "march",
+    "race_pace_effect": {
+      "value": 12.515151515151516,
+      "sample_size": 320,
+      "shrinkage": 0.030303030303030304
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8029315960912052,
+      "sample_size": 514
+    },
+    "development_rate": {
+      "value": -1.2937499999999993,
+      "sample_size": 320
+    },
+    "sample_size": 514,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mclaren-alfa-romeo": {
+    "entity_id": "constructor:mclaren-alfa-romeo",
+    "constructor_id": "mclaren-alfa-romeo",
+    "race_pace_effect": {
+      "value": 11.733333333333333,
+      "sample_size": 5,
+      "shrinkage": 0.6666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.09523809523809523,
+      "sample_size": 5
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 5
+    },
+    "sample_size": 5,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "surtees": {
+    "entity_id": "constructor:surtees",
+    "constructor_id": "surtees",
+    "race_pace_effect": {
+      "value": 14.02,
+      "sample_size": 190,
+      "shrinkage": 0.05
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6583850931677019,
+      "sample_size": 222
+    },
+    "development_rate": {
+      "value": -0.8526315789473689,
+      "sample_size": 190
+    },
+    "sample_size": 222,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bellasi": {
+    "entity_id": "constructor:bellasi",
+    "constructor_id": "bellasi",
+    "race_pace_effect": {
+      "value": 12.25,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "tyrrell": {
+    "entity_id": "constructor:tyrrell",
+    "constructor_id": "tyrrell",
+    "race_pace_effect": {
+      "value": 9.257575757575758,
+      "sample_size": 518,
+      "shrinkage": 0.01893939393939394
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8181818181818182,
+      "sample_size": 857
+    },
+    "development_rate": {
+      "value": -0.24324324324324387,
+      "sample_size": 518
+    },
+    "sample_size": 857,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "march-alfa-romeo": {
+    "entity_id": "constructor:march-alfa-romeo",
+    "constructor_id": "march-alfa-romeo",
+    "race_pace_effect": {
+      "value": 12.85,
+      "sample_size": 10,
+      "shrinkage": 0.5
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.13636363636363635,
+      "sample_size": 10
+    },
+    "development_rate": {
+      "value": -2.0,
+      "sample_size": 10
+    },
+    "sample_size": 10,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "march-ford": {
+    "entity_id": "constructor:march-ford",
+    "constructor_id": "march-ford",
+    "race_pace_effect": {
+      "value": 12.823529411764707,
+      "sample_size": 41,
+      "shrinkage": 0.19607843137254902
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2765957446808511,
+      "sample_size": 41
+    },
+    "development_rate": {
+      "value": -0.507142857142858,
+      "sample_size": 41
+    },
+    "sample_size": 41,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-pw": {
+    "entity_id": "constructor:lotus-pw",
+    "constructor_id": "lotus-pw",
+    "race_pace_effect": {
+      "value": 11.384615384615385,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "tecno": {
+    "entity_id": "constructor:tecno",
+    "constructor_id": "tecno",
+    "race_pace_effect": {
+      "value": 14.578947368421053,
+      "sample_size": 9,
+      "shrinkage": 0.5263157894736842
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.12844036697247707,
+      "sample_size": 9
+    },
+    "development_rate": {
+      "value": -3.3999999999999986,
+      "sample_size": 9
+    },
+    "sample_size": 9,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "politoys": {
+    "entity_id": "constructor:politoys",
+    "constructor_id": "politoys",
+    "race_pace_effect": {
+      "value": 11.727272727272727,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "connew": {
+    "entity_id": "constructor:connew",
+    "constructor_id": "connew",
+    "race_pace_effect": {
+      "value": 11.454545454545455,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "iso-marlboro": {
+    "entity_id": "constructor:iso-marlboro",
+    "constructor_id": "iso-marlboro",
+    "race_pace_effect": {
+      "value": 14.6,
+      "sample_size": 50,
+      "shrinkage": 0.16666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3466666666666667,
+      "sample_size": 50
+    },
+    "development_rate": {
+      "value": 2.6800000000000015,
+      "sample_size": 50
+    },
+    "sample_size": 50,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "shadow": {
+    "entity_id": "constructor:shadow",
+    "constructor_id": "shadow",
+    "race_pace_effect": {
+      "value": 12.938775510204081,
+      "sample_size": 137,
+      "shrinkage": 0.06802721088435375
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6060606060606061,
+      "sample_size": 164
+    },
+    "development_rate": {
+      "value": -4.177109974424553,
+      "sample_size": 137
+    },
+    "sample_size": 164,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ensign": {
+    "entity_id": "constructor:ensign",
+    "constructor_id": "ensign",
+    "race_pace_effect": {
+      "value": 12.58108108108108,
+      "sample_size": 64,
+      "shrinkage": 0.13513513513513514
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5428571428571428,
+      "sample_size": 110
+    },
+    "development_rate": {
+      "value": -1.625,
+      "sample_size": 64
+    },
+    "sample_size": 110,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "hesketh": {
+    "entity_id": "constructor:hesketh",
+    "constructor_id": "hesketh",
+    "race_pace_effect": {
+      "value": 12.333333333333334,
+      "sample_size": 59,
+      "shrinkage": 0.14492753623188406
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4368421052631579,
+      "sample_size": 90
+    },
+    "development_rate": {
+      "value": -1.6494252873563209,
+      "sample_size": 59
+    },
+    "sample_size": 90,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "amon": {
+    "entity_id": "constructor:amon",
+    "constructor_id": "amon",
+    "race_pace_effect": {
+      "value": 12.833333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "trojan": {
+    "entity_id": "constructor:trojan",
+    "constructor_id": "trojan",
+    "race_pace_effect": {
+      "value": 12.875,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.10377358490566038,
+      "sample_size": 6
+    },
+    "development_rate": {
+      "value": 1.0,
+      "sample_size": 6
+    },
+    "sample_size": 6,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "token": {
+    "entity_id": "constructor:token",
+    "constructor_id": "token",
+    "race_pace_effect": {
+      "value": 11.692307692307692,
+      "sample_size": 3,
+      "shrinkage": 0.7692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 3
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "penske": {
+    "entity_id": "constructor:penske",
+    "constructor_id": "penske",
+    "race_pace_effect": {
+      "value": 9.951219512195122,
+      "sample_size": 31,
+      "shrinkage": 0.24390243902439024
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3424657534246575,
+      "sample_size": 46
+    },
+    "development_rate": {
+      "value": -3.7958333333333325,
+      "sample_size": 31
+    },
+    "sample_size": 46,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "parnelli": {
+    "entity_id": "constructor:parnelli",
+    "constructor_id": "parnelli",
+    "race_pace_effect": {
+      "value": 12.68,
+      "sample_size": 15,
+      "shrinkage": 0.4
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.15517241379310345,
+      "sample_size": 16
+    },
+    "development_rate": {
+      "value": -2.1607142857142865,
+      "sample_size": 15
+    },
+    "sample_size": 16,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "shadow-ford": {
+    "entity_id": "constructor:shadow-ford",
+    "constructor_id": "shadow-ford",
+    "race_pace_effect": {
+      "value": 13.027777777777779,
+      "sample_size": 26,
+      "shrinkage": 0.2777777777777778
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.20634920634920634,
+      "sample_size": 26
+    },
+    "development_rate": {
+      "value": -2.3076923076923066,
+      "sample_size": 26
+    },
+    "sample_size": 26,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "williams": {
+    "entity_id": "constructor:williams",
+    "constructor_id": "williams",
+    "race_pace_effect": {
+      "value": 8.763117283950617,
+      "sample_size": 1286,
+      "shrinkage": 0.007716049382716049
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.9147504206393718,
+      "sample_size": 1683
+    },
+    "development_rate": {
+      "value": 6.634525660964229,
+      "sample_size": 1286
+    },
+    "sample_size": 1683,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "fittipaldi": {
+    "entity_id": "constructor:fittipaldi",
+    "constructor_id": "fittipaldi",
+    "race_pace_effect": {
+      "value": 12.305263157894737,
+      "sample_size": 85,
+      "shrinkage": 0.10526315789473684
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5787234042553191,
+      "sample_size": 135
+    },
+    "development_rate": {
+      "value": 0.5996677740863792,
+      "sample_size": 85
+    },
+    "sample_size": 135,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "hill": {
+    "entity_id": "constructor:hill",
+    "constructor_id": "hill",
+    "race_pace_effect": {
+      "value": 12.464285714285714,
+      "sample_size": 18,
+      "shrinkage": 0.35714285714285715
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1694915254237288,
+      "sample_size": 18
+    },
+    "development_rate": {
+      "value": 3.1111111111111107,
+      "sample_size": 18
+    },
+    "sample_size": 18,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "maki": {
+    "entity_id": "constructor:maki",
+    "constructor_id": "maki",
+    "race_pace_effect": {
+      "value": 11.818181818181818,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lyncar": {
+    "entity_id": "constructor:lyncar",
+    "constructor_id": "lyncar",
+    "race_pace_effect": {
+      "value": 11.090909090909092,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "shadow-matra": {
+    "entity_id": "constructor:shadow-matra",
+    "constructor_id": "shadow-matra",
+    "race_pace_effect": {
+      "value": 12.0,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.06862745098039216,
+      "sample_size": 2
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 2,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "wolf-williams": {
+    "entity_id": "constructor:wolf-williams",
+    "constructor_id": "wolf-williams",
+    "race_pace_effect": {
+      "value": 10.80952380952381,
+      "sample_size": 11,
+      "shrinkage": 0.47619047619047616
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2578125,
+      "sample_size": 28
+    },
+    "development_rate": {
+      "value": 0.9000000000000004,
+      "sample_size": 11
+    },
+    "sample_size": 28,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ligier": {
+    "entity_id": "constructor:ligier",
+    "constructor_id": "ligier",
+    "race_pace_effect": {
+      "value": 8.725373134328358,
+      "sample_size": 325,
+      "shrinkage": 0.029850746268656716
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8314285714285714,
+      "sample_size": 600
+    },
+    "development_rate": {
+      "value": 0.7712641066424286,
+      "sample_size": 325
+    },
+    "sample_size": 600,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mclaren": {
+    "entity_id": "constructor:mclaren",
+    "constructor_id": "mclaren",
+    "race_pace_effect": {
+      "value": 5.7521150592216586,
+      "sample_size": 1172,
+      "shrinkage": 0.008460236886632826
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.9442815249266863,
+      "sample_size": 1605
+    },
+    "development_rate": {
+      "value": 3.419795221843003,
+      "sample_size": 1172
+    },
+    "sample_size": 1605,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus": {
+    "entity_id": "constructor:lotus",
+    "constructor_id": "lotus",
+    "race_pace_effect": {
+      "value": 6.846153846153846,
+      "sample_size": 250,
+      "shrinkage": 0.038461538461538464
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8429752066115702,
+      "sample_size": 505
+    },
+    "development_rate": {
+      "value": 2.647999999999999,
+      "sample_size": 250
+    },
+    "sample_size": 505,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "boro": {
+    "entity_id": "constructor:boro",
+    "constructor_id": "boro",
+    "race_pace_effect": {
+      "value": 10.5,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.12037037037037036,
+      "sample_size": 8
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 8,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "kojima": {
+    "entity_id": "constructor:kojima",
+    "constructor_id": "kojima",
+    "race_pace_effect": {
+      "value": 10.583333333333334,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.07766990291262135,
+      "sample_size": 3
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 3,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "wolf": {
+    "entity_id": "constructor:wolf",
+    "constructor_id": "wolf",
+    "race_pace_effect": {
+      "value": 10.702702702702704,
+      "sample_size": 27,
+      "shrinkage": 0.2702702702702703
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2835820895522388,
+      "sample_size": 34
+    },
+    "development_rate": {
+      "value": 10.401098901098901,
+      "sample_size": 27
+    },
+    "sample_size": 34,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lec": {
+    "entity_id": "constructor:lec",
+    "constructor_id": "lec",
+    "race_pace_effect": {
+      "value": 11.0,
+      "sample_size": 2,
+      "shrinkage": 0.8333333333333334
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.09523809523809523,
+      "sample_size": 5
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 2
+    },
+    "sample_size": 5,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "mcguire": {
+    "entity_id": "constructor:mcguire",
+    "constructor_id": "mcguire",
+    "race_pace_effect": {
+      "value": null,
+      "sample_size": 0,
+      "shrinkage": 1.0
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 0
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "renault": {
+    "entity_id": "constructor:renault",
+    "constructor_id": "renault",
+    "race_pace_effect": {
+      "value": 8.44677137870855,
+      "sample_size": 563,
+      "shrinkage": 0.017452006980802792
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8811428571428571,
+      "sample_size": 775
+    },
+    "development_rate": {
+      "value": 2.851126927639384,
+      "sample_size": 563
+    },
+    "sample_size": 775,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "apollon": {
+    "entity_id": "constructor:apollon",
+    "constructor_id": "apollon",
+    "race_pace_effect": {
+      "value": null,
+      "sample_size": 0,
+      "shrinkage": 1.0
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 0
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "merzario": {
+    "entity_id": "constructor:merzario",
+    "constructor_id": "merzario",
+    "race_pace_effect": {
+      "value": 13.785714285714286,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.08653846153846154,
+      "sample_size": 4
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 4,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "arrows": {
+    "entity_id": "constructor:arrows",
+    "constructor_id": "arrows",
+    "race_pace_effect": {
+      "value": 9.737541528239202,
+      "sample_size": 291,
+      "shrinkage": 0.03322259136212625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.85,
+      "sample_size": 560
+    },
+    "development_rate": {
+      "value": -1.1939064714218226,
+      "sample_size": 291
+    },
+    "sample_size": 560,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "theodore": {
+    "entity_id": "constructor:theodore",
+    "constructor_id": "theodore",
+    "race_pace_effect": {
+      "value": 11.21875,
+      "sample_size": 22,
+      "shrinkage": 0.3125
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3987341772151899,
+      "sample_size": 58
+    },
+    "development_rate": {
+      "value": 0.545454545454545,
+      "sample_size": 22
+    },
+    "sample_size": 58,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brabham-alfa-romeo": {
+    "entity_id": "constructor:brabham-alfa-romeo",
+    "constructor_id": "brabham-alfa-romeo",
+    "race_pace_effect": {
+      "value": 14.527777777777779,
+      "sample_size": 26,
+      "shrinkage": 0.2777777777777778
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.23809523809523808,
+      "sample_size": 26
+    },
+    "development_rate": {
+      "value": -0.7692307692307683,
+      "sample_size": 26
+    },
+    "sample_size": 26,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "rebaque": {
+    "entity_id": "constructor:rebaque",
+    "constructor_id": "rebaque",
+    "race_pace_effect": {
+      "value": 11.0,
+      "sample_size": 1,
+      "shrinkage": 0.9090909090909091
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.0594059405940594,
+      "sample_size": 1
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 1
+    },
+    "sample_size": 1,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "osella": {
+    "entity_id": "constructor:osella",
+    "constructor_id": "osella",
+    "race_pace_effect": {
+      "value": 12.224137931034482,
+      "sample_size": 48,
+      "shrinkage": 0.1724137931034483
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7277936962750716,
+      "sample_size": 249
+    },
+    "development_rate": {
+      "value": -1.083333333333334,
+      "sample_size": 48
+    },
+    "sample_size": 249,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "alfa-romeo": {
+    "entity_id": "constructor:alfa-romeo",
+    "constructor_id": "alfa-romeo",
+    "race_pace_effect": {
+      "value": 11.372641509433961,
+      "sample_size": 202,
+      "shrinkage": 0.04716981132075472
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7738095238095238,
+      "sample_size": 320
+    },
+    "development_rate": {
+      "value": 2.3564356435643568,
+      "sample_size": 202
+    },
+    "sample_size": 320,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ats-wheels": {
+    "entity_id": "constructor:ats-wheels",
+    "constructor_id": "ats-wheels",
+    "race_pace_effect": {
+      "value": 10.125,
+      "sample_size": 22,
+      "shrinkage": 0.3125
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.47513812154696133,
+      "sample_size": 81
+    },
+    "development_rate": {
+      "value": 0.6363636363636367,
+      "sample_size": 22
+    },
+    "sample_size": 81,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "toleman": {
+    "entity_id": "constructor:toleman",
+    "constructor_id": "toleman",
+    "race_pace_effect": {
+      "value": 8.527777777777779,
+      "sample_size": 26,
+      "shrinkage": 0.2777777777777778
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5887445887445888,
+      "sample_size": 131
+    },
+    "development_rate": {
+      "value": -2.3076923076923084,
+      "sample_size": 26
+    },
+    "sample_size": 131,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ram": {
+    "entity_id": "constructor:ram",
+    "constructor_id": "ram",
+    "race_pace_effect": {
+      "value": 10.583333333333334,
+      "sample_size": 14,
+      "shrinkage": 0.4166666666666667
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4508670520231214,
+      "sample_size": 73
+    },
+    "development_rate": {
+      "value": -0.4285714285714288,
+      "sample_size": 14
+    },
+    "sample_size": 73,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "spirit": {
+    "entity_id": "constructor:spirit",
+    "constructor_id": "spirit",
+    "race_pace_effect": {
+      "value": 10.210526315789474,
+      "sample_size": 9,
+      "shrinkage": 0.5263157894736842
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.24,
+      "sample_size": 25
+    },
+    "development_rate": {
+      "value": -0.6500000000000004,
+      "sample_size": 9
+    },
+    "sample_size": 25,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "minardi": {
+    "entity_id": "constructor:minardi",
+    "constructor_id": "minardi",
+    "race_pace_effect": {
+      "value": 11.612179487179487,
+      "sample_size": 302,
+      "shrinkage": 0.03205128205128205
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8775773195876289,
+      "sample_size": 676
+    },
+    "development_rate": {
+      "value": 2.490066225165563,
+      "sample_size": 302
+    },
+    "sample_size": 676,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "zakspeed": {
+    "entity_id": "constructor:zakspeed",
+    "constructor_id": "zakspeed",
+    "race_pace_effect": {
+      "value": 10.176470588235293,
+      "sample_size": 24,
+      "shrinkage": 0.29411764705882354
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.597457627118644,
+      "sample_size": 136
+    },
+    "development_rate": {
+      "value": 0.5833333333333339,
+      "sample_size": 24
+    },
+    "sample_size": 136,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "benetton": {
+    "entity_id": "constructor:benetton",
+    "constructor_id": "benetton",
+    "race_pace_effect": {
+      "value": 6.0488505747126435,
+      "sample_size": 338,
+      "shrinkage": 0.028735632183908046
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8467741935483871,
+      "sample_size": 520
+    },
+    "development_rate": {
+      "value": 1.2899408284023668,
+      "sample_size": 338
+    },
+    "sample_size": 520,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "ags": {
+    "entity_id": "constructor:ags",
+    "constructor_id": "ags",
+    "race_pace_effect": {
+      "value": 10.3125,
+      "sample_size": 22,
+      "shrinkage": 0.3125
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5777777777777777,
+      "sample_size": 125
+    },
+    "development_rate": {
+      "value": -1.1818181818181817,
+      "sample_size": 22
+    },
+    "sample_size": 125,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "coloni": {
+    "entity_id": "constructor:coloni",
+    "constructor_id": "coloni",
+    "race_pace_effect": {
+      "value": 10.785714285714286,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.47513812154696133,
+      "sample_size": 81
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 81,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "dallara": {
+    "entity_id": "constructor:dallara",
+    "constructor_id": "dallara",
+    "race_pace_effect": {
+      "value": 9.708333333333334,
+      "sample_size": 62,
+      "shrinkage": 0.1388888888888889
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.610655737704918,
+      "sample_size": 144
+    },
+    "development_rate": {
+      "value": 0.0,
+      "sample_size": 62
+    },
+    "sample_size": 144,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "rial": {
+    "entity_id": "constructor:rial",
+    "constructor_id": "rial",
+    "race_pace_effect": {
+      "value": 9.842105263157896,
+      "sample_size": 9,
+      "shrinkage": 0.5263157894736842
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3581081081081081,
+      "sample_size": 48
+    },
+    "development_rate": {
+      "value": 0.1999999999999993,
+      "sample_size": 9
+    },
+    "sample_size": 48,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "eurobrun": {
+    "entity_id": "constructor:eurobrun",
+    "constructor_id": "eurobrun",
+    "race_pace_effect": {
+      "value": 11.61111111111111,
+      "sample_size": 8,
+      "shrinkage": 0.5555555555555556
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4602272727272727,
+      "sample_size": 76
+    },
+    "development_rate": {
+      "value": 0.5,
+      "sample_size": 8
+    },
+    "sample_size": 76,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "onyx": {
+    "entity_id": "constructor:onyx",
+    "constructor_id": "onyx",
+    "race_pace_effect": {
+      "value": 10.0,
+      "sample_size": 8,
+      "shrinkage": 0.5555555555555556
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.375,
+      "sample_size": 52
+    },
+    "development_rate": {
+      "value": -0.25,
+      "sample_size": 8
+    },
+    "sample_size": 52,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "life": {
+    "entity_id": "constructor:life",
+    "constructor_id": "life",
+    "race_pace_effect": {
+      "value": null,
+      "sample_size": 0,
+      "shrinkage": 1.0
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.16666666666666666,
+      "sample_size": 14
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 0
+    },
+    "sample_size": 14,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "leyton-house": {
+    "entity_id": "constructor:leyton-house",
+    "constructor_id": "leyton-house",
+    "race_pace_effect": {
+      "value": 10.03225806451613,
+      "sample_size": 21,
+      "shrinkage": 0.3225806451612903
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.42073170731707316,
+      "sample_size": 64
+    },
+    "development_rate": {
+      "value": 2.3090909090909086,
+      "sample_size": 21
+    },
+    "sample_size": 64,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "footwork": {
+    "entity_id": "constructor:footwork",
+    "constructor_id": "footwork",
+    "race_pace_effect": {
+      "value": 9.815217391304348,
+      "sample_size": 82,
+      "shrinkage": 0.10869565217391304
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6768707482993197,
+      "sample_size": 194
+    },
+    "development_rate": {
+      "value": -0.29268292682926855,
+      "sample_size": 82
+    },
+    "sample_size": 194,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "jordan": {
+    "entity_id": "constructor:jordan",
+    "constructor_id": "jordan",
+    "race_pace_effect": {
+      "value": 8.655052264808363,
+      "sample_size": 277,
+      "shrinkage": 0.03484320557491289
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8416666666666667,
+      "sample_size": 500
+    },
+    "development_rate": {
+      "value": 2.6167240120946715,
+      "sample_size": 277
+    },
+    "sample_size": 500,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "modena": {
+    "entity_id": "constructor:modena",
+    "constructor_id": "modena",
+    "race_pace_effect": {
+      "value": 10.928571428571429,
+      "sample_size": 4,
+      "shrinkage": 0.7142857142857143
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2803030303030303,
+      "sample_size": 32
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 4
+    },
+    "sample_size": 32,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "fondmetal": {
+    "entity_id": "constructor:fondmetal",
+    "constructor_id": "fondmetal",
+    "race_pace_effect": {
+      "value": 10.8,
+      "sample_size": 5,
+      "shrinkage": 0.6666666666666666
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.33098591549295775,
+      "sample_size": 42
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 5
+    },
+    "sample_size": 42,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "andrea-moda": {
+    "entity_id": "constructor:andrea-moda",
+    "constructor_id": "andrea-moda",
+    "race_pace_effect": {
+      "value": null,
+      "sample_size": 0,
+      "shrinkage": 1.0
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.19491525423728814,
+      "sample_size": 18
+    },
+    "development_rate": {
+      "value": null,
+      "sample_size": 0
+    },
+    "sample_size": 18,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "venturi": {
+    "entity_id": "constructor:venturi",
+    "constructor_id": "venturi",
+    "race_pace_effect": {
+      "value": 11.2,
+      "sample_size": 10,
+      "shrinkage": 0.5
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.2803030303030303,
+      "sample_size": 32
+    },
+    "development_rate": {
+      "value": 3.8000000000000007,
+      "sample_size": 10
+    },
+    "sample_size": 32,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "larrousse": {
+    "entity_id": "constructor:larrousse",
+    "constructor_id": "larrousse",
+    "race_pace_effect": {
+      "value": 9.906976744186046,
+      "sample_size": 33,
+      "shrinkage": 0.23255813953488372
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.42073170731707316,
+      "sample_size": 64
+    },
+    "development_rate": {
+      "value": 0.1985294117647065,
+      "sample_size": 33
+    },
+    "sample_size": 64,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "sauber": {
+    "entity_id": "constructor:sauber",
+    "constructor_id": "sauber",
+    "race_pace_effect": {
+      "value": 10.658783783783784,
+      "sample_size": 582,
+      "shrinkage": 0.016891891891891893
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8868729989327642,
+      "sample_size": 837
+    },
+    "development_rate": {
+      "value": 4.5326460481099655,
+      "sample_size": 582
+    },
+    "sample_size": 837,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "pacific": {
+    "entity_id": "constructor:pacific",
+    "constructor_id": "pacific",
+    "race_pace_effect": {
+      "value": 10.5625,
+      "sample_size": 6,
+      "shrinkage": 0.625
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.42771084337349397,
+      "sample_size": 66
+    },
+    "development_rate": {
+      "value": 2.0,
+      "sample_size": 6
+    },
+    "sample_size": 66,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "simtek": {
+    "entity_id": "constructor:simtek",
+    "constructor_id": "simtek",
+    "race_pace_effect": {
+      "value": 11.84,
+      "sample_size": 15,
+      "shrinkage": 0.4
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.32142857142857145,
+      "sample_size": 40
+    },
+    "development_rate": {
+      "value": 0.5714285714285712,
+      "sample_size": 15
+    },
+    "sample_size": 40,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "forti": {
+    "entity_id": "constructor:forti",
+    "constructor_id": "forti",
+    "race_pace_effect": {
+      "value": 11.76,
+      "sample_size": 15,
+      "shrinkage": 0.4
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.38311688311688313,
+      "sample_size": 54
+    },
+    "development_rate": {
+      "value": 0.053571428571428825,
+      "sample_size": 15
+    },
+    "sample_size": 54,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "stewart": {
+    "entity_id": "constructor:stewart",
+    "constructor_id": "stewart",
+    "race_pace_effect": {
+      "value": 8.8,
+      "sample_size": 40,
+      "shrinkage": 0.2
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5202020202020202,
+      "sample_size": 98
+    },
+    "development_rate": {
+      "value": -2.9499999999999993,
+      "sample_size": 40
+    },
+    "sample_size": 98,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "prost": {
+    "entity_id": "constructor:prost",
+    "constructor_id": "prost",
+    "race_pace_effect": {
+      "value": 9.68,
+      "sample_size": 90,
+      "shrinkage": 0.1
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6428571428571429,
+      "sample_size": 166
+    },
+    "development_rate": {
+      "value": 1.0,
+      "sample_size": 90
+    },
+    "sample_size": 166,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bar": {
+    "entity_id": "constructor:bar",
+    "constructor_id": "bar",
+    "race_pace_effect": {
+      "value": 7.953333333333333,
+      "sample_size": 140,
+      "shrinkage": 0.06666666666666667
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7172619047619048,
+      "sample_size": 236
+    },
+    "development_rate": {
+      "value": -1.2571428571428571,
+      "sample_size": 140
+    },
+    "sample_size": 236,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "jaguar": {
+    "entity_id": "constructor:jaguar",
+    "constructor_id": "jaguar",
+    "race_pace_effect": {
+      "value": 9.566037735849056,
+      "sample_size": 96,
+      "shrinkage": 0.09433962264150944
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6481481481481481,
+      "sample_size": 170
+    },
+    "development_rate": {
+      "value": 0.8125,
+      "sample_size": 96
+    },
+    "sample_size": 170,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "toyota": {
+    "entity_id": "constructor:toyota",
+    "constructor_id": "toyota",
+    "race_pace_effect": {
+      "value": 9.099056603773583,
+      "sample_size": 202,
+      "shrinkage": 0.04716981132075472
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.75,
+      "sample_size": 280
+    },
+    "development_rate": {
+      "value": -0.33663366336633693,
+      "sample_size": 202
+    },
+    "sample_size": 280,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "red-bull": {
+    "entity_id": "constructor:red-bull",
+    "constructor_id": "red-bull",
+    "race_pace_effect": {
+      "value": 5.568720379146919,
+      "sample_size": 623,
+      "shrinkage": 0.01579778830963665
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8874407582938388,
+      "sample_size": 744
+    },
+    "development_rate": {
+      "value": -0.6982026547942946,
+      "sample_size": 623
+    },
+    "sample_size": 744,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "midland": {
+    "entity_id": "constructor:midland",
+    "constructor_id": "midland",
+    "race_pace_effect": {
+      "value": 12.838709677419354,
+      "sample_size": 21,
+      "shrinkage": 0.3225806451612903
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3014705882352941,
+      "sample_size": 36
+    },
+    "development_rate": {
+      "value": 0.48181818181818237,
+      "sample_size": 21
+    },
+    "sample_size": 36,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "bmw-sauber": {
+    "entity_id": "constructor:bmw-sauber",
+    "constructor_id": "bmw-sauber",
+    "race_pace_effect": {
+      "value": 7.8307692307692305,
+      "sample_size": 120,
+      "shrinkage": 0.07692307692307693
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6041666666666666,
+      "sample_size": 140
+    },
+    "development_rate": {
+      "value": 0.4833333333333334,
+      "sample_size": 120
+    },
+    "sample_size": 140,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "toro-rosso": {
+    "entity_id": "constructor:toro-rosso",
+    "constructor_id": "toro-rosso",
+    "race_pace_effect": {
+      "value": 11.532687651331718,
+      "sample_size": 403,
+      "shrinkage": 0.024213075060532687
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.85062893081761,
+      "sample_size": 536
+    },
+    "development_rate": {
+      "value": -0.642973252549135,
+      "sample_size": 403
+    },
+    "sample_size": 536,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "super-aguri": {
+    "entity_id": "constructor:super-aguri",
+    "constructor_id": "super-aguri",
+    "race_pace_effect": {
+      "value": 13.810344827586206,
+      "sample_size": 48,
+      "shrinkage": 0.1724137931034483
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.46629213483146065,
+      "sample_size": 78
+    },
+    "development_rate": {
+      "value": -0.25,
+      "sample_size": 48
+    },
+    "sample_size": 78,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "spyker": {
+    "entity_id": "constructor:spyker",
+    "constructor_id": "spyker",
+    "race_pace_effect": {
+      "value": 14.1,
+      "sample_size": 20,
+      "shrinkage": 0.3333333333333333
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.291044776119403,
+      "sample_size": 34
+    },
+    "development_rate": {
+      "value": 1.1999999999999993,
+      "sample_size": 20
+    },
+    "sample_size": 34,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "force-india": {
+    "entity_id": "constructor:force-india",
+    "constructor_id": "force-india",
+    "race_pace_effect": {
+      "value": 10.005571030640668,
+      "sample_size": 349,
+      "shrinkage": 0.027855153203342618
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.8187022900763359,
+      "sample_size": 424
+    },
+    "development_rate": {
+      "value": -2.6876518883415432,
+      "sample_size": 349
+    },
+    "sample_size": 424,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "brawn": {
+    "entity_id": "constructor:brawn",
+    "constructor_id": "brawn",
+    "race_pace_effect": {
+      "value": 5.595238095238095,
+      "sample_size": 32,
+      "shrinkage": 0.23809523809523808
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.291044776119403,
+      "sample_size": 34
+    },
+    "development_rate": {
+      "value": 2.75,
+      "sample_size": 32
+    },
+    "sample_size": 34,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "hrt": {
+    "entity_id": "constructor:hrt",
+    "constructor_id": "hrt",
+    "race_pace_effect": {
+      "value": 18.06741573033708,
+      "sample_size": 79,
+      "shrinkage": 0.11235955056179775
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5560747663551402,
+      "sample_size": 114
+    },
+    "development_rate": {
+      "value": 1.2147435897435912,
+      "sample_size": 79
+    },
+    "sample_size": 114,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-racing": {
+    "entity_id": "constructor:lotus-racing",
+    "constructor_id": "lotus-racing",
+    "race_pace_effect": {
+      "value": 15.42857142857143,
+      "sample_size": 53,
+      "shrinkage": 0.15873015873015872
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4602272727272727,
+      "sample_size": 76
+    },
+    "development_rate": {
+      "value": 0.6282051282051277,
+      "sample_size": 53
+    },
+    "sample_size": 76,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "virgin": {
+    "entity_id": "constructor:virgin",
+    "constructor_id": "virgin",
+    "race_pace_effect": {
+      "value": 16.593220338983052,
+      "sample_size": 49,
+      "shrinkage": 0.1694915254237288
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4602272727272727,
+      "sample_size": 76
+    },
+    "development_rate": {
+      "value": 0.41499999999999915,
+      "sample_size": 49
+    },
+    "sample_size": 76,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "marussia": {
+    "entity_id": "constructor:marussia",
+    "constructor_id": "marussia",
+    "race_pace_effect": {
+      "value": 16.325925925925926,
+      "sample_size": 125,
+      "shrinkage": 0.07407407407407407
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6153846153846154,
+      "sample_size": 147
+    },
+    "development_rate": {
+      "value": -1.1807475678443424,
+      "sample_size": 125
+    },
+    "sample_size": 147,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "caterham": {
+    "entity_id": "constructor:caterham",
+    "constructor_id": "caterham",
+    "race_pace_effect": {
+      "value": 15.97938144329897,
+      "sample_size": 87,
+      "shrinkage": 0.10309278350515463
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5518867924528302,
+      "sample_size": 112
+    },
+    "development_rate": {
+      "value": 0.5147991543340389,
+      "sample_size": 87
+    },
+    "sample_size": 112,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "lotus-f1": {
+    "entity_id": "constructor:lotus-f1",
+    "constructor_id": "lotus-f1",
+    "race_pace_effect": {
+      "value": 8.64516129032258,
+      "sample_size": 114,
+      "shrinkage": 0.08064516129032258
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.6259842519685039,
+      "sample_size": 154
+    },
+    "development_rate": {
+      "value": 4.368421052631579,
+      "sample_size": 114
+    },
+    "sample_size": 154,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "haas": {
+    "entity_id": "constructor:haas",
+    "constructor_id": "haas",
+    "race_pace_effect": {
+      "value": 12.912676056338029,
+      "sample_size": 345,
+      "shrinkage": 0.028169014084507043
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.7450980392156863,
+      "sample_size": 410
+    },
+    "development_rate": {
+      "value": 0.2551754268046782,
+      "sample_size": 345
+    },
+    "sample_size": 410,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "manor": {
+    "entity_id": "constructor:manor",
+    "constructor_id": "manor",
+    "race_pace_effect": {
+      "value": 15.431818181818182,
+      "sample_size": 34,
+      "shrinkage": 0.22727272727272727
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.33098591549295775,
+      "sample_size": 42
+    },
+    "development_rate": {
+      "value": 0.235294117647058,
+      "sample_size": 34
+    },
+    "sample_size": 42,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "racing-point": {
+    "entity_id": "constructor:racing-point",
+    "constructor_id": "racing-point",
+    "race_pace_effect": {
+      "value": 9.4,
+      "sample_size": 65,
+      "shrinkage": 0.13333333333333333
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.4602272727272727,
+      "sample_size": 76
+    },
+    "development_rate": {
+      "value": -3.4848484848484844,
+      "sample_size": 65
+    },
+    "sample_size": 76,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "alphatauri": {
+    "entity_id": "constructor:alphatauri",
+    "constructor_id": "alphatauri",
+    "race_pace_effect": {
+      "value": 10.517857142857142,
+      "sample_size": 102,
+      "shrinkage": 0.08928571428571429
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5720720720720721,
+      "sample_size": 122
+    },
+    "development_rate": {
+      "value": 1.9411764705882355,
+      "sample_size": 102
+    },
+    "sample_size": 122,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "alpine": {
+    "entity_id": "constructor:alpine",
+    "constructor_id": "alpine",
+    "race_pace_effect": {
+      "value": 11.415841584158416,
+      "sample_size": 192,
+      "shrinkage": 0.04950495049504951
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.5967741935483871,
+      "sample_size": 210
+    },
+    "development_rate": {
+      "value": 3.447916666666666,
+      "sample_size": 192
+    },
+    "sample_size": 210,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "constructor:red-bull-racing": {
+    "entity_id": "constructor:constructor:red-bull-racing",
+    "constructor_id": "constructor:red-bull-racing",
+    "race_pace_effect": {
+      "value": 7.845238095238095,
+      "sample_size": 74,
+      "shrinkage": 0.11904761904761904
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.12643678160919541,
+      "sample_size": 74
+    },
+    "development_rate": {
+      "value": 3.243243243243244,
+      "sample_size": 74
+    },
+    "sample_size": 74,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "rb": {
+    "entity_id": "constructor:rb",
+    "constructor_id": "rb",
+    "race_pace_effect": {
+      "value": 12.011904761904763,
+      "sample_size": 74,
+      "shrinkage": 0.11904761904761904
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.28160919540229884,
+      "sample_size": 74
+    },
+    "development_rate": {
+      "value": -2.108108108108109,
+      "sample_size": 74
+    },
+    "sample_size": 74,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "kick-sauber": {
+    "entity_id": "constructor:kick-sauber",
+    "constructor_id": "kick-sauber",
+    "race_pace_effect": {
+      "value": 11.959183673469388,
+      "sample_size": 39,
+      "shrinkage": 0.20408163265306123
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3581081081081081,
+      "sample_size": 48
+    },
+    "development_rate": {
+      "value": -1.8131578947368432,
+      "sample_size": 39
+    },
+    "sample_size": 48,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "racing-bulls": {
+    "entity_id": "constructor:racing-bulls",
+    "constructor_id": "racing-bulls",
+    "race_pace_effect": {
+      "value": 11.23076923076923,
+      "sample_size": 42,
+      "shrinkage": 0.19230769230769232
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.3581081081081081,
+      "sample_size": 48
+    },
+    "development_rate": {
+      "value": -0.3333333333333339,
+      "sample_size": 42
+    },
+    "sample_size": 48,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "audi": {
+    "entity_id": "constructor:audi",
+    "constructor_id": "audi",
+    "race_pace_effect": {
+      "value": 12.25,
+      "sample_size": 26,
+      "shrinkage": 0.2777777777777778
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.1746031746031746,
+      "sample_size": 26
+    },
+    "development_rate": {
+      "value": -1.5384615384615383,
+      "sample_size": 26
+    },
+    "sample_size": 26,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  },
+  "cadillac": {
+    "entity_id": "constructor:cadillac",
+    "constructor_id": "cadillac",
+    "race_pace_effect": {
+      "value": 15.75,
+      "sample_size": 26,
+      "shrinkage": 0.2777777777777778
+    },
+    "qualifying_effect": {
+      "value": null,
+      "available": false
+    },
+    "reliability": {
+      "dnf_rate": 0.21428571428571427,
+      "sample_size": 26
+    },
+    "development_rate": {
+      "value": 1.23076923076923,
+      "sample_size": 26
+    },
+    "sample_size": 26,
+    "confounding_note": "driver_car_confounding: small samples widen uncertainty, see diagnostics",
+    "evidence_tier": "C"
+  }
+}

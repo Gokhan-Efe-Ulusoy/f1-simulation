@@ -1,0 +1,30 @@
+{
+  "canonicalization_status": "RAW_ONLY (canonicalize separately)",
+  "conflicts": [],
+  "final_pacer_seconds": 4.0,
+  "generated_at": "2026-09-19T20:14:29+00:00",
+  "missing_tasks": [],
+  "parser_version": "22.7.0",
+  "pipeline": "phase22_7_acquisition",
+  "quarantined": [],
+  "rate_seconds": 4.0,
+  "seasons": [
+    2008,
+    2026
+  ],
+  "stats": {
+    "downloaded_bytes": 4348408,
+    "downloaded_files": 703,
+    "duplicate_identical": 0,
+    "failed": 0,
+    "missing": 0,
+    "quarantined": 0,
+    "rate_limits": 0,
+    "raw_conflicts": 0,
+    "reused_files": 0,
+    "rows_total": 67067
+  },
+  "tasks_completed": 264,
+  "tasks_failed": {},
+  "tasks_total": 387
+}

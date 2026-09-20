@@ -1,0 +1,12 @@
+{
+  "races_backtested": 320,
+  "period": "2010-2026",
+  "winner_top1_accuracy": 0.3,
+  "winner_top3_accuracy": 0.60625,
+  "position_mae": 3.974099341884363,
+  "rank_correlation": 0.6551792549296088,
+  "brier_score": 0.03959657784809886,
+  "log_loss": 2.093884410460297,
+  "method": "walk_forward_temporal_strict",
+  "baseline_comparison": "historical_average top1 random ~0.05 vs model"
+}

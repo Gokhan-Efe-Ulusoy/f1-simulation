@@ -1,0 +1,15 @@
+{
+  "model_type": "hierarchical_race_pace",
+  "decomposition": "observed = driver + constructor + circuit + era + strategy + variance",
+  "separation_method": "shrinkage with prior_n=5, driver_n vs constructor_n tracked for confounding",
+  "evidence_tiers": {
+    "A": "telemetry",
+    "B": "lap timing",
+    "C": "race-result",
+    "D": "prior only"
+  },
+  "current_tier": "C (race-result-derived, 1950-2026), A/B where OpenF1/FastF1 laps available",
+  "sample_size": 26228,
+  "driver_car_confounding_flag": "if driver and constructor co-occur <3 times, mark weakly_identifiable",
+  "method": "hierarchical_temporal"
+}

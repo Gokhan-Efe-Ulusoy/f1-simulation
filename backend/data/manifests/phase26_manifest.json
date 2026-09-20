@@ -1,0 +1,55 @@
+{
+  "as_of_policy": "race_date -1 day strict_before",
+  "calibration_version": "phase26-fuel-tyre-decomposition-v1.0.0-candidate",
+  "circuit_version": "2026-09-20T14:12:18.490424+00:00",
+  "dataset_hashes": {
+    "backbone": "UNCHANGED_FROM_V1.1",
+    "laps_jolpica": "ac13fa1f",
+    "races": "2cce529c",
+    "results": "112c8475"
+  },
+  "dataset_version": "f1-dataset-v1.3",
+  "evidence_tiers": {
+    "fuel_proxy": "PROXY_ONLY",
+    "tyre_degradation": "NON_IDENTIFIABLE"
+  },
+  "fingerprint": "b22a1491",
+  "fuel_data_status": "NOT_AVAILABLE",
+  "model_specification": "Models A-H + within-stint + hierarchical",
+  "provenance": "reproducible via scripts/phase26_fuel_tyre_decomposition.py",
+  "proxy_definition": "normalized_lap, lap_number, stint_lap, race_progress, remaining_laps, race_phase",
+  "sample_sizes": {
+    "by_compound": {
+      "hard": 44147,
+      "medium": 33259,
+      "soft": 10998
+    },
+    "by_season": {
+      "2023": {
+        "n": 23422,
+        "pearson": 0.5339747434391562,
+        "spearman": 0.5353796806947598
+      },
+      "2024": {
+        "n": 24091,
+        "pearson": 0.5248006285503143,
+        "spearman": 0.5254843451161844
+      },
+      "2025": {
+        "n": 24863,
+        "pearson": 0.4614537723493338,
+        "spearman": 0.46974626405195236
+      },
+      "2026": {
+        "n": 16028,
+        "pearson": 0.4567059342453822,
+        "spearman": 0.47019240463591144
+      }
+    },
+    "total_valid": 88404
+  },
+  "seed": 42,
+  "training_window": "2023-2026 (exact tyre join only)",
+  "tyre_join_version": "tyre_join-v1.0.0",
+  "validation_window": "2024-2026 walk-forward"
+}

@@ -1,0 +1,1661 @@
+{
+  "circuit_control": {
+    "global_baseline": 94.05168455036977,
+    "models": {
+      "circuit_controlled": -0.2206016953556647,
+      "global": -0.30898461702614677,
+      "hierarchical": {
+        "hard": {
+          "by_circuit": {
+            "albert_park": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2108,
+              "raw": -0.1741084262057389,
+              "se": 0.024696313212161522,
+              "shrinkage_weight": 0.9859681945743686,
+              "shrunk": -0.17520884550443902
+            },
+            "americas": {
+              "evidence_tier": "CALIBRATED",
+              "n": 998,
+              "raw": -0.22561774870119597,
+              "se": 0.021179220736702902,
+              "shrinkage_weight": 0.9708171206225681,
+              "shrunk": -0.22640317359006482
+            },
+            "austin": {
+              "evidence_tier": "LIMITED",
+              "n": 59,
+              "raw": -0.33425569643943287,
+              "se": 0.13081816651338435,
+              "shrinkage_weight": 0.6629213483146067,
+              "shrunk": -0.30670826221033226
+            },
+            "bahrain": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1695,
+              "raw": -0.3176774419623548,
+              "se": 0.025905529134258917,
+              "shrinkage_weight": 0.9826086956521739,
+              "shrunk": -0.3165444715205707
+            },
+            "baku": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2122,
+              "raw": -0.25925881820160024,
+              "se": 0.019104982011544508,
+              "shrinkage_weight": 0.9860594795539034,
+              "shrunk": -0.25916503785808026
+            },
+            "catalunya": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1679,
+              "raw": -0.15542591372009873,
+              "se": 0.019359771968789078,
+              "shrinkage_weight": 0.9824458747805734,
+              "shrunk": -0.15713051982611984
+            },
+            "hungaroring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 3056,
+              "raw": -0.08278228370281426,
+              "se": 0.0074849943368812104,
+              "shrinkage_weight": 0.9902786779001944,
+              "shrunk": -0.08443247188677687
+            },
+            "imola": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1522,
+              "raw": -0.15133359200288696,
+              "se": 0.025929140579336613,
+              "shrinkage_weight": 0.9806701030927835,
+              "shrunk": -0.15328973986803288
+            },
+            "interlagos": {
+              "evidence_tier": "LIMITED",
+              "n": 86,
+              "raw": -1.2460316777549858,
+              "se": 0.14876334064901006,
+              "shrinkage_weight": 0.7413793103448276,
+              "shrunk": -0.9890920132217397
+            },
+            "jeddah": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1748,
+              "raw": -0.4385821589784206,
+              "se": 0.02724777985213337,
+              "shrinkage_weight": 0.983127109111361,
+              "shrunk": -0.43544294889824087
+            },
+            "las-vegas": {
+              "evidence_tier": "CALIBRATED",
+              "n": 576,
+              "raw": -0.204077260886315,
+              "se": 0.024889840776683523,
+              "shrinkage_weight": 0.9504950495049505,
+              "shrunk": -0.20647599260282257
+            },
+            "losail": {
+              "evidence_tier": "CALIBRATED",
+              "n": 720,
+              "raw": -0.882426505348744,
+              "se": 0.08710892596605106,
+              "shrinkage_weight": 0.96,
+              "shrunk": -0.8572307107971849
+            },
+            "lusail": {
+              "evidence_tier": "LIMITED",
+              "n": 322,
+              "raw": -0.35289145206001005,
+              "se": 0.06792712899030101,
+              "shrinkage_weight": 0.9147727272727273,
+              "shrunk": -0.3443380591196485
+            },
+            "madring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 839,
+              "raw": -0.16957307033994998,
+              "se": 0.015349838106819547,
+              "shrinkage_weight": 0.9654775604142692,
+              "shrunk": -0.17243700260300468
+            },
+            "marina-bay": {
+              "evidence_tier": "CALIBRATED",
+              "n": 504,
+              "raw": -0.04430020740933564,
+              "se": 0.01298746585431266,
+              "shrinkage_weight": 0.9438202247191011,
+              "shrunk": -0.055998602586326204
+            },
+            "marina_bay": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1129,
+              "raw": -0.21107976762267985,
+              "se": 0.031293988464197973,
+              "shrinkage_weight": 0.9741156169111302,
+              "shrunk": -0.21215272380741898
+            },
+            "melbourne": {
+              "evidence_tier": "LIMITED",
+              "n": 84,
+              "raw": -3.9250894141278874,
+              "se": 0.609212241976105,
+              "shrinkage_weight": 0.7368421052631579,
+              "shrunk": -2.958626842399435
+            },
+            "mexico-city": {
+              "evidence_tier": "LIMITED",
+              "n": 92,
+              "raw": -0.09271637822564113,
+              "se": 0.03157550574281746,
+              "shrinkage_weight": 0.7540983606557377,
+              "shrunk": -0.13201521347173784
+            },
+            "miami": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2149,
+              "raw": -0.1061846868756331,
+              "se": 0.01213754488606038,
+              "shrinkage_weight": 0.9862322166131253,
+              "shrunk": -0.10819956004705303
+            },
+            "monaco": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2524,
+              "raw": -0.06472944597215705,
+              "se": 0.009411070104758383,
+              "shrinkage_weight": 0.9882537196554424,
+              "shrunk": -0.06693542321085255
+            },
+            "montreal": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1024,
+              "raw": -0.006371654776716467,
+              "se": 0.015475895695533605,
+              "shrinkage_weight": 0.9715370018975332,
+              "shrunk": -0.013378106013425706
+            },
+            "monza": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2268,
+              "raw": -0.18384828575023165,
+              "se": 0.019417394844870223,
+              "shrinkage_weight": 0.9869451697127938,
+              "shrunk": -0.18474493530388095
+            },
+            "red_bull_ring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2085,
+              "raw": -0.14619621885782422,
+              "se": 0.014517250818460108,
+              "shrinkage_weight": 0.9858156028368794,
+              "shrunk": -0.14770452272593687
+            },
+            "rodriguez": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1254,
+              "raw": -0.31150971166894786,
+              "se": 0.026062074249740247,
+              "shrinkage_weight": 0.9766355140186916,
+              "shrunk": -0.3101317193766773
+            },
+            "shanghai": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2099,
+              "raw": -0.4432796743916957,
+              "se": 0.022253327573558437,
+              "shrinkage_weight": 0.9859088774072334,
+              "shrunk": -0.44059182047673195
+            },
+            "silverstone": {
+              "evidence_tier": "CALIBRATED",
+              "n": 689,
+              "raw": -0.29070266294892577,
+              "se": 0.0586608125210224,
+              "shrinkage_weight": 0.9582753824756607,
+              "shrunk": -0.2891099916809498
+            },
+            "spa": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1124,
+              "raw": -0.324817564541989,
+              "se": 0.03205650037391592,
+              "shrinkage_weight": 0.9740034662045061,
+              "shrunk": -0.3229383811022432
+            },
+            "spa-francorchamps": {
+              "evidence_tier": "LIMITED",
+              "n": 105,
+              "raw": -0.5990952589001626,
+              "se": 0.12155488088412164,
+              "shrinkage_weight": 0.7777777777777778,
+              "shrunk": -0.5220811217134081
+            },
+            "spielberg": {
+              "evidence_tier": "CALIBRATED",
+              "n": 442,
+              "raw": -0.07478168754181672,
+              "se": 0.017094703591089333,
+              "shrinkage_weight": 0.9364406779661016,
+              "shrunk": -0.08607935411075428
+            },
+            "suzuka": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2153,
+              "raw": -0.5143500014762876,
+              "se": 0.026338207815002436,
+              "shrinkage_weight": 0.9862574438845625,
+              "shrunk": -0.510751947973083
+            },
+            "unknown": {
+              "evidence_tier": "CALIBRATED",
+              "n": 707,
+              "raw": -0.17247794453646864,
+              "se": 0.022249018205662996,
+              "shrinkage_weight": 0.9592944369063772,
+              "shrunk": -0.1757365753515283
+            },
+            "vegas": {
+              "evidence_tier": "CALIBRATED",
+              "n": 682,
+              "raw": -0.9280440460210113,
+              "se": 0.08050485893715698,
+              "shrinkage_weight": 0.9578651685393258,
+              "shrunk": -0.8995814447094421
+            },
+            "villeneuve": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1084,
+              "raw": -0.34859405133530835,
+              "se": 0.03073921773399731,
+              "shrinkage_weight": 0.9730700179533214,
+              "shrunk": -0.34600709236469235
+            },
+            "yas-marina": {
+              "evidence_tier": "CALIBRATED",
+              "n": 713,
+              "raw": -0.0738024954966824,
+              "se": 0.010777121775691262,
+              "shrinkage_weight": 0.9596231493943472,
+              "shrunk": -0.08101901552614749
+            },
+            "yas_marina": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1539,
+              "raw": -0.12528386788132956,
+              "se": 0.012275490288011563,
+              "shrinkage_weight": 0.9808795411089866,
+              "shrunk": -0.12771690370692113
+            },
+            "zandvoort": {
+              "evidence_tier": "CALIBRATED",
+              "n": 2167,
+              "raw": -0.1778294855466854,
+              "se": 0.017235153342754224,
+              "shrinkage_weight": 0.9863450159308147,
+              "shrunk": -0.17884954229697783
+            }
+          },
+          "global": -0.2525316415597677
+        },
+        "medium": {
+          "by_circuit": {
+            "albert_park": {
+              "evidence_tier": "CALIBRATED",
+              "n": 498,
+              "raw": -0.40034576218204276,
+              "se": 0.0845664103189535,
+              "shrinkage_weight": 0.9431818181818182,
+              "shrunk": -0.3996311038736291
+            },
+            "americas": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1055,
+              "raw": -0.4221995219630845,
+              "se": 0.04062383891320986,
+              "shrinkage_weight": 0.9723502304147466,
+              "shrunk": -0.42124749211951434
+            },
+            "austin": {
+              "evidence_tier": "CALIBRATED",
+              "n": 551,
+              "raw": -0.21551059671186662,
+              "se": 0.03133309887191727,
+              "shrinkage_weight": 0.9483648881239243,
+              "shrunk": -0.22440511543348945
+            },
+            "bahrain": {
+              "evidence_tier": "CALIBRATED",
+              "n": 527,
+              "raw": -0.3346651747354276,
+              "se": 0.05509758198011616,
+              "shrinkage_weight": 0.9461400359066428,
+              "shrunk": -0.3375252789303218
+            },
+            "baku": {
+              "evidence_tier": "CALIBRATED",
+              "n": 763,
+              "raw": -0.38799125056546063,
+              "se": 0.06469692971757415,
+              "shrinkage_weight": 0.9621689785624212,
+              "shrunk": -0.3879827962926423
+            },
+            "catalunya": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1651,
+              "raw": -0.12273731615309966,
+              "se": 0.016638806624131114,
+              "shrinkage_weight": 0.982153480071386,
+              "shrunk": -0.12746718753562547
+            },
+            "hungaroring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1854,
+              "raw": -0.0978302157890956,
+              "se": 0.009403422212698817,
+              "shrinkage_weight": 0.9840764331210191,
+              "shrunk": -0.10244705591910941
+            },
+            "imola": {
+              "evidence_tier": "CALIBRATED",
+              "n": 903,
+              "raw": -0.031157621125903475,
+              "se": 0.0329310749652445,
+              "shrinkage_weight": 0.9678456591639871,
+              "shrunk": -0.04262418558982821
+            },
+            "interlagos": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1284,
+              "raw": -0.22795684091081156,
+              "se": 0.022448281223083812,
+              "shrinkage_weight": 0.9771689497716894,
+              "shrunk": -0.231605492395815
+            },
+            "jeddah": {
+              "evidence_tier": "CALIBRATED",
+              "n": 896,
+              "raw": -0.5346019676879875,
+              "se": 0.057934904344927055,
+              "shrinkage_weight": 0.9676025917926566,
+              "shrunk": -0.529844920439585
+            },
+            "las-vegas": {
+              "evidence_tier": "LIMITED",
+              "n": 307,
+              "raw": -0.5503026751838592,
+              "se": 0.07622741862404775,
+              "shrinkage_weight": 0.9109792284866469,
+              "shrunk": -0.5358336930565687
+            },
+            "losail": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1147,
+              "raw": -0.8134505131650843,
+              "se": 0.05411808688832888,
+              "shrinkage_weight": 0.9745114698385726,
+              "shrunk": -0.8026004858784798
+            },
+            "lusail": {
+              "evidence_tier": "CALIBRATED",
+              "n": 700,
+              "raw": -0.7480720846054909,
+              "se": 0.0666555809159961,
+              "shrinkage_weight": 0.958904109589041,
+              "shrunk": -0.7332650582225514
+            },
+            "madring": {
+              "evidence_tier": "LIMITED",
+              "n": 179,
+              "raw": -0.13405222197562616,
+              "se": 0.1365579112890894,
+              "shrinkage_weight": 0.8564593301435407,
+              "shrunk": -0.17047072254667922
+            },
+            "marina-bay": {
+              "evidence_tier": "CALIBRATED",
+              "n": 508,
+              "raw": -0.05060578093166585,
+              "se": 0.011319322477781448,
+              "shrinkage_weight": 0.9442379182156134,
+              "shrunk": -0.06940663567268611
+            },
+            "marina_bay": {
+              "evidence_tier": "CALIBRATED",
+              "n": 971,
+              "raw": -0.06123506641871932,
+              "se": 0.02367995760832423,
+              "shrinkage_weight": 0.97002997002997,
+              "shrunk": -0.07102126150968566
+            },
+            "melbourne": {
+              "evidence_tier": "LIMITED",
+              "n": 141,
+              "raw": -0.29573915443912674,
+              "se": 0.1464383917407471,
+              "shrinkage_weight": 0.8245614035087719,
+              "shrunk": -0.31188452663471194
+            },
+            "mexico-city": {
+              "evidence_tier": "CALIBRATED",
+              "n": 465,
+              "raw": -0.02635342561424209,
+              "se": 0.01663543251432736,
+              "shrinkage_weight": 0.9393939393939394,
+              "shrunk": -0.04825732563483121
+            },
+            "miami": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1574,
+              "raw": -0.1726957206504779,
+              "se": 0.02881624290866975,
+              "shrinkage_weight": 0.9812967581047382,
+              "shrunk": -0.17671826532573012
+            },
+            "monaco": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1854,
+              "raw": -0.09237463873171546,
+              "se": 0.009747322262463248,
+              "shrinkage_weight": 0.9840764331210191,
+              "shrunk": -0.0970783511078659
+            },
+            "montreal": {
+              "evidence_tier": "LIMITED",
+              "n": 306,
+              "raw": -0.11147510860149094,
+              "se": 0.1217563926878267,
+              "shrinkage_weight": 0.9107142857142857,
+              "shrunk": -0.1361440967579616
+            },
+            "monza": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1560,
+              "raw": -0.1772435719885675,
+              "se": 0.023431823714157814,
+              "shrinkage_weight": 0.9811320754716981,
+              "shrunk": -0.1812157267803674
+            },
+            "red_bull_ring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1853,
+              "raw": -0.26447362815195274,
+              "se": 0.023872201427052077,
+              "shrinkage_weight": 0.9840679766330324,
+              "shrunk": -0.2664379533957447
+            },
+            "rodriguez": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1199,
+              "raw": -0.4958338497474704,
+              "se": 0.03451231092436545,
+              "shrinkage_weight": 0.9755899104963385,
+              "shrunk": -0.4931959472138616
+            },
+            "shanghai": {
+              "evidence_tier": "CALIBRATED",
+              "n": 822,
+              "raw": -0.071849414510498,
+              "se": 0.058999372920872685,
+              "shrinkage_weight": 0.9647887323943662,
+              "shrunk": -0.08297330047681718
+            },
+            "silverstone": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1682,
+              "raw": -0.1149468151315407,
+              "se": 0.025749323965760414,
+              "shrinkage_weight": 0.9824766355140186,
+              "shrunk": -0.11972755626744763
+            },
+            "spa": {
+              "evidence_tier": "CALIBRATED",
+              "n": 950,
+              "raw": -0.45282446379826563,
+              "se": 0.06399221539342506,
+              "shrinkage_weight": 0.9693877551020408,
+              "shrunk": -0.4508329325377257
+            },
+            "spa-francorchamps": {
+              "evidence_tier": "CALIBRATED",
+              "n": 754,
+              "raw": -0.9877901140373722,
+              "se": 0.056980773392999985,
+              "shrinkage_weight": 0.9617346938775511,
+              "shrunk": -0.9648300755903029
+            },
+            "spielberg": {
+              "evidence_tier": "CALIBRATED",
+              "n": 608,
+              "raw": -0.39956577634979584,
+              "se": 0.042973934846899146,
+              "shrinkage_weight": 0.9529780564263323,
+              "shrunk": -0.3990110114409009
+            },
+            "suzuka": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1533,
+              "raw": -0.6103704418459638,
+              "se": 0.049878432684541577,
+              "shrinkage_weight": 0.980806142034549,
+              "shrunk": -0.606097837894102
+            },
+            "unknown": {
+              "evidence_tier": "LIMITED",
+              "n": 220,
+              "raw": -0.13508011750751675,
+              "se": 0.06390900100183836,
+              "shrinkage_weight": 0.88,
+              "shrunk": -0.16540263652109025
+            },
+            "vegas": {
+              "evidence_tier": "LIMITED",
+              "n": 248,
+              "raw": -1.9544886323473547,
+              "se": 0.2288663779938098,
+              "shrinkage_weight": 0.8920863309352518,
+              "shrunk": -1.7854180363336793
+            },
+            "villeneuve": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1302,
+              "raw": -0.24276474119601174,
+              "se": 0.026667714491055407,
+              "shrinkage_weight": 0.9774774774774775,
+              "shrunk": -0.2460305753121818
+            },
+            "yas-marina": {
+              "evidence_tier": "CALIBRATED",
+              "n": 420,
+              "raw": -0.15758157175980628,
+              "se": 0.027484479643460482,
+              "shrinkage_weight": 0.9333333333333333,
+              "shrunk": -0.17292731870608338
+            },
+            "yas_marina": {
+              "evidence_tier": "CALIBRATED",
+              "n": 623,
+              "raw": -0.3105343303407756,
+              "se": 0.030705435449003494,
+              "shrinkage_weight": 0.9540581929555896,
+              "shrunk": -0.3140825743965116
+            },
+            "zandvoort": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1351,
+              "raw": -0.33339870477829636,
+              "se": 0.03683681434229085,
+              "shrinkage_weight": 0.9782766111513396,
+              "shrunk": -0.33457978525278587
+            }
+          },
+          "global": -0.38776777595396256
+        },
+        "soft": {
+          "by_circuit": {
+            "albert_park": {
+              "evidence_tier": "LIMITED",
+              "n": 180,
+              "raw": -1.8240953562767173,
+              "se": 0.5694774496831033,
+              "shrinkage_weight": 0.8571428571428571,
+              "shrunk": -1.6608268049542794
+            },
+            "americas": {
+              "evidence_tier": "LIMITED",
+              "n": 14,
+              "raw": -2.2216635706914354,
+              "se": 1.243305290174345,
+              "shrinkage_weight": 0.3181818181818182,
+              "shrunk": -1.1713580659152198
+            },
+            "austin": {
+              "evidence_tier": "CALIBRATED",
+              "n": 456,
+              "raw": -0.21150358756347915,
+              "se": 0.03068899149768961,
+              "shrinkage_weight": 0.9382716049382716,
+              "shrunk": -0.24049814987558862
+            },
+            "bahrain": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1090,
+              "raw": -0.2992115029264632,
+              "se": 0.036071062451014754,
+              "shrinkage_weight": 0.9732142857142857,
+              "shrunk": -0.30944375276824504
+            },
+            "baku": {
+              "evidence_tier": "LIMITED",
+              "n": 10,
+              "raw": 2.5722433862433873,
+              "se": 5.489308389566938,
+              "shrinkage_weight": 0.25,
+              "shrunk": 0.1321492237961075
+            },
+            "catalunya": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1724,
+              "raw": -0.32750874374738026,
+              "se": 0.03531625063849752,
+              "shrinkage_weight": 0.9828962371721779,
+              "shrunk": -0.33355846016594826
+            },
+            "hungaroring": {
+              "evidence_tier": "CALIBRATED",
+              "n": 476,
+              "raw": -0.14207987955644458,
+              "se": 0.03292408664157892,
+              "shrinkage_weight": 0.9407114624505929,
+              "shrunk": -0.17404444185663479
+            },
+            "imola": {
+              "evidence_tier": "LIMITED",
+              "n": 17,
+              "raw": -0.9475259938837928,
+              "se": 0.660971228140817,
+              "shrinkage_weight": 0.3617021276595745,
+              "shrunk": -0.7775405703534904
+            },
+            "interlagos": {
+              "evidence_tier": "CALIBRATED",
+              "n": 968,
+              "raw": -0.6750414216662314,
+              "se": 0.058225935024370463,
+              "shrinkage_weight": 0.969939879759519,
+              "shrunk": -0.675227015113729
+            },
+            "jeddah": {
+              "evidence_tier": "LIMITED",
+              "n": 95,
+              "raw": -0.630182222860425,
+              "se": 0.1848636829270815,
+              "shrinkage_weight": 0.76,
+              "shrunk": -0.6424302086586395
+            },
+            "losail": {
+              "evidence_tier": "LIMITED",
+              "n": 76,
+              "raw": -2.6683884513537737,
+              "se": 0.3957309323609242,
+              "shrinkage_weight": 0.7169811320754716,
+              "shrunk": -2.10598101144789
+            },
+            "lusail": {
+              "evidence_tier": "LIMITED",
+              "n": 44,
+              "raw": -0.3212389300988708,
+              "se": 0.12566356864245878,
+              "shrinkage_weight": 0.5945945945945946,
+              "shrunk": -0.46717537614783633
+            },
+            "madring": {
+              "evidence_tier": "LIMITED",
+              "n": 87,
+              "raw": -0.2896641262683203,
+              "se": 0.1480674729278737,
+              "shrinkage_weight": 0.7435897435897436,
+              "shrunk": -0.3900619136404567
+            },
+            "marina-bay": {
+              "evidence_tier": "LIMITED",
+              "n": 217,
+              "raw": -0.059281353176082664,
+              "se": 0.03820580224118443,
+              "shrinkage_weight": 0.8785425101214575,
+              "shrunk": -0.13481991315708305
+            },
+            "marina_bay": {
+              "evidence_tier": "LIMITED",
+              "n": 160,
+              "raw": -0.2957288726108823,
+              "se": 0.09122979551692612,
+              "shrinkage_weight": 0.8421052631578947,
+              "shrunk": -0.35659518172805654
+            },
+            "mexico-city": {
+              "evidence_tier": "CALIBRATED",
+              "n": 705,
+              "raw": 0.004116754185463537,
+              "se": 0.018991101727893926,
+              "shrinkage_weight": 0.9591836734693877,
+              "shrunk": -0.023855990761684057
+            },
+            "miami": {
+              "evidence_tier": "LIMITED",
+              "n": 118,
+              "raw": -0.602865967807044,
+              "se": 0.13285338863814536,
+              "shrinkage_weight": 0.7972972972972973,
+              "shrunk": -0.6187476291339241
+            },
+            "monaco": {
+              "evidence_tier": "CALIBRATED",
+              "n": 517,
+              "raw": -0.4444010336016411,
+              "se": 0.06948963317316412,
+              "shrinkage_weight": 0.9451553930530164,
+              "shrunk": -0.4573890297671627
+            },
+            "montreal": {
+              "evidence_tier": "LIMITED",
+              "n": 16,
+              "raw": 1.3776561403508774,
+              "se": 0.9177955015682154,
+              "shrinkage_weight": 0.34782608695652173,
+              "shrunk": 0.03491376815270573
+            },
+            "monza": {
+              "evidence_tier": "LIMITED",
+              "n": 133,
+              "raw": -0.8711364712638253,
+              "se": 0.2702899357474996,
+              "shrinkage_weight": 0.8159509202453987,
+              "shrunk": -0.8361816907280879
+            },
+            "red_bull_ring": {
+              "evidence_tier": "LIMITED",
+              "n": 155,
+              "raw": -0.20219074319979694,
+              "se": 0.09538969423595206,
+              "shrinkage_weight": 0.8378378378378378,
+              "shrunk": -0.2798704330084221
+            },
+            "rodriguez": {
+              "evidence_tier": "LIMITED",
+              "n": 20,
+              "raw": -0.7414430018177092,
+              "se": 0.6377594159440347,
+              "shrinkage_weight": 0.4,
+              "shrunk": -0.7053064989388751
+            },
+            "shanghai": {
+              "evidence_tier": "LIMITED",
+              "n": 92,
+              "raw": -0.7890651825865844,
+              "se": 0.28847702813675324,
+              "shrinkage_weight": 0.7540983606557377,
+              "shrunk": -0.7625447681029127
+            },
+            "silverstone": {
+              "evidence_tier": "CALIBRATED",
+              "n": 651,
+              "raw": -1.5088885854535399,
+              "se": 0.11768628064165364,
+              "shrinkage_weight": 0.9559471365638766,
+              "shrunk": -1.4724272159190075
+            },
+            "spa": {
+              "evidence_tier": "CALIBRATED",
+              "n": 452,
+              "raw": -0.3349424881811615,
+              "se": 0.055834523837886826,
+              "shrinkage_weight": 0.9377593360995851,
+              "shrunk": -0.35649475014206344
+            },
+            "spielberg": {
+              "evidence_tier": "LIMITED",
+              "n": 74,
+              "raw": -2.1163826694397976,
+              "se": 0.349230298282622,
+              "shrinkage_weight": 0.7115384615384616,
+              "shrunk": -1.7023921389339864
+            },
+            "suzuka": {
+              "evidence_tier": "LIMITED",
+              "n": 244,
+              "raw": -2.5323423188509513,
+              "se": 0.2980912492402517,
+              "shrinkage_weight": 0.8905109489051095,
+              "shrunk": -2.329664199672342
+            },
+            "unknown": {
+              "evidence_tier": "LIMITED",
+              "n": 10,
+              "raw": -1.7559598393574283,
+              "se": 1.4903911004593757,
+              "shrinkage_weight": 0.25,
+              "shrunk": -0.9499015826040964
+            },
+            "vegas": {
+              "evidence_tier": "LIMITED",
+              "n": 13,
+              "raw": -3.7780018083182636,
+              "se": 2.605704173541742,
+              "shrinkage_weight": 0.3023255813953488,
+              "shrunk": -1.6174532190401627
+            },
+            "villeneuve": {
+              "evidence_tier": "CALIBRATED",
+              "n": 507,
+              "raw": -0.28406333217654967,
+              "se": 0.029973466999265258,
+              "shrinkage_weight": 0.9441340782122905,
+              "shrunk": -0.3062506039554939
+            },
+            "yas-marina": {
+              "evidence_tier": "LIMITED",
+              "n": 23,
+              "raw": -0.8084086021505376,
+              "se": 0.27186762463744396,
+              "shrinkage_weight": 0.4339622641509434,
+              "shrunk": -0.7364125049066403
+            },
+            "yas_marina": {
+              "evidence_tier": "LIMITED",
+              "n": 28,
+              "raw": -0.3210996540743625,
+              "se": 0.17510132807095685,
+              "shrinkage_weight": 0.4827586206896552,
+              "shrunk": -0.5073664693908918
+            },
+            "zandvoort": {
+              "evidence_tier": "CALIBRATED",
+              "n": 1624,
+              "raw": -0.5838856137584323,
+              "se": 0.042478439467047026,
+              "shrinkage_weight": 0.9818621523579202,
+              "shrunk": -0.5856509683520458
+            }
+          },
+          "global": -0.6812154970196524
+        }
+      }
+    },
+    "n_circuits": 52,
+    "shrinkage_rule": "tau 30/50 hierarchical global->era->circuit->circuit_era"
+  },
+  "classification": {
+    "fuel_tyre_separation": "NON_IDENTIFIABLE",
+    "reason": "tyre_age and progression correlated 0.497, beta sign inverted, range includes only negative but physically should be positive, no separate fuel measurement",
+    "tyre_degradation": "NON_IDENTIFIABLE"
+  },
+  "compound_analysis": {
+    "hard": {
+      "ci": [
+        -0.26416717934743006,
+        -0.24089610377210538
+      ],
+      "circuits": 36,
+      "coefficient_range": [
+        -0.2525316415597677,
+        0.043812475350748614
+      ],
+      "coefficients": {
+        "A": -0.2525316415597677,
+        "B": -0.0604922354946863,
+        "C": 0.043812475350748614,
+        "D": -0.24044509060229424,
+        "E": -0.139071948820201,
+        "F": -0.1469732430279676
+      },
+      "races": 82,
+      "sample": 44147,
+      "se": {
+        "A": 0.005936498871256289,
+        "B": 0.007023898939445245
+      },
+      "sign_stable": false,
+      "stints": 1721,
+      "walk_forward": "see global walk_forward"
+    },
+    "medium": {
+      "ci": [
+        -0.40511285624678944,
+        -0.37042269566113567
+      ],
+      "circuits": 36,
+      "coefficient_range": [
+        -0.38776777595396256,
+        0.046858521174416023
+      ],
+      "coefficients": {
+        "A": -0.38776777595396256,
+        "B": -0.19677783464405563,
+        "C": 0.046858521174416023,
+        "D": -0.3120837585209768,
+        "E": -0.20852291130903847,
+        "F": -0.20647610558209412
+      },
+      "races": 82,
+      "sample": 33259,
+      "se": {
+        "A": 0.008849530761646362,
+        "B": 0.009889270946825792
+      },
+      "sign_stable": false,
+      "stints": 1778,
+      "walk_forward": "see global walk_forward"
+    },
+    "soft": {
+      "ci": [
+        -0.7204111078516159,
+        -0.642019886187689
+      ],
+      "circuits": 34,
+      "coefficient_range": [
+        -0.7219498690652397,
+        -0.45896253718150604
+      ],
+      "coefficients": {
+        "A": -0.6812154970196524,
+        "B": -0.6629783858954623,
+        "C": -0.472769719116286,
+        "D": -0.7219498690652397,
+        "E": -0.461200413296941,
+        "F": -0.45896253718150604
+      },
+      "races": 74,
+      "sample": 10998,
+      "se": {
+        "A": 0.01999776062855275,
+        "B": 0.020865398771026552
+      },
+      "sign_stable": true,
+      "stints": 873,
+      "walk_forward": "see global walk_forward"
+    }
+  },
+  "correlation": {
+    "by_circuit": {
+      "bahrain": {
+        "n": 3312,
+        "pearson": 0.559781901802756,
+        "spearman": 0.5236560751505674
+      },
+      "catalunya": {
+        "n": 5054,
+        "pearson": 0.438953868486196,
+        "spearman": 0.4234593805747402
+      },
+      "hungaroring": {
+        "n": 5386,
+        "pearson": 0.5098743533259753,
+        "spearman": 0.5055292044088967
+      },
+      "miami": {
+        "n": 3841,
+        "pearson": 0.5161604578593328,
+        "spearman": 0.5780048822203305
+      },
+      "monaco": {
+        "n": 4895,
+        "pearson": 0.4260606904889378,
+        "spearman": 0.4404916227556163
+      },
+      "monza": {
+        "n": 3961,
+        "pearson": 0.5979399501086147,
+        "spearman": 0.5909879169442425
+      },
+      "red_bull_ring": {
+        "n": 4093,
+        "pearson": 0.5109510299036758,
+        "spearman": 0.500685230783162
+      },
+      "silverstone": {
+        "n": 3022,
+        "pearson": 0.15974238383800257,
+        "spearman": 0.20014422083262626
+      },
+      "suzuka": {
+        "n": 3930,
+        "pearson": 0.5878173785669871,
+        "spearman": 0.5694716385485679
+      },
+      "zandvoort": {
+        "n": 5142,
+        "pearson": 0.4547867393457641,
+        "spearman": 0.4378675400648812
+      }
+    },
+    "by_compound": {
+      "hard": {
+        "lap_number_dist": {
+          "mean": 34.445013251183546,
+          "std": 15.463794456462331
+        },
+        "tyre_age_dist": {
+          "max": 60,
+          "mean": 15.772645932905974,
+          "min": 0,
+          "std": 11.328321717259145
+        },
+        "tyre_age_vs_lap_number": {
+          "n": 44147,
+          "pearson": 0.5669204709175268,
+          "spearman": 0.568542921606044
+        },
+        "tyre_age_vs_race_progress": {
+          "n": 44147,
+          "pearson": 0.5630269704123574,
+          "spearman": 0.5718714609943122
+        },
+        "tyre_age_vs_stint_lap": {
+          "n": 44147,
+          "pearson": 0.9861467307895805,
+          "spearman": 0.9890219880024558
+        }
+      },
+      "medium": {
+        "lap_number_dist": {
+          "mean": 24.607053729817494,
+          "std": 18.299590126644386
+        },
+        "tyre_age_dist": {
+          "max": 60,
+          "mean": 12.121711416458703,
+          "min": 0,
+          "std": 9.287448077285445
+        },
+        "tyre_age_vs_lap_number": {
+          "n": 33259,
+          "pearson": 0.48537538395449104,
+          "spearman": 0.5538566936713581
+        },
+        "tyre_age_vs_race_progress": {
+          "n": 33259,
+          "pearson": 0.4737808822642831,
+          "spearman": 0.5446057719168588
+        },
+        "tyre_age_vs_stint_lap": {
+          "n": 33259,
+          "pearson": 0.9789937584291226,
+          "spearman": 0.9825776682220806
+        }
+      },
+      "soft": {
+        "lap_number_dist": {
+          "mean": 32.31660301873068,
+          "std": 21.984858955727166
+        },
+        "tyre_age_dist": {
+          "max": 54,
+          "mean": 10.333060556464812,
+          "min": 0,
+          "std": 7.736834661673711
+        },
+        "tyre_age_vs_lap_number": {
+          "n": 10998,
+          "pearson": 0.28658177084244923,
+          "spearman": 0.33092016853752515
+        },
+        "tyre_age_vs_race_progress": {
+          "n": 10998,
+          "pearson": 0.2626831019700102,
+          "spearman": 0.3301542935797965
+        },
+        "tyre_age_vs_stint_lap": {
+          "n": 10998,
+          "pearson": 0.9739411938001935,
+          "spearman": 0.9607377760196839
+        }
+      }
+    },
+    "by_race": {
+      "": {
+        "n": 937,
+        "pearson": 0.5791004671077745,
+        "spearman": 0.5697967239494331
+      },
+      "2023-spa": {
+        "n": 814,
+        "pearson": 0.5258183601600963,
+        "spearman": 0.5192654890260204
+      },
+      "2024-catalunya": {
+        "n": 1309,
+        "pearson": 0.517936184080422,
+        "spearman": 0.5035362731876135
+      },
+      "2024-zandvoort": {
+        "n": 1425,
+        "pearson": 0.6485046585783385,
+        "spearman": 0.6310998460903668
+      },
+      "2025-china": {
+        "n": 1065,
+        "pearson": 0.7588184520459844,
+        "spearman": 0.7515096451583833
+      }
+    },
+    "by_season": {
+      "2023": {
+        "n": 23422,
+        "pearson": 0.5339747434391562,
+        "spearman": 0.5353796806947598
+      },
+      "2024": {
+        "n": 24091,
+        "pearson": 0.5248006285503143,
+        "spearman": 0.5254843451161844
+      },
+      "2025": {
+        "n": 24863,
+        "pearson": 0.4614537723493338,
+        "spearman": 0.46974626405195236
+      },
+      "2026": {
+        "n": 16028,
+        "pearson": 0.4567059342453822,
+        "spearman": 0.47019240463591144
+      }
+    },
+    "global": {
+      "lap_number_vs_race_progress": {
+        "n": 88404,
+        "pearson": 0.9603763615270476,
+        "spearman": 0.9680759540479583
+      },
+      "lap_number_vs_stint_lap": {
+        "n": 88404,
+        "pearson": 0.48911400264874905,
+        "spearman": 0.49079508823586127
+      },
+      "lap_number_vs_tyre_age": {
+        "n": 88404,
+        "pearson": 0.4966974123069391,
+        "spearman": 0.5025095042667472
+      },
+      "race_progress_vs_stint_lap": {
+        "n": 88404,
+        "pearson": 0.491355540710706,
+        "spearman": 0.4941242539855895
+      },
+      "race_progress_vs_tyre_age": {
+        "n": 88404,
+        "pearson": 0.4950991675321409,
+        "spearman": 0.5029704551426849
+      },
+      "stint_lap_vs_tyre_age": {
+        "n": 88404,
+        "pearson": 0.983452781365322,
+        "spearman": 0.9844140929199495
+      }
+    },
+    "interpretation": "moderate collinearity 0.5, sufficient to confound but not completely non-identifiable by threshold 0.6, however fuel/tyre separation still NON_IDENTIFIABLE due to proxy nature",
+    "tyre_age_vs_lap_number_pearson": 0.4966974123069391,
+    "tyre_age_vs_stint_lap_pearson": 0.983452781365322
+  },
+  "counterfactual": {
+    "increase_degradation": {
+      "passed": false,
+      "reason": "negative beta implies more degradation = faster, physically incorrect"
+    },
+    "increase_tyre_age": {
+      "beta": -0.30898461702614677,
+      "expected": "slower or neutral",
+      "passed": false,
+      "predicted": "faster"
+    },
+    "overall_passed": false,
+    "physically_correct": false,
+    "reset_tyre_age": {
+      "passed": false,
+      "reason": "reset with negative beta predicts slower, incorrect"
+    }
+  },
+  "decomposition_summary": {
+    "baseline_beta": -0.30898461702614677,
+    "circuit_control_beta": -0.2206016953556647,
+    "driver_control_beta": -0.2224466760307314,
+    "hierarchical_beta": -0.2525316415597677,
+    "progression_control_beta": -0.16764575234712578,
+    "within_stint_beta": -0.17423325467180678
+  },
+  "driver_constructor_control": {
+    "constructor_betas_sample": {
+      "constructor_20": {
+        "n": 2304,
+        "raw": -0.3572137950268279,
+        "se": 0.02873836468488621,
+        "shrunk": -0.3570053716128232
+      },
+      "constructor_44": {
+        "n": 4482,
+        "raw": -0.3243771940063684,
+        "se": 0.02396493275142292,
+        "shrunk": -0.3243429273612655
+      },
+      "constructor_87": {
+        "n": 1984,
+        "raw": -0.31306497932602145,
+        "se": 0.02995175224755895,
+        "shrunk": -0.31304451612491874
+      }
+    },
+    "driver_betas_sample": {
+      "1": {
+        "evidence_tier": "CALIBRATED",
+        "n": 4507,
+        "raw": -0.30735138136545903,
+        "se": 0.022598958405504355,
+        "shrunk": -0.30735499711852676
+      },
+      "2": {
+        "evidence_tier": "CALIBRATED",
+        "n": 1836,
+        "raw": -0.33538578174053546,
+        "se": 0.037546756653285406,
+        "shrunk": -0.33524276351348026
+      },
+      "3": {
+        "evidence_tier": "CALIBRATED",
+        "n": 2023,
+        "raw": -0.26303146778043,
+        "se": 0.029041792496884978,
+        "shrunk": -0.2632575039301876
+      }
+    },
+    "hierarchical": true,
+    "note": "driver coefficient not interpreted as skill, confounding control only, hierarchical shrinkage for sparse"
+  },
+  "era_analysis": {
+    "1996-2009": {
+      "n": 0,
+      "note": "no exact modern tyre-stint data",
+      "status": "NON_IDENTIFIABLE"
+    },
+    "2010-2016": {
+      "n": 0,
+      "note": "no exact modern tyre-stint data",
+      "status": "NON_IDENTIFIABLE"
+    },
+    "2017-2021": {
+      "n": 0,
+      "note": "no exact modern tyre-stint data",
+      "status": "NON_IDENTIFIABLE"
+    },
+    "2022-present": {
+      "beta": -0.30898461702614677,
+      "ci": [
+        -0.3183528342307153,
+        -0.2996163998215782
+      ],
+      "n": 88404,
+      "se": 0.004779702655392115,
+      "status": "LIMITED"
+    }
+  },
+  "falsification": {
+    "future_progression_injection": {
+      "leakage_violations": 0,
+      "passed": true
+    },
+    "future_result_injection": {
+      "leakage_violations": 0,
+      "passed": true
+    },
+    "overall_passed": true,
+    "randomized_tyre_age": {
+      "passed": true,
+      "real_beta": -0.38835340332391144,
+      "shuffled_beta": -0.017910599943161232,
+      "weakened": true
+    },
+    "shuffled_circuit": {
+      "passed": true
+    },
+    "shuffled_compound": {
+      "note": "compound shuffled should not preserve degradation pattern",
+      "passed": true
+    },
+    "shuffled_lap_progression": {
+      "passed": true,
+      "real_prog_beta": null,
+      "shuffled_beta": -0.039003138608804236
+    }
+  },
+  "fuel_data_audit": {
+    "actual_fuel_available": false,
+    "coverage": "NOT_AVAILABLE",
+    "fields_searched": [
+      "fuel_load",
+      "fuel_remaining",
+      "fuel_used",
+      "fuel_mass",
+      "fuel_fraction",
+      "fuel_laps_remaining"
+    ],
+    "note": "searched complete dataset and acquired sources, no actual measurements exist; only simulation-internal fuel_mass exists but not observed",
+    "result": "ACTUAL_FUEL_DATA = NOT_AVAILABLE",
+    "sample_size": 0,
+    "source": null
+  },
+  "fuel_proxy": {
+    "definition": "normalized_lap, lap_number, stint_lap, race_progress, remaining_laps, race_phase",
+    "evidence_tier": "PROXY_ONLY",
+    "is_fuel_load": false,
+    "status": "FUEL_PROGRESSION_PROXY",
+    "variables": [
+      "normalized_lap",
+      "lap_number",
+      "stint_lap",
+      "race_progress",
+      "remaining_laps",
+      "race_phase"
+    ],
+    "warning": "This is NOT fuel load, do not claim lap 1 = X kg or Y kg/lap without evidence"
+  },
+  "models": {
+    "A_tyre_age": {
+      "beta": -0.30898461702614677,
+      "ci": [
+        -0.3183528342307153,
+        -0.2996163998215782
+      ],
+      "n": 88404,
+      "r2": 0.04513881024520061,
+      "se": 0.004779702655392115,
+      "spec": "lap_time ~ tyre_age"
+    },
+    "B_tyre_age_plus_lap_number": {
+      "beta": -0.16764575234712578,
+      "ci": [
+        -0.17827538894556805,
+        -0.15701611574868352
+      ],
+      "mse": 212.46743703540383,
+      "n": 88404,
+      "p": 3,
+      "se": 0.005423283978797072,
+      "spec": "lap_time ~ tyre_age + lap_number"
+    },
+    "C_tyre_age_plus_stint_lap": {
+      "beta": -0.05959716938103074,
+      "ci": [
+        -0.11128150405663156,
+        -0.00791283470542991
+      ],
+      "n": 88404,
+      "se": 0.02636955850795961,
+      "spec": "lap_time ~ tyre_age + stint_lap"
+    },
+    "D_tyre_age_plus_normalized_progress": {
+      "beta": -0.2913729520931182,
+      "ci": [
+        -0.3021529490267168,
+        -0.2805929551595196
+      ],
+      "n": 88404,
+      "se": 0.00549999843550948,
+      "spec": "lap_time ~ tyre_age + normalized_race_progress"
+    },
+    "E_tyre_age_plus_lap_number_plus_circuit": {
+      "beta": -0.2206016953556647,
+      "ci": [
+        -0.22850420286710713,
+        -0.2126991878442223
+      ],
+      "n": 88404,
+      "p": 38,
+      "se": 0.004031891587470626,
+      "spec": "lap_time ~ tyre_age + lap_number + circuit"
+    },
+    "F_tyre_age_plus_lap_number_plus_circuit_plus_driver": {
+      "beta": -0.2224466760307314,
+      "ci": [
+        -0.23035139375726107,
+        -0.21454195830420172
+      ],
+      "n": 88404,
+      "p": 70,
+      "se": 0.004033019248229432,
+      "spec": "lap_time ~ tyre_age + lap_number + circuit + driver"
+    },
+    "G_tyre_age_plus_lap_number_plus_circuit_plus_driver_plus_constructor": {
+      "beta": -0.222446676030765,
+      "ci": [
+        -0.2303143872276873,
+        -0.21457896483384273
+      ],
+      "n": 88404,
+      "p": 102,
+      "se": 0.004014138365776671,
+      "spec": "lap_time ~ tyre_age + lap_number + circuit + driver + constructor"
+    },
+    "H_tyre_age_plus_lap_number_plus_circuit_plus_driver_plus_constructor_plus_race_phase": {
+      "beta": -0.22006096170159534,
+      "ci": [
+        -0.22706830109354395,
+        -0.21305362230964672
+      ],
+      "n": 88404,
+      "p": 104,
+      "se": 0.003575173159157453,
+      "spec": "lap_time ~ tyre_age + lap_number + circuit + driver + constructor + race_phase"
+    },
+    "quadratic_progression": {
+      "beta": -0.172607094075986,
+      "ci": [
+        -0.18329832975190963,
+        -0.1619158584000624
+      ],
+      "coeffs": [
+        97.83141844373297,
+        -0.172607094075986,
+        -0.0836110812112155,
+        -0.00122311062710731
+      ],
+      "mse": 212.3074418622166,
+      "n": 88404,
+      "p": 4,
+      "se": 0.005454712079552871
+    }
+  },
+  "partial_identification": {
+    "beta_range": [
+      -0.33234784287210645,
+      -0.05959716938103074
+    ],
+    "beta_values": [
+      -0.30898461702614677,
+      -0.16764575234712578,
+      -0.05959716938103074,
+      -0.2913729520931182,
+      -0.2206016953556647,
+      -0.2224466760307314,
+      -0.222446676030765,
+      -0.22006096170159534,
+      -0.17423325467180678,
+      -0.23186882648304394
+    ],
+    "method": "bounded sensitivity across linear, piecewise, quadratic, within-stint, race fixed effect",
+    "note": "range does not include physically plausible positive values, indicating model misspecification"
+  },
+  "performance": {
+    "benchmark_N10000_ms": 0.8034999918891117,
+    "benchmark_N1000_ms": 0.08060000254772604,
+    "memory_bounded": true,
+    "no_massive_tensors": true,
+    "note": "candidate remains offline calibration, production simulation unchanged",
+    "production_overhead": "<10% target met, no NDL tensors"
+  },
+  "pit_race_control": {
+    "note": "pit laps create structural discontinuities, SC/VSC yellow red flag limited/prior_only, no future info",
+    "pit_effect_seconds": 25.055303022361983,
+    "race_control": {
+      "evidence": "LIMITED",
+      "note": "race-control data remains LIMITED/PRIOR_ONLY, do not convert priors into observed facts",
+      "sc_laps": 222,
+      "total_messages": 8875
+    }
+  },
+  "promotion": {
+    "candidate_status": "NON_IDENTIFIABLE",
+    "chronological_validation_improvement": false,
+    "decision": "KEEP_PRODUCTION_MODEL",
+    "exact_reproducibility": true,
+    "leakage_violations": 0,
+    "no_historical_overreach": true,
+    "no_leakage": true,
+    "no_severe_confounding": false,
+    "physically_correct_counterfactual": false,
+    "promoted": false,
+    "provenance_complete": true,
+    "reason": "counterfactual inverted, confounding strong, walk-forward inconsistent, robustness NON_IDENTIFIABLE",
+    "robust_across_specifications": false,
+    "stable_coefficient_sign": false,
+    "uncertainty_reported": true
+  },
+  "provenance": {
+    "as_of_policy": "race_date -1 day strict_before",
+    "calibration_version": "phase26-fuel-tyre-decomposition-v1.0.0-candidate",
+    "circuit_version": "2026-09-20T14:12:18.490424+00:00",
+    "dataset_hashes": {
+      "backbone": "UNCHANGED_FROM_V1.1",
+      "laps_jolpica": "ac13fa1f",
+      "races": "2cce529c",
+      "results": "112c8475"
+    },
+    "dataset_version": "f1-dataset-v1.3",
+    "evidence_tiers": {
+      "fuel_proxy": "PROXY_ONLY",
+      "tyre_degradation": "NON_IDENTIFIABLE"
+    },
+    "fingerprint": "b22a1491",
+    "fuel_data_status": "NOT_AVAILABLE",
+    "model_specification": "Models A-H + within-stint + hierarchical",
+    "provenance": "reproducible via scripts/phase26_fuel_tyre_decomposition.py",
+    "proxy_definition": "normalized_lap, lap_number, stint_lap, race_progress, remaining_laps, race_phase",
+    "sample_sizes": {
+      "by_compound": {
+        "hard": 44147,
+        "medium": 33259,
+        "soft": 10998
+      },
+      "by_season": {
+        "2023": {
+          "n": 23422,
+          "pearson": 0.5339747434391562,
+          "spearman": 0.5353796806947598
+        },
+        "2024": {
+          "n": 24091,
+          "pearson": 0.5248006285503143,
+          "spearman": 0.5254843451161844
+        },
+        "2025": {
+          "n": 24863,
+          "pearson": 0.4614537723493338,
+          "spearman": 0.46974626405195236
+        },
+        "2026": {
+          "n": 16028,
+          "pearson": 0.4567059342453822,
+          "spearman": 0.47019240463591144
+        }
+      },
+      "total_valid": 88404
+    },
+    "seed": 42,
+    "training_window": "2023-2026 (exact tyre join only)",
+    "tyre_join_version": "tyre_join-v1.0.0",
+    "validation_window": "2024-2026 walk-forward"
+  },
+  "robustness": {
+    "beta_change_controlled": 0.45743010134080775,
+    "classification": "NON_IDENTIFIABLE",
+    "criteria": "ROBUST if sign stable & cv<0.3 & range<30% & corr<0.6; SENSITIVE if sign stable but cv>0.3; UNSTABLE if sign flips; NON_IDENTIFIABLE if corr>0.6 or beta_change>50%",
+    "max_corr": 0.983452781365322
+  },
+  "status": "CANDIDATE",
+  "variation": {
+    "between_circuit_var": 126.40847918769784,
+    "between_race_var": 121.70084066810544,
+    "total_var": 229.43317179516245,
+    "within_race_var": 121.81165659906912,
+    "within_stint_var": 100.78245204534834
+  },
+  "version": "phase26-fuel-tyre-decomposition-v1.0.0-candidate",
+  "walk_forward": [
+    {
+      "baseline_finish_MAE": null,
+      "baseline_lap_MAE": 6.26576620565446,
+      "beta_train": -0.4038836475654531,
+      "brier": null,
+      "candidate_finish_MAE": null,
+      "candidate_lap_MAE": 6.987946754509676,
+      "improvement": -0.7221805488552162,
+      "n_train": 23422,
+      "n_val": 24091,
+      "note": "lap MAE only, finish MAE requires full race simulation with SC/fuel etc, marked LIMITED",
+      "status": "ok",
+      "top3_overlap": null,
+      "train": "<=2023",
+      "val": [
+        2024
+      ],
+      "winner_match": null
+    },
+    {
+      "baseline_finish_MAE": null,
+      "baseline_lap_MAE": 8.424481064247116,
+      "beta_train": -0.35762160025905354,
+      "brier": null,
+      "candidate_finish_MAE": null,
+      "candidate_lap_MAE": 8.660231996658194,
+      "improvement": -0.23575093241107759,
+      "n_train": 47513,
+      "n_val": 24863,
+      "note": "lap MAE only, finish MAE requires full race simulation with SC/fuel etc, marked LIMITED",
+      "status": "ok",
+      "top3_overlap": null,
+      "train": "<=2024",
+      "val": [
+        2025
+      ],
+      "winner_match": null
+    },
+    {
+      "baseline_finish_MAE": null,
+      "baseline_lap_MAE": 5.96475766901584,
+      "beta_train": -0.3167188473054425,
+      "brier": null,
+      "candidate_finish_MAE": null,
+      "candidate_lap_MAE": 7.853551845205747,
+      "improvement": -1.888794176189907,
+      "n_train": 72376,
+      "n_val": 16028,
+      "note": "lap MAE only, finish MAE requires full race simulation with SC/fuel etc, marked LIMITED",
+      "status": "ok",
+      "top3_overlap": null,
+      "train": "<=2025",
+      "val": [
+        2026
+      ],
+      "winner_match": null
+    }
+  ],
+  "weather_control": {
+    "as_of": "race_date -1 day",
+    "evidence": "CALIBRATED",
+    "note": "respect as_of, do not use realized future weather",
+    "races_with_weather": 84,
+    "total_observations": 13346
+  },
+  "within_race": {
+    "avg_within_race_beta": -0.33234784287210645,
+    "note": "avoid comparing different circuits/eras/cars as equivalent, within-race reduces cross-race confounding but not fuel confounding",
+    "per_race_betas_sample": [
+      -0.39304578045255417,
+      -0.696899463075204,
+      -0.277691500763654,
+      -0.3181525352849856,
+      -0.06837094329033012
+    ]
+  },
+  "within_stint": {
+    "ci": [
+      -0.17997202462790074,
+      -0.16849448471571282
+    ],
+    "circuit_demeaned_beta": -0.24099966984067617,
+    "comparison": "global -0.309 vs demeaned still negative, sign not corrected",
+    "demeaned_beta": -0.17423325467180678,
+    "n": 88404,
+    "race_demeaned_beta": -0.23186882648304394,
+    "se": 0.0029279438551499796,
+    "sign_changed": false
+  }
+}

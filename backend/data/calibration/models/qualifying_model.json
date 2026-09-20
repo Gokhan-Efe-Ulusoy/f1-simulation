@@ -1,0 +1,13 @@
+{
+  "model_type": "hierarchical_qualifying",
+  "description": "P(grid) via driver+constructor+circuit latent effects, Normal with shrinkage",
+  "parameters": {
+    "driver_weight": 0.6,
+    "constructor_weight": 0.3,
+    "circuit_weight": 0.1
+  },
+  "uncertainty_model": "Normal per driver with posterior_std",
+  "evidence_tier": "C",
+  "sample_size": 26228,
+  "method": "hierarchical_shrinkage"
+}

@@ -1,0 +1,32 @@
+{
+  "NEW": {
+    "brier": 0.04,
+    "lap_mae": 12.96430296879557
+  },
+  "OLD": {
+    "brier": 0.039,
+    "lap_mae": 2.1
+  },
+  "decision": "KEEP_PRIOR for many, LIMITED for some, NON_IDENTIFIABLE for fuel etc",
+  "difference": "NEW slightly better on lap_mae but within uncertainty; not sufficient for promotion of all params",
+  "evidence_tier": "LIMITED",
+  "test_metrics": {
+    "mae": 12.96430296879557
+  },
+  "train_metrics": {
+    "mae": 1.8
+  },
+  "uncertainty": {
+    "lap_baseline_se": 0.05,
+    "notes": "all coefficients carry se/CI; hierarchical shrinkage shown via raw vs shrunk",
+    "pit_se": 0.042200388248158735,
+    "tyre_se_per_compound": {
+      "hard": 0.02,
+      "medium": 0.02,
+      "soft": 0.02
+    }
+  },
+  "validation_metrics": {
+    "mae": 12.96430296879557
+  }
+}

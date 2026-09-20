@@ -1,0 +1,464 @@
+{
+  "pipeline_version": "1.0.0",
+  "generated_at": "2026-09-19T09:39:52+00:00",
+  "canonical_version": "f1-dataset-v1.1 (UNCHANGED)",
+  "calibration_version": "calibration-v1.0.0 (UNCHANGED)",
+  "simulation_behavior_changed": false,
+  "counts": {
+    "laps_jolpica": 1129,
+    "pits_jolpica": 192,
+    "laps_openf1": 1129,
+    "stints": 63,
+    "wx_openf1": 157,
+    "pit_openf1": 43,
+    "rc": 71,
+    "reanalysis_hours": 144,
+    "telemetry_samples": 0
+  },
+  "laps_availability_probes": {
+    "1996": 1,
+    "2000": 1,
+    "2005": 1,
+    "2010": 1,
+    "2015": 1,
+    "2020": 1,
+    "2024": 1
+  },
+  "f1db_local_tables": {
+    "f1db-circuits.csv": 78,
+    "f1db-constructors.csv": 187,
+    "f1db-drivers.csv": 917,
+    "f1db-grands-prix.csv": 54,
+    "f1db-races-fastest-laps.csv": 17126,
+    "f1db-races-pit-stops.csv": 22490,
+    "f1db-races-qualifying-results.csv": 26998,
+    "f1db-races-race-results.csv": 27577,
+    "f1db-races-sprint-qualifying-results.csv": 466,
+    "f1db-races-sprint-race-results.csv": 590,
+    "f1db-races.csv": 1172,
+    "f1db-seasons.csv": 77
+  },
+  "fastf1": {
+    "status": "AVAILABLE",
+    "version": "3.8.3",
+    "cache": [
+      "C:\\Users\\gokha\\Desktop\\f1 sim\u00fclasyonu\\backend\\data\\raw\\fastf1\\cache\\2023\\2023-03-05_Bahrain_Grand_Prix\\",
+      "C:\\Users\\gokha\\Desktop\\f1 sim\u00fclasyonu\\backend\\data\\raw\\fastf1\\cache\\2024\\2024-03-02_Bahrain_Grand_Prix\\",
+      "C:\\Users\\gokha\\Desktop\\f1 sim\u00fclasyonu\\backend\\data\\raw\\fastf1\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\"
+    ]
+  },
+  "driver_code_map_size": 20,
+  "openf1_session_key": 9472,
+  "openf1_meeting_key": 1229,
+  "conflict_rate": 0.01771479185119575,
+  "duplicate_vs_previous_staging": {
+    "laps_jolpica": 1129,
+    "pit_stops_jolpica": 192,
+    "laps_openf1": 1129,
+    "stints_openf1": 63,
+    "weather_openf1": 157,
+    "pit_openf1": 43,
+    "race_control_openf1": 71,
+    "reanalysis_openmeteo": 144
+  },
+  "resolution_summary": {
+    "MATCHED": 1129,
+    "AMBIGUOUS": 0,
+    "UNMATCHED": 0
+  },
+  "promotion_gate": [
+    {
+      "variable": "lap_timing",
+      "current_status": "LIMITED",
+      "new_observations": 2258,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "jolpica-laps,openf1-timing",
+      "conflict_rate": 0.01771479185119575,
+      "missingness": 0.02,
+      "temporal_resolution": "lap",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "pit_timing",
+      "current_status": "PARTIAL",
+      "new_observations": 235,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "jolpica-pitstops,openf1-pit",
+      "conflict_rate": 0.0,
+      "missingness": 0.05,
+      "temporal_resolution": "event",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "tyre_compound",
+      "current_status": "LIMITED",
+      "new_observations": 63,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "openf1-stints",
+      "conflict_rate": 0.0,
+      "missingness": 0.05,
+      "temporal_resolution": "stint",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "tyre_age",
+      "current_status": "PRIOR_ONLY",
+      "new_observations": 63,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "openf1-stints",
+      "conflict_rate": 0.0,
+      "missingness": 0.05,
+      "temporal_resolution": "stint",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "weather",
+      "current_status": "LIMITED",
+      "new_observations": 157,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "openf1-weather",
+      "conflict_rate": 0.0,
+      "missingness": 0.05,
+      "temporal_resolution": "1 minute",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "race_control",
+      "current_status": "LIMITED",
+      "new_observations": 71,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "openf1-racecontrol",
+      "conflict_rate": 0.0,
+      "missingness": 0.1,
+      "temporal_resolution": "event",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "sector_timing",
+      "current_status": "LIMITED",
+      "new_observations": 1127,
+      "coverage_delta": "eras observed: ['2022-2026']",
+      "source_quality": "openf1-timing",
+      "conflict_rate": 0.0,
+      "missingness": 0.1,
+      "temporal_resolution": "sector",
+      "promotion_candidate": true,
+      "promoted_tier": "LIMITED",
+      "reason": "meets observation/conflict/missingness bars; staged as LIMITED candidate"
+    },
+    {
+      "variable": "telemetry",
+      "current_status": "LIMITED",
+      "new_observations": 0,
+      "coverage_delta": "eras observed: []",
+      "source_quality": "openf1-telemetry",
+      "conflict_rate": 0.0,
+      "missingness": 1.0,
+      "temporal_resolution": "3.7 Hz",
+      "promotion_candidate": false,
+      "promoted_tier": "LIMITED",
+      "reason": "insufficient observations (0 < 1000)"
+    },
+    {
+      "variable": "setup",
+      "current_status": "NON_IDENTIFIABLE",
+      "new_observations": 0,
+      "coverage_delta": "eras observed: []",
+      "source_quality": "",
+      "conflict_rate": 0.0,
+      "missingness": 1.0,
+      "temporal_resolution": "n/a",
+      "promotion_candidate": false,
+      "promoted_tier": "NON_IDENTIFIABLE",
+      "reason": "insufficient observations (0 < 100)"
+    },
+    {
+      "variable": "strategy",
+      "current_status": "NON_IDENTIFIABLE",
+      "new_observations": 0,
+      "coverage_delta": "eras observed: []",
+      "source_quality": "",
+      "conflict_rate": 0.0,
+      "missingness": 1.0,
+      "temporal_resolution": "n/a",
+      "promotion_candidate": false,
+      "promoted_tier": "NON_IDENTIFIABLE",
+      "reason": "insufficient observations (0 < 100)"
+    }
+  ],
+  "warnings": [],
+  "log": [
+    "jolpica-laps 2024 R1: 12 pages, total=1129",
+    "laps availability probes: {'1996': 1, '2000': 1, '2005': 1, '2010': 1, '2015': 1, '2020': 1, '2024': 1}",
+    "jolpica-pitstops 2024 R1: total=43",
+    "jolpica-pitstops 2024 R2: total=19",
+    "jolpica-pitstops 2024 R3: total=36",
+    "jolpica-pitstops 2024 R4: total=54",
+    "jolpica-pitstops 2024 R5: total=40",
+    "driver code map: 20 entries",
+    "openf1 Bahrain 2024 race session_key=9472 meeting_key=1229",
+    "openf1 driver_number->ref mapped: 20/20",
+    "openf1 laps: 1129 rows",
+    "openf1 stints: 63 rows",
+    "openf1 weather: 157 rows",
+    "openf1 pit: 43 rows",
+    "openf1 race_control: 71 rows",
+    "openmeteo 2024-bahrain: 24 hourly rows",
+    "openmeteo 2024-jeddah: 24 hourly rows",
+    "openmeteo 2024-melbourne: 24 hourly rows",
+    "openmeteo 2024-suzuka: 24 hourly rows",
+    "openmeteo 2024-monaco: 24 hourly rows",
+    "openmeteo 2024-silverstone: 24 hourly rows",
+    "f1db local tables: 12 files",
+    "fastf1: AVAILABLE",
+    "join map: 20 codes, 20 driver_numbers",
+    "staging laps_jolpica: new=1129 dup=0 invalid=0 dup_vs_previous=1129",
+    "staging pit_stops_jolpica: new=192 dup=0 invalid=0 dup_vs_previous=192",
+    "staging laps_openf1: new=1129 dup=0 invalid=0 dup_vs_previous=1129",
+    "staging stints_openf1: new=63 dup=0 invalid=0 dup_vs_previous=63",
+    "staging weather_openf1: new=157 dup=0 invalid=0 dup_vs_previous=157",
+    "staging pit_openf1: new=43 dup=0 invalid=0 dup_vs_previous=43",
+    "staging race_control_openf1: new=71 dup=0 invalid=0 dup_vs_previous=71",
+    "staging reanalysis_openmeteo: new=144 dup=0 invalid=0 dup_vs_previous=144",
+    "conflicts: 20 genuine over 1129 compared pairs",
+    "resolution jolpica drivers: {'MATCHED': 1129, 'AMBIGUOUS': 0, 'UNMATCHED': 0}"
+  ],
+  "raw_files": [
+    {
+      "file": "data/raw/external/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_id": "external",
+      "download_timestamp": ""
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset0.json",
+      "size": 7065,
+      "sha256": "4608c6432493c9f392b74d9bce1c9f84e2f2da21c4b91498165b78a1e2ab9530",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:34+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset100.json",
+      "size": 7068,
+      "sha256": "3cb48d7e8a3b6c0cb333742fffa6993eb9b2212b737a5811a774a220470ab0b1",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:35+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset1000.json",
+      "size": 7073,
+      "sha256": "be75cf928a63eecf5589d33d2cd7d4d5079ad2eb5d9523ce8dc785cddd072a80",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:49+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset1100.json",
+      "size": 2518,
+      "sha256": "2305d344682c407263aa090aabee4218dde404b1ac3a42d450675ebc3bb31c43",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:50+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset200.json",
+      "size": 7072,
+      "sha256": "44307305ceaf62f0f44738e05dad236b28dd7e0a87bcca8dc3b74e4f790a50db",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:37+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset300.json",
+      "size": 7072,
+      "sha256": "cb688747d30730ca7c16560009b70b9a1efc2e7ce40cc0a1a4150831943d5eb6",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:38+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset400.json",
+      "size": 7072,
+      "sha256": "e5bf2afe8592466482465bacb304df794f7c51552e42c44605a1041547bdf2d9",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:40+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset500.json",
+      "size": 7072,
+      "sha256": "deefb3e81bb5e3431f758496d4bfe350c0074de0055e4c04904748b2e45da954",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:41+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset600.json",
+      "size": 7072,
+      "sha256": "013efa59b9858b3c21d3a8f3b0eff53cfbb0038955bf3f193f10a5b240ca8303",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:43+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset700.json",
+      "size": 7072,
+      "sha256": "c74be1987b52cd2cf8d72f403a07c470ebe17ee5bef3c305e7ed70719554466b",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:44+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset800.json",
+      "size": 7072,
+      "sha256": "94ea4a2deb2f7e5b03cd2f10de69ce2e9a7043f000f783000eca170c0fee614c",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:46+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-laps/2024-r1-laps-offset900.json",
+      "size": 7072,
+      "sha256": "d21ec8820c7e45ab797b69c7cdbeb1830ce8d3b58610fcf0f1d9c6f59d3bd7d9",
+      "source_id": "jolpica-laps",
+      "download_timestamp": "2026-09-19T09:28:47+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-pitstops/2024-r1-pitstops-offset0.json",
+      "size": 4654,
+      "sha256": "65fbcbc1e00f21c103a0e94db48a7615b3e80d8900b21913edddd6f106fa7658",
+      "source_id": "jolpica-pitstops",
+      "download_timestamp": "2026-09-19T09:29:02+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-pitstops/2024-r2-pitstops-offset0.json",
+      "size": 2413,
+      "sha256": "acfaca0ffbda83528ff43c560f6e96a45ffe3fb50c72cc5184caf15bdd771084",
+      "source_id": "jolpica-pitstops",
+      "download_timestamp": "2026-09-19T09:29:04+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-pitstops/2024-r3-pitstops-offset0.json",
+      "size": 3977,
+      "sha256": "13732910b03afee05ca2d292d594356e2995c4f148eba4d661bccfdf4d3ddea6",
+      "source_id": "jolpica-pitstops",
+      "download_timestamp": "2026-09-19T09:29:05+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-pitstops/2024-r4-pitstops-offset0.json",
+      "size": 5693,
+      "sha256": "86dd5a7a57c8b1f21973012a07c08798e1d64553379d1b95bbf34d67cf32ebf1",
+      "source_id": "jolpica-pitstops",
+      "download_timestamp": "2026-09-19T09:29:07+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-pitstops/2024-r5-pitstops-offset0.json",
+      "size": 4364,
+      "sha256": "f13eba4448f8a08bd73d7d5f3fb9c0a4c3dbcf2d1ff9f36b5070ab66785e0edc",
+      "source_id": "jolpica-pitstops",
+      "download_timestamp": "2026-09-19T09:29:08+00:00"
+    },
+    {
+      "file": "data/raw/external/jolpica-results/2024-r1-results.json",
+      "size": 14131,
+      "sha256": "dc14100cfaaeb478a74c7a0f7b0f31f062083b389fba78049e5bb50c62abc151",
+      "source_id": "jolpica-results",
+      "download_timestamp": "2026-09-19T09:29:09+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-pit/pit-9472.json",
+      "size": 8373,
+      "sha256": "90fd77bc7ca1a1930de61fd0764c0933535b915678c5ac664ccce39ff3a63062",
+      "source_id": "openf1-pit",
+      "download_timestamp": "2026-09-19T09:31:48+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-racecontrol/race_control-9472.json",
+      "size": 19986,
+      "sha256": "4acf54fa63fb03d8c96ea44d02e105627c95f31bc86415a8ae5b94f7a33acc46",
+      "source_id": "openf1-racecontrol",
+      "download_timestamp": "2026-09-19T09:30:15+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-stints/stints-9472.json",
+      "size": 10043,
+      "sha256": "2095b0cfdb9eeb9ea583c29fe54471fe3fe1905207da3f3e81519a25cd373e56",
+      "source_id": "openf1-stints",
+      "download_timestamp": "2026-09-19T09:30:12+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-timing/drivers-9472.json",
+      "size": 8796,
+      "sha256": "a4af73b1c4cb5d0a0c1e8367ab92b096f92ffd6558cc37dff64ebd0d5b2ddba4",
+      "source_id": "openf1-timing",
+      "download_timestamp": "2026-09-19T09:30:09+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-timing/laps-9472.json",
+      "size": 628249,
+      "sha256": "19301d86fc948ba7144aa3a10fab9f433d274812be4cdbeab52ee1119fbc1451",
+      "source_id": "openf1-timing",
+      "download_timestamp": "2026-09-19T09:30:11+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-timing/sessions-2024.json",
+      "size": 48722,
+      "sha256": "1f7fdb23688fb51b8a1d278fdd49f2372ef100ebcfb0f012b67b0a10cc98ee68",
+      "source_id": "openf1-timing",
+      "download_timestamp": "2026-09-19T09:29:11+00:00"
+    },
+    {
+      "file": "data/raw/external/openf1-weather/weather-9472.json",
+      "size": 36768,
+      "sha256": "80695744383cef79aec088768cf476edf62720e7a80a274ef9fa755943a1d20f",
+      "source_id": "openf1-weather",
+      "download_timestamp": "2026-09-19T09:30:13+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-bahrain.json",
+      "size": 1812,
+      "sha256": "6a6574376f76b7e14f3189aa3dc6405f94fbceff7ef6d17e65feafa1c2912ed5",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:13+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-jeddah.json",
+      "size": 1809,
+      "sha256": "8d09fe3923fa114df36c8e68548776a24e64340fa5aa8907008ed1be8d83e38c",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:14+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-melbourne.json",
+      "size": 1824,
+      "sha256": "fa801ea878abe2ab60d0d08f903b88c562b4c491774cf0a2e664ddd95d3695b4",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:17+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-monaco.json",
+      "size": 1796,
+      "sha256": "1d51d92c520b955eb28bbe8464bab502f52962d173a4a1043d61a96016502ded",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:19+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-silverstone.json",
+      "size": 1822,
+      "sha256": "dff3a4f3e54ad3dbe948c32ffb44f966dc993023ad199ee7cd00d64d960a87b5",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:21+00:00"
+    },
+    {
+      "file": "data/raw/external/openmeteo-era5/2024-suzuka.json",
+      "size": 1793,
+      "sha256": "9209ff1af6f1a80149f2ba72788810fbc5ec25a202343ca778969dd5ac86ceb1",
+      "source_id": "openmeteo-era5",
+      "download_timestamp": "2026-09-19T09:29:17+00:00"
+    }
+  ]
+}

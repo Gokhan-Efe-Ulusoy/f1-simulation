@@ -1,0 +1,12 @@
+{
+  "available": false,
+  "failures": [
+    {
+      "error": "DataUnavailable: fastf1 not installed"
+    }
+  ],
+  "note": "fastf1 is optional; missing dep returns DataUnavailable",
+  "seasons_requested": 7,
+  "sessions_acquired": 0,
+  "telemetry_acquired": 0
+}

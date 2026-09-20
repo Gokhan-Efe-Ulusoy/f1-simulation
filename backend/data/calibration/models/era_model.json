@@ -1,0 +1,112 @@
+{
+  "1950-1960": {
+    "era": "1950-1960",
+    "races": 94,
+    "observations": 2020,
+    "field_spread": 7.002882746646102,
+    "reliability": 0.19059405940594054,
+    "avg_points": 1.1087475247524752,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 2020
+  },
+  "1961-1970": {
+    "era": "1961-1970",
+    "races": 103,
+    "observations": 2072,
+    "field_spread": 6.51356219593172,
+    "reliability": 0.1785714285714286,
+    "avg_points": 1.2374517374517375,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 2072
+  },
+  "1971-1982": {
+    "era": "1971-1982",
+    "races": 163,
+    "observations": 4251,
+    "field_spread": 7.0380479133374205,
+    "reliability": 0.12491178546224413,
+    "avg_points": 1.44349376114082,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 4251
+  },
+  "1983-1987": {
+    "era": "1983-1987",
+    "races": 79,
+    "observations": 2104,
+    "field_spread": 3.8168221561606153,
+    "reliability": 0.0,
+    "avg_points": 4.158848614072495,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 2104
+  },
+  "1988-1993": {
+    "era": "1988-1993",
+    "races": 96,
+    "observations": 3091,
+    "field_spread": 4.365635959113636,
+    "reliability": 0.0,
+    "avg_points": 4.227430555555555,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 3091
+  },
+  "1994-1997": {
+    "era": "1994-1997",
+    "races": 66,
+    "observations": 1578,
+    "field_spread": 4.013814912108331,
+    "reliability": 0.0,
+    "avg_points": 4.333333333333333,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 1578
+  },
+  "1998-2008": {
+    "era": "1998-2008",
+    "races": 189,
+    "observations": 4010,
+    "field_spread": 4.525196221206575,
+    "reliability": 0.0,
+    "avg_points": 4.679315476190476,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 4010
+  },
+  "2009-2013": {
+    "era": "2009-2013",
+    "races": 94,
+    "observations": 2148,
+    "field_spread": 5.6733102861289,
+    "reliability": 0.0,
+    "avg_points": 9.294150110375275,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 2148
+  },
+  "2014-2021": {
+    "era": "2014-2021",
+    "races": 160,
+    "observations": 3269,
+    "field_spread": 5.10955217762862,
+    "reliability": 0.0,
+    "avg_points": 10.1653125,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 3269
+  },
+  "2022-2026": {
+    "era": "2022-2026",
+    "races": 83,
+    "observations": 1685,
+    "field_spread": 5.637386190097929,
+    "reliability": 0.2504451038575668,
+    "avg_points": 6.875102040816326,
+    "relative_pace": null,
+    "method": "empirical_era_stats",
+    "sample_size": 1685
+  }
+}

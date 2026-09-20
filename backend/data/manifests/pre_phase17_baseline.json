@@ -1,0 +1,60 @@
+{
+  "dataset_version": "f1-dataset-v1.1",
+  "dataset_hash": "2cce529c973e1cbd",
+  "calibration_version": "calibration-v1.0.0",
+  "calibration_hash": "3df2622221ab23f1",
+  "tyre_calibration_version": "tyre-calibration-v1.0.0",
+  "tyre_calibration_hash": "503079ee",
+  "simulation_version": "8.2.0",
+  "raceengine_version": "raceengine-v1.2.0",
+  "model_version": "0.3.0",
+  "rng_contract_version": "1.0",
+  "schema_version": "1.0.0",
+  "python_version": "3.12.0",
+  "numpy_version": "2.5.0",
+  "numba_version": "0.67.0",
+  "test_counts": {
+    "collected": 378,
+    "passed": 378,
+    "failed": 0,
+    "skipped": 0,
+    "total": 378
+  },
+  "benchmark": {
+    "10k_58": 4.59,
+    "10k_5": 1.14,
+    "sim_per_sec": 2177,
+    "memory_mb": 180
+  },
+  "scientific_metrics": {
+    "top1": 0.3,
+    "brier": 0.039,
+    "mae": 3.97
+  },
+  "known_limitations": [
+    "RNG Level B 0.20 win diff",
+    "tyre historical prior_only",
+    "warmup non-identifiable"
+  ],
+  "creation_timestamp": "2026-09-17T17:46:24.300223+00:00",
+  "frozen": true,
+  "tyre_calibration_hash_full": "503079eef9008a8cadc842499cf7e5c07061b06eb7bfe0707aa90121502db467",
+  "dataset_hash_full": "2cce529c973e1cbd...",
+  "calibration_hash_full": "3df2622221ab23f1...",
+  "canonical_coverage": {
+    "tyre": {
+      "2023": "LIMITED",
+      "2024": "LIMITED",
+      "2025": "PRIOR_ONLY",
+      "2026": "PRIOR_ONLY",
+      "historical": "PRIOR_ONLY"
+    }
+  },
+  "authoritative_tyre_coefficient": {
+    "SOFT": -0.22290358649166972,
+    "HARD": -0.20185149039843397,
+    "GLOBAL": -0.20738438137868936,
+    "note": "negative = faster with age, fuel-confounded associational, prior +0.05 is doc stale"
+  },
+  "baseline_status": "READY"
+}

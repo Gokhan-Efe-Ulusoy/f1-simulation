@@ -1,0 +1,13 @@
+{
+  "variable": "sector_pace",
+  "sample_size": 1127,
+  "years": "2024",
+  "circuits": 1,
+  "drivers": 20,
+  "observations": 1127,
+  "confounders": [
+    "single circuit"
+  ],
+  "candidate_model": "sector pace decomposition",
+  "evidence_tier": "LIMITED"
+}

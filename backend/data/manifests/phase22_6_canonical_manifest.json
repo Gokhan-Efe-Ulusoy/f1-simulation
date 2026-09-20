@@ -1,0 +1,90 @@
+{
+  "canonicalization_version": "22.6.1",
+  "driver_resolution": {
+    "AMBIGUOUS": 0,
+    "MATCHED": 111697,
+    "UNMATCHED": 0,
+    "note": "cumulative over laps_jolpica+pitstops_jolpica (per-run stats, see canonicalize logs)"
+  },
+  "families": {
+    "drivers_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 92,
+      "rows": 1881
+    },
+    "dropped_nested_columns": {
+      "drivers_openf1": [],
+      "overtakes_openf1": [],
+      "positions_openf1": [],
+      "results_openf1": [],
+      "teamradio_openf1": []
+    },
+    "intervals_openf1": {
+      "note": "raw complete (84 sessions); parquet deferred, see limitations",
+      "orphan_sessions": 0,
+      "partitions": 12,
+      "rows": 310027,
+      "status": "PARTIAL_DEFERRED"
+    },
+    "laps_jolpica": {
+      "orphan_races": 0,
+      "partitions": 99,
+      "rows": 98950
+    },
+    "laps_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 93650
+    },
+    "overtakes_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 21022
+    },
+    "pitstops_jolpica": {
+      "orphan_races": 0,
+      "partitions": 333,
+      "rows": 12747
+    },
+    "pitstops_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 78,
+      "rows": 2897
+    },
+    "positions_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 41365
+    },
+    "race_control_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 8875
+    },
+    "reanalysis_era5": {
+      "partitions": 558,
+      "rows": 13392
+    },
+    "results_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 1705
+    },
+    "stints_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 4840
+    },
+    "teamradio_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 80,
+      "rows": 6427
+    },
+    "weather_openf1": {
+      "orphan_sessions": 1,
+      "partitions": 84,
+      "rows": 13346
+    }
+  },
+  "generated_at": "2026-09-19T13:57:38+00:00"
+}

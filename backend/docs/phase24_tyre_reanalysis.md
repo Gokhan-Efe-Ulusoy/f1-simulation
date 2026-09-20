@@ -1,0 +1,23 @@
+# Tyre Reanalysis
+
+{
+  "hard": {
+    "coeff": 0.022,
+    "n_stints": 1743,
+    "se": 0.012
+  },
+  "medium": {
+    "coeff": 0.041,
+    "n_stints": 1823,
+    "se": 0.015
+  },
+  "note": "expanded 1996-2026 laps but tyre-age join still 2023+ only, lap-tyre join via stint lap_start/end; fuel confounding retained as ASSOCIATIONAL not CALIBRATED",
+  "soft": {
+    "coeff": 0.075,
+    "evidence_tier": "LIMITED",
+    "n_laps_joined": "approx 12000",
+    "n_stints": 913,
+    "se": 0.018
+  }
+}
+Join race+driver+lap+stint+compound+tyre_age+circuit+era; exact joins via stint lap_start/end but driver_number mapping approximate -> ASSOCIATIONAL/LIMITED not CALIBRATED, fuel confounding retained

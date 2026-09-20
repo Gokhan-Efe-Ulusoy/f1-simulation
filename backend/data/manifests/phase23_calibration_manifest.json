@@ -1,0 +1,158 @@
+{
+  "artifacts": {
+    "lap_time_model": "6e6ba357",
+    "pit": "58aa0482",
+    "tyre": "d661f028"
+  },
+  "calibration_id": "phase23-candidate-v1",
+  "creation_timestamp": "2026-09-20T13:26:02.546143+00:00",
+  "dataset_hash": "f436a3cf",
+  "dataset_id": "f1-dataset-v1.3",
+  "evidence_tiers": {
+    "circuit": "LIMITED",
+    "constructor": "LIMITED",
+    "driver": "LIMITED",
+    "era": "CALIBRATED",
+    "fuel": "NON_IDENTIFIABLE",
+    "lap_time_baseline": "CALIBRATED",
+    "pit_split": "NON_IDENTIFIABLE",
+    "pit_total": "CALIBRATED",
+    "race_control": "PRIOR_ONLY",
+    "setup": "NON_IDENTIFIABLE",
+    "strategy": "NON_IDENTIFIABLE",
+    "tyre_hard": "LIMITED",
+    "tyre_medium": "LIMITED",
+    "tyre_soft": "LIMITED",
+    "weather": "PRIOR_ONLY"
+  },
+  "leakage_violations": 0,
+  "promotion_summary": {
+    "circuit": {
+      "decision": "LIMITED"
+    },
+    "constructor": {
+      "decision": "LIMITED"
+    },
+    "driver": {
+      "decision": "LIMITED"
+    },
+    "era": {
+      "decision": "CALIBRATED"
+    },
+    "fuel": {
+      "decision": "NON_IDENTIFIABLE"
+    },
+    "lap_time_baseline": {
+      "decision": "CALIBRATED"
+    },
+    "pit_split": {
+      "decision": "NON_IDENTIFIABLE"
+    },
+    "pit_total": {
+      "decision": "CALIBRATED",
+      "n": 12147,
+      "required": 500
+    },
+    "race_control": {
+      "decision": "PRIOR_ONLY"
+    },
+    "setup": {
+      "decision": "NON_IDENTIFIABLE"
+    },
+    "strategy": {
+      "decision": "NON_IDENTIFIABLE"
+    },
+    "tyre_hard": {
+      "decision": "LIMITED"
+    },
+    "tyre_medium": {
+      "decision": "LIMITED"
+    },
+    "tyre_soft": {
+      "decision": "LIMITED",
+      "leakage": 0,
+      "n_circuits": 34,
+      "n_laps": 913,
+      "n_races": 74,
+      "required_circuits": 3,
+      "required_races": 5,
+      "uncertainty": 0.02,
+      "walk_forward": "fail (hurts validation)"
+    },
+    "weather": {
+      "decision": "PRIOR_ONLY"
+    }
+  },
+  "reproducible": true,
+  "seed": 42,
+  "walk_forward": {
+    "brier": 0.04,
+    "finish_mae": 4.2,
+    "fixed": {
+      "test": "2022-2024",
+      "train": "2010-2019",
+      "val": "2020-2021"
+    },
+    "fixed_metrics": {
+      "mae": 13.047752887414227,
+      "n": 15815,
+      "rmse": 17.439245973618547
+    },
+    "lap_mae": 12.96430296879557,
+    "rmse": 17.343357603390178,
+    "splits": [
+      {
+        "metrics": {
+          "mae": 16.160313506933285,
+          "n": 17999,
+          "rmse": 20.749649331834146
+        },
+        "test": "2020",
+        "train": "2010-2018",
+        "val": "2019"
+      },
+      {
+        "metrics": {
+          "mae": 13.915768047772362,
+          "n": 23142,
+          "rmse": 17.747529336317406
+        },
+        "test": "2021",
+        "train": "2010-2019",
+        "val": "2020"
+      },
+      {
+        "metrics": {
+          "mae": 12.85709563458684,
+          "n": 15815,
+          "rmse": 17.334316933581924
+        },
+        "test": "2022",
+        "train": "2010-2020",
+        "val": "2021"
+      },
+      {
+        "metrics": {
+          "mae": 13.537486641064481,
+          "n": 5124,
+          "rmse": 18.518312546005085
+        },
+        "test": "2023",
+        "train": "2010-2021",
+        "val": "2022"
+      },
+      {
+        "metrics": {
+          "mae": 12.96430296879557,
+          "n": 5629,
+          "rmse": 17.343357603390178
+        },
+        "test": "2024",
+        "train": "2010-2022",
+        "val": "2023"
+      }
+    ],
+    "top3_overlap": 0.59,
+    "winner_match": 0.28
+  }
+}

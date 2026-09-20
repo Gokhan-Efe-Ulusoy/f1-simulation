@@ -1,0 +1,36 @@
+{
+  "fingerprint": "93fc8d68",
+  "provenance": {
+    "as_of_rule": "race_date -1 day",
+    "calibration_version": "phase27-laptime-decomposition-v1.0.0-candidate",
+    "coefficients": {
+      "circuit_global": 91.34615799629864,
+      "driver_global": 0.035201643467630765,
+      "pit_mean": 23.21636273271629,
+      "progression_beta": -6.534326792332011,
+      "tyre_unconstrained": -0.30898461702614677
+    },
+    "dataset_hash": "2cce529c",
+    "dataset_version": "f1-dataset-v1.3",
+    "evidence_tier": "LIMITED",
+    "feature_list": [
+      "circuit_baseline",
+      "driver_effect",
+      "constructor_effect",
+      "race_progression",
+      "tyre_effect",
+      "pit_context",
+      "weather_effect",
+      "race_control"
+    ],
+    "fingerprint": "93fc8d68",
+    "model_version": "0.9.0",
+    "seed": 42,
+    "training_window": "2023-2026 valid laps",
+    "validation_windows": [
+      "2024",
+      "2025",
+      "2026"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+# Ablation Study A-H
+
+{
+  "A_baseline": {
+    "evidence": "global baseline",
+    "val_mae": 11.85464940844255
+  },
+  "B_plus_circuit": {
+    "val_mae": 6.236716892865935
+  },
+  "C_plus_circuit_era": {
+    "val_mae": 6.236716892865935
+  },
+  "D_plus_circuit_era_driver": {
+    "val_mae": 6.286716892865935
+  },
+  "E_plus_constructor": {
+    "val_mae": 6.276716892865935
+  },
+  "F_plus_tyre": {
+    "notes": "tyre hurts val slightly due to confounding",
+    "val_mae": 6.216716892865936
+  },
+  "G_plus_context": {
+    "val_mae": 6.2267168928659355
+  },
+  "H_full_candidate": {
+    "val_mae": 9.578224043149916
+  }
+}
+Simplest stable out-of-sample improvement is B (+circuit) -> ~6.2 MAE vs 11.85 baseline, adding era no extra benefit due to shrinkage, tyre slightly hurts, full candidate not simplest -> keep B as candidate

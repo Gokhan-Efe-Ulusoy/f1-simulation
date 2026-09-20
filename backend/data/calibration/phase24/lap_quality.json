@@ -1,0 +1,574 @@
+{
+  "by_circuit": {
+    "albert_park": {
+      "FORMATION": 58,
+      "PIT_ENTRY": 120,
+      "PIT_EXIT": 58,
+      "VALID_RACE_LAP": 367
+    },
+    "americas": {
+      "FORMATION": 40,
+      "PIT_ENTRY": 118,
+      "PIT_EXIT": 64,
+      "VALID_RACE_LAP": 250
+    },
+    "austin": {
+      "FORMATION": 224,
+      "PIT_ENTRY": 3375,
+      "PIT_EXIT": 1521,
+      "VALID_RACE_LAP": 4474
+    },
+    "bahrain": {
+      "FORMATION": 446,
+      "PIT_ENTRY": 5875,
+      "PIT_EXIT": 2005,
+      "RED_FLAG": 20,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 12993
+    },
+    "baku": {
+      "FORMATION": 176,
+      "PIT_ENTRY": 1798,
+      "PIT_EXIT": 841,
+      "RED_FLAG": 33,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 3217
+    },
+    "buddh": {
+      "FORMATION": 69,
+      "PIT_ENTRY": 1326,
+      "PIT_EXIT": 591,
+      "VALID_RACE_LAP": 1769
+    },
+    "buenos-aires": {
+      "FORMATION": 64,
+      "RED_FLAG": 1,
+      "SAFETY_CAR": 3,
+      "VALID_RACE_LAP": 3395
+    },
+    "catalunya": {
+      "FORMATION": 626,
+      "PIT_ENTRY": 6668,
+      "PIT_EXIT": 2417,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 22479
+    },
+    "estoril": {
+      "FORMATION": 19,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 1264
+    },
+    "fuji": {
+      "FORMATION": 40,
+      "RED_FLAG": 1,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 2318
+    },
+    "hockenheimring": {
+      "FORMATION": 367,
+      "PIT_ENTRY": 2885,
+      "PIT_EXIT": 1183,
+      "RED_FLAG": 1,
+      "SAFETY_CAR": 7,
+      "VALID_RACE_LAP": 14532
+    },
+    "hungaroring": {
+      "FORMATION": 641,
+      "PIT_ENTRY": 6131,
+      "PIT_EXIT": 2732,
+      "RED_FLAG": 16,
+      "SAFETY_CAR": 7,
+      "VALID_RACE_LAP": 26742
+    },
+    "imola": {
+      "FORMATION": 326,
+      "PIT_ENTRY": 961,
+      "PIT_EXIT": 509,
+      "RED_FLAG": 18,
+      "SAFETY_CAR": 4,
+      "VALID_RACE_LAP": 13303
+    },
+    "indianapolis": {
+      "FORMATION": 140,
+      "VALID_RACE_LAP": 8222
+    },
+    "interlagos": {
+      "FORMATION": 578,
+      "PIT_ENTRY": 5143,
+      "PIT_EXIT": 2079,
+      "RED_FLAG": 71,
+      "SAFETY_CAR": 10,
+      "VALID_RACE_LAP": 24288
+    },
+    "istanbul": {
+      "FORMATION": 189,
+      "PIT_ENTRY": 1411,
+      "PIT_EXIT": 484,
+      "RED_FLAG": 2,
+      "SAFETY_CAR": 3,
+      "VALID_RACE_LAP": 8058
+    },
+    "jeddah": {
+      "FORMATION": 97,
+      "PIT_ENTRY": 334,
+      "PIT_EXIT": 235,
+      "RED_FLAG": 35,
+      "SAFETY_CAR": 16,
+      "VALID_RACE_LAP": 1540
+    },
+    "jerez": {
+      "FORMATION": 22,
+      "VALID_RACE_LAP": 1323
+    },
+    "las-vegas": {
+      "FORMATION": 19,
+      "PIT_ENTRY": 65,
+      "PIT_EXIT": 36,
+      "VALID_RACE_LAP": 80
+    },
+    "losail": {
+      "FORMATION": 36,
+      "PIT_ENTRY": 108,
+      "PIT_EXIT": 93,
+      "VALID_RACE_LAP": 168
+    },
+    "lusail": {
+      "FORMATION": 40,
+      "PIT_ENTRY": 462,
+      "PIT_EXIT": 175,
+      "VALID_RACE_LAP": 701
+    },
+    "madring": {
+      "FORMATION": 22,
+      "PIT_ENTRY": 57,
+      "PIT_EXIT": 18,
+      "VALID_RACE_LAP": 203
+    },
+    "magny-cours": {
+      "FORMATION": 270,
+      "SAFETY_CAR": 4,
+      "VALID_RACE_LAP": 15744
+    },
+    "marina-bay": {
+      "FORMATION": 285,
+      "PIT_ENTRY": 3937,
+      "PIT_EXIT": 1459,
+      "SAFETY_CAR": 23,
+      "VALID_RACE_LAP": 8516
+    },
+    "marina_bay": {
+      "FORMATION": 38,
+      "PIT_ENTRY": 105,
+      "PIT_EXIT": 33,
+      "VALID_RACE_LAP": 408
+    },
+    "melbourne": {
+      "FORMATION": 499,
+      "PIT_ENTRY": 3210,
+      "PIT_EXIT": 1407,
+      "RED_FLAG": 23,
+      "SAFETY_CAR": 16,
+      "VALID_RACE_LAP": 17911
+    },
+    "mexico-city": {
+      "FORMATION": 159,
+      "PIT_ENTRY": 2203,
+      "PIT_EXIT": 1154,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 4919
+    },
+    "miami": {
+      "FORMATION": 101,
+      "PIT_ENTRY": 621,
+      "PIT_EXIT": 287,
+      "VALID_RACE_LAP": 1086
+    },
+    "monaco": {
+      "FORMATION": 589,
+      "PIT_ENTRY": 4065,
+      "PIT_EXIT": 2132,
+      "RED_FLAG": 72,
+      "SAFETY_CAR": 11,
+      "VALID_RACE_LAP": 27733
+    },
+    "montreal": {
+      "FORMATION": 512,
+      "PIT_ENTRY": 4210,
+      "PIT_EXIT": 2218,
+      "RED_FLAG": 24,
+      "SAFETY_CAR": 8,
+      "VALID_RACE_LAP": 21982
+    },
+    "monza": {
+      "FORMATION": 629,
+      "PIT_ENTRY": 3531,
+      "PIT_EXIT": 1596,
+      "RED_FLAG": 40,
+      "SAFETY_CAR": 9,
+      "VALID_RACE_LAP": 19651
+    },
+    "mugello": {
+      "FORMATION": 18,
+      "PIT_ENTRY": 156,
+      "PIT_EXIT": 74,
+      "RED_FLAG": 25,
+      "SAFETY_CAR": 7,
+      "VALID_RACE_LAP": 498
+    },
+    "nurburgring": {
+      "FORMATION": 330,
+      "PIT_ENTRY": 1528,
+      "PIT_EXIT": 636,
+      "RED_FLAG": 18,
+      "SAFETY_CAR": 20,
+      "VALID_RACE_LAP": 14848
+    },
+    "paul-ricard": {
+      "FORMATION": 77,
+      "PIT_ENTRY": 990,
+      "PIT_EXIT": 485,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 2402
+    },
+    "portimao": {
+      "FORMATION": 40,
+      "PIT_ENTRY": 759,
+      "PIT_EXIT": 445,
+      "VALID_RACE_LAP": 1288
+    },
+    "red_bull_ring": {
+      "FORMATION": 62,
+      "PIT_ENTRY": 103,
+      "PIT_EXIT": 174,
+      "VALID_RACE_LAP": 561
+    },
+    "rodriguez": {
+      "FORMATION": 38,
+      "PIT_ENTRY": 149,
+      "PIT_EXIT": 27,
+      "VALID_RACE_LAP": 386
+    },
+    "sepang": {
+      "FORMATION": 394,
+      "PIT_ENTRY": 3296,
+      "PIT_EXIT": 992,
+      "RED_FLAG": 25,
+      "SAFETY_CAR": 22,
+      "VALID_RACE_LAP": 13539
+    },
+    "shanghai": {
+      "FORMATION": 389,
+      "PIT_ENTRY": 4657,
+      "PIT_EXIT": 1676,
+      "RED_FLAG": 2,
+      "SAFETY_CAR": 8,
+      "VALID_RACE_LAP": 11242
+    },
+    "silverstone": {
+      "FORMATION": 635,
+      "PIT_ENTRY": 4614,
+      "PIT_EXIT": 1655,
+      "RED_FLAG": 57,
+      "SAFETY_CAR": 11,
+      "VALID_RACE_LAP": 21918
+    },
+    "sochi": {
+      "FORMATION": 152,
+      "PIT_ENTRY": 2084,
+      "PIT_EXIT": 1072,
+      "VALID_RACE_LAP": 4190
+    },
+    "spa": {
+      "FORMATION": 60,
+      "PIT_ENTRY": 177,
+      "PIT_EXIT": 76,
+      "VALID_RACE_LAP": 287
+    },
+    "spa-francorchamps": {
+      "FORMATION": 433,
+      "PIT_ENTRY": 3519,
+      "PIT_EXIT": 1241,
+      "RED_FLAG": 19,
+      "SAFETY_CAR": 138,
+      "VALID_RACE_LAP": 12406
+    },
+    "spielberg": {
+      "FORMATION": 376,
+      "PIT_ENTRY": 3702,
+      "PIT_EXIT": 1888,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 16223
+    },
+    "suzuka": {
+      "FORMATION": 536,
+      "PIT_ENTRY": 4460,
+      "PIT_EXIT": 1468,
+      "RED_FLAG": 39,
+      "SAFETY_CAR": 35,
+      "VALID_RACE_LAP": 15734
+    },
+    "valencia": {
+      "FORMATION": 110,
+      "PIT_ENTRY": 1216,
+      "PIT_EXIT": 357,
+      "SAFETY_CAR": 2,
+      "VALID_RACE_LAP": 4253
+    },
+    "vegas": {
+      "FORMATION": 40,
+      "PIT_ENTRY": 139,
+      "PIT_EXIT": 74,
+      "VALID_RACE_LAP": 147
+    },
+    "villeneuve": {
+      "FORMATION": 61,
+      "PIT_ENTRY": 190,
+      "PIT_EXIT": 144,
+      "VALID_RACE_LAP": 505
+    },
+    "yas-marina": {
+      "FORMATION": 309,
+      "PIT_ENTRY": 4223,
+      "PIT_EXIT": 1919,
+      "VALID_RACE_LAP": 7899
+    },
+    "yas_marina": {
+      "FORMATION": 39,
+      "PIT_ENTRY": 136,
+      "PIT_EXIT": 75,
+      "VALID_RACE_LAP": 283
+    },
+    "yeongam": {
+      "FORMATION": 83,
+      "PIT_ENTRY": 1288,
+      "PIT_EXIT": 549,
+      "RED_FLAG": 24,
+      "SAFETY_CAR": 11,
+      "VALID_RACE_LAP": 2623
+    },
+    "zandvoort": {
+      "FORMATION": 121,
+      "PIT_ENTRY": 928,
+      "PIT_EXIT": 461,
+      "RED_FLAG": 20,
+      "VALID_RACE_LAP": 1331
+    }
+  },
+  "by_season": {
+    "1996": {
+      "FORMATION": 307,
+      "RED_FLAG": 1,
+      "SAFETY_CAR": 14,
+      "VALID_RACE_LAP": 14109
+    },
+    "1997": {
+      "FORMATION": 331,
+      "SAFETY_CAR": 31,
+      "VALID_RACE_LAP": 16844
+    },
+    "1998": {
+      "FORMATION": 329,
+      "RED_FLAG": 3,
+      "SAFETY_CAR": 22,
+      "VALID_RACE_LAP": 15821
+    },
+    "1999": {
+      "FORMATION": 327,
+      "SAFETY_CAR": 10,
+      "VALID_RACE_LAP": 15467
+    },
+    "2000": {
+      "FORMATION": 328,
+      "SAFETY_CAR": 31,
+      "VALID_RACE_LAP": 17618
+    },
+    "2001": {
+      "FORMATION": 351,
+      "RED_FLAG": 2,
+      "SAFETY_CAR": 20,
+      "VALID_RACE_LAP": 16984
+    },
+    "2002": {
+      "FORMATION": 335,
+      "RED_FLAG": 2,
+      "SAFETY_CAR": 12,
+      "VALID_RACE_LAP": 17001
+    },
+    "2003": {
+      "FORMATION": 306,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 15732
+    },
+    "2004": {
+      "FORMATION": 346,
+      "RED_FLAG": 1,
+      "SAFETY_CAR": 18,
+      "VALID_RACE_LAP": 18243
+    },
+    "2005": {
+      "FORMATION": 352,
+      "RED_FLAG": 4,
+      "SAFETY_CAR": 28,
+      "VALID_RACE_LAP": 18820
+    },
+    "2006": {
+      "FORMATION": 372,
+      "RED_FLAG": 4,
+      "SAFETY_CAR": 7,
+      "VALID_RACE_LAP": 19537
+    },
+    "2007": {
+      "FORMATION": 365,
+      "RED_FLAG": 19,
+      "SAFETY_CAR": 24,
+      "VALID_RACE_LAP": 19155
+    },
+    "2008": {
+      "FORMATION": 351,
+      "SAFETY_CAR": 3,
+      "VALID_RACE_LAP": 19096
+    },
+    "2009": {
+      "FORMATION": 319,
+      "SAFETY_CAR": 7,
+      "VALID_RACE_LAP": 16862
+    },
+    "2010": {
+      "FORMATION": 422,
+      "RED_FLAG": 28,
+      "SAFETY_CAR": 18,
+      "VALID_RACE_LAP": 22069
+    },
+    "2011": {
+      "FORMATION": 446,
+      "PIT_ENTRY": 11675,
+      "PIT_EXIT": 3621,
+      "RED_FLAG": 43,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 8222
+    },
+    "2012": {
+      "FORMATION": 462,
+      "PIT_ENTRY": 9868,
+      "PIT_EXIT": 3820,
+      "RED_FLAG": 23,
+      "SAFETY_CAR": 2,
+      "VALID_RACE_LAP": 11168
+    },
+    "2013": {
+      "FORMATION": 412,
+      "PIT_ENTRY": 10186,
+      "PIT_EXIT": 3488,
+      "RED_FLAG": 19,
+      "SAFETY_CAR": 4,
+      "VALID_RACE_LAP": 8670
+    },
+    "2014": {
+      "FORMATION": 379,
+      "PIT_ENTRY": 8213,
+      "PIT_EXIT": 3064,
+      "RED_FLAG": 42,
+      "SAFETY_CAR": 17,
+      "VALID_RACE_LAP": 9310
+    },
+    "2015": {
+      "FORMATION": 357,
+      "PIT_ENTRY": 7230,
+      "PIT_EXIT": 2747,
+      "SAFETY_CAR": 6,
+      "VALID_RACE_LAP": 9515
+    },
+    "2016": {
+      "FORMATION": 441,
+      "PIT_ENTRY": 9089,
+      "PIT_EXIT": 3385,
+      "RED_FLAG": 72,
+      "SAFETY_CAR": 13,
+      "VALID_RACE_LAP": 11513
+    },
+    "2017": {
+      "FORMATION": 373,
+      "PIT_ENTRY": 5521,
+      "PIT_EXIT": 2883,
+      "RED_FLAG": 17,
+      "SAFETY_CAR": 19,
+      "VALID_RACE_LAP": 11494
+    },
+    "2018": {
+      "FORMATION": 400,
+      "PIT_ENTRY": 6127,
+      "PIT_EXIT": 3237,
+      "SAFETY_CAR": 5,
+      "VALID_RACE_LAP": 12483
+    },
+    "2019": {
+      "FORMATION": 418,
+      "PIT_ENTRY": 7478,
+      "PIT_EXIT": 3694,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 12034
+    },
+    "2020": {
+      "FORMATION": 331,
+      "PIT_ENTRY": 4920,
+      "PIT_EXIT": 2596,
+      "RED_FLAG": 61,
+      "SAFETY_CAR": 9,
+      "VALID_RACE_LAP": 10483
+    },
+    "2021": {
+      "FORMATION": 407,
+      "PIT_ENTRY": 6736,
+      "PIT_EXIT": 3314,
+      "RED_FLAG": 102,
+      "SAFETY_CAR": 37,
+      "VALID_RACE_LAP": 13092
+    },
+    "2022": {
+      "FORMATION": 425,
+      "PIT_ENTRY": 4811,
+      "PIT_EXIT": 2243,
+      "RED_FLAG": 35,
+      "SAFETY_CAR": 22,
+      "VALID_RACE_LAP": 8761
+    },
+    "2023": {
+      "FORMATION": 430,
+      "PIT_ENTRY": 1218,
+      "PIT_EXIT": 659,
+      "RED_FLAG": 17,
+      "VALID_RACE_LAP": 3247
+    },
+    "2024": {
+      "FORMATION": 449,
+      "PIT_ENTRY": 1547,
+      "PIT_EXIT": 740,
+      "RED_FLAG": 50,
+      "SAFETY_CAR": 1,
+      "VALID_RACE_LAP": 3342
+    },
+    "2025": {
+      "FORMATION": 455,
+      "PIT_ENTRY": 1422,
+      "PIT_EXIT": 824,
+      "SAFETY_CAR": 10,
+      "VALID_RACE_LAP": 3547
+    },
+    "2026": {
+      "FORMATION": 298,
+      "PIT_ENTRY": 992,
+      "PIT_EXIT": 500,
+      "RED_FLAG": 41,
+      "SAFETY_CAR": 2,
+      "VALID_RACE_LAP": 1960
+    }
+  },
+  "overall": {
+    "FORMATION": 11624,
+    "PIT_ENTRY": 97033,
+    "PIT_EXIT": 40815,
+    "RED_FLAG": 586,
+    "SAFETY_CAR": 399,
+    "VALID_RACE_LAP": 402199
+  }
+}

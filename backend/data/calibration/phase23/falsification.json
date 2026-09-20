@@ -1,0 +1,27 @@
+{
+  "circuit_randomize": {
+    "passed": true,
+    "result": "weakened"
+  },
+  "constructor_shuffle": {
+    "passed": true,
+    "result": "weakened"
+  },
+  "driver_randomize": {
+    "passed": true,
+    "result": "disappeared (0.5s -> 0.02)"
+  },
+  "pit_shuffle": {
+    "passed": true,
+    "result": "predictive degraded"
+  },
+  "temporal_inject_future": {
+    "passed": true,
+    "result": "identical (leakage 0)"
+  },
+  "tyre_randomize_age": {
+    "effect": "should weaken",
+    "passed": true,
+    "result": "weakened (0.08 -> 0.01)"
+  }
+}

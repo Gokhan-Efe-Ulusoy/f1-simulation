@@ -1,0 +1,2270 @@
+{
+  "circuit_model": {
+    "circuit_effects": {
+      "albert_park": {
+        "era_prior": -2.0030309089064673,
+        "estimate": -9.1972497663801,
+        "evidence_tier": "LIMITED",
+        "n": 367,
+        "race_count": 3,
+        "raw": -9.785333051732167,
+        "se": 0.11328553374474017,
+        "season_range": [
+          2023,
+          2026
+        ],
+        "shrinkage_weight": 0.924433249370277
+      },
+      "americas": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 10.199406911215585,
+        "evidence_tier": "LIMITED",
+        "n": 250,
+        "race_count": 2,
+        "raw": 11.66369944963023,
+        "se": 0.9202785474073466,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.8928571428571429
+      },
+      "austin": {
+        "era_prior": -0.003401304781320391,
+        "estimate": 10.909620178175443,
+        "evidence_tier": "CALIBRATED",
+        "n": 4474,
+        "race_count": 11,
+        "raw": 10.982796450971307,
+        "se": 0.1312679548927715,
+        "season_range": [
+          2012,
+          2025
+        ],
+        "shrinkage_weight": 0.9933392539964476
+      },
+      "bahrain": {
+        "era_prior": -1.0108291053567235,
+        "estimate": 3.6949456933029987,
+        "evidence_tier": "CALIBRATED",
+        "n": 12993,
+        "race_count": 22,
+        "raw": 3.705811024170373,
+        "se": 0.12363033520638331,
+        "season_range": [
+          2004,
+          2025
+        ],
+        "shrinkage_weight": 0.9976963833218152
+      },
+      "baku": {
+        "era_prior": -2.1314870110312967,
+        "estimate": 17.81031511891885,
+        "evidence_tier": "CALIBRATED",
+        "n": 3217,
+        "race_count": 9,
+        "raw": 17.996281567131007,
+        "se": 0.23913813995764052,
+        "season_range": [
+          2016,
+          2025
+        ],
+        "shrinkage_weight": 0.9907607021866338
+      },
+      "buddh": {
+        "era_prior": 4.252770107718632,
+        "estimate": -1.9479749118246543,
+        "evidence_tier": "CALIBRATED",
+        "n": 1769,
+        "race_count": 3,
+        "raw": -2.053131695649583,
+        "se": 0.047174728224766684,
+        "season_range": [
+          2011,
+          2013
+        ],
+        "shrinkage_weight": 0.9833240689271817
+      },
+      "buenos-aires": {
+        "era_prior": -1.6116160494578011,
+        "estimate": 0.8788661226309133,
+        "evidence_tier": "CALIBRATED",
+        "n": 3395,
+        "race_count": 3,
+        "raw": 0.9008733288643924,
+        "se": 0.22281534986987395,
+        "season_range": [
+          1996,
+          1998
+        ],
+        "shrinkage_weight": 0.9912408759124087
+      },
+      "catalunya": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -6.420924635649812,
+        "evidence_tier": "CALIBRATED",
+        "n": 22479,
+        "race_count": 31,
+        "raw": -6.428630811324439,
+        "se": 0.06310737077751556,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.998667199786752
+      },
+      "estoril": {
+        "era_prior": 0.8098804081673308,
+        "estimate": -5.64369154514866,
+        "evidence_tier": "LIMITED",
+        "n": 1264,
+        "race_count": 1,
+        "raw": -5.79686176555964,
+        "se": 0.14638666414250892,
+        "season_range": [
+          1996,
+          1996
+        ],
+        "shrinkage_weight": 0.9768160741885626
+      },
+      "fuji": {
+        "era_prior": -4.033112507082933,
+        "estimate": 2.8964935421764797,
+        "evidence_tier": "LIMITED",
+        "n": 2318,
+        "race_count": 2,
+        "raw": 2.9861778309934692,
+        "se": 0.4207563127795424,
+        "season_range": [
+          2007,
+          2008
+        ],
+        "shrinkage_weight": 0.9872231686541738
+      },
+      "hockenheimring": {
+        "era_prior": -0.30760127608827403,
+        "estimate": -4.932400626579876,
+        "evidence_tier": "CALIBRATED",
+        "n": 14532,
+        "race_count": 18,
+        "raw": -4.941948106659339,
+        "se": 0.12680403930294584,
+        "season_range": [
+          1996,
+          2019
+        ],
+        "shrinkage_weight": 0.9979398434281005
+      },
+      "hungaroring": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -8.354293398403858,
+        "evidence_tier": "CALIBRATED",
+        "n": 26742,
+        "race_count": 31,
+        "raw": -8.36294002864365,
+        "se": 0.04334009304746203,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.9988794262662484
+      },
+      "imola": {
+        "era_prior": -1.871551530244549,
+        "estimate": -5.471728277167665,
+        "evidence_tier": "CALIBRATED",
+        "n": 13303,
+        "race_count": 16,
+        "raw": -5.479847145273183,
+        "se": 0.061737678685399845,
+        "season_range": [
+          1996,
+          2025
+        ],
+        "shrinkage_weight": 0.9977499437485937
+      },
+      "indianapolis": {
+        "era_prior": -4.033112507082933,
+        "estimate": -15.369665626315172,
+        "evidence_tier": "CALIBRATED",
+        "n": 8222,
+        "race_count": 8,
+        "raw": -15.411029843485807,
+        "se": 0.11817080238970408,
+        "season_range": [
+          2000,
+          2007
+        ],
+        "shrinkage_weight": 0.9963645176926805
+      },
+      "interlagos": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -12.446592523047148,
+        "evidence_tier": "CALIBRATED",
+        "n": 24288,
+        "race_count": 29,
+        "raw": -12.461167504915224,
+        "se": 0.07393573404415145,
+        "season_range": [
+          1996,
+          2025
+        ],
+        "shrinkage_weight": 0.998766345916605
+      },
+      "istanbul": {
+        "era_prior": -0.6800951708401423,
+        "estimate": -1.0901685165683517,
+        "evidence_tier": "CALIBRATED",
+        "n": 8058,
+        "race_count": 9,
+        "raw": -1.091695222993252,
+        "se": 0.08117526626662051,
+        "season_range": [
+          2005,
+          2021
+        ],
+        "shrinkage_weight": 0.9962908011869436
+      },
+      "jeddah": {
+        "era_prior": -2.1314870110312967,
+        "estimate": 6.46403514783415,
+        "evidence_tier": "CALIBRATED",
+        "n": 1540,
+        "race_count": 5,
+        "raw": 6.631480384695166,
+        "se": 0.42427099717284694,
+        "season_range": [
+          2021,
+          2025
+        ],
+        "shrinkage_weight": 0.9808917197452229
+      },
+      "jerez": {
+        "era_prior": -4.033112507082933,
+        "estimate": -7.080033285551879,
+        "evidence_tier": "LIMITED",
+        "n": 1323,
+        "race_count": 1,
+        "raw": -7.149124459666822,
+        "se": 0.09909700598248777,
+        "season_range": [
+          1997,
+          1997
+        ],
+        "shrinkage_weight": 0.9778270509977827
+      },
+      "las-vegas": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 1.7877664427565816,
+        "evidence_tier": "PRIOR_ONLY",
+        "n": 80,
+        "race_count": 1,
+        "raw": 3.2093154496302247,
+        "se": 0.19928314968907934,
+        "season_range": [
+          2025,
+          2025
+        ],
+        "shrinkage_weight": 0.7272727272727273
+      },
+      "losail": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 4.0411670114681,
+        "evidence_tier": "LIMITED",
+        "n": 168,
+        "race_count": 2,
+        "raw": 5.120488068677844,
+        "se": 1.6014015419615182,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.8484848484848485
+      },
+      "lusail": {
+        "era_prior": -2.1314870110312967,
+        "estimate": -5.056032120574757,
+        "evidence_tier": "LIMITED",
+        "n": 701,
+        "race_count": 2,
+        "raw": -5.1811909697706255,
+        "se": 0.15856818181845714,
+        "season_range": [
+          2021,
+          2025
+        ],
+        "shrinkage_weight": 0.9589603283173734
+      },
+      "madring": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 5.5814725708486845,
+        "evidence_tier": "LIMITED",
+        "n": 203,
+        "race_count": 1,
+        "raw": 6.702335154063732,
+        "se": 0.17613125483810302,
+        "season_range": [
+          2026,
+          2026
+        ],
+        "shrinkage_weight": 0.871244635193133
+      },
+      "magny-cours": {
+        "era_prior": -1.6116160494578011,
+        "estimate": -12.244196021459704,
+        "evidence_tier": "CALIBRATED",
+        "n": 15744,
+        "race_count": 13,
+        "raw": -12.264456272930744,
+        "se": 0.06735157155638001,
+        "season_range": [
+          1996,
+          2008
+        ],
+        "shrinkage_weight": 0.99809813617345
+      },
+      "marina-bay": {
+        "era_prior": -1.0108291053567235,
+        "estimate": 22.91422074606721,
+        "evidence_tier": "CALIBRATED",
+        "n": 8516,
+        "race_count": 14,
+        "raw": 22.998503448690826,
+        "se": 0.1573643737080298,
+        "season_range": [
+          2008,
+          2025
+        ],
+        "shrinkage_weight": 0.996489585771121
+      },
+      "marina_bay": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 5.132316840598036,
+        "evidence_tier": "LIMITED",
+        "n": 408,
+        "race_count": 2,
+        "raw": 5.65697476335572,
+        "se": 0.08941649117183093,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.9315068493150684
+      },
+      "melbourne": {
+        "era_prior": -0.6466872026519127,
+        "estimate": 1.8039314086309297,
+        "evidence_tier": "CALIBRATED",
+        "n": 17911,
+        "race_count": 26,
+        "raw": 1.8080360682444905,
+        "se": 0.10371308893982376,
+        "season_range": [
+          1996,
+          2025
+        ],
+        "shrinkage_weight": 0.9983278524051056
+      },
+      "mexico-city": {
+        "era_prior": -2.1314870110312967,
+        "estimate": -10.046439061143635,
+        "evidence_tier": "CALIBRATED",
+        "n": 4919,
+        "race_count": 8,
+        "raw": -10.09471077521222,
+        "se": 0.07888987382304458,
+        "season_range": [
+          2015,
+          2025
+        ],
+        "shrinkage_weight": 0.9939381693271367
+      },
+      "miami": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 2.888949508092505,
+        "evidence_tier": "CALIBRATED",
+        "n": 1086,
+        "race_count": 5,
+        "raw": 3.0240870886725872,
+        "se": 0.3396485312799575,
+        "season_range": [
+          2022,
+          2026
+        ],
+        "shrinkage_weight": 0.9731182795698925
+      },
+      "monaco": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -9.407653684813765,
+        "evidence_tier": "CALIBRATED",
+        "n": 27733,
+        "race_count": 30,
+        "raw": -9.417130805733422,
+        "se": 0.06768650648637861,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.9989194251341714
+      },
+      "montreal": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -10.403488024818644,
+        "evidence_tier": "CALIBRATED",
+        "n": 21982,
+        "race_count": 25,
+        "raw": -10.41680364781314,
+        "se": 0.07963279066246363,
+        "season_range": [
+          1996,
+          2025
+        ],
+        "shrinkage_weight": 0.9986371070325277
+      },
+      "monza": {
+        "era_prior": -0.6466872026519127,
+        "estimate": -4.941670988028855,
+        "evidence_tier": "CALIBRATED",
+        "n": 19651,
+        "race_count": 31,
+        "raw": -4.948227881497957,
+        "se": 0.06351482398368821,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.9984756872110157
+      },
+      "mugello": {
+        "era_prior": -2.259943113156126,
+        "estimate": -3.375774999012935,
+        "evidence_tier": "LIMITED",
+        "n": 498,
+        "race_count": 1,
+        "raw": -3.442993787317562,
+        "se": 0.8050589222347492,
+        "season_range": [
+          2020,
+          2020
+        ],
+        "shrinkage_weight": 0.9431818181818182
+      },
+      "nurburgring": {
+        "era_prior": -0.30760127608827403,
+        "estimate": -1.2031170346937117,
+        "evidence_tier": "CALIBRATED",
+        "n": 14848,
+        "race_count": 16,
+        "raw": -1.2049264011240837,
+        "se": 0.08782378256340917,
+        "season_range": [
+          1996,
+          2020
+        ],
+        "shrinkage_weight": 0.9979835999462293
+      },
+      "paul-ricard": {
+        "era_prior": -2.1314870110312967,
+        "estimate": 6.1451715048029865,
+        "evidence_tier": "CALIBRATED",
+        "n": 2402,
+        "race_count": 4,
+        "raw": 6.248543592844214,
+        "se": 0.15947982765354157,
+        "season_range": [
+          2018,
+          2022
+        ],
+        "shrinkage_weight": 0.9876644736842105
+      },
+      "portimao": {
+        "era_prior": -2.259943113156126,
+        "estimate": -9.720328523726067,
+        "evidence_tier": "LIMITED",
+        "n": 1288,
+        "race_count": 2,
+        "raw": -9.89409526465549,
+        "se": 0.18292866681864256,
+        "season_range": [
+          2020,
+          2021
+        ],
+        "shrinkage_weight": 0.9772382397572079
+      },
+      "red_bull_ring": {
+        "era_prior": -2.0030309089064673,
+        "estimate": -21.310839187858946,
+        "evidence_tier": "CALIBRATED",
+        "n": 561,
+        "race_count": 3,
+        "raw": -22.34334230438047,
+        "se": 0.07479164467659402,
+        "season_range": [
+          2023,
+          2026
+        ],
+        "shrinkage_weight": 0.949238578680203
+      },
+      "rodriguez": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 0.07718710646651974,
+        "evidence_tier": "LIMITED",
+        "n": 386,
+        "race_count": 2,
+        "raw": 0.23886208175457568,
+        "se": 1.0241987031860667,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.9278846153846154
+      },
+      "sepang": {
+        "era_prior": -0.6800951708401423,
+        "estimate": 9.856700052871872,
+        "evidence_tier": "CALIBRATED",
+        "n": 13539,
+        "race_count": 19,
+        "raw": 9.88004770459736,
+        "se": 0.09181038271515155,
+        "season_range": [
+          1999,
+          2017
+        ],
+        "shrinkage_weight": 0.997789078045545
+      },
+      "shanghai": {
+        "era_prior": -1.0108291053567235,
+        "estimate": 12.896597889600988,
+        "evidence_tier": "CALIBRATED",
+        "n": 11242,
+        "race_count": 19,
+        "raw": 12.93371075295704,
+        "se": 0.1329935460122269,
+        "season_range": [
+          2004,
+          2026
+        ],
+        "shrinkage_weight": 0.9973385379701917
+      },
+      "silverstone": {
+        "era_prior": -0.6466872026519127,
+        "estimate": 0.3511883273608423,
+        "evidence_tier": "CALIBRATED",
+        "n": 21918,
+        "race_count": 32,
+        "raw": 0.3525541575415332,
+        "se": 0.09119317921128144,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.9986331328594861
+      },
+      "sochi": {
+        "era_prior": -2.259943113156126,
+        "estimate": 9.516171194444544,
+        "evidence_tier": "CALIBRATED",
+        "n": 4190,
+        "race_count": 8,
+        "raw": 9.600487048675575,
+        "se": 0.16014129639730706,
+        "season_range": [
+          2014,
+          2021
+        ],
+        "shrinkage_weight": 0.9928909952606635
+      },
+      "spa": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 19.36518803399585,
+        "evidence_tier": "LIMITED",
+        "n": 287,
+        "race_count": 3,
+        "raw": 21.598799770187725,
+        "se": 0.7374267440494757,
+        "season_range": [
+          2023,
+          2026
+        ],
+        "shrinkage_weight": 0.9053627760252366
+      },
+      "spa-francorchamps": {
+        "era_prior": -0.6466872026519127,
+        "estimate": 25.244553461887516,
+        "evidence_tier": "CALIBRATED",
+        "n": 12406,
+        "race_count": 25,
+        "raw": 25.307163265203343,
+        "se": 0.13810902531256067,
+        "season_range": [
+          1996,
+          2025
+        ],
+        "shrinkage_weight": 0.9975876487616597
+      },
+      "spielberg": {
+        "era_prior": -2.765362176381842,
+        "estimate": -20.17429307364426,
+        "evidence_tier": "CALIBRATED",
+        "n": 16223,
+        "race_count": 19,
+        "raw": -20.206486128376298,
+        "se": 0.06328733619098097,
+        "season_range": [
+          1997,
+          2025
+        ],
+        "shrinkage_weight": 0.998154186919338
+      },
+      "suzuka": {
+        "era_prior": -0.6466872026519127,
+        "estimate": 8.052270532123982,
+        "evidence_tier": "CALIBRATED",
+        "n": 15734,
+        "race_count": 27,
+        "raw": 8.068856824995677,
+        "se": 0.09084744283528175,
+        "season_range": [
+          1996,
+          2026
+        ],
+        "shrinkage_weight": 0.9980969297132708
+      },
+      "valencia": {
+        "era_prior": 0.10982880031784958,
+        "estimate": 10.733523808378918,
+        "evidence_tier": "CALIBRATED",
+        "n": 4253,
+        "race_count": 5,
+        "raw": 10.80846169933632,
+        "se": 0.14213593849130193,
+        "season_range": [
+          2008,
+          2012
+        ],
+        "shrinkage_weight": 0.9929955638571095
+      },
+      "vegas": {
+        "era_prior": -2.0030309089064673,
+        "estimate": 19.13207595383305,
+        "evidence_tier": "LIMITED",
+        "n": 147,
+        "race_count": 2,
+        "raw": 23.44536306867785,
+        "se": 2.3885053349424754,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.8305084745762712
+      },
+      "villeneuve": {
+        "era_prior": -2.0030309089064673,
+        "estimate": -8.743432944306413,
+        "evidence_tier": "CALIBRATED",
+        "n": 505,
+        "race_count": 3,
+        "raw": -9.14385286720146,
+        "se": 0.6050820642157694,
+        "season_range": [
+          2023,
+          2026
+        ],
+        "shrinkage_weight": 0.9439252336448598
+      },
+      "yas-marina": {
+        "era_prior": -0.003401304781320391,
+        "estimate": 11.064479341340116,
+        "evidence_tier": "CALIBRATED",
+        "n": 7899,
+        "race_count": 15,
+        "raw": 11.106514588761769,
+        "se": 0.11590195886544621,
+        "season_range": [
+          2009,
+          2025
+        ],
+        "shrinkage_weight": 0.9962164207340144
+      },
+      "yas_marina": {
+        "era_prior": -2.0030309089064673,
+        "estimate": -2.3837049681208935,
+        "evidence_tier": "LIMITED",
+        "n": 283,
+        "race_count": 2,
+        "raw": -2.42405910867366,
+        "se": 0.3860793111917489,
+        "season_range": [
+          2023,
+          2024
+        ],
+        "shrinkage_weight": 0.9041533546325878
+      },
+      "yeongam": {
+        "era_prior": 4.252770107718632,
+        "estimate": 25.694131748063192,
+        "evidence_tier": "CALIBRATED",
+        "n": 2623,
+        "race_count": 4,
+        "raw": 25.93936272374384,
+        "se": 0.4219856993063358,
+        "season_range": [
+          2010,
+          2013
+        ],
+        "shrinkage_weight": 0.9886920467395401
+      },
+      "zandvoort": {
+        "era_prior": -2.1314870110312967,
+        "estimate": -14.177675787562896,
+        "evidence_tier": "CALIBRATED",
+        "n": 1331,
+        "race_count": 6,
+        "raw": -14.449190185230776,
+        "se": 0.387322126802121,
+        "season_range": [
+          2021,
+          2026
+        ],
+        "shrinkage_weight": 0.9779573842762674
+      }
+    },
+    "circuit_era_effects": {
+      "albert_park__2022-2026": {
+        "estimate": -9.954991040167947,
+        "evidence_tier": "LIMITED",
+        "n": 367,
+        "raw": -9.785333051732167,
+        "se": 0.11328553374474017
+      },
+      "americas__2022-2026": {
+        "estimate": 11.085812208410044,
+        "evidence_tier": "LIMITED",
+        "n": 250,
+        "raw": 11.66369944963023,
+        "se": 0.9202785474073466
+      },
+      "austin__2009-2013": {
+        "estimate": 11.721498410665532,
+        "evidence_tier": "LIMITED",
+        "n": 1315,
+        "raw": 11.590666019972431,
+        "se": 0.26323917177703254
+      },
+      "austin__2014-2021": {
+        "estimate": 10.951221291442357,
+        "evidence_tier": "LIMITED",
+        "n": 2891,
+        "raw": 10.99102662223487,
+        "se": 0.16259820985241938
+      },
+      "austin__2022-2026": {
+        "estimate": 8.067852213724374,
+        "evidence_tier": "LIMITED",
+        "n": 268,
+        "raw": 7.911371419779485,
+        "se": 0.12403576688121672
+      },
+      "bahrain__1997-2008": {
+        "estimate": 2.8768115135890295,
+        "evidence_tier": "LIMITED",
+        "n": 5060,
+        "raw": 2.908580074136154,
+        "se": 0.10855579510281049
+      },
+      "bahrain__2009-2013": {
+        "estimate": 12.695495713424789,
+        "evidence_tier": "LIMITED",
+        "n": 2746,
+        "raw": 12.781944728581436,
+        "se": 0.23728940845253643
+      },
+      "bahrain__2014-2021": {
+        "estimate": -1.659346123791185,
+        "evidence_tier": "LIMITED",
+        "n": 4274,
+        "raw": -1.6955458044643024,
+        "se": 0.28127457464529765
+      },
+      "bahrain__2022-2026": {
+        "estimate": 5.881958198060456,
+        "evidence_tier": "LIMITED",
+        "n": 913,
+        "raw": 6.111423883365163,
+        "se": 0.24341211392250126
+      },
+      "baku__2014-2021": {
+        "estimate": 18.4332726344828,
+        "evidence_tier": "LIMITED",
+        "n": 2313,
+        "raw": 18.495592146560625,
+        "se": 0.30064712278011035
+      },
+      "baku__2022-2026": {
+        "estimate": 16.670961611075832,
+        "evidence_tier": "LIMITED",
+        "n": 904,
+        "raw": 16.718731378833766,
+        "se": 0.3604990932391161
+      },
+      "buddh__2009-2013": {
+        "estimate": -1.9333426112201284,
+        "evidence_tier": "LIMITED",
+        "n": 1769,
+        "raw": -2.053131695649583,
+        "se": 0.047174728224766684
+      },
+      "buenos-aires__1983-1996": {
+        "estimate": 3.051815935646367,
+        "evidence_tier": "LIMITED",
+        "n": 1090,
+        "raw": 3.114342055134813,
+        "se": 0.48627199679391814
+      },
+      "buenos-aires__1997-2008": {
+        "estimate": -0.20971558718679895,
+        "evidence_tier": "LIMITED",
+        "n": 2305,
+        "raw": -0.14584290177974424,
+        "se": 0.23096581575797845
+      },
+      "catalunya__1983-1996": {
+        "estimate": 16.46608972013001,
+        "evidence_tier": "LIMITED",
+        "n": 579,
+        "raw": 18.372577971219172,
+        "se": 0.18419942079641283
+      },
+      "catalunya__1997-2008": {
+        "estimate": -8.331542379487987,
+        "evidence_tier": "LIMITED",
+        "n": 12733,
+        "raw": -8.323207757783578,
+        "se": 0.07628572299228738
+      },
+      "catalunya__2009-2013": {
+        "estimate": -4.390528626430073,
+        "evidence_tier": "LIMITED",
+        "n": 3301,
+        "raw": -4.424190760609093,
+        "se": 0.1401635507719735
+      },
+      "catalunya__2014-2021": {
+        "estimate": -5.416697369491608,
+        "evidence_tier": "LIMITED",
+        "n": 4799,
+        "raw": -5.382688509527924,
+        "se": 0.12595441161073753
+      },
+      "catalunya__2022-2026": {
+        "estimate": -8.194209662016439,
+        "evidence_tier": "LIMITED",
+        "n": 1067,
+        "raw": -8.18344368813922,
+        "se": 0.21864707286540389
+      },
+      "estoril__1983-1996": {
+        "estimate": -5.760216003437178,
+        "evidence_tier": "LIMITED",
+        "n": 1264,
+        "raw": -5.79686176555964,
+        "se": 0.14638666414250892
+      },
+      "fuji__1997-2008": {
+        "estimate": 2.8991255337827444,
+        "evidence_tier": "LIMITED",
+        "n": 2318,
+        "raw": 2.9861778309934692,
+        "se": 0.4207563127795424
+      },
+      "hockenheimring__1983-1996": {
+        "estimate": 15.324174690688693,
+        "evidence_tier": "LIMITED",
+        "n": 666,
+        "raw": 16.784136770951548,
+        "se": 0.15986699419711434
+      },
+      "hockenheimring__1997-2008": {
+        "estimate": -3.7402171885725153,
+        "evidence_tier": "LIMITED",
+        "n": 10074,
+        "raw": -3.71428262462031,
+        "se": 0.16417425847047976
+      },
+      "hockenheimring__2009-2013": {
+        "estimate": -13.030013028835427,
+        "evidence_tier": "LIMITED",
+        "n": 1811,
+        "raw": -13.37099542833775,
+        "se": 0.10310255056741541
+      },
+      "hockenheimring__2014-2021": {
+        "estimate": -10.695069562417194,
+        "evidence_tier": "LIMITED",
+        "n": 1981,
+        "raw": -10.783477584191075,
+        "se": 0.14994037419179873
+      },
+      "hungaroring__1983-1996": {
+        "estimate": -9.225948948793063,
+        "evidence_tier": "LIMITED",
+        "n": 969,
+        "raw": -9.31271551012209,
+        "se": 0.1445928450396127
+      },
+      "hungaroring__1997-2008": {
+        "estimate": -9.262576386462323,
+        "evidence_tier": "LIMITED",
+        "n": 15204,
+        "raw": -9.252300046291893,
+        "se": 0.05647137203319921
+      },
+      "hungaroring__2009-2013": {
+        "estimate": -5.487409899101741,
+        "evidence_tier": "LIMITED",
+        "n": 3999,
+        "raw": -5.504737813685594,
+        "se": 0.10354832991725031
+      },
+      "hungaroring__2014-2021": {
+        "estimate": -7.595622918583421,
+        "evidence_tier": "LIMITED",
+        "n": 5246,
+        "raw": -7.566852297224514,
+        "se": 0.11361537986781842
+      },
+      "hungaroring__2022-2026": {
+        "estimate": -9.28272457063689,
+        "evidence_tier": "LIMITED",
+        "n": 1324,
+        "raw": -9.242143009584268,
+        "se": 0.07491816796862077
+      },
+      "imola__1983-1996": {
+        "estimate": -1.4914048544103746,
+        "evidence_tier": "LIMITED",
+        "n": 1022,
+        "raw": -1.3362951178844469,
+        "se": 0.15161089112624027
+      },
+      "imola__1997-2008": {
+        "estimate": -4.940262906525416,
+        "evidence_tier": "LIMITED",
+        "n": 9883,
+        "raw": -4.917169828119441,
+        "se": 0.06185465595406073
+      },
+      "imola__2014-2021": {
+        "estimate": -10.464633477698134,
+        "evidence_tier": "LIMITED",
+        "n": 1216,
+        "raw": -10.57700856352767,
+        "se": 0.2706726934536132
+      },
+      "imola__2022-2026": {
+        "estimate": -8.480859657338286,
+        "evidence_tier": "LIMITED",
+        "n": 1182,
+        "raw": -8.523418898931524,
+        "se": 0.27449542574023383
+      },
+      "indianapolis__1997-2008": {
+        "estimate": -15.435157915837792,
+        "evidence_tier": "LIMITED",
+        "n": 8222,
+        "raw": -15.411029843485807,
+        "se": 0.11817080238970408
+      },
+      "interlagos__1983-1996": {
+        "estimate": 1.6166864679984911,
+        "evidence_tier": "LIMITED",
+        "n": 1081,
+        "raw": 2.2297021286311605,
+        "se": 0.28578198916336467
+      },
+      "interlagos__1997-2008": {
+        "estimate": -13.077270815314732,
+        "evidence_tier": "LIMITED",
+        "n": 13432,
+        "raw": -13.064605411001097,
+        "se": 0.09354817674510887
+      },
+      "interlagos__2009-2013": {
+        "estimate": -13.287735308453085,
+        "evidence_tier": "LIMITED",
+        "n": 4558,
+        "raw": -13.34361412474449,
+        "se": 0.1361523718551265
+      },
+      "interlagos__2014-2021": {
+        "estimate": -13.944208135805257,
+        "evidence_tier": "LIMITED",
+        "n": 4489,
+        "raw": -13.935717074317196,
+        "se": 0.1909163451263151
+      },
+      "interlagos__2022-2026": {
+        "estimate": -8.905165198286474,
+        "evidence_tier": "LIMITED",
+        "n": 728,
+        "raw": -8.52436449542472,
+        "se": 0.5630104620880435
+      },
+      "istanbul__1997-2008": {
+        "estimate": -2.8626197927357113,
+        "evidence_tier": "LIMITED",
+        "n": 4153,
+        "raw": -2.835402585525074,
+        "se": 0.11800053994889623
+      },
+      "istanbul__2009-2013": {
+        "estimate": -1.6498301235673283,
+        "evidence_tier": "LIMITED",
+        "n": 2572,
+        "raw": -1.7433843948487748,
+        "se": 0.08716942160706412
+      },
+      "istanbul__2014-2021": {
+        "estimate": 5.274783740326003,
+        "evidence_tier": "LIMITED",
+        "n": 1333,
+        "raw": 5.598298195316644,
+        "se": 0.18987346047622136
+      },
+      "jeddah__2014-2021": {
+        "estimate": 6.966533984687838,
+        "evidence_tier": "LIMITED",
+        "n": 599,
+        "raw": 7.197121793536738,
+        "se": 0.6772267754475071
+      },
+      "jeddah__2022-2026": {
+        "estimate": 6.18007472255139,
+        "evidence_tier": "LIMITED",
+        "n": 941,
+        "raw": 6.271417468758813,
+        "se": 0.5439828707363524
+      },
+      "jerez__1997-2008": {
+        "estimate": -7.293480662615401,
+        "evidence_tier": "LIMITED",
+        "n": 1323,
+        "raw": -7.149124459666822,
+        "se": 0.09909700598248777
+      },
+      "las-vegas__2022-2026": {
+        "estimate": 1.8921693281763363,
+        "evidence_tier": "PRIOR_ONLY",
+        "n": 80,
+        "raw": 3.2093154496302247,
+        "se": 0.19928314968907934
+      },
+      "losail__2022-2026": {
+        "estimate": 4.413526608559447,
+        "evidence_tier": "LIMITED",
+        "n": 168,
+        "raw": 5.120488068677844,
+        "se": 1.6014015419615182
+      },
+      "lusail__2014-2021": {
+        "estimate": -4.573564029130665,
+        "evidence_tier": "LIMITED",
+        "n": 460,
+        "raw": -4.275475854717598,
+        "se": 0.1602275921766649
+      },
+      "lusail__2022-2026": {
+        "estimate": -6.935564014134623,
+        "evidence_tier": "LIMITED",
+        "n": 241,
+        "raw": -6.9099418117805556,
+        "se": 0.3167077662969318
+      },
+      "madring__2022-2026": {
+        "estimate": 6.084964898703749,
+        "evidence_tier": "LIMITED",
+        "n": 203,
+        "raw": 6.702335154063732,
+        "se": 0.17613125483810302
+      },
+      "magny-cours__1983-1996": {
+        "estimate": -11.829777339927231,
+        "evidence_tier": "LIMITED",
+        "n": 1066,
+        "raw": -11.848326201401662,
+        "se": 0.11440789006920936
+      },
+      "magny-cours__1997-2008": {
+        "estimate": -12.30819861873674,
+        "evidence_tier": "LIMITED",
+        "n": 14678,
+        "raw": -12.294678009969175,
+        "se": 0.07175720970974354
+      },
+      "marina-bay__1997-2008": {
+        "estimate": 21.398071284760547,
+        "evidence_tier": "LIMITED",
+        "n": 1045,
+        "raw": 21.51850013862544,
+        "se": 0.540917852775073
+      },
+      "marina-bay__2009-2013": {
+        "estimate": 24.220793563896173,
+        "evidence_tier": "LIMITED",
+        "n": 3890,
+        "raw": 24.18292470412895,
+        "se": 0.2084886067830804
+      },
+      "marina-bay__2014-2021": {
+        "estimate": 22.48377204991999,
+        "evidence_tier": "LIMITED",
+        "n": 3277,
+        "raw": 22.511686215574684,
+        "se": 0.25856902107527946
+      },
+      "marina-bay__2022-2026": {
+        "estimate": 18.563868329224935,
+        "evidence_tier": "LIMITED",
+        "n": 304,
+        "raw": 18.177795712788125,
+        "se": 0.959484078193441
+      },
+      "marina_bay__2022-2026": {
+        "estimate": 5.38102620094697,
+        "evidence_tier": "LIMITED",
+        "n": 408,
+        "raw": 5.65697476335572,
+        "se": 0.08941649117183093
+      },
+      "melbourne__1983-1996": {
+        "estimate": 4.434240412051134,
+        "evidence_tier": "LIMITED",
+        "n": 792,
+        "raw": 4.549166459731239,
+        "se": 0.24950520310797375
+      },
+      "melbourne__1997-2008": {
+        "estimate": 2.7930935318213304,
+        "evidence_tier": "LIMITED",
+        "n": 10007,
+        "raw": 2.818187339307457,
+        "se": 0.15374801528108267
+      },
+      "melbourne__2009-2013": {
+        "estimate": 2.881215385674451,
+        "evidence_tier": "LIMITED",
+        "n": 3025,
+        "raw": 2.8287280116137055,
+        "se": 0.257588154335398
+      },
+      "melbourne__2014-2021": {
+        "estimate": -1.6244989703485833,
+        "evidence_tier": "LIMITED",
+        "n": 3359,
+        "raw": -1.6418923503102292,
+        "se": 0.1076666847560075
+      },
+      "melbourne__2022-2026": {
+        "estimate": -3.17808139805009,
+        "evidence_tier": "LIMITED",
+        "n": 728,
+        "raw": -3.3826818031170234,
+        "se": 0.6553697552372404
+      },
+      "mexico-city__2014-2021": {
+        "estimate": -10.094900433988236,
+        "evidence_tier": "LIMITED",
+        "n": 4614,
+        "raw": -10.070935525662364,
+        "se": 0.08387670045917396
+      },
+      "mexico-city__2022-2026": {
+        "estimate": -10.67904024328249,
+        "evidence_tier": "LIMITED",
+        "n": 305,
+        "raw": -10.45437963233698,
+        "se": 0.09118387721545541
+      },
+      "miami__2022-2026": {
+        "estimate": 2.9299775600860314,
+        "evidence_tier": "LIMITED",
+        "n": 1086,
+        "raw": 3.0240870886725872,
+        "se": 0.3396485312799575
+      },
+      "monaco__1983-1996": {
+        "estimate": 3.852830884134121,
+        "evidence_tier": "LIMITED",
+        "n": 764,
+        "raw": 4.667660999368451,
+        "se": 0.40575618459635066
+      },
+      "monaco__1997-2008": {
+        "estimate": -7.917980319856619,
+        "evidence_tier": "LIMITED",
+        "n": 14066,
+        "raw": -7.89834863397563,
+        "se": 0.10223336598047497
+      },
+      "monaco__2009-2013": {
+        "estimate": -10.91970876065099,
+        "evidence_tier": "LIMITED",
+        "n": 5235,
+        "raw": -10.974769173101379,
+        "se": 0.14268614268321145
+      },
+      "monaco__2014-2021": {
+        "estimate": -12.953812613068283,
+        "evidence_tier": "LIMITED",
+        "n": 6272,
+        "raw": -12.964066246798339,
+        "se": 0.09860947091593472
+      },
+      "monaco__2022-2026": {
+        "estimate": -10.677872656986313,
+        "evidence_tier": "LIMITED",
+        "n": 1396,
+        "raw": -10.651625811114755,
+        "se": 0.2694540104466317
+      },
+      "montreal__1983-1996": {
+        "estimate": -8.827081336566057,
+        "evidence_tier": "LIMITED",
+        "n": 898,
+        "raw": -8.784401699590262,
+        "se": 0.13788648800978154
+      },
+      "montreal__1997-2008": {
+        "estimate": -9.939051500707649,
+        "evidence_tier": "LIMITED",
+        "n": 12755,
+        "raw": -9.921420967461103,
+        "se": 0.10964051870224745
+      },
+      "montreal__2009-2013": {
+        "estimate": -7.294338321290184,
+        "evidence_tier": "LIMITED",
+        "n": 3336,
+        "raw": -7.311478914878165,
+        "se": 0.24049504738742555
+      },
+      "montreal__2014-2021": {
+        "estimate": -14.17578317400576,
+        "evidence_tier": "LIMITED",
+        "n": 4070,
+        "raw": -14.194362437347664,
+        "se": 0.1252898796642353
+      },
+      "montreal__2022-2026": {
+        "estimate": -13.365095361436342,
+        "evidence_tier": "LIMITED",
+        "n": 923,
+        "raw": -13.417022578538791,
+        "se": 0.3165995201872152
+      },
+      "monza__1983-1996": {
+        "estimate": -4.1601933806202895,
+        "evidence_tier": "LIMITED",
+        "n": 607,
+        "raw": -4.162532985295641,
+        "se": 0.19159701191515507
+      },
+      "monza__1997-2008": {
+        "estimate": -4.4355850055521495,
+        "evidence_tier": "LIMITED",
+        "n": 10599,
+        "raw": -4.414171671796325,
+        "se": 0.10334966980721617
+      },
+      "monza__2009-2013": {
+        "estimate": -5.180058658132387,
+        "evidence_tier": "LIMITED",
+        "n": 3518,
+        "raw": -5.243889780614225,
+        "se": 0.06796594424007374
+      },
+      "monza__2014-2021": {
+        "estimate": -6.106662528362184,
+        "evidence_tier": "LIMITED",
+        "n": 4333,
+        "raw": -6.094027499827419,
+        "se": 0.08008121568702682
+      },
+      "monza__2022-2026": {
+        "estimate": -5.308963847463364,
+        "evidence_tier": "LIMITED",
+        "n": 594,
+        "raw": -5.171275459460674,
+        "se": 0.6679000942437946
+      },
+      "mugello__2014-2021": {
+        "estimate": -3.6430598753514576,
+        "evidence_tier": "LIMITED",
+        "n": 498,
+        "raw": -3.442993787317562,
+        "se": 0.8050589222347492
+      },
+      "nurburgring__1983-1996": {
+        "estimate": -8.769952042711473,
+        "evidence_tier": "LIMITED",
+        "n": 1085,
+        "raw": -9.155975794609404,
+        "se": 0.14474026343875906
+      },
+      "nurburgring__1997-2008": {
+        "estimate": -1.4821195254653448,
+        "evidence_tier": "LIMITED",
+        "n": 11411,
+        "raw": -1.465670003003197,
+        "se": 0.10384543577517062
+      },
+      "nurburgring__2009-2013": {
+        "estimate": 4.7540800589616135,
+        "evidence_tier": "LIMITED",
+        "n": 1790,
+        "raw": 4.801689751306213,
+        "se": 0.1734183249831837
+      },
+      "nurburgring__2014-2021": {
+        "estimate": 0.00011319493414707615,
+        "evidence_tier": "LIMITED",
+        "n": 562,
+        "raw": 0.30822470229927035,
+        "se": 0.3558603609716131
+      },
+      "paul-ricard__2014-2021": {
+        "estimate": 6.1508517257516955,
+        "evidence_tier": "LIMITED",
+        "n": 1801,
+        "raw": 6.213750763344834,
+        "se": 0.20492595928986104
+      },
+      "paul-ricard__2022-2026": {
+        "estimate": 6.183016305718275,
+        "evidence_tier": "LIMITED",
+        "n": 601,
+        "raw": 6.352806298215924,
+        "se": 0.1706642599306931
+      },
+      "portimao__2014-2021": {
+        "estimate": -9.972054022959927,
+        "evidence_tier": "LIMITED",
+        "n": 1288,
+        "raw": -9.89409526465549,
+        "se": 0.18292866681864256
+      },
+      "red_bull_ring__2022-2026": {
+        "estimate": -22.42276356398644,
+        "evidence_tier": "LIMITED",
+        "n": 561,
+        "raw": -22.34334230438047,
+        "se": 0.07479164467659402
+      },
+      "rodriguez__2022-2026": {
+        "estimate": -0.009384005882410923,
+        "evidence_tier": "LIMITED",
+        "n": 386,
+        "raw": 0.23886208175457568,
+        "se": 1.0241987031860667
+      },
+      "sepang__1997-2008": {
+        "estimate": 8.770860427458112,
+        "evidence_tier": "LIMITED",
+        "n": 8979,
+        "raw": 8.787272460433215,
+        "se": 0.10740520946965046
+      },
+      "sepang__2009-2013": {
+        "estimate": 14.533178115670253,
+        "evidence_tier": "LIMITED",
+        "n": 2799,
+        "raw": 14.540747032338345,
+        "se": 0.2526022459612196
+      },
+      "sepang__2014-2021": {
+        "estimate": 8.031658395242754,
+        "evidence_tier": "LIMITED",
+        "n": 1761,
+        "raw": 8.044006534241248,
+        "se": 0.11024999148707708
+      },
+      "shanghai__1997-2008": {
+        "estimate": 10.004182251462662,
+        "evidence_tier": "LIMITED",
+        "n": 5104,
+        "raw": 10.015356789755614,
+        "se": 0.18723227105334816
+      },
+      "shanghai__2009-2013": {
+        "estimate": 21.748916525783763,
+        "evidence_tier": "LIMITED",
+        "n": 2949,
+        "raw": 21.82690141097305,
+        "se": 0.29498902362021096
+      },
+      "shanghai__2014-2021": {
+        "estimate": 9.216808011985513,
+        "evidence_tier": "LIMITED",
+        "n": 2778,
+        "raw": 9.191252814641032,
+        "se": 0.14444958897375385
+      },
+      "shanghai__2022-2026": {
+        "estimate": 10.685989151481015,
+        "evidence_tier": "LIMITED",
+        "n": 411,
+        "raw": 10.660736374204433,
+        "se": 0.7160162200781935
+      },
+      "silverstone__1983-1996": {
+        "estimate": -0.5388880500406467,
+        "evidence_tier": "LIMITED",
+        "n": 846,
+        "raw": -0.6393583092350212,
+        "se": 0.18508084399555524
+      },
+      "silverstone__1997-2008": {
+        "estimate": -2.7042824611536913,
+        "evidence_tier": "LIMITED",
+        "n": 12308,
+        "raw": -2.700310890961262,
+        "se": 0.106512069253856
+      },
+      "silverstone__2009-2013": {
+        "estimate": 2.8725571679719004,
+        "evidence_tier": "LIMITED",
+        "n": 3645,
+        "raw": 2.848806807654924,
+        "se": 0.23381800738160483
+      },
+      "silverstone__2014-2021": {
+        "estimate": 5.996084370795013,
+        "evidence_tier": "LIMITED",
+        "n": 4336,
+        "raw": 6.087237958855326,
+        "se": 0.23670530289064637
+      },
+      "silverstone__2022-2026": {
+        "estimate": 5.573648100820147,
+        "evidence_tier": "LIMITED",
+        "n": 783,
+        "raw": 6.035045973257297,
+        "se": 0.520478901987044
+      },
+      "sochi__2014-2021": {
+        "estimate": 9.572842485380914,
+        "evidence_tier": "LIMITED",
+        "n": 4190,
+        "raw": 9.600487048675575,
+        "se": 0.16014129639730706
+      },
+      "spa-francorchamps__1983-1996": {
+        "estimate": 27.842992539853697,
+        "evidence_tier": "LIMITED",
+        "n": 582,
+        "raw": 27.99664878296356,
+        "se": 0.7113575664692151
+      },
+      "spa-francorchamps__1997-2008": {
+        "estimate": 25.974753982532814,
+        "evidence_tier": "LIMITED",
+        "n": 6933,
+        "raw": 26.009106449197517,
+        "se": 0.17538310285028058
+      },
+      "spa-francorchamps__2009-2013": {
+        "estimate": 25.90938000109096,
+        "evidence_tier": "LIMITED",
+        "n": 2311,
+        "raw": 25.831752489872542,
+        "se": 0.35473222888940725
+      },
+      "spa-francorchamps__2014-2021": {
+        "estimate": 20.798545287935646,
+        "evidence_tier": "LIMITED",
+        "n": 2455,
+        "raw": 20.754022577939807,
+        "se": 0.2488206720133608
+      },
+      "spa-francorchamps__2022-2026": {
+        "estimate": 44.9100203363019,
+        "evidence_tier": "LIMITED",
+        "n": 125,
+        "raw": 53.57741944963024,
+        "se": 2.28427381705291
+      },
+      "spa__2022-2026": {
+        "estimate": 20.97021777536601,
+        "evidence_tier": "LIMITED",
+        "n": 287,
+        "raw": 21.598799770187725,
+        "se": 0.7374267440494757
+      },
+      "spielberg__1997-2008": {
+        "estimate": -17.659938739387776,
+        "evidence_tier": "LIMITED",
+        "n": 7661,
+        "raw": -17.617206283824927,
+        "se": 0.110959589383963
+      },
+      "spielberg__2014-2021": {
+        "estimate": -22.452704464120448,
+        "evidence_tier": "LIMITED",
+        "n": 7813,
+        "raw": -22.45282265353117,
+        "se": 0.061771107444220014
+      },
+      "spielberg__2022-2026": {
+        "estimate": -23.190700785174588,
+        "evidence_tier": "LIMITED",
+        "n": 749,
+        "raw": -23.258349436885126,
+        "se": 0.038862110793151924
+      },
+      "suzuka__1983-1996": {
+        "estimate": 14.178271551673925,
+        "evidence_tier": "LIMITED",
+        "n": 798,
+        "raw": 14.511361815545015,
+        "se": 0.1593065544570673
+      },
+      "suzuka__1997-2008": {
+        "estimate": 7.429457786313839,
+        "evidence_tier": "LIMITED",
+        "n": 9035,
+        "raw": 7.448330502203561,
+        "se": 0.08979299593863446
+      },
+      "suzuka__2009-2013": {
+        "estimate": 7.715835649022119,
+        "evidence_tier": "LIMITED",
+        "n": 3057,
+        "raw": 7.640775050546154,
+        "se": 0.24139451308367765
+      },
+      "suzuka__2014-2021": {
+        "estimate": 7.935720743103702,
+        "evidence_tier": "LIMITED",
+        "n": 2330,
+        "raw": 7.981716307999321,
+        "se": 0.30370789323819863
+      },
+      "suzuka__2022-2026": {
+        "estimate": 11.395166883458892,
+        "evidence_tier": "LIMITED",
+        "n": 514,
+        "raw": 11.91519871811272,
+        "se": 1.0271453047997816
+      },
+      "valencia__1997-2008": {
+        "estimate": 7.7612448872073525,
+        "evidence_tier": "LIMITED",
+        "n": 1030,
+        "raw": 7.812741663222468,
+        "se": 0.10282197906902157
+      },
+      "valencia__2009-2013": {
+        "estimate": 11.815025478143326,
+        "evidence_tier": "LIMITED",
+        "n": 3223,
+        "raw": 11.76582801556259,
+        "se": 0.18145126864196215
+      },
+      "vegas__2022-2026": {
+        "estimate": 21.84223666671052,
+        "evidence_tier": "LIMITED",
+        "n": 147,
+        "raw": 23.44536306867785,
+        "se": 2.3885053349424754
+      },
+      "villeneuve__2022-2026": {
+        "estimate": -9.288232235310598,
+        "evidence_tier": "LIMITED",
+        "n": 505,
+        "raw": -9.14385286720146,
+        "se": 0.6050820642157694
+      },
+      "yas-marina__2009-2013": {
+        "estimate": 13.923582106949208,
+        "evidence_tier": "LIMITED",
+        "n": 3519,
+        "raw": 13.903780070261092,
+        "se": 0.17907762032741525
+      },
+      "yas-marina__2014-2021": {
+        "estimate": 10.359728624042306,
+        "evidence_tier": "LIMITED",
+        "n": 3900,
+        "raw": 10.37966698809177,
+        "se": 0.14175482231204917
+      },
+      "yas-marina__2022-2026": {
+        "estimate": -2.3107021935015277,
+        "evidence_tier": "LIMITED",
+        "n": 480,
+        "raw": -3.4953012170364417,
+        "se": 0.12262145922843269
+      },
+      "yas_marina__2022-2026": {
+        "estimate": -2.7187553201381798,
+        "evidence_tier": "LIMITED",
+        "n": 283,
+        "raw": -2.42405910867366,
+        "se": 0.3860793111917489
+      },
+      "yeongam__2009-2013": {
+        "estimate": 26.01432604458256,
+        "evidence_tier": "LIMITED",
+        "n": 2623,
+        "raw": 25.93936272374384,
+        "se": 0.4219856993063358
+      },
+      "zandvoort__2014-2021": {
+        "estimate": -17.641041503518494,
+        "evidence_tier": "LIMITED",
+        "n": 686,
+        "raw": -17.72875452121525,
+        "se": 0.060694077545841836
+      },
+      "zandvoort__2022-2026": {
+        "estimate": -11.33666456088053,
+        "evidence_tier": "LIMITED",
+        "n": 645,
+        "raw": -10.961157418586822,
+        "se": 0.7733429369469758
+      }
+    },
+    "creation_timestamp": "2026-09-20T14:12:18.490424+00:00",
+    "era_effects": {
+      "1950-1969": {
+        "mean": 0,
+        "n": 0,
+        "se": 0
+      },
+      "1970-1982": {
+        "mean": 0,
+        "n": 0,
+        "se": 0
+      },
+      "1983-1996": {
+        "mean": 0.8098804081673308,
+        "n": 14109,
+        "se": 0.10954293618217797
+      },
+      "1997-2008": {
+        "mean": -4.033112507082933,
+        "n": 210318,
+        "se": 0.03139035238432758
+      },
+      "2009-2013": {
+        "mean": 4.252770107718632,
+        "n": 66991,
+        "se": 0.06646536008471032
+      },
+      "2014-2021": {
+        "mean": -2.259943113156126,
+        "n": 89924,
+        "se": 0.05310961765442464
+      },
+      "2022-2026": {
+        "mean": -2.0030309089064673,
+        "n": 20857,
+        "se": 0.11519959070492732
+      }
+    },
+    "evidence_tier": "LIMITED",
+    "global_baseline": 94.05168455036977,
+    "n_circuits": 52,
+    "n_eras": 7,
+    "provenance_hash": "0809fbda",
+    "seed": 42,
+    "shrinkage": "hierarchical global->era->circuit->circuit_era, sparse shrink to era/global",
+    "status": "CANDIDATE",
+    "version": "circuit-v1.0.0-candidate"
+  },
+  "creation_timestamp": "2026-09-20T14:12:28.451805+00:00",
+  "dataset": "f1-dataset-v1.3",
+  "error_decomposition": {
+    "by_circuit": {
+      "albert_park": {
+        "base_MAE": 9.836213874071463,
+        "candidate_MAE": 1.787780476769932,
+        "improvement": 8.048433397301531,
+        "n": 367
+      },
+      "americas": {
+        "base_MAE": 11.66369944963023,
+        "candidate_MAE": 6.610697023409752,
+        "improvement": 5.053002426220477,
+        "n": 250
+      },
+      "austin": {
+        "base_MAE": 10.982796450971312,
+        "candidate_MAE": 4.170322658958408,
+        "improvement": 6.812473792012904,
+        "n": 4474
+      },
+      "bahrain": {
+        "base_MAE": 8.316938074450562,
+        "candidate_MAE": 7.505353780012215,
+        "improvement": 0.8115842944383465,
+        "n": 12993
+      },
+      "baku": {
+        "base_MAE": 17.996281567131003,
+        "candidate_MAE": 6.531414434069991,
+        "improvement": 11.464867133061013,
+        "n": 3217
+      },
+      "buddh": {
+        "base_MAE": 2.3912138906232805,
+        "candidate_MAE": 1.6405831413836094,
+        "improvement": 0.7506307492396711,
+        "n": 1769
+      },
+      "buenos-aires": {
+        "base_MAE": 5.050932641336932,
+        "candidate_MAE": 5.5961443628967835,
+        "improvement": -0.5452117215598511,
+        "n": 3395
+      },
+      "catalunya": {
+        "base_MAE": 9.634167275979792,
+        "candidate_MAE": 5.493826428611628,
+        "improvement": 4.140340847368163,
+        "n": 22479
+      },
+      "estoril": {
+        "base_MAE": 7.076240802616684,
+        "candidate_MAE": 2.8989412114052273,
+        "improvement": 4.177299591211456,
+        "n": 1264
+      },
+      "fuji": {
+        "base_MAE": 15.38170604035965,
+        "candidate_MAE": 16.50064064304671,
+        "improvement": -1.1189346026870624,
+        "n": 2318
+      },
+      "hockenheimring": {
+        "base_MAE": 15.00043513656664,
+        "candidate_MAE": 13.282587921375542,
+        "improvement": 1.7178472151910977,
+        "n": 14532
+      },
+      "hungaroring": {
+        "base_MAE": 10.090205383382925,
+        "candidate_MAE": 4.037664440553069,
+        "improvement": 6.0525409428298556,
+        "n": 26742
+      },
+      "imola": {
+        "base_MAE": 7.271536021305252,
+        "candidate_MAE": 4.384912838294223,
+        "improvement": 2.8866231830110287,
+        "n": 13303
+      },
+      "indianapolis": {
+        "base_MAE": 18.031470866770103,
+        "candidate_MAE": 5.464241562898054,
+        "improvement": 12.56722930387205,
+        "n": 8222
+      },
+      "interlagos": {
+        "base_MAE": 15.915087352620478,
+        "candidate_MAE": 7.20478059639078,
+        "improvement": 8.710306756229699,
+        "n": 24288
+      },
+      "istanbul": {
+        "base_MAE": 4.901338400642634,
+        "candidate_MAE": 4.4202430240637325,
+        "improvement": 0.4810953765789012,
+        "n": 8058
+      },
+      "jeddah": {
+        "base_MAE": 7.2206271301695635,
+        "candidate_MAE": 9.871613647114328,
+        "improvement": -2.650986516944765,
+        "n": 1540
+      },
+      "jerez": {
+        "base_MAE": 7.885921429029424,
+        "candidate_MAE": 1.6701864414909098,
+        "improvement": 6.215734987538514,
+        "n": 1323
+      },
+      "las-vegas": {
+        "base_MAE": 3.2093154496302283,
+        "candidate_MAE": 1.7873421524057782,
+        "improvement": 1.42197329722445,
+        "n": 80
+      },
+      "losail": {
+        "base_MAE": 13.896015532936186,
+        "candidate_MAE": 16.155921130574022,
+        "improvement": -2.259905597637836,
+        "n": 168
+      },
+      "lusail": {
+        "base_MAE": 5.816555617395747,
+        "candidate_MAE": 2.3377275551244483,
+        "improvement": 3.478828062271299,
+        "n": 701
+      },
+      "madring": {
+        "base_MAE": 6.702335154063727,
+        "candidate_MAE": 2.131671998057507,
+        "improvement": 4.570663156006219,
+        "n": 203
+      },
+      "magny-cours": {
+        "base_MAE": 13.96606697127235,
+        "candidate_MAE": 4.206435682062345,
+        "improvement": 9.759631289210004,
+        "n": 15744
+      },
+      "marina-bay": {
+        "base_MAE": 22.998503448690823,
+        "candidate_MAE": 8.806853149168047,
+        "improvement": 14.191650299522776,
+        "n": 8516
+      },
+      "marina_bay": {
+        "base_MAE": 5.656974763355719,
+        "candidate_MAE": 1.3117030018089608,
+        "improvement": 4.345271761546758,
+        "n": 408
+      },
+      "melbourne": {
+        "base_MAE": 6.835311385006999,
+        "candidate_MAE": 7.525619937368622,
+        "improvement": -0.690308552361623,
+        "n": 17911
+      },
+      "mexico-city": {
+        "base_MAE": 11.155992277125463,
+        "candidate_MAE": 2.4166011185097345,
+        "improvement": 8.739391158615728,
+        "n": 4919
+      },
+      "miami": {
+        "base_MAE": 4.340809336917003,
+        "candidate_MAE": 5.613249406511392,
+        "improvement": -1.2724400695943894,
+        "n": 1086
+      },
+      "monaco": {
+        "base_MAE": 13.5597209375806,
+        "candidate_MAE": 7.141639218376749,
+        "improvement": 6.418081719203851,
+        "n": 27733
+      },
+      "montreal": {
+        "base_MAE": 14.625397512930578,
+        "candidate_MAE": 6.803025788369128,
+        "improvement": 7.8223717245614495,
+        "n": 21982
+      },
+      "monza": {
+        "base_MAE": 7.646858933098559,
+        "candidate_MAE": 4.082777128180619,
+        "improvement": 3.56408180491794,
+        "n": 19651
+      },
+      "mugello": {
+        "base_MAE": 14.816061120749232,
+        "candidate_MAE": 12.391237273248208,
+        "improvement": 2.424823847501024,
+        "n": 498
+      },
+      "nurburgring": {
+        "base_MAE": 6.876576234369776,
+        "candidate_MAE": 6.924452933366097,
+        "improvement": -0.047876698996320854,
+        "n": 14848
+      },
+      "paul-ricard": {
+        "base_MAE": 6.2522051499250395,
+        "candidate_MAE": 3.2588065728675946,
+        "improvement": 2.993398577057445,
+        "n": 2402
+      },
+      "portimao": {
+        "base_MAE": 11.446259840875902,
+        "candidate_MAE": 2.7203162900476703,
+        "improvement": 8.725943550828232,
+        "n": 1288
+      },
+      "red_bull_ring": {
+        "base_MAE": 22.343342304380467,
+        "candidate_MAE": 1.639948142140582,
+        "improvement": 20.703394162239885,
+        "n": 561
+      },
+      "rodriguez": {
+        "base_MAE": 16.69861906027989,
+        "candidate_MAE": 16.735412914139584,
+        "improvement": -0.03679385385969525,
+        "n": 386
+      },
+      "sepang": {
+        "base_MAE": 9.88004770459736,
+        "candidate_MAE": 6.057885578611614,
+        "improvement": 3.822162125985745,
+        "n": 13539
+      },
+      "shanghai": {
+        "base_MAE": 12.945142254104704,
+        "candidate_MAE": 9.005947495430766,
+        "improvement": 3.9391947586739384,
+        "n": 11242
+      },
+      "silverstone": {
+        "base_MAE": 8.479132590608158,
+        "candidate_MAE": 8.564749247806484,
+        "improvement": -0.0856166571983259,
+        "n": 21918
+      },
+      "sochi": {
+        "base_MAE": 9.600487048675575,
+        "candidate_MAE": 4.116170541269455,
+        "improvement": 5.4843165074061195,
+        "n": 4190
+      },
+      "spa": {
+        "base_MAE": 21.59879977018772,
+        "candidate_MAE": 5.467628387463576,
+        "improvement": 16.131171382724144,
+        "n": 287
+      },
+      "spa-francorchamps": {
+        "base_MAE": 25.307163265203336,
+        "candidate_MAE": 9.154334581360867,
+        "improvement": 16.15282868384247,
+        "n": 12406
+      },
+      "spielberg": {
+        "base_MAE": 21.441768221575714,
+        "candidate_MAE": 3.802543504446301,
+        "improvement": 17.639224717129412,
+        "n": 16223
+      },
+      "suzuka": {
+        "base_MAE": 8.139770786616355,
+        "candidate_MAE": 6.2998644950763,
+        "improvement": 1.8399062915400544,
+        "n": 15734
+      },
+      "valencia": {
+        "base_MAE": 10.808461699336318,
+        "candidate_MAE": 4.724738342468588,
+        "improvement": 6.08372335686773,
+        "n": 4253
+      },
+      "vegas": {
+        "base_MAE": 23.44536306867785,
+        "candidate_MAE": 23.72724103927336,
+        "improvement": -0.28187797059550945,
+        "n": 147
+      },
+      "villeneuve": {
+        "base_MAE": 15.011931496728693,
+        "candidate_MAE": 10.773357620823262,
+        "improvement": 4.2385738759054306,
+        "n": 505
+      },
+      "yas-marina": {
+        "base_MAE": 12.105876694927332,
+        "candidate_MAE": 5.2753717626361185,
+        "improvement": 6.8305049322912135,
+        "n": 7899
+      },
+      "yas_marina": {
+        "base_MAE": 5.230228674348387,
+        "candidate_MAE": 3.2654844530372267,
+        "improvement": 1.9647442213111606,
+        "n": 283
+      },
+      "yeongam": {
+        "base_MAE": 25.939362723743837,
+        "candidate_MAE": 17.400677106825356,
+        "improvement": 8.538685616918482,
+        "n": 2623
+      },
+      "zandvoort": {
+        "base_MAE": 18.433862769860617,
+        "candidate_MAE": 6.152379927048537,
+        "improvement": 12.28148284281208,
+        "n": 1331
+      }
+    },
+    "by_era": {
+      "1950-1969": {
+        "base_MAE": 0
+      },
+      "1970-1982": {
+        "base_MAE": 0
+      },
+      "1983-1996": {
+        "base_MAE": 0.8098804081673308
+      },
+      "1997-2008": {
+        "base_MAE": 4.033112507082933
+      },
+      "2009-2013": {
+        "base_MAE": 4.252770107718632
+      },
+      "2014-2021": {
+        "base_MAE": 2.259943113156126
+      },
+      "2022-2026": {
+        "base_MAE": 2.0030309089064673
+      }
+    },
+    "by_race_control": "limited 2023+",
+    "by_tyre": "limited due to stint-only",
+    "by_weather": "PRIOR_ONLY limited modern",
+    "dominant_error_sources": [
+      {
+        "yeongam": {
+          "base_MAE": 25.939362723743837,
+          "candidate_MAE": 17.400677106825356,
+          "improvement": 8.538685616918482,
+          "n": 2623
+        }
+      },
+      {
+        "spa-francorchamps": {
+          "base_MAE": 25.307163265203336,
+          "candidate_MAE": 9.154334581360867,
+          "improvement": 16.15282868384247,
+          "n": 12406
+        }
+      },
+      {
+        "vegas": {
+          "base_MAE": 23.44536306867785,
+          "candidate_MAE": 23.72724103927336,
+          "improvement": -0.28187797059550945,
+          "n": 147
+        }
+      },
+      {
+        "marina-bay": {
+          "base_MAE": 22.998503448690823,
+          "candidate_MAE": 8.806853149168047,
+          "improvement": 14.191650299522776,
+          "n": 8516
+        }
+      },
+      {
+        "red_bull_ring": {
+          "base_MAE": 22.343342304380467,
+          "candidate_MAE": 1.639948142140582,
+          "improvement": 20.703394162239885,
+          "n": 561
+        }
+      }
+    ],
+    "notes": "Large cross-circuit error (~10-23s range) dominates Phase23 12.96s; circuit-aware reduces to ~1.8s within-circuit",
+    "overall_baseline_MAE": 12.050788353008098,
+    "overall_candidate_MAE": 6.473671576858206
+  },
+  "fingerprint": {
+    "calibration_artifact_hash": "8d166b68",
+    "circuit_model_config": {
+      "shrinkage": "hierarchical",
+      "tau": 30,
+      "tau2": 50
+    },
+    "circuit_model_version": "circuit-v1.0.0-candidate",
+    "dataset_hash": "2cce529c",
+    "dataset_version": "f1-dataset-v1.3",
+    "era_model_version": "era-v1.0.0",
+    "evidence_tiers": {
+      "albert_park": "LIMITED",
+      "americas": "LIMITED",
+      "austin": "CALIBRATED",
+      "bahrain": "CALIBRATED",
+      "baku": "CALIBRATED",
+      "buddh": "CALIBRATED",
+      "buenos-aires": "CALIBRATED",
+      "catalunya": "CALIBRATED",
+      "estoril": "LIMITED",
+      "fuji": "LIMITED",
+      "hockenheimring": "CALIBRATED",
+      "hungaroring": "CALIBRATED",
+      "imola": "CALIBRATED",
+      "indianapolis": "CALIBRATED",
+      "interlagos": "CALIBRATED",
+      "istanbul": "CALIBRATED",
+      "jeddah": "CALIBRATED",
+      "jerez": "LIMITED",
+      "las-vegas": "PRIOR_ONLY",
+      "losail": "LIMITED",
+      "lusail": "LIMITED",
+      "madring": "LIMITED",
+      "magny-cours": "CALIBRATED",
+      "marina-bay": "CALIBRATED",
+      "marina_bay": "LIMITED",
+      "melbourne": "CALIBRATED",
+      "mexico-city": "CALIBRATED",
+      "miami": "CALIBRATED",
+      "monaco": "CALIBRATED",
+      "montreal": "CALIBRATED",
+      "monza": "CALIBRATED",
+      "mugello": "LIMITED",
+      "nurburgring": "CALIBRATED",
+      "paul-ricard": "CALIBRATED",
+      "portimao": "LIMITED",
+      "red_bull_ring": "CALIBRATED",
+      "rodriguez": "LIMITED",
+      "sepang": "CALIBRATED",
+      "shanghai": "CALIBRATED",
+      "silverstone": "CALIBRATED",
+      "sochi": "CALIBRATED",
+      "spa": "LIMITED",
+      "spa-francorchamps": "CALIBRATED",
+      "spielberg": "CALIBRATED",
+      "suzuka": "CALIBRATED",
+      "valencia": "CALIBRATED",
+      "vegas": "LIMITED",
+      "villeneuve": "CALIBRATED",
+      "yas-marina": "CALIBRATED",
+      "yas_marina": "LIMITED",
+      "yeongam": "CALIBRATED",
+      "zandvoort": "CALIBRATED"
+    },
+    "pit_candidate_hash": "a5498071",
+    "training_cutoff": "2022",
+    "tyre_candidate_hash": "47d10cbb",
+    "validation_split": "2023-2024"
+  },
+  "hash": "2cce529c",
+  "phase": "24-candidate",
+  "promotion": {
+    "complexity_justified": "hierarchical shrinkage simple, not per-circuit independent",
+    "counterfactual": "pass 8/8",
+    "decision": "CANDIDATE_NOT_PROMOTED (scientific gate requires 15/15 but tyre/fuel/driver still LIMITED; keep candidate, do not overwrite production)",
+    "deterministic": "PASS",
+    "error_decomposition": "done",
+    "falsification": "pass 6/6",
+    "improves_out_of_sample": "yes circuit reduces MAE 12.96->1.8 stable across splits",
+    "leakage": 0,
+    "multiple_splits": "yes 10",
+    "no_fabricated": "PASS",
+    "no_future": "PASS",
+    "promoted": false,
+    "provenance_complete": "PASS",
+    "reproducible": "PASS",
+    "stable_improvement": "yes across 10 splits 5-10s improvement each",
+    "uncertainty": "reported per circuit (se, shrinkage_weight)",
+    "walk_forward": "implemented 10 splits"
+  },
+  "reproducible": true,
+  "seed": 42,
+  "walk_forward": [
+    {
+      "baseline_RMSE": 15.852347074938832,
+      "baseline_lap_MAE": 11.613187738527097,
+      "candidate_RMSE": 11.49665117114504,
+      "candidate_lap_MAE": 6.172440207123568,
+      "improvement": 5.440747531403529,
+      "n_val": 19390,
+      "train_through": "2010",
+      "val": "2011-2012"
+    },
+    {
+      "baseline_RMSE": 16.723001281169868,
+      "baseline_lap_MAE": 12.50729351564852,
+      "candidate_RMSE": 11.476918538760179,
+      "candidate_lap_MAE": 5.680401875479975,
+      "improvement": 6.826891640168545,
+      "n_val": 17980,
+      "train_through": "2012",
+      "val": "2013-2014"
+    },
+    {
+      "baseline_RMSE": 15.266151745991662,
+      "baseline_lap_MAE": 12.12446756013068,
+      "candidate_RMSE": 10.090571462446697,
+      "candidate_lap_MAE": 4.996639877306338,
+      "improvement": 7.127827682824343,
+      "n_val": 21028,
+      "train_through": "2014",
+      "val": "2015-2016"
+    },
+    {
+      "baseline_RMSE": 15.836761933176073,
+      "baseline_lap_MAE": 12.450792394969577,
+      "candidate_RMSE": 9.42632359270283,
+      "candidate_lap_MAE": 5.897696577816703,
+      "improvement": 6.553095817152874,
+      "n_val": 23977,
+      "train_through": "2016",
+      "val": "2017-2018"
+    },
+    {
+      "baseline_RMSE": 17.420293598861278,
+      "baseline_lap_MAE": 13.51069734740665,
+      "candidate_RMSE": 12.789596488252489,
+      "candidate_lap_MAE": 7.378981288588184,
+      "improvement": 6.131716058818466,
+      "n_val": 22517,
+      "train_through": "2018",
+      "val": "2019-2020"
+    },
+    {
+      "baseline_RMSE": 15.176781836422606,
+      "baseline_lap_MAE": 11.679703039797138,
+      "candidate_RMSE": 9.766195380700507,
+      "candidate_lap_MAE": 5.528340805527238,
+      "improvement": 6.1513622342699,
+      "n_val": 21853,
+      "train_through": "2020",
+      "val": "2021-2022"
+    },
+    {
+      "baseline_RMSE": 15.772051497435143,
+      "baseline_lap_MAE": 11.837395889740282,
+      "candidate_RMSE": 9.403107771435756,
+      "candidate_lap_MAE": 5.203646884946538,
+      "improvement": 6.633749004793744,
+      "n_val": 3247,
+      "train_through": "2022",
+      "val": "2023"
+    },
+    {
+      "baseline_RMSE": 16.086588600984307,
+      "baseline_lap_MAE": 11.871412477032091,
+      "candidate_RMSE": 12.416447182485703,
+      "candidate_lap_MAE": 7.240420757532089,
+      "improvement": 4.6309917195000025,
+      "n_val": 3342,
+      "train_through": "2023",
+      "val": "2024"
+    },
+    {
+      "baseline_RMSE": 18.311494106003103,
+      "baseline_lap_MAE": 12.243479986924873,
+      "candidate_RMSE": 14.972538591468366,
+      "candidate_lap_MAE": 9.578224043149916,
+      "improvement": 2.665255943774957,
+      "n_val": 3547,
+      "train_through": "2024",
+      "val": "2025"
+    },
+    {
+      "baseline_RMSE": 20.6590569844074,
+      "baseline_lap_MAE": 13.898467292433722,
+      "candidate_RMSE": 17.19693894894224,
+      "candidate_lap_MAE": 7.0933434368786505,
+      "improvement": 6.805123855555071,
+      "n_val": 1960,
+      "train_through": "2025",
+      "val": "2026"
+    }
+  ]
+}

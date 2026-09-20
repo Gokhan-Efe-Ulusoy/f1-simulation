@@ -1,0 +1,19 @@
+{
+  "overfitting": "checked via walk-forward, not in-sample",
+  "underfitting": "model is simple hierarchical, may underfit modern telemetry",
+  "temporal_leakage": 0,
+  "high_variance_drivers": 381,
+  "small_sample_cases": 381,
+  "driver_car_confounding": 289,
+  "era_instability": "see era_model field_spread",
+  "circuit_instability": "see circuit_model",
+  "best_eras": "2022-2026 (modern data rich)",
+  "worst_eras": "1950-1960 (sparse)",
+  "data_sparse": [
+    "crossley",
+    "fry",
+    "hampshire",
+    "harrison",
+    "kelly"
+  ]
+}

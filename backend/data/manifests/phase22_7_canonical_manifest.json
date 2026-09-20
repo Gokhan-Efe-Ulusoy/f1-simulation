@@ -1,0 +1,27 @@
+{
+  "canonicalization_version": "22.7.0",
+  "driver_resolution": {
+    "AMBIGUOUS": 0,
+    "MATCHED": 453706,
+    "UNMATCHED": 0
+  },
+  "duplicate_identical": 0,
+  "families": {
+    "laps_jolpica": {
+      "orphan_races": 0,
+      "partitions": 582,
+      "partitions_2002_plus": 483,
+      "partitions_pre_2002": 99,
+      "rows": 552656,
+      "rows_2002_plus": 453706,
+      "rows_pre_2002": 98950
+    }
+  },
+  "generated_at": "2026-09-20T11:49:54+00:00",
+  "material_conflicts": [],
+  "pending": [],
+  "sources": {
+    "combined": 298,
+    "paged": 185
+  }
+}

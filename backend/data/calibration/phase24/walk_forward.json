@@ -1,0 +1,102 @@
+[
+  {
+    "baseline_RMSE": 15.852347074938832,
+    "baseline_lap_MAE": 11.613187738527097,
+    "candidate_RMSE": 11.49665117114504,
+    "candidate_lap_MAE": 6.172440207123568,
+    "improvement": 5.440747531403529,
+    "n_val": 19390,
+    "train_through": "2010",
+    "val": "2011-2012"
+  },
+  {
+    "baseline_RMSE": 16.723001281169868,
+    "baseline_lap_MAE": 12.50729351564852,
+    "candidate_RMSE": 11.476918538760179,
+    "candidate_lap_MAE": 5.680401875479975,
+    "improvement": 6.826891640168545,
+    "n_val": 17980,
+    "train_through": "2012",
+    "val": "2013-2014"
+  },
+  {
+    "baseline_RMSE": 15.266151745991662,
+    "baseline_lap_MAE": 12.12446756013068,
+    "candidate_RMSE": 10.090571462446697,
+    "candidate_lap_MAE": 4.996639877306338,
+    "improvement": 7.127827682824343,
+    "n_val": 21028,
+    "train_through": "2014",
+    "val": "2015-2016"
+  },
+  {
+    "baseline_RMSE": 15.836761933176073,
+    "baseline_lap_MAE": 12.450792394969577,
+    "candidate_RMSE": 9.42632359270283,
+    "candidate_lap_MAE": 5.897696577816703,
+    "improvement": 6.553095817152874,
+    "n_val": 23977,
+    "train_through": "2016",
+    "val": "2017-2018"
+  },
+  {
+    "baseline_RMSE": 17.420293598861278,
+    "baseline_lap_MAE": 13.51069734740665,
+    "candidate_RMSE": 12.789596488252489,
+    "candidate_lap_MAE": 7.378981288588184,
+    "improvement": 6.131716058818466,
+    "n_val": 22517,
+    "train_through": "2018",
+    "val": "2019-2020"
+  },
+  {
+    "baseline_RMSE": 15.176781836422606,
+    "baseline_lap_MAE": 11.679703039797138,
+    "candidate_RMSE": 9.766195380700507,
+    "candidate_lap_MAE": 5.528340805527238,
+    "improvement": 6.1513622342699,
+    "n_val": 21853,
+    "train_through": "2020",
+    "val": "2021-2022"
+  },
+  {
+    "baseline_RMSE": 15.772051497435143,
+    "baseline_lap_MAE": 11.837395889740282,
+    "candidate_RMSE": 9.403107771435756,
+    "candidate_lap_MAE": 5.203646884946538,
+    "improvement": 6.633749004793744,
+    "n_val": 3247,
+    "train_through": "2022",
+    "val": "2023"
+  },
+  {
+    "baseline_RMSE": 16.086588600984307,
+    "baseline_lap_MAE": 11.871412477032091,
+    "candidate_RMSE": 12.416447182485703,
+    "candidate_lap_MAE": 7.240420757532089,
+    "improvement": 4.6309917195000025,
+    "n_val": 3342,
+    "train_through": "2023",
+    "val": "2024"
+  },
+  {
+    "baseline_RMSE": 18.311494106003103,
+    "baseline_lap_MAE": 12.243479986924873,
+    "candidate_RMSE": 14.972538591468366,
+    "candidate_lap_MAE": 9.578224043149916,
+    "improvement": 2.665255943774957,
+    "n_val": 3547,
+    "train_through": "2024",
+    "val": "2025"
+  },
+  {
+    "baseline_RMSE": 20.6590569844074,
+    "baseline_lap_MAE": 13.898467292433722,
+    "candidate_RMSE": 17.19693894894224,
+    "candidate_lap_MAE": 7.0933434368786505,
+    "improvement": 6.805123855555071,
+    "n_val": 1960,
+    "train_through": "2025",
+    "val": "2026"
+  }
+]

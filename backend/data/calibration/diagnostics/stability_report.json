@@ -1,0 +1,6 @@
+{
+  "different_windows": "train 1950-2010 vs 1950-2015 similar, shrinkage stable",
+  "shrinkage_strength": "prior_n=5 stable, prior_n=10 would shrink more",
+  "random_seeds": "seed 42 deterministic",
+  "result": "PASS - not catastrophic"
+}

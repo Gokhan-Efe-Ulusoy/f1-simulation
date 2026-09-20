@@ -1,0 +1,18 @@
+{
+  "description": "Every latent parameter has posterior Normal/Beta with CI95",
+  "priors": {
+    "driver_race_pace": {
+      "distribution": "Normal",
+      "prior_mean": 0,
+      "prior_std": 3,
+      "prior_n": 5
+    },
+    "reliability": {
+      "distribution": "Beta",
+      "alpha_prior": 5,
+      "beta_prior": 95
+    }
+  },
+  "individual_uncertainties": "see driver_model.json per driver posterior_std and ci95",
+  "shrinkage_strength": "prior_n / (n + prior_n)"
+}

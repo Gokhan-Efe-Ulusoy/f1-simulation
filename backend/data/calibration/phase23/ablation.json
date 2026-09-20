@@ -1,0 +1,27 @@
+{
+  "A_no_tyre_vs_calibrated": {
+    "decision": "NOT_PROMOTED (hurts validation)",
+    "train_improvement": 0.01,
+    "val_improvement": -0.002
+  },
+  "B_no_pit_vs_calibrated": {
+    "decision": "PROMOTE total pit-loss, keep split PRIOR",
+    "train_improvement": 0.05,
+    "val_improvement": 0.03
+  },
+  "C_global_vs_hierarchical_driver": {
+    "decision": "KEEP_LIMITED (small gain, higher uncertainty)",
+    "train_improvement": 0.02,
+    "val_improvement": 0.01
+  },
+  "D_no_circuit_vs_circuit": {
+    "decision": "KEEP_LIMITED",
+    "train_improvement": 0.03,
+    "val_improvement": 0.015
+  },
+  "E_no_progression_vs_progression": {
+    "decision": "KEEP_LIMITED (fuel confounded)",
+    "train_improvement": 0.02,
+    "val_improvement": 0.01
+  }
+}

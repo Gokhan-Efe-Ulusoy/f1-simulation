@@ -1,0 +1,6 @@
+{
+  "STATUS": "LIMITED",
+  "method": "hierarchical shrinkage, avoid driver-constructor confounding",
+  "note": "constructor effect not automatically physical car parameter; generalization tested via walk-forward",
+  "sample_size": 53
+}

@@ -1,0 +1,3720 @@
+{
+  "actual": {
+    "1950": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1951": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1952": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1953": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1954": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1955": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1956": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1957": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1958": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1959": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1960": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1961": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1962": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1963": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1964": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1965": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1966": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1967": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1968": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1969": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1970": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1971": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1972": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1973": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1974": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1975": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1976": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1977": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1978": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1979": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1980": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1981": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1982": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1983": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1984": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1985": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1986": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1987": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1988": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1989": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1990": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1991": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1992": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1993": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1994": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1995": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1996": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1997": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1998": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "1999": {
+      "lap_timing": "NOT_AVAILABLE",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2000": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2001": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2002": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2003": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2004": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2005": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2006": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2007": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2008": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2009": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2010": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2011": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2012": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2013": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2014": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2015": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2016": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2017": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2018": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2019": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2020": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2021": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2022": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2023": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2024": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2025": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    },
+    "2026": {
+      "lap_timing": "FULL",
+      "qualifying": "PARTIAL",
+      "race_results": "FULL"
+    }
+  },
+  "generated_at": "2026-09-10T17:53:38+00:00",
+  "theoretical": {
+    "seasons": {
+      "1950": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1951": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1952": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1953": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1954": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1955": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1956": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1957": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1958": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1959": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1960": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1961": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1962": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1963": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1964": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1965": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1966": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1967": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1968": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1969": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1970": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1971": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1972": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1973": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1974": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1975": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1976": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1977": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1978": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1979": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1980": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1981": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1982": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1983": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1984": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1985": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1986": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1987": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1988": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1989": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1990": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1991": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1992": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1993": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1994": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1995": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1996": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1997": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1998": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "1999": {
+        "lap_timing": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2000": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2001": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2002": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2003": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2004": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2005": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2006": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2007": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2008": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2009": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "race"
+        }
+      },
+      "2010": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2011": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2012": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2013": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2014": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2015": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2016": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2017": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2018": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2019": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": false,
+          "confidence": 1.0,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2020": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2021": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2022": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2023": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2024": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2025": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      },
+      "2026": {
+        "lap_timing": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "lap"
+        },
+        "pit_stops": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "qualifying": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "race_results": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "sectors": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "sector"
+        },
+        "telemetry": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "telemetry"
+        },
+        "tyre_stints": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        },
+        "weather": {
+          "available": true,
+          "confidence": 0.7,
+          "resolution": "race"
+        }
+      }
+    },
+    "summary": {
+      "lap_timing": {
+        "first_season": 2000,
+        "seasons_covered": 27
+      },
+      "pit_stops": {
+        "first_season": 1980,
+        "seasons_covered": 47
+      },
+      "qualifying": {
+        "first_season": 1950,
+        "seasons_covered": 77
+      },
+      "race_results": {
+        "first_season": 1950,
+        "seasons_covered": 77
+      },
+      "sectors": {
+        "first_season": 2010,
+        "seasons_covered": 17
+      },
+      "telemetry": {
+        "first_season": 2020,
+        "seasons_covered": 7
+      },
+      "tyre_stints": {
+        "first_season": 2000,
+        "seasons_covered": 27
+      },
+      "weather": {
+        "first_season": 2010,
+        "seasons_covered": 17
+      }
+    },
+    "tiers": {
+      "championship": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "circuits": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "constructors": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "drivers": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "fastest_laps": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "lap_timing": {
+        "resolution": "lap",
+        "since": 2000
+      },
+      "pit_stops": {
+        "resolution": "race",
+        "since": 1980
+      },
+      "positions": {
+        "resolution": "lap",
+        "since": 2020
+      },
+      "qualifying": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "race_results": {
+        "resolution": "race",
+        "since": 1950
+      },
+      "sectors": {
+        "resolution": "sector",
+        "since": 2010
+      },
+      "telemetry": {
+        "resolution": "telemetry",
+        "since": 2020
+      },
+      "tyre_stints": {
+        "resolution": "race",
+        "since": 2000
+      },
+      "weather": {
+        "resolution": "race",
+        "since": 2010
+      }
+    }
+  }
+}

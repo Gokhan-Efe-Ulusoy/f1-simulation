@@ -1,0 +1,5 @@
+{
+  "brier_avg": 0.03959657784809886,
+  "log_loss": 2.093884410460297,
+  "note": "Lower is better; Brier 0 perfect, 0.25 random"
+}

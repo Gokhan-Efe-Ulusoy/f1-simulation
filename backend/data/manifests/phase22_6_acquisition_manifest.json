@@ -1,0 +1,26 @@
+{
+  "canonicalization_status": "RAW_ONLY (canonicalize separately)",
+  "generated_at": "2026-09-19T13:37:00+00:00",
+  "pipeline": "phase22_6_acquisition",
+  "rate_seconds": 2.0,
+  "seasons": [
+    1996,
+    2026
+  ],
+  "stats": {
+    "downloaded_bytes": 1623,
+    "downloaded_files": 1,
+    "failed": 0,
+    "missing": 0,
+    "reused_files": 0,
+    "rows_total": 24
+  },
+  "tasks_completed": 1902,
+  "tasks_failed": {
+    "jlap:2001:14": "failed https://api.jolpi.ca/ergast/f1/2001/14/laps.json?limit=100&offset=100: HTTP Error 429: Too Many Requests",
+    "jlap:2001:15": "failed https://api.jolpi.ca/ergast/f1/2001/15/laps.json?limit=100&offset=0: HTTP Error 429: Too Many Requests",
+    "jlap:2001:16": "failed https://api.jolpi.ca/ergast/f1/2001/16/laps.json?limit=100&offset=0: HTTP Error 429: Too Many Requests",
+    "jlap:2001:17": "failed https://api.jolpi.ca/ergast/f1/2001/17/laps.json?limit=100&offset=0: HTTP Error 429: Too Many Requests"
+  },
+  "tasks_total": 558
+}

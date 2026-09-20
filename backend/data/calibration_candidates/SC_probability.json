@@ -1,0 +1,14 @@
+{
+  "variable": "SC_probability",
+  "sample_size": 71,
+  "years": "2024",
+  "circuits": 1,
+  "drivers": 0,
+  "observations": 71,
+  "confounders": [
+    "single race",
+    "taxonomy free text"
+  ],
+  "candidate_model": "P(SC|incident) empirical rate (insufficient N \u2014 NOT calibrated)",
+  "evidence_tier": "PRIOR_ONLY"
+}

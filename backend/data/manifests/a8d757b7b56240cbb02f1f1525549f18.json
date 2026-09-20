@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-09-09T15:51:39+00:00",
+  "coverage": "2023",
+  "parser_version": "0.1.0",
+  "payload_hash": "5d0ca0da986ff34d90a085c9fe5987f784e6455634f4b692b3cb4b86e85db66f",
+  "records_accepted": 22,
+  "records_fetched": 22,
+  "records_rejected": 0,
+  "run_id": "a8d757b7b56240cbb02f1f1525549f18",
+  "schema_version": "0.1.0",
+  "source": "jolpica",
+  "started_at": "2026-09-09T15:51:39+00:00",
+  "warnings": []
+}

@@ -1,0 +1,20 @@
+{
+  "jolpica": {
+    "seasons": "1950-2026",
+    "races": 1172,
+    "status": "PARTIALLY via f1db fallback for 429"
+  },
+  "f1db": {
+    "seasons": "1950-2026",
+    "races": 1172,
+    "results": 27577
+  },
+  "openf1": {
+    "seasons": "2023-2026",
+    "laps": 4117
+  },
+  "fastf1": {
+    "seasons": "2024",
+    "telemetry": "verified 2024 Bahrain"
+  }
+}
