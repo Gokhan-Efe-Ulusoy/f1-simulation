@@ -1,213 +1,178 @@
 # F1 Simulation Platform
 
-A professional-grade Formula 1 simulation platform with modular architecture, deterministic modeling, and Monte Carlo capabilities.
+A modular, deterministic, reproducible, data-driven Formula 1 simulation
+platform. Not a game and not a random result generator: every simulation
+records its dataset, model versions, seed, and provenance, and every
+unavailable input is reported as such instead of being invented.
 
-## Overview
+## What it is
 
-This project implements a scientifically grounded Formula 1 simulation engine capable of simulating:
-- Individual laps with physics-based lap time models
-- Qualifying sessions (Q1, Q2, Q3)
-- Full races with pit stops, tyre degradation, fuel effects
-- Weather changes and safety car periods
-- Overtaking, incidents, and mechanical failures
-- Championship seasons with points standings
-- Monte Carlo simulations for probability analysis
+- **Race simulation** — full-race engine with pit stops, tyre degradation,
+  fuel effects, overtaking, incidents, and mechanical failures.
+- **Monte Carlo analysis** — vectorized engine (10–20× faster than the
+  reference loop) with chunked, order-independent distributed execution.
+- **Deterministic replay** — historical races re-simulated from canonical
+  data with strict as-of (no future information) guarantees.
+- **Counterfactuals & scenarios** — typed interventions (setup, strategy,
+  weather, race-control) compiled against a validated scenario model.
+- **Strategy / setup / weather / race-control modules** — each versioned,
+  each carrying an explicit evidence tier.
+- **Provenance & evidence tiers** — every result identifies its dataset,
+  hashes, versions, seed, and scenario fingerprint.
 
-## Architecture
+## Example questions the system can answer
 
+- "How would the 2024 Bahrain race distribution change if the driver had a
+  different setup?"
+- "What happens if a pit stop occurs five laps earlier?"
+- "How does increased rainfall change race outcomes?"
+- "What if a future regulation changes front-wing characteristics?"
+- "How would the same race unfold under a different strategy?"
+
+These are capabilities and usage examples, **not** claims that every
+historical variable is fully calibrated. See
+[Scientific integrity](#scientific-integrity) and `docs/` limitations.
+
+## Scientific integrity
+
+The platform never fabricates unavailable historical information. Every
+model input and output carries one of these evidence tiers:
+
+| Tier | Meaning |
+| --- | --- |
+| `CALIBRATED` | Fitted against observed data with validation |
+| `LIMITED` | Partial evidence; use with stated uncertainty |
+| `PRIOR_ONLY` | Prior/assumption only; not fitted to history |
+| `PROXY_ONLY` | Indirect proxy, not the quantity itself |
+| `NON_IDENTIFIABLE` | Cannot be identified from available data |
+| `NOT_AVAILABLE` | Data does not exist in the dataset |
+
+Current production tiers include: fuel `NON_IDENTIFIABLE`, historical tyre
+detail `NON_IDENTIFIABLE`, strategy/setup/weather/race-control
+`PRIOR_ONLY`, driver/circuit/constructor `LIMITED`. A contributor **cannot
+simply tune coefficients until the simulation looks realistic** — see
+`CONTRIBUTING.md`.
+
+## Reproducibility
+
+- One master seed fans out into **isolated RNG streams** (weather,
+  race-control, strategy, AR1 lap noise, reliability) via `RandomProvider`.
+- Same race + same config + same seed + same model version ⇒ identical
+  output **within the same backend and environment** (set `PYTHONHASHSEED=0`
+  for bit-identical results across OS processes — see
+  `docs/reproducibility.md` for why).
+- Every result carries **fingerprints**, **dataset hashes**, **calibration
+  hashes**, and full **provenance**.
+- Leakage controls: strict `as_of` policy, future-field rejection, and a
+  dedicated leakage test suite (`@pytest.mark.leakage`).
+
+## Current baseline
+
+| Component | Version |
+| --- | --- |
+| Dataset | `f1-dataset-v1.3` (552,656 laps · 1,172 races · 12,747 pit stops) |
+| Dataset hashes | races `2cce529c` · results `112c8475` · laps `ac13fa1f` |
+| Engine | `raceengine-v2.2.0` |
+| Model | `0.9.0` |
+| Simulation | `9.2.0` |
+
+Full lineage: `docs/version_lineage.md`. Verification:
+`backend/scripts/verify_dataset.py`.
+
+## Repository layout
+
+```text
+├── README.md / CONTRIBUTING.md / SECURITY.md / CHANGELOG.md / CITATION.cff
+├── docker-compose.yml            # local dev stack (Postgres + backend + frontend)
+├── backend/
+│   ├── app/                      # FastAPI API + services + simulation engine
+│   │   ├── api/                  # REST endpoints (v1)
+│   │   ├── services/             # execution, simulation, montecarlo, jobs, metadata
+│   │   ├── simulation/           # production engine (core/) + domain modules
+│   │   │                         # (race_engine_v14..v22 are LEGACY, kept for regression)
+│   │   ├── data/                 # acquisition / canonical / calibration code
+│   │   └── jobs/                 # async job queue + workers
+│   ├── tests/                    # unit / integration / scientific / leakage /
+│   │                              # reproducibility / performance / regression
+│   ├── scripts/                  # acquisition, calibration, benchmarks, verify_dataset.py
+│   ├── docs/                     # phase reports + phase33 audit/completion report
+│   └── data/                     # manifests, derived, calibration models, validation
+│                                  # (raw + canonical parquet intentionally NOT committed)
+├── frontend/                     # Next.js 14 App Router UI
+├── docs/                         # architecture, reproducibility, data, versions, examples
+└── .github/workflows/ci.yml      # backend unit + API (with data) + frontend
 ```
-f1-simulation/
-├── backend/           # FastAPI backend with simulation engine
-│   └── app/
-│       ├── api/       # REST API endpoints
-│       ├── core/      # Configuration and settings
-│       ├── domain/    # Domain models (Driver, Car, Track, etc.)
-│       ├── simulation/# Simulation engine (RaceEngine, StrategyEngine, etc.)
-│       ├── models/    # Database models
-│       ├── services/  # Business logic services
-│       ├── repositories/ # Data access layer
-│       ├── data/      # Static data (tracks, teams, drivers)
-│       ├── schemas/   # Pydantic schemas for API
-│       └── utils/     # Utilities
-├── frontend/          # Next.js React frontend
-│   └── app/           # App Router pages
-│       ├── components/# Reusable UI components
-│       ├── features/  # Feature-specific components
-│       ├── lib/       # Utility functions
-│       ├── hooks/     # Custom React hooks
-│       └── types/     # TypeScript types
-├── simulation/        # Standalone simulation engine (no HTTP/DB dependencies)
-└── docs/              # Documentation
-```
 
-## Technology Stack
+## Quick start
 
-### Backend
-- Python 3.12+
-- FastAPI
-- Pydantic v2
-- NumPy, SciPy, Pandas
-- SQLAlchemy 2.0 + PostgreSQL
-- pytest, ruff, mypy, pre-commit
-
-### Frontend
-- Next.js 14 (App Router)
-- React 18
-- TypeScript
-- Tailwind CSS
-- Recharts for visualizations
-- shadcn/ui component library
-
-### Development
-- Docker & Docker Compose
-- Git
-- Ruff (linting/formatting)
-- MyPy (type checking)
-- Pre-commit hooks
-
-## Quick Start
-
-### Prerequisites
-- Docker & Docker Compose
-- Python 3.12+ (for local development)
-- Node.js 20+ (for local development)
-
-### Using Docker Compose (Recommended)
+Prerequisites: Python 3.12+, Node.js 20+, Docker (optional, for Postgres).
 
 ```bash
-# Start all services
-docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop services
-docker-compose down
-```
-
-Services will be available at:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
-- API Docs: http://localhost:8000/docs
-- PostgreSQL: localhost:5432
-
-### Local Development
-
-#### Backend
-```bash
+# Backend
 cd backend
 python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+.venv\Scripts\activate            # Windows  (.venv/bin/activate on POSIX)
 pip install -e ".[dev]"
 cp .env.example .env
-uvicorn app.main:app --reload
-```
+$env:PYTHONHASHSEED = "0"         # required for cross-process reproducibility
+pytest tests/test_health.py tests/test_car.py -q   # data-free smoke tests
+python scripts/verify_dataset.py --offline          # manifest check (no download)
 
-#### Frontend
-```bash
+# A first deterministic simulation (works offline; synthetic drivers when
+# canonical data is absent — see docs/examples/reproducible_bahrain.md)
+python -c "from app.services.simulation_service import simulate_single_race;
+print(simulate_single_race('2024-bahrain', seed=42, laps_override=5)['provenance'])"
+
+# Frontend
 cd frontend
-npm install
-cp .env.example .env.local
-npm run dev
-```
-
-## Development Commands
-
-### Backend
-```bash
-# Run tests
-pytest
-
-# Run tests with coverage
-pytest --cov=app
-
-# Lint and format
-ruff check . --fix
-ruff format .
-
-# Type check
-mypy app/
-
-# Run pre-commit hooks
-pre-commit run --all-files
-```
-
-### Frontend
-```bash
-# Run development server
-npm run dev
-
-# Build for production
+npm ci
+npm test -- --ci
 npm run build
-
-# Lint
-npm run lint
-
-# Type check
-npm run type-check
-
-# Run tests
-npm test
+npm run dev                       # http://localhost:3000
 ```
 
-## Project Phases
+Full workflow (install → configure → test → simulate → scenario → inspect):
+`docs/examples/reproducible_bahrain.md`. API surface: `docs/` + OpenAPI at
+`http://localhost:8000/docs` when the backend runs.
 
-This project follows a structured 16-phase development process:
+## Testing
 
-- **Phase 0**: Architecture and repository setup ✓
-- **Phase 1**: Domain models and configuration
-- **Phase 2**: Driver + Car + Track + Lap-time model
-- **Phase 3**: Single-lap simulation
-- **Phase 4**: Full race engine
-- **Phase 5**: Tyres + Fuel + Pit stops
-- **Phase 6**: Strategy engine
-- **Phase 7**: Weather
-- **Phase 8**: Overtaking + Incidents + Safety Car
-- **Phase 9**: Qualifying + Championship
-- **Phase 10**: Monte Carlo
-- **Phase 11**: Historical calibration
-- **Phase 12**: FastAPI endpoints
-- **Phase 13**: Next.js frontend
-- **Phase 14**: Live race visualization
-- **Phase 15**: Performance optimization
-- **Phase 16**: Advanced simulation models
-
-## Core Principles
-
-1. **Modular architecture** - Separation of concerns
-2. **Deterministic simulations** - Reproducible results with seeds
-3. **Strong typing** - Pydantic models throughout
-4. **Configuration-driven** - No magic numbers
-5. **Scientifically defensible** - Every component has a reason
-6. **Extensive testing** - Unit, integration, and validation tests
-7. **Documentation** - All assumptions documented
-
-## API Endpoints (Planned)
-
-```
-POST   /api/v1/simulations/race        # Simulate a single race
-POST   /api/v1/simulations/season      # Simulate a championship season
-POST   /api/v1/simulations/monte-carlo # Run Monte Carlo simulations
-GET    /api/v1/drivers                 # List drivers
-GET    /api/v1/teams                   # List teams
-GET    /api/v1/tracks                  # List tracks
-GET    /api/v1/championships           # List championships
-GET    /api/v1/health                  # Health check
+```bash
+cd backend
+pytest tests/test_health.py tests/test_car.py -q          # fast, data-free
+pytest tests/test_phase22_leakage.py -q                   # leakage (needs dataset)
+pytest tests/test_phase16_6_reproducibility.py -q         # determinism (needs dataset)
+pytest tests/test_phase28_api.py tests/test_phase32_contract.py -q  # API (needs dataset)
+python scripts/verify_dataset.py                          # dataset integrity
 ```
 
-## Frontend Pages (Planned)
+Markers: `unit integration scientific leakage reproducibility performance
+regression data_integrity statistical optional_data`
+(e.g. `pytest -m "not performance and not optional_data"`).
+Details: `docs/` + `backend/docs/phase33_repository_audit.md`.
 
-1. **Home** - Dashboard overview
-2. **Race Simulator** - Configure and run race simulations
-3. **Live Race** - Real-time race visualization
-4. **Driver Profiles** - Driver statistics and performance
-5. **Team Profiles** - Team and car performance
-6. **Track Profiles** - Circuit characteristics
-7. **Strategy** - Pit stop and tyre strategy optimization
-8. **Championship** - Season simulation and standings
-9. **Monte Carlo** - Probability analysis
-10. **Custom Scenario** - Alternate history scenarios
+## Data
 
-## License
+Raw provider payloads and large canonical parquet files are **not committed**
+(14k+ raw files locally). Committed: manifests, schemas, derived features,
+calibration models, validation reports, regulations, lightweight fixtures.
+Reconstruct the full dataset locally with the phase acquisition scripts;
+validate with `verify_dataset.py`. Full policy:
+`docs/data_reproducibility.md`.
 
-MIT License - see LICENSE file for details.
+## Limitations (honest summary)
+
+- Fuel, historical tyre detail: `NON_IDENTIFIABLE`.
+- Strategy/setup/weather/race-control effects: `PRIOR_ONLY` priors.
+- Cross-platform byte-identity not verified; EXACT reproducibility is
+  same-backend + same-environment (+ `PYTHONHASHSEED=0` across processes).
+- 2026 season in progress; ERA5 rows are reanalysis, not sensors; pit
+  durations are totals (lane/stationary split unavailable).
+- See `backend/docs/phase32_limitations.md` and per-phase limitation docs.
+
+## License / citation
+
+Code license: **TBD — owner decision required** (see `LICENSE`; no license
+is claimed until then). External data sources keep their own terms — see
+`backend/data/licensing.json` and `backend/docs/data-licensing.md`.
+If you use this project in research, see `CITATION.cff`.

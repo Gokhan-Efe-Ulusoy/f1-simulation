@@ -1,0 +1,15 @@
+PROJECT CODE LICENCE — DECISION REQUIRED (Phase 33 placeholder)
+
+No licence has been chosen yet. Until the project owner selects and records
+one here, the code in this repository is ALL RIGHTS RESERVED by default:
+do not copy, distribute, or use it beyond private review without written
+permission from the owner.
+
+Intended direction (to be confirmed): a permissive open-source licence
+(e.g. MIT) for the project code. Recording the decision means replacing
+this file with the full licence text and updating CITATION.cff.
+
+This file covers PROJECT CODE ONLY. External datasets keep their own
+licences and terms — see backend/data/licensing.json and
+backend/docs/data-licensing.md. Provider data is never re-licensed by
+this repository.

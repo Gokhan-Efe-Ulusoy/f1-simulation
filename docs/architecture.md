@@ -1,370 +1,204 @@
-# Architecture Documentation
+# Scientific Architecture
 
-## System Overview
+> Current production: dataset `f1-dataset-v1.3` · engine `raceengine-v2.2.0`
+> · model `0.9.0` · simulation `9.2.0`. Historical designs live in
+> `backend/docs/phase*.md` and are preserved there, not rewritten here.
 
-The F1 Simulation Platform is a modular, layered architecture designed for:
-- Deterministic, reproducible simulations
-- Separation of simulation logic from infrastructure
-- Extensibility for future simulation models
-- High performance for Monte Carlo runs
+The platform is a pipeline. Data flows strictly downward; no layer reaches
+upward or sideways for information it has not been given. In particular, no
+decision-making layer ever sees future information (strict `as_of` policy,
+enforced by tests marked `leakage`).
 
-## Layered Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      Frontend (Next.js)                      │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────┐  │
-│  │  Pages   │ │Components│ │  Hooks   │ │   Visualization │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────────┘  │
-└──────────────────────────┬────────────────────────────────────┘
-                           │ HTTP/REST API
-┌──────────────────────────▼────────────────────────────────────┐
-│                    Backend API (FastAPI)                       │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────┐  │
-│  │  Routes  │ │ Schemas  │ │ Services │ │  Repositories  │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────────┘  │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-┌──────────────────────────▼────────────────────────────────────┐
-│              Simulation Engine (Standalone)                    │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────┐  │
-│  │ RaceEng  │ │StrategyE │ │MonteCarlo│ │   Domain Models │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────────┘  │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────┐  │
-│  │ LapTimeM │ │ TyreMod  │ │FuelModel │ │  OvertakeMod   │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────────┘  │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────┐  │
-│  │WeatherMod│ │IncidentM │ │ SafetyCar│ │  PitStopModel  │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────────┘  │
-└───────────────────────────────────────────────────────────────┘
+```text
+DATA (providers: Jolpica, OpenF1, Open-Meteo/ERA5, f1db, FastF1-probe)
+  ↓ acquisition + sha256 sidecars + provenance sidecars
+RAW DATA (byte-identical payloads, ignored by git)
+  ↓ normalisation (source-flavoured common shape)
+NORMALIZED
+  ↓ entity resolution + validation (stable IDs, no orphans)
+CANONICAL DATA (races / results / laps / pit stops / …)
+  ↓ calibration (fitters with uncertainty + method, NO auto-promotion)
+CALIBRATION (priors, posteriors, promotion gates — mostly PRIOR_ONLY)
+  ↓
+DOMAIN MODELS (Driver / Car+Engine / Track / Team — Pydantic-validated)
+  ↓───────────┬───────────┬──────────────┬───────────┬───────────
+TYRE        WEATHER    RACE CONTROL    STRATEGY     SETUP
+tyre-v1     weather-   racecontrol-    strategy-    setup-
+(unfitted,  v1 (+calib  v1 (+policy    v1.1 (+pit   v1
+ NON_IDENT   v1, PRIOR_  v1, PRIOR_     loss chan,
+ for hist.)  ONLY)       ONLY)          PRIOR_ONLY) (PRIOR_ONLY)
+  ↓───────────┴───────────┴──────────────┴───────────┴───────────
+SCENARIO (validated spec → compiled interventions, fingerprinted)
+  ↓
+COUNTERFACTUAL (baseline vs intervened, same seed — ceteris paribus)
+  ↓
+RACE ENGINE (raceengine-v2.2.0 — event-sourced lap loop, 2000+ lines)
+  ↓ single race                      ↓ Monte Carlo (vectorized, chunked)
+RESULTS + EXPLANATION / PROVENANCE (versions, seed, hashes, evidence tiers)
 ```
 
-## Core Design Principles
+Per-layer contract:
 
-### 1. Separation of Concerns
-- **Simulation Engine**: Pure Python, no HTTP, no DB, no framework dependencies
-- **API Layer**: Thin FastAPI wrapper around simulation engine
-- **Frontend**: Pure React/Next.js, communicates only via REST API
-- **Data Layer**: SQLAlchemy models separate from domain models
+## 1. DATA / RAW
 
-### 2. Deterministic Simulations
-- All randomness controlled by a single `seed` parameter
-- Centralized `RandomProvider` abstraction
-- Same config + same seed = identical results
-- Model version recorded in every simulation result
+- **Purpose:** byte-identical provider payloads with integrity proof.
+- **Inputs:** provider APIs / local dumps (Jolpica bulk, OpenF1 live timing,
+  Open-Meteo ERA5 reanalysis, f1db snapshots, FastF1 probe cache).
+- **Outputs:** `data/raw/<source>/…` + `.sha256` + `.provenance.json`
+  sidecars per file.
+- **Evidence tier:** N/A (observations, not estimates).
+- **Randomness:** none. **Leakage rules:** retrieval timestamps recorded;
+  quarantine on failure (9 files quarantined in v1.3 acquisition).
+- **Performance:** ~14k files locally; never committed, never downloaded
+  in CI. **Dependencies:** `app/data/sources/*`, `app/data/external/*`.
+- **Legal:** provider terms preserved — see `backend/data/licensing.json`.
 
-### 3. Domain-Driven Design
-- Explicit domain models for all core entities
-- No untyped dictionaries for core objects
-- Pydantic models for validation and serialization
-- Clear boundaries between domain and infrastructure
+## 2. CANONICAL DATA
 
-### 4. Configuration-Driven
-- All simulation parameters externalized
-- YAML/JSON configuration files
-- Environment-specific overrides
-- No magic numbers in code
+- **Purpose:** entity-resolved, validated records with stable IDs.
+- **Inputs:** normalized source records. **Outputs:** `races.json` (1,172),
+  `results.json` (26,228), laps/pit-stop families, `qualifying.json`.
+- **Evidence tier:** observations (`LIMITED` where coverage is partial —
+  e.g. intervals parquet 12/84, telemetry bulk absent).
+- **Randomness:** none. **Leakage rules:** every record carries dates;
+  consumers filter `as_of < race_date` (strict-before).
+- **Performance:** ~2.4k parquet partitions + JSON; git-ignored, hashed in
+  manifests (`races 2cce529c`, `results 112c8475`).
+- **Dependencies:** `app/data/models/canonical.py`, `pipeline.py`,
+  `resolution.py`, `validation.py`.
 
-## Key Components
+## 3. CALIBRATION
 
-### Simulation Engine (`simulation/`)
+- **Purpose:** fit parameters with uncertainty and method — or explicitly
+  decline to (`NON_IDENTIFIABLE` / `PRIOR_ONLY`).
+- **Inputs:** canonical data + calibration mart (phase23 parquet marts).
+- **Outputs:** `data/calibration/models/*.json` (driver, constructor,
+  circuit, era, tyre, weather, reliability…), diagnostics, walk-forward
+  reports. **Promotion gates** (`promotion_gates.json`) block silent
+  promotion: production calibration is still `calibration-v1.0.0`.
+- **Evidence tier:** mostly `PRIOR_ONLY`/`LIMITED`; driver/circuit/
+  constructor `LIMITED`.
+- **Randomness:** fitters use fixed seeds; reports record them.
+- **Leakage rules:** walk-forward windows only; leakage reports per phase.
+- **Dependencies:** `app/data/calibration/*`, `scripts/phase23_calibration.py`
+  and successors.
 
-The standalone simulation engine is the heart of the system:
+## 4. DOMAIN MODELS
 
-```
-simulation/
-├── models/           # Domain models (Driver, Car, Track, Tyre, etc.)
-├── core/             # Core simulation primitives
-│   ├── random.py     # RandomProvider abstraction
-│   ├── state.py      # SimulationState, RaceState
-│   ├── events.py     # Event system (LapStarted, PitStopCompleted, etc.)
-│   └── config.py     # SimulationConfig
-├── lap_time/         # Lap time calculation models
-├── tyre/             # Tyre compound and degradation models
-├── fuel/             # Fuel mass and burn rate models
-├── overtake/         # Overtaking probability models
-├── pit/              # Pit stop time models
-├── strategy/         # Strategy optimization engine
-├── weather/          # Weather evolution models
-├── incident/         # Incident probability models
-├── safety_car/       # Safety car / VSC models
-├── qualifying/       # Qualifying simulation
-├── championship/     # Championship engine
-└── monte_carlo/      # Monte Carlo runner
-```
+- **Purpose:** typed, validated entities (Driver skills 0–100, Car/Engine
+  specs, Track geometry/sectors, Team).
+- **Inputs:** calibration + canonical identities.
+- **Outputs:** Pydantic objects consumed by every downstream layer.
+- **Evidence tier:** inherits per-field tiers. **Randomness:** none
+  (deterministic skill derivation from IDs for synthetic fallback).
+- **Dependencies:** `app/simulation/models/*`.
 
-### Domain Models
+## 5. TYRE (`tyre/`, model `tyre-v1`)
 
-All domain models use Pydantic for validation:
+- **Purpose:** compound physics, degradation kernels, stint modelling,
+  era handling.
+- **Inputs:** compound, age, track abrasion, temperature.
+- **Outputs:** grip delta → lap-time effect.
+- **Evidence tier:** modern `LIMITED`; **historical per-lap detail
+  `NON_IDENTIFIABLE`** (no lap-granular historical tyre observations).
+- **Randomness:** via engine streams only. **Leakage:** no future wear.
+- **Dependencies:** `tyre/engine.py`, `kernels.py`, `model.py`.
 
-```python
-# Example: Driver model
-class Driver(BaseModel):
-    id: str
-    name: str
-    team_id: str
-    # Skills (0-100 scale)
-    overall_skill: float
-    qualifying_skill: float
-    race_skill: float
-    consistency: float
-    aggression: float
-    tyre_management: float
-    wet_weather_skill: float
-    overtaking: float
-    defending: float
-    start_performance: float
-    adaptability: float
-    pressure_resistance: float
-    mistake_rate: float
-```
+## 6. WEATHER (`weather/`, `weather-v1` + `weather-calibration-v1`)
 
-### Random Number Abstraction
+- **Purpose:** regime classification, transitions, AR-persistent wetness,
+  forecast uncertainty.
+- **Inputs:** ERA5 reanalysis (labelled as such — not sensors) + OpenF1
+  weather.
+- **Outputs:** per-lap wetness/rainfall trajectories shared across drivers.
+- **Evidence tier:** `PRIOR_ONLY`. **Randomness:** dedicated weather stream.
+- **Dependencies:** `weather/engine.py`, `transition.py`, `forecast.py`.
 
-```python
-# simulation/core/random.py
-class RandomProvider:
-    def __init__(self, seed: int):
-        self._rng = np.random.default_rng(seed)
-    
-    def random(self) -> float: ...
-    def normal(self, mean: float, std: float) -> float: ...
-    def choice(self, seq, p=None): ...
-    def integers(self, low: int, high: int): ...
-```
+## 7. RACE CONTROL (`race_control/`, `racecontrol-v1` + policy `v1`)
 
-### Event System
+- **Purpose:** SC/VSC/red-flag state machine, neutralisation propagation,
+  restart models.
+- **Inputs:** incident stream + policy table (`NEUTRALISATION_TABLE`,
+  `PRIOR_ONLY`).
+- **Outputs:** phase/sector trajectories, neutralised lap deltas.
+- **Evidence tier:** `PRIOR_ONLY`. **Randomness:** dedicated RC stream.
+- **Dependencies:** `race_control/engine.py`, `state_machine.py`.
 
-Structured events for frontend visualization:
+## 8. STRATEGY (`strategy/`, `strategy-v1.1`)
 
-```python
-# simulation/core/events.py
-class SimulationEvent(BaseModel):
-    event_type: str
-    timestamp: float
-    lap: int
-    data: dict
+- **Purpose:** pit-window, fuel, opponent-model, team-orders, live advisor;
+  v1.1 adds the deterministic per-stop `pit_loss_seconds` channel
+  (default 0 reproduces legacy behaviour exactly).
+- **Evidence tier:** `PRIOR_ONLY`. **Randomness:** dedicated strategy
+  stream. **Leakage:** future results rejected at validation
+  (`future_result` probes are inert — tested).
+- **Dependencies:** `strategy/engine.py`, `decision_engine.py`, `fuel.py`.
 
-class LapStarted(SimulationEvent): ...
-class PitStopStarted(SimulationEvent): ...
-class OvertakeCompleted(SimulationEvent): ...
-class IncidentOccurred(SimulationEvent): ...
-class SafetyCarDeployed(SimulationEvent): ...
-class RaceFinished(SimulationEvent): ...
-```
+## 9. SETUP (`setup/`, `setup-v1`)
 
-## Data Flow
+- **Purpose:** parametric offsets (ride height, wing…) with fingerprints.
+- **Evidence tier:** `PRIOR_ONLY`. **Randomness:** none (deterministic
+  offsets). Fingerprint changes ⇒ outcome may change (tested).
 
-### Race Simulation Flow
+## 10. SCENARIO (`scenario/`, `scenario-v1`)
 
-```
-1. SimulationConfig (seed, track, drivers, cars, weather, strategy)
-         │
-         ▼
-2. RaceEngine.initialize() → SimulationState
-         │
-         ▼
-3. For each lap:
-   a. Calculate driver/car performance
-   b. Update tyre degradation
-   c. Update fuel mass
-   d. Process overtaking opportunities
-   e. Check for incidents
-   f. Process pit stops
-   g. Handle safety car / VSC
-   h. Calculate lap times
-   i. Update positions
-   j. Emit events
-         │
-         ▼
-4. RaceEngine.finalize() → RaceResult
-         │
-         ▼
-5. Store result / Return via API
-```
+- **Purpose:** typed interventions (`family/op/target/parameter`) compiled
+  against a validated spec; content hash + versioned baseline fingerprint.
+- **Inputs:** baseline scenario + `ScenarioSpec`. **Outputs:** compiled
+  scenario, `baseline_fingerprint`, `counterfactual_fingerprint`.
+- **Randomness:** none at compile time. **Leakage:** spec validation
+  rejects future-referencing parameters.
+- **Dependencies:** `scenario/compiler.py`, `validation.py`, `engine.py`.
 
-### Monte Carlo Flow
+## 11. COUNTERFACTUAL / REPLAY (`replay-v1`, `counterfactual-v1`)
 
-```
-1. MonteCarloConfig (base_config, num_simulations, output_metrics)
-         │
-         ▼
-2. For i in range(num_simulations):
-   a. Derive seed = base_seed + i
-   b. Run single simulation
-   c. Collect metrics
-         │
-         ▼
-3. Aggregate results → MonteCarloResult
-   - Win probabilities
-   - Podium probabilities
-   - Average positions
-   - DNF rates
-   - Confidence intervals
-```
+- **Purpose:** baseline-vs-intervened comparison under the **same seed**
+  (ceteris paribus); historical replay with checkpoints, sensitivity,
+  sanity gates.
+- **Inputs:** scenario + seed + N. **Outputs:** experiment records with
+  fingerprints, artifacts, attribution.
+- **Dependencies:** `replay/*`, `race_engine_v22.ReplayAwareRaceEngine`.
 
-## API Design
+## 12. RACE ENGINE (`core/race_engine.py`, `raceengine-v2.2.0`)
 
-### REST Endpoints
+- **Purpose:** the production event-sourced lap loop (battle, DRS trains,
+  dirty air, defence, starts, restarts, red flags, telemetry sampling).
+- **Inputs:** drivers/cars/track + config + master seed.
+- **Outputs:** classification, lap summary, events, provenance.
+- **Evidence tier:** composed from layers above. **Randomness:** all via
+  `RandomProvider` isolated streams (+ `BatchRNG` in vectorized paths).
+  **Known limitation:** stream seeds derive from salted builtin `hash()` —
+  set `PYTHONHASHSEED=0` for cross-process identity (audit A7).
+- **Performance:** single race ≈ seconds; vectorized MC 10–20× reference.
+- **History:** `race_engine_v14..v22` are LEGACY inheritance snapshots kept
+  for regression tests — not the production path.
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/v1/health` | Health check |
-| POST | `/api/v1/simulations/race` | Single race simulation |
-| POST | `/api/v1/simulations/season` | Championship season |
-| POST | `/api/v1/simulations/monte-carlo` | Monte Carlo analysis |
-| GET | `/api/v1/drivers` | List all drivers |
-| GET | `/api/v1/teams` | List all teams |
-| GET | `/api/v1/tracks` | List all tracks |
-| GET | `/api/v1/championships` | List championships |
+## 13. MONTE CARLO (`performance/vectorized_montecarlo.py`, chunked)
 
-### Request/Response Models
+- **Purpose:** distributions (win/podium/finish/points/DNF + CI95),
+  constructor aggregation, exact-integer chunked execution
+  (`chunked_montecarlo.py`: global-index RNG ⇒ order/worker-independent).
+- **Inputs:** calibration state + scenario + seed + N (+ chunk size).
+- **Outputs:** probability tables + provenance (dataset/engine/model
+  versions — corrected to current in Phase 33) + chunk manifest.
+- **Randomness:** CRN per simulation index. **Leakage:** same as engine.
 
-All API models use Pydantic schemas in `app/schemas/`.
+## 14. RESULTS / EXPLANATION / PROVENANCE
 
-Example race simulation request:
-```json
-{
-  "track_id": "monaco",
-  "seed": 12345,
-  "weather": "dry",
-  "laps": 78,
-  "drivers": [...],
-  "strategy_overrides": {}
-}
-```
+- Every externally visible result carries: dataset + dataset hash,
+  calibration (+ hash where computed), engine/model/simulation versions,
+  enabled modules, seed, scenario fingerprint, evidence tiers, warnings.
+- Served via `services/*` (`simulation_service`, `montecarlo_service`,
+  `replay_service`, `scenario_service`, `metadata_service`,
+  `result_normalization`) → FastAPI `api/v1/*` → documented schemas →
+  frontend `lib/api/types.ts`.
 
-Example response:
-```json
-{
-  "race_id": "uuid",
-  "seed": 12345,
-  "model_version": "0.1.0",
-  "results": [
-    {"position": 1, "driver_id": "VER", "total_time": "1:30:45.123", "pit_stops": 2, ...}
-  ],
-  "events": [...],
-  "fastest_lap": {"driver_id": "VER", "time": "1:12.345", "lap": 42}
-}
-```
+## Cross-cutting: API / jobs / frontend
 
-## Frontend Architecture
-
-### State Management
-- React Context for global state (theme, user preferences)
-- TanStack Query for server state (simulation results, driver data)
-- Local component state for UI interactions
-
-### Page Structure
-```
-app/
-├── page.tsx                 # Home dashboard
-├── simulator/page.tsx       # Race configuration & results
-├── live/[raceId]/page.tsx   # Live race view (WebSocket)
-├── championship/page.tsx    # Season simulation
-├── monte-carlo/page.tsx     # Monte Carlo configuration & results
-├── strategy/page.tsx        # Strategy optimization
-├── drivers/[id]/page.tsx    # Driver profile
-├── teams/[id]/page.tsx      # Team profile
-├── tracks/[id]/page.tsx     # Track profile
-└── custom/page.tsx          # Custom scenarios
-```
-
-### Visualization Components
-- Leaderboard table with gaps, tyres, pit stops
-- Lap time charts (Recharts)
-- Tyre strategy timeline
-- Track map with car positions (SVG/Canvas)
-- Probability distributions (Monte Carlo)
-
-## Database Schema (Planned)
-
-```sql
--- Core tables
-drivers (id, name, team_id, skills_json, ...)
-teams (id, name, car_specs_json, ...)
-tracks (id, name, country, length_km, sectors_json, ...)
-tyres (id, compound, performance, degradation, ...)
-
--- Simulation results
-races (id, track_id, seed, model_version, config_json, started_at, finished_at)
-race_results (race_id, driver_id, position, total_time, laps, pit_stops, dnf_reason)
-lap_times (race_id, driver_id, lap, time, tyre_compound, tyre_age, fuel_mass, ...)
-events (race_id, lap, event_type, event_data_json)
-
--- Championship
-championships (id, name, year, calendar_json)
-championship_standings (championship_id, driver_id, points, wins, podiums, ...)
-```
-
-## Testing Strategy
-
-### Unit Tests
-- Each model component tested in isolation
-- Deterministic tests with fixed seeds
-- Property-based tests for mathematical models
-
-### Integration Tests
-- Full race simulation
-- Championship season
-- Monte Carlo aggregation
-
-### Validation Tests
-- Statistical sanity checks (faster car → better results)
-- Historical calibration against real data
-- Regression tests for model changes
-
-## Performance Considerations
-
-### Current (Phase 0)
-- No optimization needed
-- Focus on correctness
-
-### Future Optimizations
-- Vectorized NumPy operations for Monte Carlo
-- Multiprocessing for parallel simulations
-- Caching for repeated configurations
-- Optional GPU acceleration for large batches
-- Database connection pooling
-
-## Deployment
-
-### Docker Compose (Development)
-```yaml
-services:
-  postgres:    # PostgreSQL 16
-  backend:     # FastAPI + Uvicorn
-  frontend:    # Next.js dev server
-```
-
-### Production (Planned)
-- Backend: Gunicorn + Uvicorn workers
-- Frontend: Next.js standalone build
-- Database: PostgreSQL with read replicas
-- Load balancer: Nginx/Traefik
-- Monitoring: Prometheus + Grafana
-- Logging: Structured JSON logs
-
-## Extensibility Points
-
-1. **New Tyre Models**: Implement `TyreModel` protocol
-2. **New Lap Time Models**: Implement `LapTimeModel` protocol
-3. **New Weather Models**: Implement `WeatherModel` protocol
-4. **New Strategy Algorithms**: Implement `StrategyOptimizer` protocol
-5. **New Incident Types**: Extend `IncidentModel`
-6. **Custom Domain Models**: Add to `simulation/models/`
-
-## Versioning
-
-- Simulation model versioned separately from API version
-- Each simulation result records: seed, model_version, config
-- Breaking changes to simulation require model version bump
-- API versioned in URL path (`/api/v1/`)
-
-## Security
-
-- No authentication in Phase 0 (add in Phase 12+)
-- CORS configured for frontend origin only
-- Input validation via Pydantic schemas
-- Rate limiting on API endpoints (future)
-- SQL injection prevention via SQLAlchemy ORM
+- **API** (`app/api/v1`): thin validated wrappers; small jobs synchronous,
+  large Monte Carlo via async queue (`app/jobs`: lifecycle, idempotency,
+  priority, heartbeat, timeout, retry, cancellation, Redis-or-inprocess).
+- **Frontend** (`frontend/`): Next.js 14 pages (`/`, `/simulator`,
+  `/monte-carlo`, `/championship`, `/strategy`) + `EvidenceBadge`,
+  `SimulationProvenance`, `JobProgress`, `ErrorState` components. Talks to
+  the backend only through `lib/api/*` typed clients — no internal imports.

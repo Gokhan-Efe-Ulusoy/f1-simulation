@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: F1 Simulation Platform
+message: >-
+  If you use this software in academic work, please cite it as below.
+  Dataset sources keep their own licences and terms — see
+  backend/data/licensing.json.
+type: software
+version: 0.1.0
+date-released: 2026-09-23
+repository-code: "TBD: set the public GitHub URL after publication"
+license: "TBD: project code licence pending owner decision (see LICENSE)"
+keywords:
+  - formula-1
+  - simulation
+  - monte-carlo
+  - reproducibility
+  - counterfactual
+  - motorsport-analytics
+authors:
+  - family-names: "TBD"
+    given-names: "TBD"
+    alias: "project-owner"
+preferred-citation:
+  type: software
+  title: "F1 Simulation Platform: deterministic, reproducible Formula 1 race simulation"
+  version: 0.1.0
+  notes: >-
+    Production baseline at citation time: dataset f1-dataset-v1.3,
+    engine raceengine-v2.2.0, model 0.9.0, simulation 9.2.0.
