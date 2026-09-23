@@ -8,26 +8,33 @@ version = "0.1.0"
 description = "Formula 1 Simulation Platform"
 readme = "README.md"
 requires-python = ">=3.12"
+# Phase 33 fresh-clone note: exact pins reproduce the verified working
+# environment. Unbounded ranges previously pulled starlette 1.7 on fresh
+# installs, whose TestClient requires the uninstallable httpx2 package and
+# breaks the API test suite at collection. httpx/starlette are pinned
+# because starlette TestClient needs httpx at test time.
 dependencies = [
-    "fastapi>=0.110.0",
-    "uvicorn[standard]>=0.29.0",
-    "pydantic>=2.7.0",
-    "pydantic-settings>=2.3.0",
-    "numpy>=1.26.0",
-    "scipy>=1.13.0",
-    "pandas>=2.2.0",
-    "sqlalchemy>=2.0.0",
-    "asyncpg>=0.29.0",
-    "python-dotenv>=1.0.0",
+    "fastapi==0.141.1",
+    "uvicorn[standard]==0.52.4",
+    "pydantic==2.13.5",
+    "pydantic-settings==2.15.0",
+    "numpy==2.5.2",
+    "scipy==1.18.1",
+    "pandas==3.0.5",
+    "sqlalchemy==2.0.52",
+    "asyncpg==0.31.0",
+    "python-dotenv==1.2.3",
+    "starlette==1.6.0",
+    "httpx==0.28.1",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=8.2.0",
-    "pytest-asyncio>=0.23.0",
-    "pytest-cov>=5.0.0",
-    "ruff>=0.4.0",
-    "mypy>=1.9.0",
+    "pytest==9.1.1",
+    "pytest-asyncio==1.4.0",
+    "pytest-cov==7.1.0",
+    "ruff==0.16.6",
+    "mypy==2.3.1",
     "pre-commit>=3.7.0",
 ]
 performance = [
