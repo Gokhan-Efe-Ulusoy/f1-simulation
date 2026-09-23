@@ -1,0 +1,32 @@
+---
+name: Bug report
+description: Something behaves incorrectly
+labels: [bug]
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Code revision / commit
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction (seed, race_id, N, PYTHONHASHSEED, dataset state)
+      description: Include verify_dataset.py output summary
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs observed
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: No secrets or local paths included
+        - label: States whether canonical dataset was present
+---

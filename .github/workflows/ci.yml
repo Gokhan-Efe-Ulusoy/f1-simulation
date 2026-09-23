@@ -1,0 +1,123 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+env:
+  # Cross-process determinism requires a fixed hash seed (see
+  # backend/docs/phase33_repository_audit.md finding A7 and
+  # docs/reproducibility.md). Never remove this without replacing the
+  # salted-hash seed derivation in app/simulation/core/random.py.
+  PYTHONHASHSEED: "0"
+  PYTHONDONTWRITEBYTECODE: "1"
+
+jobs:
+  backend-unit:
+    name: Backend — data-free unit suite (gates every PR)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Import sanity check
+        run: |
+          python -c "import app.main; import app.simulation.version as v; print(v.RACEENGINE_VERSION, v.MODEL_VERSION, v.SIMULATION_VERSION)"
+
+      - name: Dataset manifest validation (offline, never downloads)
+        run: |
+          python scripts/verify_dataset.py --offline
+
+      - name: Data-free unit tests
+        # These suites construct synthetic objects and need no canonical
+        # data, no network, and no optional dependencies. The remainder of
+        # the backend suite requires the local historical dataset (see
+        # docs/data_reproducibility.md) and runs in backend-api when data
+        # is present.
+        run: |
+          python -m pytest tests/test_health.py tests/test_car.py tests/test_driver.py \
+            tests/test_lap_time.py tests/test_lap_simulator.py tests/test_tyre.py \
+            tests/test_track.py tests/test_random_provider.py tests/test_race_engine.py \
+            tests/test_weather_incident.py tests/test_phase7.py tests/test_phase8.py \
+            --tb=short -q
+
+      - name: Ruff (informational; pre-existing warnings tolerated)
+        run: |
+          python -m ruff check . || true
+
+  backend-api:
+    name: Backend — API contract suite (needs local dataset)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Check for local canonical dataset
+        id: dataset
+        run: |
+          if [ -f data/canonical/races.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "Canonical dataset not present: API suite requires the local historical dataset."
+            echo "See docs/data_reproducibility.md for reconstruction instructions."
+          fi
+
+      - name: API contract tests (Phase 28–32)
+        if: steps.dataset.outputs.present == 'true'
+        run: |
+          python -m pytest tests/test_phase28_api.py tests/test_phase29_execution.py \
+            tests/test_phase30_jobs.py tests/test_phase31_chunking.py \
+            tests/test_phase31_jobs.py tests/test_phase32_contract.py \
+            tests/test_phase22_leakage.py tests/test_phase16_6_reproducibility.py \
+            --tb=short -q
+
+  frontend:
+    name: Frontend — tests and build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Jest tests
+        run: npm test -- --ci
+
+      - name: Production build
+        run: npm run build

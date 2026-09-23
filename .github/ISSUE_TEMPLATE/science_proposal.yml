@@ -1,0 +1,27 @@
+---
+name: Scientific change proposal
+description: Propose a model, calibration, or evidence-tier change
+labels: [science]
+body:
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale + evidence
+      description: Data sources and why the current behaviour is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests and reproducibility plan
+      description: Determinism, leakage, fingerprints, version bump
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Remaining limitations
+      description: What stays NON_IDENTIFIABLE / NOT_AVAILABLE
+    validations:
+      required: true
+---
