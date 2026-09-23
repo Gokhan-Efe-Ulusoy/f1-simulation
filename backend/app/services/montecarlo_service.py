@@ -137,10 +137,10 @@ def run_montecarlo(
             "constructors": chunked["constructors"],
             "summary": {"simulations": simulations, "seed": seed_val},
             "provenance": {
-                "dataset_version": "f1-dataset-v1.1",
+                "dataset_version": "f1-dataset-v1.3",
                 "calibration_version": "calibration-v1.0.0",
-                "engine_version": "raceengine-v1.4.0",
-                "model_version": "0.5.0",
+                "engine_version": "raceengine-v2.2.0",
+                "model_version": "0.9.0",
                 "as_of": scenario.as_of,
             },
             "diagnostics": {"temporal_leakage": False, "fabrication": False, "deterministic": True},

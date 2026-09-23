@@ -76,6 +76,18 @@ python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
 addopts = "-v --tb=short"
+markers = [
+    "unit: fast isolated unit tests (no data, no network)",
+    "integration: multi-component tests, may need local data",
+    "scientific: model-behaviour and calibration tests",
+    "leakage: temporal-leakage and anti-fabrication tests",
+    "reproducibility: determinism, fingerprint and equivalence tests",
+    "performance: benchmarks and timing tests (may be slow)",
+    "regression: historical regression pins (legacy engines/versions)",
+    "data_integrity: manifest, registry and dataset-consistency tests",
+    "statistical: sampling-noise-sensitive tests (need PYTHONHASHSEED=0 and/or large N)",
+    "optional_data: requires optional data sources (e.g. FastF1) or full canonical data",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]

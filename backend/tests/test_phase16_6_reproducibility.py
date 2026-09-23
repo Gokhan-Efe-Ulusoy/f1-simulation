@@ -2,6 +2,11 @@
 import json, pathlib, hashlib
 from pathlib import Path
 
+import pytest
+
+pytestmark = pytest.mark.reproducibility
+
+
 ROOT=Path(__file__).parent.parent
 DATA_ROOT=ROOT / "data"
 
@@ -51,6 +56,18 @@ def test_ar1_stream():
     assert (out==rand).all()
 
 def test_batch_invariance():
+    """Exact determinism for repeated identical calls (Phase 33 revision).
+
+    NOTE (Phase 33 audit A3): this test previously asserted that the argmax
+    driver of an N=10 run equals the argmax of an N=100 run with the same
+    seed. That property is NOT guaranteed by design: with CRN the first 10
+    draws coincide, but win_probability quantisation (0.1 vs 0.01 steps)
+    lets the argmax legitimately differ — sampling noise, not
+    nondeterminism. Asserting cross-N argmax equality therefore failed
+    deterministically and could never be fixed by engine changes.
+    The assertions below test the actual guarantee — bit-identical output
+    for identical inputs — twice (small-N and larger-N).
+    """
     from app.simulation.race_engine_v15 import RaceEngineV15
     from app.simulation.scenario_v14 import ScenarioResolver
     from app.data.scenario import build_scenario
@@ -63,13 +80,11 @@ def test_batch_invariance():
     scenario.race_distance["laps"]=5
     engine=RaceEngineV15(seed=42)
     r1=engine.simulate(scenario, simulations=10, seed=42)
-    # Simulate as 10x1 vs 1x10 should give same first sim
-    # For now, just check that N=10 vs N=100 first 10 are consistent in distribution
+    r1b=engine.simulate(scenario, simulations=10, seed=42)
+    assert r1["drivers"]==r1b["drivers"]
     r2=engine.simulate(scenario, simulations=100, seed=42)
-    # Top driver should be same
-    top1=max(r1["drivers"].items(), key=lambda x: x[1]["win_probability"])[0]
-    top2=max(r2["drivers"].items(), key=lambda x: x[1]["win_probability"])[0]
-    assert top1==top2
+    r2b=engine.simulate(scenario, simulations=100, seed=42)
+    assert r2["drivers"]==r2b["drivers"]
 
 def test_cache_invariance():
     from app.data.calibration_api import _load_json, _clear_cache

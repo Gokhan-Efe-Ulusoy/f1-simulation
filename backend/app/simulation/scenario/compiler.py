@@ -35,12 +35,12 @@ def _versions() -> dict[str, str]:
         from app.simulation import version as V
 
         return {
-            "dataset": getattr(V, "DATASET_VERSION", "f1-dataset-v1.1"),
+            "dataset": getattr(V, "DATASET_VERSION", "f1-dataset-v1.3"),
             "calibration": getattr(V, "CALIBRATION_VERSION", "calibration-v1.0.0"),
-            "model": getattr(V, "MODEL_VERSION", "0.8.0"),
-            "engine": getattr(V, "RACEENGINE_VERSION", "raceengine-v2.1.0"),
+            "model": getattr(V, "MODEL_VERSION", "0.9.0"),
+            "engine": getattr(V, "RACEENGINE_VERSION", "raceengine-v2.2.0"),
             "scenario": getattr(V, "SCENARIO_MODEL_VERSION", "scenario-v1.0.0"),
-            "strategy": getattr(V, "STRATEGY_MODEL_VERSION", "strategy-v1.0.0"),
+            "strategy": getattr(V, "STRATEGY_MODEL_VERSION", "strategy-v1.1.0"),
             "weather": getattr(V, "WEATHER_MODEL_VERSION", "weather-v1.0.0"),
             "race_control": getattr(V, "RACE_CONTROL_MODEL_VERSION", "racecontrol-v1.0.0"),
             "setup": getattr(V, "SETUP_MODEL_VERSION", "setup-v1.0.0"),

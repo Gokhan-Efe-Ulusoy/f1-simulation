@@ -20,6 +20,7 @@ from app.simulation.scenario_v14 import Scenario
 from app.simulation.performance.batch_state import BatchState
 from app.simulation.performance.rng import BatchRNG
 from app.simulation.performance.numerical_kernels import ar1_step, lap_times_kernel, update_positions_kernel, reliability_kernel  # noqa: E501
+from app.simulation.version import MODEL_VERSION, RACEENGINE_VERSION
 
 class VectorizedMonteCarlo:
     def __init__(self, calibration_state: dict, scenario: Scenario, seed: int = 42):
@@ -765,8 +766,8 @@ class VectorizedMonteCarlo:
         # Race control diagnostics already built as race_control_info
         # Ensure elapsed includes race control cost but not counted separately
         summary = {"simulations": N, "seed": self.seed, "weather": weather_diag, "race_control": race_control_info}  # noqa: E501
-        prov_engine_version = "raceengine-v1.4.0"
-        prov_model_version = "0.5.0"
+        prov_engine_version = RACEENGINE_VERSION
+        prov_model_version = MODEL_VERSION
         return {
             "simulation_id": f"{self.scenario.scenario_id}:{self.seed}:{N}",
             "scenario_id": self.scenario.scenario_id,
@@ -776,7 +777,7 @@ class VectorizedMonteCarlo:
             "constructors": constr_result,
             "summary": summary,
             "provenance": {
-                "dataset_version": "f1-dataset-v1.1",
+                "dataset_version": "f1-dataset-v1.3",
                 "calibration_version": "calibration-v1.0.0",
                 "engine_version": prov_engine_version,
                 "model_version": prov_model_version,
